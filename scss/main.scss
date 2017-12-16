@@ -1,0 +1,24 @@
+/**
+  STYLESHEET FOR CMU-17-356
+**/
+
+html, body {
+  min-height: 100vh;
+}
+
+#logo_block{
+  max-height: 300px;
+
+  img{
+    max-height: 300px;
+  }
+}
+
+div.content{
+  min-height: calc(100vh - 50px);
+  padding-bottom:30px;
+}
+
+footer{
+  height: 50px;
+}
