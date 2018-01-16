@@ -1,7 +1,7 @@
 # Course Website for CMU 17-356
 ### Authors: Afsoon Afzal, Derek Brown, Michael Hilton, Claire Le Goues
 
-##Welcome to Software Engineering for Startups!
+## Welcome to Software Engineering for Startups!
 
 [17-356|17-766 Webpage (Syllabus, Course Policies, etc)](https://cmu-17-356.github.io/)
 
@@ -16,10 +16,12 @@ Schedule, with link to slides and materials for lecture, recitation, and assignm
 
 
 
-| | Date | Topic | Reading | Assignment released | Assignment Due | Optional |
-| ---:| ---------- | -------------- | -------------- | -------------- | -------------- |
-| Jan 16 | Lecture: Intro, User stories |  | Hw1 | | |
+| Date | Topic | Reading | Assignment released | Assignment Due | Optional |
+|:-----|:------|:--------|:--------------------|:---------------|:---------|
+| Jan 16 | Lecture: Intro, User stories |  | Hw1, Team survey | | |
 | Jan 16 | Recitation: User stories |  |  | | |
+| Jan 18 | Lecture: Process and Deployment |  |  |Team survey | |
+
 ---
 
 ## To build the website
