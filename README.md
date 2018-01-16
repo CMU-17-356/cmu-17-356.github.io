@@ -18,10 +18,10 @@ Schedule, with link to slides and materials for lecture, recitation, and assignm
 
 | Date | Topic | Reading | Assignment released | Assignment Due | Optional |
 |:-----|:------|:--------|:--------------------|:---------------|:---------|
-| Jan 16 | Lecture: Intro, User stories |  | Hw1, Team survey | | |
+| Jan 16 | Lecture: Intro, User stories |  | [Hw1](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/hw/HW1-user-stories.pdf), Team survey | | |
 | Jan 16 | Recitation: User stories |  |  | | |
 | Jan 18 | Lecture: Process and Deployment |  |  |Team survey | [Atlantic article on Agile](https://www.theatlantic.com/technology/archive/2017/12/agile-manifesto-a-history/547715/) |
-| Jan 23 | Lecture: Design                 |  | Hw2  | Hw1 | |
+| Jan 23 | Lecture: Design                 |  | Hw2  | Hw1 (submit to Canvas) | |
 | Jan 23 | Recitation: Deployment          |  |  |  | |
 | Jan 25 | Lecture: Architecture           |  |  |    | |
 | Jan 28 | Lecture:                        |  |  | Hw2 | |
