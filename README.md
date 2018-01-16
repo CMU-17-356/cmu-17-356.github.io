@@ -12,7 +12,7 @@ information, etc.
 The resources and materials below are also available in Canvas. 
 
 ---
-Schedule, with link to slides and materials for lecture, recitation, and assignments.
+Schedule, with link to slides and materials for lecture, recitation, and assignments. Note that the schedule of topics is subject to change; due dates for homework are fixed.
 
 
 
@@ -20,7 +20,12 @@ Schedule, with link to slides and materials for lecture, recitation, and assignm
 |:-----|:------|:--------|:--------------------|:---------------|:---------|
 | Jan 16 | Lecture: Intro, User stories |  | Hw1, Team survey | | |
 | Jan 16 | Recitation: User stories |  |  | | |
-| Jan 18 | Lecture: Process and Deployment |  |  |Team survey | |
+| Jan 18 | Lecture: Process and Deployment |  |  |Team survey | [Atlantic article on Agile](https://www.theatlantic.com/technology/archive/2017/12/agile-manifesto-a-history/547715/) |
+| Jan 23 | Lecture: Design                 |  | Hw2  | Hw1 | |
+| Jan 23 | Recitation: Deployment          |  |  |  | |
+| Jan 25 | Lecture: Architecture           |  |  |    | |
+| Jan 28 | Lecture:                        |  |  | Hw2 | |
+
 
 ---
 
