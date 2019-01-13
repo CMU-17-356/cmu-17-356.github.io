@@ -4,7 +4,7 @@
   "description": "Course Website for CMU 17-356",
   "main": "index.js",
   "scripts": {
-    "compile" : "node-sass --include-path scss scss/main.scss css/main.css"
+    "compile": "node-sass --include-path scss scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/CMU-17-356/cmu-17-356.github.io#readme",
   "dependencies": {
-    "uikit": "^3.0.0-beta.35"
+    "uikit": "^3.0.0-rc.26"
   },
   "devDependencies": {
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.11.0"
   }
 }
