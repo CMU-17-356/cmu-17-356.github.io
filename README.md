@@ -14,5 +14,5 @@ project dependencies and compile SASS source, run the following:
 
 ```
 make install
-make compile
+make build
 ```
