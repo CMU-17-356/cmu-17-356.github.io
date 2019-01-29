@@ -70,7 +70,7 @@ on GitHub.
 
 Heavily makes uses of a Virtual DOM:
 
-![Virutal Dom Diff]("images/vdom.png")
+![Virutal Dom Diff](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/recitations/3-React/images/vdom.png)
 
 * All about components ~ `parent -> children`
 * Rendering as a primitive!
