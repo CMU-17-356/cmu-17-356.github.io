@@ -70,7 +70,7 @@ on GitHub.
 
 Heavily makes uses of a Virtual DOM:
 
-![Virutal Dom Diff]("./images/vdom.png")
+![Virutal Dom Diff]("images/vdom.png")
 
 * All about components ~ `parent -> children`
 * Rendering as a primitive!
