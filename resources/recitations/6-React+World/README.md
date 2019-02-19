@@ -44,9 +44,9 @@ export default App;
 
 ### Examples and Things to Remember
 
-* [react+ajax](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/recitations/6-React+World/react-ajax-example/README.md)
+* [react+ajax](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/recitations/6-React+World/react-ajax-example)
 
-* [react-data-fetching](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/recitations/6-React+World/react-data-fetching/README.md)
+* [react-data-fetching](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/recitations/6-React+World/react-data-fetching)
 
 * [localStorage vs sessionStorage vs cookies](https://wpreset.com/localstorage-sessionstorage-cookies-detailed-comparison/)
   - [Session Storage and Local Storage in React](https://www.robinwieruch.de/local-storage-react/)
