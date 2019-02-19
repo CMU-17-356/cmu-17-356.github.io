@@ -3,7 +3,7 @@
 ### Tutorials + Helpful Docs
 
 - [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/)
-- [Axios](Promise based HTTP client for the browser and node.js) ~ Promise based HTTP client for the browser and node.js
+- [Axios](https://github.com/axios/axios) ~ Promise based HTTP client for the browser and node.js
 - [FAQ Ajax](https://reactjs.org/docs/faq-ajax.html)
 
 
