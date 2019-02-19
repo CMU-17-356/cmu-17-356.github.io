@@ -40,7 +40,7 @@ export default App;
 
 ![lifecycle diagram](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/recitations/6-React+World/images/lifecycle.jpg)
 
-[simulate lifecycles](https://reactarmory.com/guides/lifecycle-simulators)
+* [simulate lifecycles](https://reactarmory.com/guides/lifecycle-simulators)
 
 ### Examples and Things to Remember
 
@@ -53,4 +53,6 @@ export default App;
   - [Storing Tokens](https://auth0.com/docs/security/store-tokens)
 
 * [cors](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) ~ Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin.
- - [Nice walkthrough](https://www.codecademy.com/articles/what-is-cors)
+  - [Nice walkthrough](https://www.codecademy.com/articles/what-is-cors)
+
+* [auth via passport](http://www.passportjs.org/) and [https://github.com/jaredhanson/passport](https://github.com/jaredhanson/passport)
