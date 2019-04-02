@@ -1,0 +1,294 @@
+html,
+body,
+.app {
+  min-height: 100vh;
+  background: #eee;
+  padding: 1em;
+}
+
+/* Messages.js */
+.messages {
+  height: 240px;
+  overflow-y: scroll;
+}
+
+/* Trending.js */
+.packageTrending {
+  margin-top: 10px;
+  height: 475px;
+  box-shadow: 1px 1px 1px #b3b3b3;
+  background-color: white;
+  border-radius: 5px;
+
+  width: 100%;
+}
+
+.top-trending {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.trending-image {
+  width: 100%;
+}
+
+/* gifs in search */
+
+/* GifItem.js */
+.gif-item {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gif-item img {
+  width: 100%;
+
+  display: inline-block;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* GifList.js */
+.gif-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+
+/* MessageForm.js */
+.message__form {
+  position: fixed;
+  bottom: 1em;
+  margin-left: 735px;
+  left: 0;
+  right: 1em;
+  z-index: 200;
+}
+
+.emoijpicker {
+  position: absolute;
+}
+
+/* Message.js */
+.message__self {
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
+
+.message__image {
+  padding: 1em;
+}
+
+/* ProgressBar.js */
+.progress__bar {
+  margin: 0.3em 0 0 0 !important;
+}
+
+/* ColorPanel.js */
+.color__container {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 35px;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.color__square {
+  width: 35px;
+  height: 35px;
+}
+
+.color__overlay {
+  width: 85px;
+  height: 35px;
+  transform: rotate(225deg);
+}
+
+/* Typing.js */
+.user__typing {
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.typing {
+  width: 5em;
+  height: 2em;
+  position: relative;
+  padding: 10px;
+  margin-left: 5px;
+  background: #e6e6e6;
+  border-radius: 20px;
+}
+
+.typing__dot {
+  float: left;
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  background: #8d8c91;
+  border-radius: 50%;
+  opacity: 0;
+  animation: loadingFade 1s infinite;
+}
+
+.typing__dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing__dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing__dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes loadingFade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Skeleton.js */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.skeleton::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  animation: sweep 2s infinite;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+}
+
+@keyframes sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.skeleton__avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 3px;
+  background-color: rgba(58, 57, 57, 0.3);
+}
+
+.skeleton__author {
+  background-color: rgba(58, 57, 57, 0.3);
+  width: 120px;
+  height: 10px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  right: 0;
+}
+
+.skeleton__details {
+  background-color: rgba(58, 57, 57, 0.3);
+  height: 20px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  right: 20px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 400px) {
+  .ui segment{
+   width: 340px;
+  }
+ 
+  .message__self {
+   width: 200px;
+  }
+ 
+  .message__image {
+   width: 200px;
+  }
+  .packageTrending {
+     height: 480px;
+     width: 340px;
+     display: block;
+  }
+  .search__gifs {
+    display: none;
+  }
+  .message__header{ 
+  width: 340px;
+  display: block;  
+  }
+  .messages{
+  display: block;
+  width: 340px;
+  }
+  .message__form {
+  width: 340px;
+  display: block;
+  }
+}
+ 
+@media only screen and (max-width: 800px) {
+   .gif-list {
+     height: 330px;
+     width: 420px;
+     position: relative;
+     padding: 1em;
+   }
+   .gif-item {
+     display: block;
+     padding: 1em;
+   }
+   .gif-item img {
+     padding: 1em;
+     display: block;
+     margin-top: 8px;
+   }
+   .messages {
+     height: 580px;
+     overflow-y: scroll;
+   }
+   .pakageTrending {
+     height: 500px;
+     position: relative;
+   }
+   .search__gifs {
+     position: absolute;
+     bottom: 1em;
+   }
+}
+ 
