@@ -16,8 +16,8 @@
 @media screen and (min-width: 30em) and (orientation: landscape) { ... }
 ```
 
-[Simple Four Column Layout](https://codepen.io/zeeshanlakhani/full/eomgdw)
-[Calendar w/ Flex](https://codepen.io/zeeshanlakhani/pen/oOXERv)
+- [Simple Four Column Layout](https://codepen.io/zeeshanlakhani/full/eomgdw)
+- [Calendar w/ Flex](https://codepen.io/zeeshanlakhani/pen/oOXERv)
 
 ### Grid vs Flex
 
