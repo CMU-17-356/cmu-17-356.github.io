@@ -25,8 +25,8 @@
 ![flow](https://github.com/CMU-17-356/cmu-17-356.github.io/blob/master/resources/recitations/11-ResponsiveDesign/images/flow.png)
 
 ### Demos
-- [Giphy Chat](https://github.com/CMU-17-356/cmu-17-356.github.io/raw/master/resources/recitations/11-Responsive Design/GiphyChat)
-- [Citizens Code](https://github.com/CMU-17-356/cmu-17-356.github.io/raw/master/resources/recitations/11-Responsive Design/citizens_test)
+- [Giphy Chat](https://github.com/CMU-17-356/cmu-17-356.github.io/raw/master/resources/recitations/11-ResponsiveDesign/GiphyChat)
+- [Citizens Code](https://github.com/CMU-17-356/cmu-17-356.github.io/raw/master/resources/recitations/11-ResponsiveDesign/citizens_test)
 
 ### Frameworks and Alternatives
 
