@@ -17,7 +17,6 @@
 
 ### Demo Apps
 * [Quirk](https://github.com/flaque/quirk)
-* [Camerja]()
 
 [A Good Read](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c) on why Airbnb
 jumped off the React Native bandwagon.
@@ -141,3 +140,7 @@ available in the Expo client application.
 
 * Expo provides configuration and an SDK that handles the basics super well
 (think *Rails* + *create-react-app*), including camera, maps, etc...
+
+### Google Chrome Debugging
+
+[React Native Debugging tips and tricks](https://codeburst.io/react-native-debugging-tips-and-tricks-9700012121bf)
