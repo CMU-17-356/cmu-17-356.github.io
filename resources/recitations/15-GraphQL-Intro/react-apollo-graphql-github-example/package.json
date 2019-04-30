@@ -1,0 +1,25 @@
+{
+  "name": "react-apollo-graphql-github-example",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "^1.0.11"
+  },
+  "dependencies": {
+    "apollo-client": "^1.9.1",
+    "base-64": "^0.1.0",
+    "graphql-tag": "^2.4.2",
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.14",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
