@@ -104,7 +104,7 @@ fragment comparisonFields on Character {
 
 #### Mutation
 
-```
+```graphql
 mutation CreateReviewForEpisode($ep: Episode!, $review: ReviewInput!) {
   createReview(episode: $ep, review: $review) {
     stars
