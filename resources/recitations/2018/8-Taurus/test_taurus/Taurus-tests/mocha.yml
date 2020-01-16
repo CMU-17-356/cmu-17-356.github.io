@@ -1,0 +1,5 @@
+execution:
+- executor: mocha
+  hold-for: 2m
+  scenario:
+    script: tests/
