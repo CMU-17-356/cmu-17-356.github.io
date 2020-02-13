@@ -1,0 +1,14 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "hello world application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Tanvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
