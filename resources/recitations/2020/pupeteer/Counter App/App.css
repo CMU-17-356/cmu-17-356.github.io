@@ -1,0 +1,18 @@
+.header {
+  font-size: 56px;
+  text-align: center;
+}
+
+.counter-app {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: navajowhite;
+  font-size: 32px;
+}
+
+.count {
+  font-size: 48px;
+}
