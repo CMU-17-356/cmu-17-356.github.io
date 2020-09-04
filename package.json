@@ -20,6 +20,6 @@
     "uikit": "^3.0.0-rc.26"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   }
 }
