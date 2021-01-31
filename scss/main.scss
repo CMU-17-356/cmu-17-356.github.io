@@ -22,3 +22,504 @@ div.content{
 footer{
   height: 50px;
 }
+
+.table-skedj {
+  border-spacing: 0px;
+	line-height: 1.8rem;
+
+  // font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table-skedj > table {
+  border-spacing: 0px;
+}
+
+.table-skedj th {
+	text-align: left;
+	text-transform: none;
+	// font-family: Arial, Helvetica, sans-serif;
+	// background-color: #ffffff;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.table-skedj th,
+.table-skedj td {
+	padding: 0.2rem;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.table-skedj thead th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #dee2e6;
+	border-top: 0px;
+}
+
+.table-skedj thead th p,
+.table-skedj tbody tr td p {
+	margin: 0;
+}
+
+.table-skedj tbody + tbody {
+	border-top: 2px solid #dee2e6;
+}
+
+.table-skedj-sm th,
+.table-skedj-sm td {
+	padding: 0.3rem;
+}
+
+.table-skedj-bordered {
+	border: 1px solid #dee2e6;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.table-skedj-bordered th,
+.table-skedj-bordered td {
+	border: 1px solid #dee2e6;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.table-skedj-bordered thead th,
+.table-skedj-bordered thead td {
+	border-bottom-width: 2px;
+}
+
+.table-skedj-borderless th,
+.table-skedj-borderless td,
+.table-skedj-borderless thead th,
+.table-skedj-borderless tbody + tbody {
+	border: 0;
+}
+
+.table-skedj-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-skedj-hover tbody tr:hover {
+	color: #212529;
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-skedj-primary,
+.table-skedj-primary > th,
+.table-skedj-primary > td {
+	background-color: #b8daff;
+}
+
+.table-skedj-primary th,
+.table-skedj-primary td,
+.table-skedj-primary thead th,
+.table-skedj-primary tbody + tbody {
+	border-color: #7abaff;
+}
+
+.table-skedj-hover .table-skedj-primary:hover {
+	background-color: #9fcdff;
+}
+
+.table-skedj-hover .table-skedj-primary:hover > td,
+.table-skedj-hover .table-skedj-primary:hover > th {
+	background-color: #9fcdff;
+}
+
+.table-skedj-secondary,
+.table-skedj-secondary > th,
+.table-skedj-secondary > td {
+	background-color: #d6d8db;
+}
+
+.table-skedj-secondary th,
+.table-skedj-secondary td,
+.table-skedj-secondary thead th,
+.table-skedj-secondary tbody + tbody {
+	border-color: #b3b7bb;
+}
+
+.table-skedj-hover .table-skedj-secondary:hover {
+	background-color: #c8cbcf;
+}
+
+.table-skedj-hover .table-skedj-secondary:hover > td,
+.table-skedj-hover .table-skedj-secondary:hover > th {
+	background-color: #c8cbcf;
+}
+
+.table-skedj-success,
+.table-skedj-success > th,
+.table-skedj-success > td {
+	background-color: #c3e6cb;
+}
+
+.table-skedj-success th,
+.table-skedj-success td,
+.table-skedj-success thead th,
+.table-skedj-success tbody + tbody {
+	border-color: #8fd19e;
+}
+
+.table-skedj-hover .table-skedj-success:hover {
+	background-color: #b1dfbb;
+}
+
+.table-skedj-hover .table-skedj-success:hover > td,
+.table-skedj-hover .table-skedj-success:hover > th {
+	background-color: #b1dfbb;
+}
+
+.table-skedj-info,
+.table-skedj-info > th,
+.table-skedj-info > td {
+	background-color: #bee5eb;
+}
+
+.table-skedj-info th,
+.table-skedj-info td,
+.table-skedj-info thead th,
+.table-skedj-info tbody + tbody {
+	border-color: #86cfda;
+}
+
+.table-skedj-hover .table-skedj-info:hover {
+	background-color: #abdde5;
+}
+
+.table-skedj-hover .table-skedj-info:hover > td,
+.table-skedj-hover .table-skedj-info:hover > th {
+	background-color: #abdde5;
+}
+
+.table-skedj-warning,
+.table-skedj-warning > th,
+.table-skedj-warning > td {
+	background-color: #ffeeba;
+}
+
+.table-skedj-warning th,
+.table-skedj-warning td,
+.table-skedj-warning thead th,
+.table-skedj-warning tbody + tbody {
+	border-color: #ffdf7e;
+}
+
+.table-skedj-hover .table-skedj-warning:hover {
+	background-color: #ffe8a1;
+}
+
+.table-skedj-hover .table-skedj-warning:hover > td,
+.table-skedj-hover .table-skedj-warning:hover > th {
+	background-color: #ffe8a1;
+}
+
+.table-skedj-danger,
+.table-skedj-danger > th,
+.table-skedj-danger > td {
+	background-color: #f5c6cb;
+}
+
+.table-skedj-danger th,
+.table-skedj-danger td,
+.table-skedj-danger thead th,
+.table-skedj-danger tbody + tbody {
+	border-color: #ed969e;
+}
+
+.table-skedj-hover .table-skedj-danger:hover {
+	background-color: #f1b0b7;
+}
+
+.table-skedj-hover .table-skedj-danger:hover > td,
+.table-skedj-hover .table-skedj-danger:hover > th {
+	background-color: #f1b0b7;
+}
+
+.table-skedj-light,
+.table-skedj-light > th,
+.table-skedj-light > td {
+	// background-color: #fdfdfe;
+}
+
+.table-skedj-light th,
+.table-skedj-light td,
+.table-skedj-light thead th,
+.table-skedj-light tbody + tbody {
+	border-color: #fbfcfc;
+}
+
+.table-skedj-hover .table-skedj-light:hover {
+	background-color: #ececf6;
+}
+
+.table-skedj-hover .table-skedj-light:hover > td,
+.table-skedj-hover .table-skedj-light:hover > th {
+	background-color: #ececf6;
+}
+
+.table-skedj-dark,
+.table-skedj-dark > th,
+.table-skedj-dark > td {
+	background-color: #c6c8ca;
+}
+
+.table-skedj-dark th,
+.table-skedj-dark td,
+.table-skedj-dark thead th,
+.table-skedj-dark tbody + tbody {
+	border-color: #95999c;
+}
+
+.table-skedj-hover .table-skedj-dark:hover {
+	background-color: #b9bbbe;
+}
+
+.table-skedj-hover .table-skedj-dark:hover > td,
+.table-skedj-hover .table-skedj-dark:hover > th {
+	background-color: #b9bbbe;
+}
+
+.table-skedj-active,
+.table-skedj-active > th,
+.table-skedj-active > td {
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-skedj-hover .table-skedj-active:hover {
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-skedj-hover .table-skedj-active:hover > td,
+.table-skedj-hover .table-skedj-active:hover > th {
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-skedj-skedj .thead-dark th {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #454d55;
+}
+
+.table-skedj .thead-light th {
+	color: #495057;
+	background-color: #e9ecef;
+	border-color: #dee2e6;
+}
+
+.table-skedj-dark {
+	color: #fff;
+	background-color: #343a40;
+}
+
+.table-skedj-dark th,
+.table-skedj-dark td,
+.table-skedj-dark thead th {
+	border-color: #454d55;
+}
+
+.table-skedj-dark.table-skedj-bordered {
+	border: 0;
+}
+
+.table-skedj-dark.table-skedj-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-skedj-dark.table-skedj-hover tbody tr:hover {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+@media (max-width: 575.98px) {
+	.table-skedj-responsive-sm {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.table-skedj-responsive-sm > .table-skedj-bordered {
+		border: 0;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.table-skedj-responsive-md {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.table-skedj-responsive-md > .table-skedj-bordered {
+		border: 0;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.table-skedj-responsive-lg {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.table-skedj-responsive-lg > .table-skedj-bordered {
+		border: 0;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.table-skedj-responsive-xl {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.table-skedj-responsive-xl > .table-skedj-bordered {
+		border: 0;
+	}
+}
+
+.table-skedj-responsive {
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.table-skedj-responsive > .table-skedj-bordered {
+	border: 0;
+}
+
+.table-skedj-responsive {
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.table-skedj-responsive > .table-skedj-bordered {
+	border: 0;
+}
+
+
+.schedule tr {
+	border-bottom: 1px #ddd dotted;
+}
+
+.schedule table tbody tr:nth-child(6n+1) { background-color: #f5f5f5; }
+.schedule table tbody tr:nth-child(6n+2) { background-color: #f5f5f5; }
+.schedule table tbody tr:nth-child(6n+3) { background-color: #f5f5f5; }
+
+.office-hours table thead,
+.schedule table thead,
+.schedule table tbody tr:nth-child(6n+3),
+.schedule table tbody tr:nth-child(6n) {
+	border-bottom: 3px #ccc solid;
+}
+.schedule tbody tr:last-child {
+	border: 0 !important;
+}
+.schedule .read,
+.schedule .hw,
+.schedule .rec {
+	background-color: green;
+	padding: 0 5px;
+	border-radius: 3px;
+	text-transform: lowercase;
+}
+.schedule .hw { color: #fff; background: #04668a; }
+.schedule .read { color: #fff; background: #8c001a; }
+.schedule .rec { background: #f4cd38; }
+
+
+@media (max-width: 600px) {
+  .schedule thead {
+    display: none;
+  }
+  .schedule tr {
+    display: block;
+    padding: 10px 5px;
+  }
+  .schedule td {
+    display: block;
+    padding: 0 5px;
+  }
+  .schedule td:first-child {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    float: right;
+  }
+  .schedule td:nth-child(2) {
+    margin-bottom: 10px;
+  }
+  .schedule td:nth-child(3),
+  .schedule td:nth-child(4),
+	.schedule td:nth-child(5),
+	.schedule td:nth-child(6) {
+		background: rgba(255, 255, 255, 0.3);
+    border: 1px rgba(255, 255, 255, 0.6) solid;
+    margin: 5px;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    padding: 5px;
+  }
+	.schedule td:nth-child(5):not(:empty):before {
+		content: "Work out: ";
+		font-weight: bold;
+	}
+
+	.schedule td:nth-child(6):not(:empty):before {
+		content: "Work due: ";
+		font-weight: bold;
+	}
+
+  .schedule td:empty {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.uk-link, .badge > a {
+	border: 0;
+  color: #fff;
+}
+
+.uk-link, .badge > a:hover {
+	border: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.uk-link, .badge-slides {
+    color: #fff;
+    background-color: #ff716b;
+    border: 0;
+}
+
+.uk-link, .badge-slides:hover {
+	background-color: #f6d006;
+	color: #000000;
+	border: 0;
+}
