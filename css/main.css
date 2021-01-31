@@ -25,7 +25,8 @@ footer {
   color: #212529; }
 
 .table-skedj > table {
-  border-spacing: 0px; }
+  border-spacing: 0px;
+  margin: 0 auto; }
 
 .table-skedj th {
   text-align: left;
