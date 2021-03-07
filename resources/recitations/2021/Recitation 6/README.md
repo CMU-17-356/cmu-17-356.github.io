@@ -4,5 +4,5 @@ The codebase is getting a bit too complicated to copy into the course repo every
 
 https://github.com/jchengjr77/todo-app
 
-If you are unsure of the difference between forking and cloning, read [here](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/).
+If you are unsure of the difference between forking and cloning, read [here](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/). (You can decide which one you want to do).
 
