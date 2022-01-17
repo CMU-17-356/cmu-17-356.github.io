@@ -1,0 +1,122 @@
+{"0": {
+    "doc": "Announcements",
+    "title": "Announcements",
+    "content": "Announcements are stored in the _announcements directory and rendered according to the layout file, _layouts/announcement.html. ",
+    "url": "http://localhost:4000/announcements/",
+    "relUrl": "/announcements/"
+  },"1": {
+    "doc": "Announcements",
+    "title": "Week 1 Announcement",
+    "content": "Apr 8 &middot; 0 min read . | Create a new repository based on Just the Class. | Configure a publishing source for GitHub Pages. Your course website is now live! | Update _config.yml with your course information. | Edit and create .md Markdown files to add your content. | . ",
+    "url": "http://localhost:4000/announcements/",
+    "relUrl": "/announcements/"
+  },"2": {
+    "doc": "Announcements",
+    "title": "Week 0 Announcement",
+    "content": "Apr 1 &middot; 0 min read Hello world! . ",
+    "url": "http://localhost:4000/announcements/",
+    "relUrl": "/announcements/"
+  },"3": {
+    "doc": "Calendar",
+    "title": "Calendar",
+    "content": " ",
+    "url": "http://localhost:4000/calendar/",
+    "relUrl": "/calendar/"
+  },"4": {
+    "doc": "Calendar",
+    "title": "Introduction to Java",
+    "content": "NOTE: Schedule is subject to Change . Jan 18 (Tue) Lecture 1: Intro, User stories Jan 18 (Tue) Recitation User stories Jan 20 (Thurs) Lecture 2: Process and Estimation Jan 25 (Tue) Lecture 3: Quality Assurance (CI, Tools, TDD) Jan 25 (Tue) Recitation Node Development Basics Jan 27 (Thurs) Lecture 4: Architecture and Prototyping + priortization Feb 1 (Tue) Lecture 5: Process Prioritization, estimation, prototyping Feb 1 (Tue) Recitation React Feb 3 (Thurs) Lecture 6: High Level Design + intro to design exercise Feb 8 (Tue) Lecture 7: Design Critique (was: Lecture 8: Designing for Testability, Super-Quick Code Review) Feb 8 (Tue) Recitation Testing and Git Flow Feb 10 (Thurs) Lecture 8: MVP Feb 15 (Tue) Lecture 9: MVP Continued Feb 15 (Tue) Recitation Docker Feb 17 (Thurs) Lecture 10: Getting feedback on MVP Feb 22 (Tue) Lecture 11: Deployment Challenges Feb 22 (Tue) Recitation React and the Outside World Feb 24 (Thurs) Midterm Mar 1 (Tue) Lecture 13: DevOps Mar 1 (Tue) Recitation Pitch Decks Mar 3 (Thurs) Lecture 14: Testability Mar 8 (Tue) Break NO CLASS - Spring Break Mar 10 (Thurs) Break NO CLASS - Spring Break Mar 15 (Tue) Guest Lecture: TBD Mar 15 (Tue) Recitation Databases Mar 17 (Thurs) TBD Mar 22 (Tue) Project Pitch Decks Mar 22 (Tue) Recitation Responsive Sites Mar 24 (Thurs) Lecture: Pivoting 1 Mar 29 (Tue) Lecture: Pivoting 2 Mar 29 (Tue) Recitation React Native Mar 31 (Thurs) Guest Lecture: TBD Apr 5 (Tue) Lecture: Scaling Apr 5 (Tue) Recitation TBD Apr 7 (Thurs) Break No class - Carnival Apr 12 (Tue) Lecture: Scaling Data Apr 12 (Tue) Recitation TBD Apr 14 (Thurs) Startup Economics 1 Apr 19 (Tue) Startup Economics 2 Apr 19 (Tue) Recitation TBD Apr 21 (Thurs) Guest Lecture: TBD Apr 26 (Tue) Guest Lecture: TBD Apr 26 (Tue) Recitation TBD Apr 28 (Thurs) Ethics TBD Final Presentations (during Final Exam slot) ",
+    "url": "http://localhost:4000/calendar/#introduction-to-java",
+    "relUrl": "/calendar/#introduction-to-java"
+  },"5": {
+    "doc": "Software Engineering for Startups",
+    "title": "Course Description",
+    "content": "Startup engineering is critical to innovation. The skills required to effectively prototype, launch, and scale products are vital to engineers everywhere, from fledgling companies founded in dorm rooms to local mid-size companies to internal startups from multi-national tech giants. However, developing software in a startup environment poses unique engineering challenges. These challenges include making and justifying foundational architectural and technical decisions despite extreme uncertainty; rapidly prototyping and evaluating new ideas and features, while building minimum viable products; prioritizing engineering effort in severely constrained environments; and communicating effectively both within a small engineering team and with internal and external non-technical stakeholders. This course teaches the skills necessary to engineer successfully in a startup environment, through lectures, group projects, case study discussions, and guest speakers drawn from experienced, practicing startup engineers. ",
+    "url": "http://localhost:4000/#course-description",
+    "relUrl": "/#course-description"
+  },"6": {
+    "doc": "Software Engineering for Startups",
+    "title": "Logistics and Communication",
+    "content": "Lectures: 10:10 a.m. - 11:30 a.m. Starting semester on Zoom, hopefully to resume in-person if possible. Recitations: . Tue @ 12:20 p.m. - 01:10 p.m. (Session A) online via Zoom to start semester . Tue @ 02:30 p.m. - 03:20 p.m. (Session B) online via Zoom to start semester . ",
+    "url": "http://localhost:4000/#logistics-and-communication",
+    "relUrl": "/#logistics-and-communication"
+  },"7": {
+    "doc": "Software Engineering for Startups",
+    "title": "Waitlist:",
+    "content": "The waitlist is currently long. We are trying our best to add as many people as possible, but are dealing with limitations imposed by the university. ",
+    "url": "http://localhost:4000/#waitlist",
+    "relUrl": "/#waitlist"
+  },"8": {
+    "doc": "Software Engineering for Startups",
+    "title": "Prerequisites:",
+    "content": "15-214/17-214 or 15-213, or equivalent. The focus of this class is largely technical; the goal of the prerequisites is to ensure students should sufficient programming experience to succeed in the course. ",
+    "url": "http://localhost:4000/#prerequisites",
+    "relUrl": "/#prerequisites"
+  },"9": {
+    "doc": "Software Engineering for Startups",
+    "title": "Textbook/Readings:",
+    "content": "The subject matter of this class is at the cutting edge of engineering; as such, there do not exist (to our knowledge, at least) suitable textbooks covering the material. We will instead pull various readings throughout the semester from online sources. ",
+    "url": "http://localhost:4000/#textbookreadings",
+    "relUrl": "/#textbookreadings"
+  },"10": {
+    "doc": "Software Engineering for Startups",
+    "title": "Communication:",
+    "content": "The course uses Canvas for homework submission, grading, announcements, and supplementary documents. Discussion and questions will be managed on Slack. Slides, assignments, and schedule will be posted on this website. We use GitHub to coordinate group work. We will provide private GitHub repositories for individuals and groups. Please use Slack for discussion and questions, including clarifying homework assignments. The instructors and TAs hold weekly office hours. If you cannot make it to office hours, contact us via email (using the course-wide email address, unless the issue is sensitive) and we will find an alternative time to meet. If you have a question or concern that is not suitable for Slack, contact the instructors via: startups-staff@lists.andrew.cmu.edu. Unless the subject matter is sensitive, all questions will be conveyed to all instructors before being answered, so there’s no point in emailing just one of us. Note that the list should be set to accept messages from any CMU email address; if your message is held as a non-member posting to a members list, don’t worry: we respond to moderation requests very quickly. For sensitive matters, of course, feel free to contact us individually. ",
+    "url": "http://localhost:4000/#communication",
+    "relUrl": "/#communication"
+  },"11": {
+    "doc": "Software Engineering for Startups",
+    "title": "Software Engineering for Startups",
+    "content": ". ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"12": {
+    "doc": "Staff",
+    "title": "Staff",
+    "content": " ",
+    "url": "http://localhost:4000/staff/",
+    "relUrl": "/staff/"
+  },"13": {
+    "doc": "Staff",
+    "title": "Instructors",
+    "content": "Hyrum Wright . hwright@andrew.cmu.edu . Michael HIlton . mhilton@cmu.edu . ",
+    "url": "http://localhost:4000/staff/#instructors",
+    "relUrl": "/staff/#instructors"
+  },"14": {
+    "doc": "Staff",
+    "title": "Teaching Assistants",
+    "content": "JJ Cheng . jcheng3@andrew.cmu.edu . Sean Prendi . sprendi@andrew.cmu.edu . Shane Aung . saung@andrew.cmu.edu . ",
+    "url": "http://localhost:4000/staff/#teaching-assistants",
+    "relUrl": "/staff/#teaching-assistants"
+  },"15": {
+    "doc": "Syllabus",
+    "title": "Syllabus",
+    "content": " ",
+    "url": "http://localhost:4000/syllabus/",
+    "relUrl": "/syllabus/"
+  },"16": {
+    "doc": "Syllabus",
+    "title": "Overview",
+    "content": "In this course, we will teach you the engineering skills necessary to succeed in the highly-uncertain environment associated with a technology startup. Our focus in this class is technical; that is, we will not be spending very much time on the business side of the startup equation (though given how much business drives engineering goals, of course we will not completely ignore it!). If you are instead interested in the entrepreneurship side of the equation, we encourage you to consider 15-390, Entrepreneurship for Computer Scientists. This class will consist of: . | Lectures. Lectures will cover technical content, and be delivered by the professors or other instructors. | Guest lectures. We will hear from from practicing software engineers, technical and non-technical startup cofounders, and other individuals with practical expertise. | Recitation. TAs will lead recitation, which consists of activities designed to help you apply your knowledge practically and prepare for the homework. | Homework assignments. For the first half of the course, you will practice the skills we learn in class by working on in assigned teams on a made-up startup, “Dronuts.” Most of this work will be structured as a series of agile-style sprints, to simulate as much as possible the real startup experience. | A project. For the second half of the course, you will use your new skills to design and implement an original startup idea. Don’t worry if you don’t have one; we’ll help you to develop a new idea, or connect founders who have startup ideas to co-founders who are excited to help with them. | . Exam . There will be one midterm exam. There will be no final exam; instead, you will present your final project. ",
+    "url": "http://localhost:4000/syllabus/#overview",
+    "relUrl": "/syllabus/#overview"
+  },"17": {
+    "doc": "Syllabus",
+    "title": "Grading",
+    "content": "Evaluation will be based on the following approximate distribution: 50% assignments, 20% midterm, 20% final project, 10% participation. Note: Attendance is required for guest lectures. Absences during guest lectures will result in a deduction in your overall course grade for participation. ",
+    "url": "http://localhost:4000/syllabus/#grading",
+    "relUrl": "/syllabus/#grading"
+  },"18": {
+    "doc": "Syllabus",
+    "title": "Course Policies",
+    "content": "Teamwork: . Teamwork is an essential part of this course. Teams of 3-5 students will be assigned by the instructors and stay together for multiple assignments. Most assignments have a component that is graded for the entire group and a component that is graded individually. By default, group assignments will receive a single grade, for all individuals. However, we reserve the right to institute peer grading in problematic situations, detailed in the Team Policy. Late work: . Late work will receive feedback but no credit. Due to the course’s heavy reliance on teamwork, there are no late days. We make exceptions in extraordinary circumstances, typically involving either a family or medical emergency (ideally, your academic advisor or the Dean of Student Affairs should request such exceptions on your behalf). We can make accommodations for travel (e.g., for interviews) so long as you request it in advance. Always communicate with your team about such issues. Devices in lecture and recitation: Research shows that using devices on non-class related activities harms both the device user’s learning, and other students’ learning as well. Therefore, when in person, we strongly discourage the use of devices during lecture. However, if you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). Note that recitation activities will often involve devices, so please do bring your laptop! . Time management: . This is a 12-unit course. It is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and recitation, and 8 hours on assignments. A key challenge in startup engineering is that there is never enough time to implement everything that you want to implement; it is therefore important that you practice time management, estimation, and task prioritization. We would rather you make well-justified decisions to not do something than spend tens of hours on your homework. Note that most homework is done in groups, so please account for the overhead and decreased time flexibility that entails. Feel free to give the course staff feedback on how much time the course is taking for you. This is especially relevant as we teach this course for the first time! . Writing: . Describing tradeoffs, justifying decisions, and communicating effectively with less technical stakeholders are key learning goals of this course. Most homework assignments have a component that require discussing issues in written form or reflecting about experiences. The Global Communications Center (GCC) offers one-on-one writing help for students, along with workshops. The instructors are also happy to provide additional guidance if requested. Academic honesty and collaboration: . The University Policy on Academic Integrity applies. Most assignments are done in groups. Our expectations regarding academic honesty and collaboration for group work are the same as for individual work, elevated to the level of “group.” Group members will collaborate with one another, but groups should work independently from one another, not exchanging code with other groups. Within groups, we expect that you are honest about your contribution to the group’s work. This implies not taking credit for others’ work and not covering for team members that have not contributed to the team. The course also includes individual assignments and individual components of group assignments. Although your solutions for individual parts may be based on the content produced for the group component (e.g., written reflections), we expect you to complete individual components independently of your groupmates. Regarding the internet, StackOverflow, and similar sources: In real-world development, engineers often adapt code from Q&amp;A sites, open source repositories, or similar sources to new ends. This is acceptable in this course, with two caveats: . | You may not copy a solution for our homework assignments specifically from another student or group, even if, for some reason, that code is available openly on GitHub or elsewhere (see below on the importance of keeping your homework code). | You must test all of your code, and those tests must pass. That is, you must understand any code you adapt from the internet, and you must demonstrate that understanding using unit tests. | . Regarding solutions from other students in the course, we reuse the Collaboration Policy from 15-214, with minor modifications: . “You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student. You may not look at another student’s solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it. Here are some examples of behavior that are inappropriate: . | Copying or retyping, or referring to, files or parts of files (such as source code, written text, or unit tests) from another person (whether in final or draft form, regardless of the permissions set on the associated files) while producing your own. This is true even if your version includes minor modifications such as style or variable name changes or minor logic modifications. | Getting help that you do not fully understand, and from someone whom you do not acknowledge on your solution. | Writing, using, or submitting a program that attempts to alter or erase grading information or otherwise compromise security of course resources. | Lying to course staff. | Giving copies of work to others, or allowing someone else to copy or refer to your code or written assignment to produce their own, either in draft or final form. This includes making your work publicly available in a way that other students (current or future) can access your solutions, even if others’ access is accidental or incidental to your goals. Beware the privacy settings on your open source accounts! | Coaching others step-by-step without them understanding your help. | . If any of your work contains any statement that was not written by you, you must put it in quotes and cite the source. If you are paraphrasing an idea you read elsewhere, you must acknowledge the source. Using existing material without proper citation is plagiarism, a form of cheating. If there is any question about whether the material is permitted, you must get permission in advance. We will be using automated systems to detect software plagiarism. It is not considered cheating to clarify vague points in the assignments, lectures, lecture notes; to give help or receive help in using the computer systems, compilers, debuggers, profilers, or other facilities; or to discuss ideas at a high level, without referring to or producing code. Any violation of this policy is cheating. The minimum penalty for cheating (including plagiarism) will be a zero grade for the whole assignment. Cheating incidents will also be reported through University channels, with possible additional disciplinary action (see the above-linked University Policy on Academic Integrity). If you have any question about how this policy applies in a particular situation, ask the instructors or TAs for clarification.” . Note that the instructors respect honesty in these (and indeed most!) situations. A note on self care . Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. Besides the instructors, who are here to help you succeed, there are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful. If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at https://www.cmu.edu/counseling/. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. ",
+    "url": "http://localhost:4000/syllabus/#course-policies",
+    "relUrl": "/syllabus/#course-policies"
+  },"19": {
+    "doc": "Syllabus",
+    "title": "Teamwork Policy",
+    "content": "Working effectively in a group is a critical skill in modern software engineering, both in the startup context and generally. Group work can be hard, and not all teams succeed, and in fact a major contributing factor to startup failure is team breakdown. The educational context adds its own complexities: team members sometimes cannot prepare for or attend group sessions because of other responsibilities, and conflicts can result from personalities, differing skill levels, work ethics, working styles. We encourage the following practices to ensure successful group work: . | Agree on a protocol for meeting and communication. Some, but not all, of these decisions will be technical (Slack? Trello?) that arise naturally over startup development. | In the startup context, engineers must be flexible and capable of filling many technical roles. In an educational context, however, group work is most successful when groups designate clear roles, such as coordinator, scribe, monitor, and checker for each assignment. Agree on roles at the beginning of each assignment. Rotate these roles for each assignment to ensure fairness. | Agree on meeting times and what each member should have done before the meeting (readings, development, writing, taking the first cut at some or all of the assigned work, etc.). The scribe documents the agreed tasks and deadlines and communicates them to everybody. Not objecting to the communicated protocol constitutes acceptance. Make agreements visible to every team member, with transparent history of the log. | The coordinator checks with other team members before the meeting to remind them of when and where they will meet and what they are supposed to do. Team members notify the coordinator in advance if they cannot attend a meeting or are in danger of not making a deadline. | All individuals perform the required individual preparation before the meeting | During meetings/work times, the coordinator sets the agenda, and keeps everyone on task; the monitor ensures everyone understands both the solution and the strategy used to get it, and watches the time to ensure meetings stays within the agreed timeslot; and the checker double-checks the result before it is handed in, and submits it (or clearly delegates its submission, if the checker is unable to do so on time). | At the end of each meeting, agree on the next meeting time and responsibilities. | Review returned assignments together. Make sure everyone understands why points were lost and how to correct errors. | . Preventing and dealing with problems. We encourage you to communicate openly with your teammates, which is often enough to help resolve many types of team challenges. Clearly documenting agreed-upon tasks and deadlines (see scribe role above) and tracking invested time helps in identifying issues. Renegotiate agreements when estimated time does not align with actually required time and imbalances arise. Document where agreements were not honored (what and when, and possibly why). Identify a fallback strategy, ideally in agreement with the team member who failed the agreement. In severe cases, identify how other team members can take over those tasks. If a team member does not contribute to an assignment solution, their name should not be included on the completed work. If the problem persists and cannot be solved within the team, the team should meet with the instructors so that the problem can be resolved, if possible. If problems continue, the cooperating team members may notify the uncooperative member in writing that he/she is in danger of being fired, sending a copy of the memo to the instructor. If there is no subsequent improvement, they should notify the individual in writing (copy to the instructor) that he/she is no longer with the team. The fired student should meet with the instructors to discuss options, such as finding another team willing to add them as a member, completing the work alone, or getting zeroes for the remaining assignments. Consult with your instructors if a conflict arises that can’t be worked through by the team. ",
+    "url": "http://localhost:4000/syllabus/#teamwork-policy",
+    "relUrl": "/syllabus/#teamwork-policy"
+  }
+}
