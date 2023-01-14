@@ -1,5 +1,5 @@
 # Course Website for CMU 17-356
-### Authors: Afsoon Afzal, Derek Brown, Michael Hilton, Claire Le Goues, Heather Miller, Zeeshan Lakhani
+### Authors: Afsoon Afzal, Andrew Begel, Derek Brown, Michael Hilton, Claire Le Goues, Heather Miller, Zeeshan Lakhani
 
 ## Welcome to Software Engineering for Startups!
 
