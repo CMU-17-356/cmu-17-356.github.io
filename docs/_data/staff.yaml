@@ -1,0 +1,24 @@
+- name: Andrew Begel
+  role: Instructor
+  email: abegel@andrew.cmu.edu
+  website: https://andrewbegel.com
+  photo: abegel.png
+
+- name: Michael Hilton
+  role: Instructor
+  email: mhilton@cmu.edu
+  website: http://www.cs.cmu.edu/~mhilton/
+  photo: hilton.jpg
+
+- name: Mehul Agarwal
+  role: Teaching Assistant
+  email: mehula@andrew.cmu.edu
+  website: https://mehul.al
+  photo: mehula.jpg
+
+- name: Rohit Nanjangud Shreenivas
+  role: Teaching Assistant
+  email: rshreeni@andrew.cmu.edu
+  website: https://www.linkedin.com/in/rohit-n-shreenivas-026473122/
+  photo: rshreeni.png
+
