@@ -122,8 +122,7 @@ first time!
 Describing tradeoffs, justifying decisions, and communicating
 effectively with less technical stakeholders are key learning goals of this
 course. Most homework assignments have a component that require discussing
-issues in written form or reflecting about experiences. The [Global
-Communications Center (GCC)](https://www.cmu.edu/gcc/workshops/index.html) offers one-on-one writing help for students, along
+issues in written form or reflecting about experiences. The [Student Academic Success](https://www.cmu.edu/student-success/programs/communication-support/index.html) offers one-on-one writing help for students, along
 with workshops. The instructors are also happy to provide additional guidance if
 requested. 
 
