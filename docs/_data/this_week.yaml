@@ -1,0 +1,26 @@
+last_homework: null
+
+lectures:
+- date: Mon Jan 16
+  link: ''
+  name: MLK Jr Day [No Class]
+- date: Tue Jan 17
+  link: ''
+  name: "Introduction and Guest Lecture by Pernille Bj\xF8rn"
+- date: Thu Jan 19
+  link: ''
+  name: Process, Estimation, and User Stories
+
+next_homework:
+  date: Thu Jan 19
+  deadline: Due Tues Jan 24 @ 11:59pm
+  link: ''
+  name: User Stories
+  numDays: 3
+
+recitation:
+  date: Mon Jan 16
+  handout: ''
+  name: User Stories
+  quiz: ''
+  slides: ''

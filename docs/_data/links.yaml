@@ -1,0 +1,15 @@
+- name: Canvas
+  link: https://canvas.cmu.edu/courses/33305
+  icon: assets/images/logos/canvas.png
+
+- name: Slack
+  link: https://cmu-17-356-s23.slack.com
+  icon: assets/images/logos/slack.png
+
+- name: Gradescope
+  link: https://www.gradescope.com/courses/494229
+  icon: assets/images/logos/gradescope.png
+
+#- name: Dronuts
+#  link: Dronuts
+#  icon: assets/images/logos/drone.png
