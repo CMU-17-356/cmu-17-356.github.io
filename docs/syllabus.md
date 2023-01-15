@@ -211,7 +211,8 @@ If you have any question about how this policy applies in a particular
 Note that the instructors respect honesty in these (and indeed most!)
   situations.
 
-### A Note on Self-Care
+
+## A Note on Self-Care
 
 Please take care of yourself. Do your best to maintain a healthy lifestyle this
 semester by eating well, exercising, avoiding drugs and alcohol, getting enough
