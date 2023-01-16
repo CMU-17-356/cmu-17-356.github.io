@@ -274,3 +274,57 @@ a.label:hover {
     vertical-align: text-top;
     padding: 0px 3px;
 }
+
+
+/* LOGO DOWNLOAD */
+.logo-download-box{
+    display: flex;
+  }
+  
+  .logo-download-box a{
+    display: block;
+    flex: 1 0 auto;
+  
+    padding: 30px;
+  
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .logo-download-box a:hover{
+    background-color: #d0d0d0;
+  }
+  
+  .logo-download-box a img {
+    display:block;
+    width: 100%;
+    max-width: 80px;
+    margin:0 auto 10px auto;
+  }
+  
+  /* DONUT DOWNLOAD */
+  .donut-download-box{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+    height: 450px;
+  
+    font-size: 17px;
+  }
+  
+  .donut-download-box div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    height: 50px;
+    width: 50%;
+  }
+  
+  .donut-download-box div img{
+    height: 45px;
+    width: auto;
+    margin-right: 20px;
+  }
+  

@@ -1,117 +1,72 @@
 ---
-title: HW01 Hello Teedy
+title: HW1 User Stories
 ---
 
-# Homework 1: Hello, Teedy!
+# Homework 1: Requirements and User Stories
 
-## Learning Goals
+<p style="text-align: center;">
+50 points<br/>  
 
--   Familiarize yourself with an existing software project
--   Download, install and run an existing software project
--   Run an evaluation tool and collect metrics
--   Evaluate the results of these metrics
+Due on Gradescope Tuesday, January 24, 2023 11:59pm<br/>
 
-## Background
+This homework is to be done individually.<br/>
+</p>
 
-Git and GitHub:
+## Submission
 
-- [Git Documentation](https://git-scm.com/docs/gittutorial)
-- [Git Flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
-- [GitHub Basics](https://guides.github.com/activities/hello-world/)
-- [GitHub's Flow](https://guides.github.com/introduction/flow/)
-- [GitHub Cross-Referencing](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
+Submit [this assignment](https://www.gradescope.com/courses/494229/assignments/2575113) 
+as a PDF file to Gradescope. If you prepare the response in some other software (like Word), please
+export as PDF before submitting. Include your name and Andrew ID at the top of the document.
 
-## Specification
+In this homework, you will familiarize yourself with the Dronuts project startup idea and then
+practice refining a vague, high-level idea into user stories.
 
-Welcome to the team! To start your journey on this project, your first
-task is to become familiar with an existing piece of software.
-Eventually you will be adding new features, but the first step is to
-simply download, run, evaluate, and explore the current software
-product. The project we will be building on this semester is an open
-source document management system, [Teedy](https://teedy.io/).
+### References:
 
-We will be using a class-specific fork of Teedy, whose repository is located at: [https://github.com/CMU-313/Teedy](https://github.com/CMU-313/Teedy)
-This fork is based off https://github.com/sismics/docs and contains minor tweaks to make the project easier to modify and debug.
-Forking from the class repository will  allow you to send pull requests to the instructors, which is the primary way of submitting code deliverables for this homework.
+- [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
+- [New to Agile? INVEST in good user stories](http://agileforall.com/new-to-agile-invest-in-good-user-stories/)
 
-**Getting Started:**
-Your first step should be to fork the repository and then follow the installation instructions in README.md.
-You must build and run Teedy **natively** on your machine (via the manual installation instructions) rather than following the Docker instructions. After building Teedy and its dependencies, you should follow the rest of the Getting Started instructions to run a Teedy instance on your machine.
-![teedy screenshot](https://cmu-313.github.io/assets/images/teedy.png)
+### Learning Goals
 
+The learning goals of this assignment are that, once completing it, you will be able to:
 
+- Refine high-level requirements into high-quality user stories.
+- Justify a prioritization of user stories.
 
-Once you have run Teedy successfully, you should be able to navigate to  [`http://localhost:8080/src`](http://localhost:8080/src) (if this doesn't work, try navigating to [`http://localhost:8080`](http://localhost:8080) ) and see a web page with a login screen.
-By default, Teedy will be deployed to port `8080` on your machine.
-You may change this port number (e.g., to avoid conflict with another process running on your machine).
+### Task
 
-**If the process of installing and running Teedy takes you more than a few hours, STOP and ask for help on Slack.**
+Your task this week is to develop high-quality user stories for the Dronuts startup that you will (in
+next week’s assignment) select for the backlog of features to create for your MVP. This includes
+the following tasks:
 
-**Collecting Metrics:**
-Once you have Teedy up and running locally, proceed to evaluate it using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse).
-You can run Lighthouse as a stand alone application, or using the audit tab of Google Developer Tools.
-After you run Lighthouse, it will give you a score for various dimensions: Performance, Accessibility, Best Practices, and SEO.
-Additionally, you can measure test coverage.  This will be done every time you run the tests via maven `mvn test`, using the [Jacoco](https://www.eclemma.org/jacoco/) tool. 
-After looking over the metrics, pick one metric to improve (Performance, Accessibility, Best Practices, SEO, or Code Coverage).
-The Lighthouse reports will give you some suggestions as to how to improve a score.
-The only requirements are that your change should affect the metric's score, and that the change should involve a commit to the repo.
-HINT: Because of this, you might want to avoid trying to
-change the performance score.
+- Visit [Dronuts](/Dronuts) and familiarize yourself with the startup idea.
+- Distill the Dronuts startup idea into a set of key user stories for the initial product. This
+set should be concise, but it need not be perfectly minimal.
+  - (As context, in the next homework you will combine these user stories with your
+teammates’, and select those to put into your backlog as part of your MVP.)
+- Rank the user stories in terms of their importance to your efforts to produce an MVP.
 
-First, open an issue in the [https://github.com/CMU-313/Teedy/issues](https://github.com/CMU-313/Teedy/issues) to declare what aspect of Teedy you will be improving.
-You should look through existing issues, if any, to avoid duplicates. 
-In the issue description, mention the current score you observed and the warning that you are targeting.
-~~Tag the issue with one or more of the existing labels as appropriate, add it to milestone "HW1", and~~ assign yourself (do this by commenting "I would like to work on this please!").
+### Deliverables:
 
-In your own fork, create a feature branch, implement the change, test it out locally, and commit your changes.
-Your commit message(s) must clearly describe what's changing.
+You will submit this assignment via gradescope, Homework 1.
 
-Once you are satisfied, open a pull request in the parent repository.
-The PR should [link the issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) that you previously opened (e.g. using the "resolve(s)" keyword), summarize the changes, and describe how much the score improved by due to your change.
+- 5-10 user stories describing the Dronuts idea. Write the user story using the "Card,
+Conversation, Confirmation" approach discussed in class and recitation (and described
+in Jeffries' blog, above). For each user story, write the card, some details as
+conversation and acceptance test as confirmation. Keep them as brief as possible!
+Longer is not always better...
 
-After you have completed this task, we will ask you to reflect on the nature of metrics.
-To do this, you will answer the following questions about metrics, specifically in the context of Teedy.
-You should focus your answers for each of these questions on the metric that you chose to improve.
+- A ranking of those user stories from most to least important, and a one-sentence
+justification for
 
-- What properties do we care about, and how do we measure them?
-- What is being measured? Does it (to what degree) capture the thing you care about? What are its limitations?
-- How should this metric be incorporated into process? Check in gate? Once a month? Etc.
-- What are potentially negative side effects or incentives?
-
-## Deliverables and Deadlines
-
-There are three (3) deliverables and one (1) deadline for this homework.
-
-*Individual Component -- 100 points -- due Thursday, September 9th, 23:59*
-
-1. Create an issue in the parent repository, which must:
-	- Mention the metric you are targeting.
-	- Mention the current metric scores.
-	- Be assigned to yourself.
-	- ~~Be tagged with at least one appropriate label.
-	- Be associated with the HW1 milestone.~~
-
-2. Create a pull request in the parent repository, which must:
-	- Reference the issue created above.
-	- Describe the fix and improvement to the score.
-
-3. Answer the following questions on Gradescope about the metric you chose:
-
-	    -   What properties do we care about, and how do we measure it?
-
-	    -   What is being measured? Does it (to what degree) capture the thing you care about? What are its limitations?
-
-	    -   How should it be incorporated into process? Check in gate? Once a month? Etc.
-
-	    -   What are potentially negative side effects or incentives?
+1. the single most important user story and 
+2. the single least important in your list.
 
 ## Grading
 
-This homework is worth 100 points. Running the project, making the
-change, and committing it properly constitutes 50 points (50%), and the reflection questions constitutes 50 points (50%).
+This homework is worth 50 points. To receive full credit, you must 
 
-To receive full credit for the group component, we expect:
+1. adhere to the submission instructions, above and 
+2. provide 5-10 user stories that follow the [INVEST](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) principle, properly
+adhering to the "CCC" (Card, Conversation, and Confirmation) format discussed.
 
-- The correct use of tools and technology, including Git, GitHub, and Lighthouse.
-
-- Answers to the questions that demonstrate understanding of the benefits and limitations of software metrics, specifically in the context of Teedy. This analysis should go beyond superficial statements, mere descriptions, and truisms, which ties specifically to the context of this assignment.
