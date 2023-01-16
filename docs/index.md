@@ -263,7 +263,7 @@ hide:
 
                     {% if schedule_day.homework.link != "" %}
                     <a class="label label-red" href="{{schedule_day.homework.link}}">
-                        <span class="material-symbols-outlined">description</span>Handout
+                        <span class="material-symbols-outlined">description</span>Instructions
                     </a>
                     {% endif %}
                 </span></td>
