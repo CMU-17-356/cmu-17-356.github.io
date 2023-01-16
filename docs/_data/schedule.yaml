@@ -510,7 +510,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Midterm'
+    name: 'Feedback'
   reading:
     link: ''
     name: ''
@@ -564,7 +564,7 @@
     numDays: 15
   lecture:
     link: ''
-    name: 'Feedback'
+    name: 'Testability'
   reading:
     link: ''
     name: ''
@@ -600,7 +600,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'TBD'
+    name: 'Midtern'
   reading:
     link: ''
     name: ''
