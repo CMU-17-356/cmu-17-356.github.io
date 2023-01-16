@@ -10,6 +10,6 @@
   link: https://www.gradescope.com/courses/494229
   icon: assets/images/logos/gradescope.png
 
-#- name: Dronuts
-#  link: Dronuts
-#  icon: assets/images/logos/drone.png
+- name: Dronuts
+  link: dronuts.md
+  icon: assets/images/logos/drone.png
