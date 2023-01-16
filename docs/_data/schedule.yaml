@@ -20,14 +20,14 @@
   homework:
     deadline: 'Due Thurs Jan 19 @ 11:59pm'
     link: ''
-    name: 'Survey'
+    name: 'Teamwork Survey'
     numDays: 2
   lecture:
     link: ''
     name: 'Introduction and Guest Lecture by Pernille Bjørn'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/BjornBoulus-Rodje2018.pdf'
+    name: 'Guest Speaker''s Paper on Infrastructural Inaccessibility'
   recitation:
     handout: ''
     name: ''

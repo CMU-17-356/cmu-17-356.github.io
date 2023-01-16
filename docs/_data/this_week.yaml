@@ -1,12 +1,12 @@
 last_homework: null
 
 lectures:
-- date: Mon Jan 16
-  link: ''
-  name: MLK Jr Day [No Class]
 - date: Tue Jan 17
   link: ''
   name: "Introduction and Guest Lecture by Pernille Bj\xF8rn"
+  reading:
+    link: readings/BjornBoulus-Rodje2018.pdf
+    name: Guest Speaker's Paper on Infrastructural Inaccessibility
 - date: Thu Jan 19
   link: ''
   name: Process, Estimation, and User Stories
@@ -19,8 +19,8 @@ next_homework:
   numDays: 3
 
 recitation:
-  date: Mon Jan 16
+  date: Mon Jan 23
   handout: ''
-  name: User Stories
+  name: Node Development
   quiz: ''
   slides: ''
