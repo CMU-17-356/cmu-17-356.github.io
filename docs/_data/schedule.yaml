@@ -23,7 +23,7 @@
     name: 'Teamwork Survey'
     numDays: 2
   lecture:
-    link: ''
+    link: 'lectures/Lecture1-Intro-wide.pdf'
     name: 'Introduction and Guest Lecture by Pernille Bjørn'
   reading:
     link: 'readings/BjornBoulus-Rodje2018.pdf'
