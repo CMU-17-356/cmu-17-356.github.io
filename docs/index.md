@@ -204,12 +204,14 @@ hide:
             <td><span class="schedule-day">{{schedule_day.date}}</span></td>
 
             <td><span class="schedule-lecture">
-                {% if schedule_day.lecture.name != "" and schedule_day.lecture.link != "" %}
-                    <a class="label label-gold" href="{{schedule_day.lecture.link}}" target="_blank">
-                        {{schedule_day.lecture.name}}
-                    </a>
-                {% elif schedule_day.lecture.name != "" %}
-                    <b>{{schedule_day.lecture.name}}</b>
+                {% if schedule_day.lecture.name != ""  %}
+                    {% if schedule_day.lecture.link != "" %}
+                        <a class="label label-gold" href="{{schedule_day.lecture.link}}" target="_blank">
+                            {{schedule_day.lecture.name}}
+                        </a>
+                    {% else %}
+                        <b>{{schedule_day.lecture.name}}</b>
+                    {% endif %}
                 {% endif %}
             </span></td>
 
@@ -219,6 +221,15 @@ hide:
                         {{schedule_day.reading.name}}
                     </a>
                 {% endif %}
+                {% if schedule_day.reading.name2 %}
+                    {% if schedule_day.reading.name2 != "" %}
+                        <a class="label label-blue" href="{{schedule_day.reading.link2}}" target="_blank">
+                            {{schedule_day.reading.name2}}
+                        </a>
+                    {% endif %}
+                {% endif %}
+
+
             </span></td>
 
             {% if schedule_day.recitation.name != "" %}
