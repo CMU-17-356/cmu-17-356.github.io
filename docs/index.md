@@ -41,6 +41,14 @@ hide:
                         <span class="material-symbols-outlined">link</span>
                         {{lecture.reading.name}}
                     </a>
+                    {% if lecture.reading.name2 %}
+                        {% if lecture.reading.name2 != "" %}
+                            <a class="label label-blue" href="{{lecture.reading.link2}}" target="_blank">
+                            <span class="material-symbols-outlined">link</span>
+                                {{lecture.reading.name2}}
+                            </a>
+                        {% endif %}
+                    {% endif %}
                 {% endif %}
                 {% if not loop.last %}
                 <hr/>
