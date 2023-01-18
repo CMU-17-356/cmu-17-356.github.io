@@ -23,13 +23,13 @@
     name: 'Teamwork Survey'
     numDays: 2
   lecture:
-    link: 'lectures/Lecture1-Intro-wide.pdf'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture1-Intro-wide.pdf'
     name: 'Introduction and Guest Lecture by Pernille Bjørn'
   reading:
-    link: 'readings/BjornBoulus-Rodje2018.pdf'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/readings/2023/BjornBoulus-Rodje2018.pdf'
     name: 'Guest Speaker''s Paper on Infrastructural Inaccessibility'
     name2: 'Guest Speaker''s Talk Slides'
-    link2: 'lectures/CMUJan2023_Festem.pdf'
+    link2: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/CMUJan2023_Festem.pdf'
   recitation:
     handout: ''
     name: ''
