@@ -42,12 +42,12 @@ As compared to User Stories:
 
 
 ## What makes a good User Story
-- ###**I**NDEPENDENT
-- ###**I**NVEST
-- ###**V**ALUABLE
-- ###**E**STIMABLE
-- ###**S**MALL
-- ###**T**ESTABLE
+### **I**NDEPENDENT
+### **I**NVEST
+### **V**ALUABLE
+### **E**STIMABLE
+### **S**MALL
+### **T**ESTABLE
 
 ## Case Study
 Consider the following product by a relatively unknown startup: [maps.google.com](https://www.google.com/maps)
@@ -56,7 +56,7 @@ Consider the following product by a relatively unknown startup: [maps.google.com
 
 For example, 
 ---
-- ###As a **delivery driver** I would like to be able to have **multiple destinations** so that I can **maximize tips by doing multiple deliveries as fast as possible**
+### As a **delivery driver** I would like to be able to have **multiple destinations** so that I can **maximize tips by doing multiple deliveries as fast as possible**
 
 ## Food for Thought
 - What are the benefits of **INVEST**?
