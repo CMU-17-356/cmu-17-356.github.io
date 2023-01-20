@@ -13,8 +13,6 @@ This recitation will give you the opportunity to familiarize yourself with user 
 - Office Hours: TBD
  
 ## What are User Stories
-
-
 The general criteria for a user story:
 - Capture a description of a software feature from an end-user perspective
 - Are used for planning
@@ -37,17 +35,17 @@ For example,
 As compared to User Stories:
 ---
 <img width="336" alt="image" src="https://user-images.githubusercontent.com/42957482/213642752-06b4f81e-5661-428f-9928-a7252f3cff18.png">
----
+
 <img width="336" alt="image" src="https://user-images.githubusercontent.com/42957482/213642775-9870b650-545d-4dec-9ef9-899ff9e7a459.png">
 
 
 ## What makes a good User Story
-### **I**NDEPENDENT
-### **I**NVEST
-### **V**ALUABLE
-### **E**STIMABLE
-### **S**MALL
-### **T**ESTABLE
+- ***I***NDEPENDENT
+- ***N***EGOTIABLE
+- ***V***ALUABLE
+- ***E***STIMABLE
+- ***S***MALL
+- ***T***ESTABLE
 
 ## Case Study
 Consider the following product by a relatively unknown startup: [maps.google.com](https://www.google.com/maps)
@@ -56,7 +54,7 @@ Consider the following product by a relatively unknown startup: [maps.google.com
 
 For example, 
 ---
-### As a **delivery driver** I would like to be able to have **multiple destinations** so that I can **maximize tips by doing multiple deliveries as fast as possible**
+- As a ***delivery driver*** I would like to be able to have ***multiple destinations*** so that I can ***maximize tips by doing multiple deliveries as fast as possible***
 
 ## Food for Thought
 - What are the benefits of **INVEST**?
