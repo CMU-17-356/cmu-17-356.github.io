@@ -1,29 +1,28 @@
-last_homework: null
-
-lectures:
-- date: Tue Jan 17
-  link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture1-Intro-wide.pdf'
-  name: "Introduction and Guest Lecture by Pernille Bj\xF8rn"
-  reading:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/readings/2023/BjornBoulus-Rodje2018.pdf'
-    name: Guest Speaker's Paper on Infrastructural Inaccessibility
-    link2: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/CMUJan2023_Festem.pdf'
-    name2: Guest Speaker's Talk Slides
-- date: Thu Jan 19
-  link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture2-IntroToProcess-wide.pdf'
-  name: Process, Estimation, and User Stories
-
-next_homework:
+last_homework:
   date: Thu Jan 19
   deadline: Due Tues Jan 24 @ 11:59pm
-  link: 'assignments/HW1'
+  link: assignments/HW1
   name: User Stories
   numDays: 3
 
+lectures:
+- date: Tue Jan 24
+  link: ''
+  name: Quality Assurance (CI, Tools, TDD)
+- date: Thu Jan 26
+  link: ''
+  name: Architecture, Prototyping, and Prioritization
+
+next_homework:
+  date: Tue Jan 24
+  deadline: Due Thurs Feb 2 @ 11:59pm
+  link: ''
+  name: Sprint 0
+  numDays: 7
+
 recitation:
-  date: Mon Jan 23
+  date: Mon Jan 30
   handout: ''
-  name: User Stories
+  name: React
   quiz: ''
   slides: ''
-
