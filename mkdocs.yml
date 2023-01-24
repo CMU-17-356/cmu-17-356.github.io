@@ -57,8 +57,8 @@ nav:
   - Teamwork Practices: teamwork.md
   - Staff: staff.md
   - Assignments: #assignments/index.md # Dummy home page; remove once we start adding assignments below
-    - Homework 1: assignments/HW1.md
-    # - Homework 2: assignments/HW2.md
+      - Homework 1: assignments/HW1.md
+      - Homework 2: assignments/HW2.md
     # - Homework 3: assignments/HW3.md
     # - Homework 4: assignments/HW4.md
     # - Homework 5: assignments/HW5.md
@@ -73,13 +73,13 @@ nav:
     # - Recitation 8: recitations/reci8-static-analysis-ci.md
     # - Recitation 9: recitations/reci9-open-source.md
   - Dronuts: 
-    - Overview: dronuts.md  
-    - Design Assets: project/brand.md
-    - Node.JS: project/node_js.md
-    - Credit API: project/credit_api.md
-    - Drone API: project/drone_api.md
-    - MVC: project/mvc.md
-    - Docker: project/docker.md
-    - Deployment: project/deployment.md
+      - Overview: dronuts.md  
+      - Design Assets: project/brand.md
+      - Node.JS: project/node_js.md
+      - Credit API: project/credit_api.md
+      - Drone API: project/drone_api.md
+      - MVC: project/mvc.md
+      - Docker: project/docker.md
+      - Deployment: project/deployment.md
 
 
