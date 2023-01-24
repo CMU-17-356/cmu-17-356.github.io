@@ -85,7 +85,7 @@
     link: ''
     name: ''
   recitation:
-    handout: 'https://github.com/CMU-17-356/cmu-17-356.github.io/blob/main/docs/recitations/reci1-user-stories'
+    handout: 'https://github.com/CMU-17-356/cmu-17-356.github.io/blob/main/docs/recitations/reci1-user-stories.md'
     name: 'User Stories'
     quiz: ''
     slides: ''
