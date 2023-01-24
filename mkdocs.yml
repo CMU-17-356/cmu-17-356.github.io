@@ -63,7 +63,7 @@ nav:
     # - Homework 4: assignments/HW4.md
     # - Homework 5: assignments/HW5.md
     # - Homework 6: assignments/HW6.md
-  - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
+  - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
     - Recitation 1: recitations/reci1-user-stories.md
     # - Recitation 2: recitations/reci2-angularjs.md
     # - Recitation 3: recitations/reci3-archaeology.md
