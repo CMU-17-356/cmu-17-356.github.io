@@ -14,7 +14,7 @@
     handout: ''
     name: 'User Stories'
     quiz: ''
-    slides: ''
+    slides: 'recitations/reci1-user-stories'
 
 - date: Tue Jan 17
   homework:
@@ -85,8 +85,8 @@
     link: ''
     name: ''
   recitation:
-    handout: 'https://github.com/CMU-17-356/cmu-17-356.github.io/blob/main/docs/recitations/reci1-user-stories.md'
-    name: 'User Stories'
+    handout:
+    name: ''
     quiz: ''
     slides: ''
 
