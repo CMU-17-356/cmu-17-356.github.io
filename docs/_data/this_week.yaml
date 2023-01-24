@@ -7,11 +7,11 @@ last_homework:
 
 lectures:
 - date: Tue Jan 24
-  link: ''
+  link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture3-QualityAssurance-wide.pdf'
   name: Quality Assurance (CI, Tools, TDD)
 - date: Thu Jan 26
   link: ''
-  name: Architecture, Prototyping, and Prioritization
+  name: Prototyping and Prioritization
 
 next_homework:
   date: Tue Jan 24
