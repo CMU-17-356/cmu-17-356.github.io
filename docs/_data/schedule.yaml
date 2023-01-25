@@ -56,10 +56,10 @@
 
 - date: Thu Jan 19
   homework:
-    deadline: 'Due Tues Jan 24 @ 11:59pm'
+    deadline: 'Due Fri Jan 27 @ 11:59pm'
     link: 'assignments/HW1'
     name: 'User Stories'
-    numDays: 3
+    numDays: 6
   lecture:
     link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture2-IntroToProcess-wide.pdf'
     name: 'Process, Estimation, and User Stories'
@@ -151,8 +151,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Prototyping and Prioritization'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture4-Process-Prior-Estim-Proto-wide.pdf'
+    name: 'Prioritization and Process'
   reading:
     link: ''
     name: ''
