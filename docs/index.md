@@ -94,7 +94,7 @@ hide:
     </div>
 
     <div class="header">
-        TA Office Hours
+        Office Hours
     </div>
     <div class="content">
         Held on the first floor lobby of TCS. See <a href="#class-calendar">class calendar</a> below for exact times!
