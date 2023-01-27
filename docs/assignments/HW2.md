@@ -10,7 +10,7 @@ title: HW2 Sprint 0
 
 Due on Gradescope Thursday, February 2, 2023 11:59pm<br/>
 
-This homework is to be done individually.<br/>
+This homework is to be done and submitted as a team.<br/>
 </p>
 
 ## Learning Goals
@@ -55,10 +55,11 @@ This homework is to be done individually.<br/>
 
 ### Prepare to write the first line(s) of productive code.
 
+- Choose a name for your team.
 - Agree upon and configure development communication tools, e.g. Slack, etc...
 - Agree upon and configure your project management infrastructure, including bug tracking, task management, etc... We suggest that you use GitHub Issues. 
--	Create a repo for your team using [Github classroom](https://classroom.github.com/g/RBdE2ltJ). NOTE: only one student should make the assignment repo, then add the rest of the team. DM us on Slack if you have issues.
-- If you would like to try out a spoken, voice-based version of GitHub Copilot, DM us on Slack. We have an offer from someone at GitHub to let you all test it out. 
+-	Create a repo for your team using [Github classroom](https://classroom.github.com/a/gHfJdaqu). NOTE: only one student should make the assignment repo, then add the rest of the team. DM us on Slack if you have issues.
+- If you would like to try out a spoken, voice-based version of GitHub Copilot called Hey, Github, DM us on Slack. We have an offer from someone at GitHub to let you all test it out. You'll need to (register for the student version of GitHub Copilot)[https://education.github.com/students] first.
 - Write a simple "hello-world" app with a test (even if it’s fake) and follow the application instructions in README that will be cloned into your classroom repo. 
 - Setup your team's development infrastructure, including development environment, Continuous Integration (CI), code style (via linter), and deployment pipeline, as per the README. We suggest you use GitHub Actions for CI. 
 - Deploy your "hello-world" application for the world to see!
