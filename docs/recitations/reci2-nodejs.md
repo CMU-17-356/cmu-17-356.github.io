@@ -68,7 +68,7 @@ The largest ecosystem of open-source libraries in the world
 2. `npm init`
 3. `npm install express --save`
 4. `npm install body-parser --save`
-5. Write express code, as seen in the reference solution
+5. Write express code, as seen in the [reference](https://github.com/CMU-17-356/cmu-17-356.github.io/tree/main/resources/recitations/2021/Recitation%202/todo-app) solution
 6. `node index.js` (to start the server)
 7. (optional) Play with the server, send it post requests
 
