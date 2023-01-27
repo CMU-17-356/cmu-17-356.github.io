@@ -6,7 +6,7 @@ title: HW2 Sprint 0
 
 
 <p style="text-align: center;">
-50 points<br/>  
+55 points<br/>  
 
 Due on Gradescope Thursday, February 2, 2023 11:59pm<br/>
 
@@ -68,17 +68,23 @@ This homework is to be done and submitted as a team.<br/>
 
 **Note: As mentioned, instructions for getting started can be found in the README.MD once you setup your classroom repo. This includes creating/joining a GitHub team, creating a repository, setting up GitHub Actions, Docker, and deploying on a cloud server instance.**
 
+### Do something fun (non-scholastic) with your team.
+
+- Getting to know your colleagues in a friendly context can often lead to more effective collaboration; healthy teams often get lunch together, for example. To incentivize this, we will give your team 5% extra credit for this assignment if you meet as a team outside of a working session. You might want to eat together or go out for boba tea. If someone on your team is not feeling well, you may also do a virtual activity, such as an online gaming session (perhaps [drawasaurus](https://www.drawasaurus.org)) or social "zoom lunch." 
+
 ## Deliverables
 
 You will submit this assignment via gradescope, Homework 2.
 
 Turn in one document that includes
 
-- Your team's name.
-- A link to your team’s product backlog (i.e., your GitHub Projects board).
+- Your team's name
+- A link to your team’s product backlog (i.e., your GitHub Projects board)
 - A short justification for which user stories you are including in your MVP
 - A short document that describes which backend framework you are choosing, and why you decided on that framework
 - A URL which is running your starter repository
+
+To earn your extra credit, email [startups-staff](mailto:startups-staff@lists.andrew.cmu.edu) with a picture of your team outing or screenshot of your virtual activity showing everyone who participated. 
 
 ## Grading
 
