@@ -32,13 +32,14 @@ This homework is to be done and submitted as a team.<br/>
 
 - Reconcile all individual user stories into a backlog of team user stories. For this project, we require you to work within the Github ecosystem.
     - Take advantage of the Github Projects kanban board.
-    - Each item on the board should be a separate Github Issue. All Github Issues should be linked to a Pull Request and an assignee.
+    - Each item on the board should be a separate Github Issue. All Github Issues should be linked to a Pu
+    ll Request and an assignee.
     - Explore [GitHub Documentation](https://docs.github.com/) for a great guide on these tools! 
     - You should have the following columns categories (you can rename any of them as you see fit):
         - Backlog
         - Sprint To-Dos
         - In Progress
-        -	Done
+        - Done
 - Estimate the amount of time your team will take to implement each user story, and justify your estimation.
 - Write a document listing the user stories your team will include in the MVP and which your team will not. Add a SHORT justification for each user story decision. NOTE: you cannot select more than 40 hours worth of work in a single week, per team.
 
@@ -55,7 +56,8 @@ This homework is to be done and submitted as a team.<br/>
 
 ### Prepare to write the first line(s) of productive code.
 
-- Choose a name for your team.
+- Choose a name for your team. 
+    - You will be working on your team repository for this project. First, collectively choose a team name. Your team name should be unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multi-lingual children.
 - Agree upon and configure development communication tools, e.g. Slack, etc...
 - Agree upon and configure your project management infrastructure, including bug tracking, task management, etc... We suggest that you use GitHub Issues. 
 -	Create a repo for your team using [Github classroom](https://classroom.github.com/a/gHfJdaqu). NOTE: only one student should make the assignment repo, then add the rest of the team. DM us on Slack if you have issues.
@@ -72,6 +74,7 @@ You will submit this assignment via gradescope, Homework 2.
 
 Turn in one document that includes
 
+- Your team's name.
 - A link to your team’s product backlog (i.e., your GitHub Projects board).
 - A short justification for which user stories you are including in your MVP
 - A short document that describes which backend framework you are choosing, and why you decided on that framework
