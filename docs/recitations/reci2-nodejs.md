@@ -60,7 +60,7 @@ The largest ecosystem of open-source libraries in the world
 
 ## A SIMPLE TO-DO APP USING NODE.JS
 
-1. `mkdir` your project folder (todo-app) and `cd` into it
+1. `mkdir` into your project folder (todo-app) and `cd` into it
 2. `npm init`
 3. `npm install express --save`
 4. `npm install body-parser --save`
