@@ -2,7 +2,7 @@
 title: Recitation 2 - Node.js
 ---
 
-# Recitation 1: Node.js
+# Recitation 2: Node.js
 
 ## Overview
 This recitation aims to highlight the basics of Node.js by walking students through the implementation of a basic To-Do app.
