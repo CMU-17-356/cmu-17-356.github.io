@@ -65,13 +65,13 @@ nav:
     # - Homework 6: assignments/HW6.md
   - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
     - Recitation 1: recitations/reci1-user-stories.md
-    # - Recitation 2: recitations/reci2-angularjs.md
-    # - Recitation 3: recitations/reci3-archaeology.md
-    # - Recitation 4: recitations/reci4-dysfunction.md
-    # - Recitation 6: recitations/reci6-midterm-review.md
-    # - Recitation 7: recitations/reci7-machine-learning.md
-    # - Recitation 8: recitations/reci8-static-analysis-ci.md
-    # - Recitation 9: recitations/reci9-open-source.md
+    - Recitation 2: recitations/reci2-nodejs.md
+    # - Recitation 3: recitations/reci3-.md
+    # - Recitation 4: recitations/reci4-.md
+    # - Recitation 6: recitations/reci6-.md
+    # - Recitation 7: recitations/reci7-.md
+    # - Recitation 8: recitations/reci8-.md
+    # - Recitation 9: recitations/reci9-.md
   - Dronuts: 
       - Overview: dronuts.md  
       - Design Assets: project/brand.md
