@@ -66,13 +66,18 @@ This homework is to be done and submitted as a team.<br/>
 - Setup your team's development infrastructure, including development environment, Continuous Integration (CI), code style (via linter), and deployment pipeline, as per the README. We suggest you use GitHub Actions for CI. 
 - Deploy your "hello-world" application for the world to see!
 
-**Note: As mentioned, instructions for getting started can be found in the README.MD once you setup your classroom repo. This includes creating/joining a GitHub team, creating a repository, setting up GitHub Actions, Docker.**
+**Instructions for getting started can be found in the README.MD once you setup your classroom repo. This includes creating/joining a GitHub team, creating a repository, setting up GitHub Actions, Docker.**
 
-**For deployment on a cloud server instance, the instructors suggest using fly.io which allows free deployment (until a memory limit within the course requirements). The following links will help with setting up the service.
-- **https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
-- **https://nodejs.org/en/docs/guides/getting-started-guide/
-- **https://fly.io/docs/languages-and-frameworks/dockerfile/ (initial setup may require providing credit card details but you will not be charged)
-- **NOTE About names: https://community.fly.io/t/cannot-choose-region-on-launch/4949
+### Cloud Deployment
+
+For deployment on a cloud server instance, the instructors suggest using [fly.io](fly.io) which allows free deployment for small projects. The following links will help with setting up the service.
+
+- [How do I start with Node.js after I installed it?](https://nodejs.org/en/docs/guides/getting-started-guide/)
+- [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+- [Deploy via Dockerfile](https://fly.io/docs/languages-and-frameworks/dockerfile/) 
+    - Initial setup with fly.io may require providing credit card details, but you will not be charged.
+    - Your app name must comprise only lowercase letters, numbers, and hyphens.
+        - [fly.io Bug Report about app names](https://community.fly.io/t/cannot-choose-region-on-launch/4949)
 
 
 ### Do something fun (non-scholastic) with your team.
