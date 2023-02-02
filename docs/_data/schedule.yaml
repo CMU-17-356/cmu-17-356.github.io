@@ -241,8 +241,8 @@
     name: 'Sprint 1'
     numDays: 10
   lecture:
-    link: ''
-    name: 'High-level Design and Intro to Design Exercise'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture6-Prototyping-wide.pdf'
+    name: 'Prototypes'
   reading:
     link: ''
     name: ''
