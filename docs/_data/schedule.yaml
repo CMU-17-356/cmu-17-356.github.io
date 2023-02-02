@@ -237,7 +237,7 @@
 - date: Thu Feb 02
   homework:
     deadline: 'Due Thurs Feb 16 @ 11:59pm'
-    link: ''
+    link: 'assignments/HW3'
     name: 'Sprint 1'
     numDays: 10
   lecture:

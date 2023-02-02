@@ -53,13 +53,12 @@ nav:
   - Home: index.md
   - Overview: overview.md
   - Syllabus: syllabus.md
-  - Weekly Schedule: schedule.md
   - Teamwork Practices: teamwork.md
   - Staff: staff.md
   - Assignments: #assignments/index.md # Dummy home page; remove once we start adding assignments below
       - Homework 1: assignments/HW1.md
       - Homework 2: assignments/HW2.md
-    # - Homework 3: assignments/HW3.md
+      - Homework 3: assignments/HW3.md
     # - Homework 4: assignments/HW4.md
     # - Homework 5: assignments/HW5.md
     # - Homework 6: assignments/HW6.md
