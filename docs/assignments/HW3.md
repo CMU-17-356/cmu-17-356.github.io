@@ -32,7 +32,7 @@ In this homework, you will work to conduct your first sprint with your team towa
 ### Object Data Model
 
 
-An Object Data Model (ODM) is a way of specifying the format of data your application will interact with.  There are [many different ways](https://www.lucidchart.com/pages/database-diagram/database-models) of developing an ODM; ranging from building object-oriented class structures to contain data (like you may have learned in 15-214), creating a database schema (like in SQL) or even as a formal UML diagram. Creating an ODM is crucial any time different components of an application are to interact (for example, a database and server-side application, or a MVC frontend and a server-side application).
+An Object Data Model (ODM) is a way of specifying the format of data your application will interact with.  There are [many different ways](https://www.lucidchart.com/pages/database-diagram/database-models) of developing an ODM; ranging from building object-oriented class structures to contain data (like you may have learned in 17-214), creating a database schema (like in SQL) or even as a formal UML diagram. Creating an ODM is crucial any time different components of an application are to interact (for example, a database and server-side application, or a MVC frontend and a server-side application).
 
 In this assignment, we will be focused on creating a document-based object data model.  In Javascript, objects can be represented in a format called [JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json).  For instance, a User might be represented as follows:
 
@@ -77,7 +77,7 @@ To combat this, your application should programmatically validate objects, as de
 
 ### Mongoose
 
-Neither Express.JS nor Fastify.do include built-in functionality for defining data models. You should install [Mongoose.js](https://mongoosejs.com), a package for validating JSON objects for the mongodb database:
+Neither Express.JS nor Fastify.io include built-in functionality for defining data models. You should install [Mongoose.js](https://mongoosejs.com), a package for validating JSON objects for the mongodb database:
 
 - Install and save the mongoose package to your project repository.
 - Create Schema objects for all of the objects in your ODM.  Follow [this guide](http://mongoosejs.com/docs/guide.html#definition).
