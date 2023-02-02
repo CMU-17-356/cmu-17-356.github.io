@@ -104,7 +104,7 @@ Using **React.js**, your team should develop a prototype:
 
 - Develop a **view-only** prototype for the 1-3 largest user stories in your project.  What you do not accomplish in this sprint, you will need to accomplish later, so budget your time appropriately.  This should be a prototype, so while it should demonstrate how a user will interact with the system, it does not need to be "pixel perfect."  Because it is view only, you should be able to navigate across pages, but you do not need to implement any part of the back end (data processing, validation, generation) at this point.
 
-- You will be deploying your application to be hosted on the cloud. Details about accessing your credits for deployment will follow via Slack; please ensure that your submission deploys correctly upon submission of your assignment.
+- You will be deploying your application to be hosted on the cloud. Please ensure that your submission deploys correctly upon submission of your assignment.
 
 *NOTE:* In recent iterations of React, there has been a shift from class-based components to functional components. Each of these has their own style of React development associated with it. The TAs in recitation will prioritize teaching functional components, and this is what we recommend using; however, the choice is ultimately yours. For more info about the differences between the two, see [Understanding Functional Components vs. Class Components in React](https://www.twilio.com/blog/react-choose-functional-components).
 
@@ -120,15 +120,22 @@ We expect your team to set up CI for your web apps. Please do not use Travis CI.
 - [How to build a CI/CD pipeline with GitHub Actions in four simple steps](https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/)
 - [Creating a CI/CD pipeline using Github Actions](https://medium.com/@michaelekpang/creating-a-ci-cd-pipeline-using-github-actions-b65bb248edfe)
 
+### Releasing your work
+
+Just before turning in your assignment, one person on your team should create a [GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). 
+
 ## Deliverables
+
+
 
 The deliverables for this assignment are
 
-1. A link to the team's Object Data Model in their group repository wiki
-2. A link to the paper prototype page of your team's repo.  Each team member should upload their paper prototypes there, they can be organized on different pages, but they should all link from a single page.
-3. An implementation of the Object Data Model in either Fastify.io or Express.js, committed to your team's repository
-4. A Typescript-based frontend prototype implemented in React.js, committed to your team's repository.
+1. A link to your team's Object Data Model in the group's repository wiki
+2. A link to the paper prototype page of your team's repo. Each team member should upload their paper prototypes there. They can be organized on different pages, but they should all link from a single page.
+3. A link to the web page for your released deliverables. This release should contain
+    1. An implementation of the Object Data Model in either Fastify.io or Express.js, committed to your team's repository. 
+    2. A Typescript-based frontend prototype implemented in React.js, committed to your team's repository.
 
 ## Additional Criteria
 
-We will be strictly enforcing and grading your team’s process; i.e., we want to see all PRs close issues and issues tied to cards on your Github Kanban board with assigned individuals. Failure to adhere to these practices will result in deductions.
+We will be strictly enforcing and grading your team’s process; i.e., we want to see all PRs, close issues, and issues tied to cards on your Github Kanban board with individuals assigned to each. Failure to adhere to these practices will result in deductions.
