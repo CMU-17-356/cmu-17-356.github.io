@@ -132,7 +132,7 @@ The deliverables for this assignment are
 
 1. A link to your team's Object Data Model in the group's repository wiki
 2. A link to the paper prototype page of your team's repo. Each team member should upload their paper prototypes there. They can be organized on different pages, but they should all link from a single page.
-3. A link to the web page for your released deliverables. This release should contain
+3. A link to the GitHub web page for your released deliverables. This release should contain
     1. An implementation of the Object Data Model in either Fastify.io or Express.js, committed to your team's repository. 
     2. A Typescript-based frontend prototype implemented in React.js, committed to your team's repository.
 
