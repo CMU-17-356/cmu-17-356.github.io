@@ -10,8 +10,8 @@ lectures:
   link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture5-CodeReview-wide.pdf
   name: Code Review
 - date: Thu Feb 02
-  link: ''
-  name: High-level Design and Intro to Design Exercise
+  link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture6-Prototyping-wide.pdf'
+  name: 'Prototypes'
 
 next_homework:
   date: Thu Feb 02
