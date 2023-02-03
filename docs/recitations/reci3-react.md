@@ -2,7 +2,7 @@
 title: Recitation 3 - React
 ---
 
-# Recitation 2: React (Frontend)
+# Recitation 3: React (Frontend)
 
 ## Concept: Frontend
 
