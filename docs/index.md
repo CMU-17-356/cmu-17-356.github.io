@@ -185,7 +185,7 @@ hide:
 
 ## Office Hours Calendar
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=WEEK&showTitle=1&showTabs=1&showCalendars=0&showTz=1&src=Y19hYjcxZWI3YzcwNjYzMDU3NjI2OGFiNmE2OWVlOWYwZjIxNGZiYjU3ZTQ3ZGQxYzQ1MWQ5NjZkZTU4MmM1ZWQzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23EF6C00" style="border-width:0" width="1024" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=WEEK&showNav=1&showDate=1&showPrint=1&showCalendars=0&title=CMU%2017-356%20Office%20Hours&src=Y19hYjcxZWI3YzcwNjYzMDU3NjI2OGFiNmE2OWVlOWYwZjIxNGZiYjU3ZTQ3ZGQxYzQ1MWQ5NjZkZTU4MmM1ZWQzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23EF6C00" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 
