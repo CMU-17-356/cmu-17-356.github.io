@@ -295,8 +295,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture7-Testability-wide.pdf'
-    name: 'Testability'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture7-MVP-Viability-wide.pdf'
+    name: 'Minimal Viable Product (MVP)'
   reading:
     link: ''
     name: ''
@@ -331,8 +331,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture8-MVP-Viability-wide.pdf'
-    name: 'Minimal Viable Product (MVP)'
+    link: ''
+    name: 'Minimal Viable Product (MVP) continued'
   reading:
     link: ''
     name: ''
@@ -385,8 +385,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'MVP (continued)'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture7-Testability-wide.pdf'
+    name: 'Testability'
   reading:
     link: ''
     name: ''
