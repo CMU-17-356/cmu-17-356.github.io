@@ -13,4 +13,4 @@ include information about battery capacity, location, and delivery status.
 
 * You can send drones out on delivery using the `/drones/{id}/send` endpoint.
 
-The DroneAPI is accessible at `https://drone-api-cmu-17-356-s23.herokuapp.com`.
+The DroneAPI is accessible at `https://356-drone-api.fly.dev/`.
