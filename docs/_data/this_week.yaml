@@ -10,13 +10,13 @@ lectures:
   link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture7-MVP-Viability-wide.pdf
   name: Minimal Viable Product (MVP)
 - date: Thu Feb 09
-  link:
-  name:
+  link: ''
+  name: Minimal Viable Product (MVP) continued
 next_homework: null
 
 recitation:
   date: Mon Feb 06
   handout: ''
-  name: Testing and Git Flow
+  name: 'Typescript'
   quiz: ''
   slides: ''
