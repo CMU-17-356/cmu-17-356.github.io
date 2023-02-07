@@ -196,7 +196,7 @@
     handout: ''
     name: 'React'
     quiz: ''
-    slides: ''
+    slides: 'recitations/reci3-react'
 
 - date: Tue Jan 31
   homework:
