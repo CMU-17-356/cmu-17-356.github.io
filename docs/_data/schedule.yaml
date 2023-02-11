@@ -374,7 +374,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Testing and Git Flow'
+    name: 'React and the Outside World'
     quiz: ''
     slides: ''
 
@@ -385,8 +385,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture7-Testability-wide.pdf'
-    name: 'Testability'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture9-Feedback-wide.pdf'
+    name: 'Feedback'
   reading:
     link: ''
     name: ''
@@ -422,7 +422,7 @@
     numDays: 8
   lecture:
     link: ''
-    name: 'Deployment Challenges'
+    name: 'Cloud Services and DevOps'
   reading:
     link: ''
     name: ''
@@ -464,7 +464,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'React and the Outside World'
+    name: 'Testing and Git Flow'
     quiz: ''
     slides: ''
 
@@ -476,7 +476,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'DevOps'
+    name: 'Cloud Deployment'
   reading:
     link: ''
     name: ''
@@ -512,7 +512,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Feedback'
+    name: 'Testability'
   reading:
     link: ''
     name: ''
@@ -566,7 +566,7 @@
     numDays: 15
   lecture:
     link: ''
-    name: 'Testability'
+    name: 'Introduction to Pitch Presentations'
   reading:
     link: ''
     name: ''
