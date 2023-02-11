@@ -21,7 +21,7 @@ export as PDF before submitting. Include your name and Andrew ID at the top of t
 In this homework, you will familiarize yourself with the Dronuts project startup idea and then
 practice refining a vague, high-level idea into user stories.
 
-### References:
+### References
 
 - [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
 - [New to Agile? INVEST in good user stories](http://agileforall.com/new-to-agile-invest-in-good-user-stories/)
@@ -46,7 +46,7 @@ set should be concise, but it need not be perfectly minimal.
 teammates’, and select those to put into your backlog as part of your MVP.)
 - Rank the user stories in terms of their importance to your efforts to produce an MVP.
 
-### Deliverables:
+### Deliverables
 
 You will submit this assignment via gradescope, Homework 1.
 
