@@ -286,7 +286,7 @@
     handout: ''
     name: 'Typescript'
     quiz: ''
-    slides: ''
+    slides: 'recitations/reci4-typescript'
 
 - date: Tue Feb 07
   homework:
