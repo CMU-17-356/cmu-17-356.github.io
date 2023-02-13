@@ -28,17 +28,33 @@ title: Recitation 4 - Typescript
 - The presence of a tsconfig.json file in a directory indicates that the directory is the root of a TypeScript project.
 - The tsconfig.json file specifies the root files and the compiler options required to compile the project.
 
+<img width="380" alt="image" src="https://user-images.githubusercontent.com/20667665/218348278-48b6c10b-e00f-4604-9469-65f8b24b8f02.png">
+
 ## How to make your variables strongly typed
+
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/20667665/218348318-acae66d6-718b-4e4e-a66c-960dbc26ddf7.png">
 
 - Not specifying a type/using the type "any" - NOT A GREAT PRACTICE!
 
+<img width="619" alt="image" src="https://user-images.githubusercontent.com/20667665/218348348-90cd6e19-e604-49f7-a8de-2828ad59f425.png">
+
 ## Creating custom types
+
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/20667665/218348414-2b2df1ea-a69d-44af-b72c-31cefccf5ea1.png">
+
+<img width="329" alt="image" src="https://user-images.githubusercontent.com/20667665/218348451-69a76fdd-6518-4ca2-8832-0a1b597e8283.png">
 
 ## Strong typing a function
 
+<img width="596" alt="image" src="https://user-images.githubusercontent.com/20667665/218348484-77a95838-e1bc-446d-b649-d01e38415a62.png">
+
 ## Strong typing arrays/lists
 
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/20667665/218348509-13cf8e46-1c13-44d9-bb94-a485b45d85c2.png">
+
 ## Generics
+
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/20667665/218348534-49943ad9-3d13-44f7-9819-8f60d3369bb7.png">
 
 ## Experiment with TS
 - Create a react typescript app
