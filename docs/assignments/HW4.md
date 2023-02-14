@@ -13,6 +13,7 @@ Due on Gradescope Thursday, February 28, 2023 11:59pm<br/>
 
 This homework is to be done and submitted as a team.<br/>
 
+A portion of this assignment will be graded for you individually and the other portion will be graded for your team as a whole.<br/>
 </p>
 
 ## Learning Goals
@@ -35,6 +36,8 @@ Your team should spend the majority of this sprint finishing your MVP and deploy
 
 During the week of **Feb 20 - Feb 24**, we require that every team visit Office Hours so the TAs can take a look at your team's work. This is to make sure that all teams make constant steady progress towards their MVP. 
 
+Sign up for your time slot on this [Google Sheet](http://bit.ly/3E4kamy). 
+
 When you visit, please show the following:
 
 1. **Prototyped frontend.** Have some version of your frontend ready to show, whether that be a simple static layout of your app’s elements, or a fully dynamic and interactive frontend application.
@@ -52,7 +55,7 @@ All team members should be making pull requests (PRs) when adding/pushing new co
 - Pull Request merged with at least one +1 from a reviewer
 - Add at least one constructive comment on another team member’s Pull Request
 
-We will visit your GitHub repo to check that these have occurred with timestamps prior to the assignment deadline of Feb 28.
+We will visit your GitHub repo to check that these have occurred with timestamps prior to the assignment deadline of Feb 28. If GitHub fails to show any evidence of your work, you will lose points from the individual portion of your grade.
 
 ## Final Team Deliverables 
 
@@ -64,7 +67,7 @@ We will visit your GitHub repo to check that these have occurred with timestamps
     - Each team member should present a single user story (e.g., selecting donuts from the menu, completing a transaction, fulfilling an order, marking it for delivery, etc).
     - Your walkthrough should focus on explaining how the software is to be used from a user-perspective. Take for example, [this video walkthrough of how to use Gmail](https://www.youtube.com/watch?v=9JiOOda0n3w), or the [Dropbox video](https://youtu.be/7QmCUDHpNzE) we discussed in class.
     - There are a lot of tools which you can use to prepare your demo video. Choose the one you’re most comfortable with. We recommend [Loom](https://www.loom.com/), a Chrome extension which allows you to easily record a screen grab along with narration. Another good one is Quicktime Player if you work on a MacBook.
-    - Once you've created your video, upload it to YouTube. 
+    - Once you've created your video, upload it to YouTube and make a note of the URL. 
 
 Submit **both** your writeup and URL to your walkthrough video to Gradescope.
 
