@@ -70,7 +70,7 @@ This homework is to be done and submitted as a team.<br/>
 
 ### Cloud Deployment
 
-For deployment on a cloud server instance, the instructors suggest using [fly.io](fly.io) which allows free deployment for small projects. The following links will help with setting up the service.
+For deployment on a cloud server instance, the instructors suggest using [fly.io](https://fly.io) which allows free deployment for small projects. The following links will help with setting up the service.
 
 - [How do I start with Node.js after I installed it?](https://nodejs.org/en/docs/guides/getting-started-guide/)
 - [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
