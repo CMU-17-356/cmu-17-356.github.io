@@ -9,7 +9,7 @@ title: HW4 Sprint 2
 <p style="text-align: center;">
 100 points<br/>  
 
-Due on Gradescope Thursday, February 28, 2023 11:59pm<br/>
+Due on Gradescope Tuesday, February 28, 2023 11:59pm<br/>
 
 This homework is to be done and submitted as a team.<br/>
 
