@@ -464,9 +464,9 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Testing and Git Flow'
+    name: 'Midterm Prep'
     quiz: ''
-    slides: ''
+    slides: 'sampleExams/midterm2022.pdf'
 
 - date: Tue Feb 21
   homework:
@@ -602,7 +602,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Midtern'
+    name: 'Midterm'
   reading:
     link: ''
     name: ''
