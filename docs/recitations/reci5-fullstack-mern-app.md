@@ -1,8 +1,8 @@
 ---
-title: Recitation 4 - Typescript
+title: Recitation 5 - Fullstack MERN app
 ---
 
-# Recitation 4: Typescript (Frontend)
+# Recitation 5: Fullstack MERN app
 
 ## Staff Overview
 - Mehul Agarwal & Rohit Nanjangud Shreenivas
