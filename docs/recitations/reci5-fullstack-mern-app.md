@@ -21,7 +21,7 @@ title: Recitation 5 - Fullstack MERN app
 - We've used mongoose library for ODM and interacting with the db
 - On line 14, ``mongoose.connect(<mongodb-atlas-url>);`` you need to replace the url with your mongodb url
 - To setup a cloud mongodb, go to ``https://www.mongodb.com/atlas/database``, setup a free tier db and get the connection link
-- Your URL should look something similar to this: ``mongodb://<username>:<password>@mers-fs-app.xg3etjm.mongodb.net/<dbname>?retryWrites=true&w=majority;``
+- Your URL should look something similar to this: ``mongodb+srv://<username>:<password>@mers-fs-app.xg3etjm.mongodb.net/<dbname>?retryWrites=true&w=majority;``
 - Once you set this up, you can use ``node index.js`` from the ``server`` directory to bring up the backend server
 
 ## To run the frontend server
