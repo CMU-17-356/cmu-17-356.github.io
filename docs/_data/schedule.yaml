@@ -376,7 +376,7 @@
     handout: ''
     name: 'React and the Outside World'
     quiz: ''
-    slides: ''
+    slides: 'recitations/reci5-fullstack-mern-app'
 
 - date: Tue Feb 14
   homework:
