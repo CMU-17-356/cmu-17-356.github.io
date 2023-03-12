@@ -1,28 +1,23 @@
 last_homework:
-  date: Thu Feb 16
-  deadline: Due Tues Feb 28 @ 11:59pm
-  link: ''
-  name: Sprint 2
-  numDays: 8
-
-lectures:
-- date: Tue Feb 28
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture13-IntroPresentations-wide.pdf
-  name: Introduction to Pitch Presentations
-- date: Thu Mar 02
-  link: ''
-  name: Midterm
-
-next_homework:
   date: Tue Feb 28
   deadline: Due Tue Mar 21 @ 11:59pm
-  link: ''
+  link: assignments/HW5
   name: Sprint 3 (MVP)
   numDays: 15
 
+lectures:
+- date: Tue Mar 14
+  link: ''
+  name: Pitch Deck Presentations 1
+- date: Thu Mar 16
+  link: ''
+  name: Pitch Deck Presentations 2
+
+next_homework: null
+
 recitation:
-  date: Fri Mar 03
+  date: Mon Mar 13
   handout: ''
-  name: Creating Your Pitch Deck
+  name: Deployment Help
   quiz: ''
   slides: ''
