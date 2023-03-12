@@ -57,13 +57,21 @@ Submit the URL to your release to Gradescope.
 
 ## Individual Deliverable
 
-As this is your final sprint for the Dronuts application, you should write a 1-page reflection on your experiences. Some of the points that you should reflect upon include the following:
+As this is your final sprint for the Dronuts application, you should write a 1-2 page reflection on your experiences. Some of the points that you should reflect upon include the following:
 
-- What new skills did you learn? 
-- What went well?
-- What went poorly?
-- What do you wish you had done differently? 
-- What would you have done the same?
+- The project, itself:
+    - How did your project turn out? 
+    - Did your team complete everything you expected? Why or why not?
+    - Are you satisfied with its functionality? Why?
+    - Are you satisfied with its quality? Why?
+- Your individual performance:
+    - What new skills did you learn? 
+    - What do you wish you had done differently? 
+    - What would you have done the same?
+- Your team's performance:
+    - What went well?
+    - What went poorly?
+    - What will you do differently with your next team?
 
 Additionally, you are required to summarize your contributions to the Dronuts project, and your perception of the contributions of your teammates. 
 
