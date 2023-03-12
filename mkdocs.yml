@@ -60,7 +60,7 @@ nav:
       - Homework 2: assignments/HW2.md
       - Homework 3: assignments/HW3.md
       - Homework 4: assignments/HW4.md
-    # - Homework 5: assignments/HW5.md
+      - Homework 5: assignments/HW5.md
     # - Homework 6: assignments/HW6.md
   - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
     - Recitation 1: recitations/reci1-user-stories.md

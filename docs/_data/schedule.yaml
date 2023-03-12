@@ -417,7 +417,7 @@
 - date: Thu Feb 16
   homework:
     deadline: 'Due Tues Feb 28 @ 11:59pm'
-    link: ''
+    link: 'assignments/HW4'
     name: 'Sprint 2'
     numDays: 8
   lecture:
@@ -561,7 +561,7 @@
 - date: Tue Feb 28
   homework:
     deadline: 'Due Tue Mar 21 @ 11:59pm'
-    link: ''
+    link: 'assignments/HW5'
     name: 'Sprint 3 (MVP)'
     numDays: 15
   lecture:
