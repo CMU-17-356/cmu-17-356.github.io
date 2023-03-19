@@ -34,6 +34,13 @@ In this sprint, you should improve your MVP along the following lines:
 
 Proper use of your Kanban board should be maintained and tasks should be assigned to team members. 
 
+<font color="red">
+## Payment API Requirement is Canceled
+
+We had a lot of difficulty adapting the payment API for deployment on fly.io and were not able to complete it in time. All aspects of the project related to implementing the payment API are hereby excused.
+</font>
+
+
 ## Demonstration of Individual Actions
 
 All team members should still be making pull requests (PRs) when adding/pushing new code. PRs should be used to close out their corresponding issues. 

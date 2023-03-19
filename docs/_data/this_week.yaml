@@ -6,18 +6,23 @@ last_homework:
   numDays: 15
 
 lectures:
-- date: Tue Mar 14
+- date: Tue Mar 21
   link: ''
-  name: Pitch Deck Presentations 1
-- date: Thu Mar 16
+  name: Pivoting 1
+- date: Thu Mar 23
   link: ''
-  name: Pitch Deck Presentations 2
+  name: Pivoting 2
 
-next_homework: null
+next_homework:
+  date: Tue Mar 21
+  deadline: Due Tue Apr 11 @ 11:59pm
+  link: ''
+  name: Team Sprint 1
+  numDays: 15
 
 recitation:
-  date: Mon Mar 13
+  date: Mon Mar 20
   handout: ''
-  name: Deployment Help
+  name: Databases
   quiz: ''
   slides: ''
