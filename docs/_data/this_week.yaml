@@ -7,16 +7,16 @@ last_homework:
 
 lectures:
 - date: Tue Mar 21
-  link: ''
+  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture14-Pivoting-1-wide.pdf
   name: Pivoting 1
 - date: Thu Mar 23
-  link: ''
+  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture15-Pivoting-2-wide.pdf
   name: Pivoting 2
 
 next_homework:
   date: Tue Mar 21
   deadline: Due Tue Apr 11 @ 11:59pm
-  link: ''
+  link: assignments/HW7
   name: Team Sprint 1
   numDays: 15
 

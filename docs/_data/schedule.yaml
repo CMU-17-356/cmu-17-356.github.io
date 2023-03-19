@@ -831,11 +831,11 @@
 - date: Tue Mar 21
   homework:
     deadline: 'Due Tue Apr 11 @ 11:59pm'
-    link: ''
+    link: 'assignments/HW7'
     name: 'Team Sprint 1'
     numDays: 15
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture14-Pivoting-1-wide.pdf'
     name: 'Pivoting 1'
   reading:
     link: ''
@@ -871,7 +871,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture15-Pivoting-2-wide.pdf'
     name: 'Pivoting 2'
   reading:
     link: ''
@@ -1319,7 +1319,7 @@
     deadline: 'Due at Final'
     link: ''
     name: 'Team Sprint Final'
-    numDays: 7
+    numDays: 6
   lecture:
     link: ''
     name: 'Ethical Companies and Recap'
@@ -1364,7 +1364,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Final Presentations [TBD]'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1412,7 +1412,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Final Presentations'
   reading:
     link: ''
     name: ''
@@ -1422,20 +1422,3 @@
     quiz: ''
     slides: ''
 
-- date: Fri May 05
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
