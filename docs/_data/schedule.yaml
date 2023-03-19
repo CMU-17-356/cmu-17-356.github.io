@@ -872,7 +872,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture'
+    name: 'Pivoting 2'
   reading:
     link: ''
     name: ''
@@ -926,7 +926,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pivoting 2'
+    name: 'Scaling'
   reading:
     link: ''
     name: ''
@@ -962,7 +962,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Scaling'
+    name: 'Technical Debt'
   reading:
     link: ''
     name: ''
@@ -1016,7 +1016,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Technical Debt'
+    name: 'Guest Lecture: Sean Colombo, Duolingo'
   reading:
     link: ''
     name: ''
@@ -1052,7 +1052,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture'
+    name: 'Ethics'
   reading:
     link: ''
     name: ''
@@ -1106,7 +1106,7 @@
     numDays: 12
   lecture:
     link: ''
-    name: 'Ethics'
+    name: 'Guest Lecture: Brian Silverman, Playful Invention Company'
   reading:
     link: ''
     name: ''
