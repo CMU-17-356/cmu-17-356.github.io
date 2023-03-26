@@ -1,28 +1,23 @@
 last_homework:
-  date: Tue Feb 28
-  deadline: Due Tue Mar 21 @ 11:59pm
-  link: assignments/HW5
-  name: Sprint 3 (MVP)
-  numDays: 15
-
-lectures:
-- date: Tue Mar 21
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture14-Pivoting-1-wide.pdf
-  name: Pivoting 1
-- date: Thu Mar 23
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture15-Pivoting-2-wide.pdf
-  name: Pivoting 2
-
-next_homework:
   date: Tue Mar 21
   deadline: Due Tue Apr 11 @ 11:59pm
   link: assignments/FP1
   name: Team Sprint 1
   numDays: 15
 
+lectures:
+- date: Tue Mar 28
+  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture16-Scaling-wide.pdf
+  name: Scaling
+- date: Thu Mar 30
+  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture17-TechnicalDebt-wide.pdf
+  name: Technical Debt
+
+next_homework: null
+
 recitation:
-  date: Mon Mar 20
+  date: Mon Mar 27
   handout: ''
-  name: 'How I Got a Job at a Startup'
+  name: Work on Projects
   quiz: ''
   slides: ''
