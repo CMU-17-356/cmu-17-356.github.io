@@ -7,11 +7,11 @@ last_homework:
 
 lectures:
 - date: Tue Mar 28
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture16-Scaling-wide.pdf
-  name: Scaling
-- date: Thu Mar 30
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture17-TechnicalDebt-wide.pdf
+  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture16-TechnicalDebt-wide.pdf
   name: Technical Debt
+- date: Thu Mar 30
+  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture17-Scaling-wide.pdf
+  name: Scaling
 
 next_homework: null
 
