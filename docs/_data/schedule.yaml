@@ -1052,7 +1052,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Ethics'
+    name: 'Startup Economics: Equity'
   reading:
     link: ''
     name: ''
@@ -1094,7 +1094,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'React Native'
+    name: 'CMU Carnival [No class]'
     quiz: ''
     slides: ''
 
@@ -1196,7 +1196,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Startup Economics 1'
+    name: 'Startup Economics 2: Offer Letters'
   reading:
     link: ''
     name: ''
@@ -1232,7 +1232,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture'
+    name: 'Guest Lecture: Mike Ressler, CTO Diamond Kinetics'
   reading:
     link: ''
     name: ''
@@ -1286,7 +1286,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Startup Economics 2'
+    name: 'Ethical Software Engineering'
   reading:
     link: ''
     name: ''
