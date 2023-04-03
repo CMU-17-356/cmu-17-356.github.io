@@ -97,7 +97,8 @@ hide:
         Office Hours
     </div>
     <div class="content">
-        Held on the first floor lobby of TCS. See <a href="#class-calendar">class calendar</a> below for exact times!
+        <p>Professor office hours held at their offices. See <a href="#class-calendar">class calendar</a> below for exact times!</p>
+        <p>TA office hours held on Zoom.</p>
     </div>
 
 </div>

@@ -6,18 +6,18 @@ last_homework:
   numDays: 15
 
 lectures:
-- date: Tue Mar 28
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture16-TechnicalDebt-wide.pdf
-  name: Technical Debt
-- date: Thu Mar 30
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture17-Scaling-wide.pdf
-  name: Scaling
+- date: Tue Apr 04
+  link: ''
+  name: 'Guest Lecture: Sean Colombo, Duolingo'
+- date: Thu Apr 06
+  link: ''
+  name: 'Startup Economics: Equity'
 
 next_homework: null
 
 recitation:
-  date: Mon Mar 27
+  date: Mon Apr 03
   handout: ''
-  name: React Native
+  name: Responsive Sites
   quiz: ''
   slides: ''
