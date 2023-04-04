@@ -1015,7 +1015,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://bit.ly/ScalingAtStartups'
     name: 'Guest Lecture: Sean Colombo, Duolingo'
   reading:
     link: ''
