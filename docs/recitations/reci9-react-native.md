@@ -47,6 +47,23 @@ The bridge allows the JavaScript code to invoke native modules and receive the r
 
 ## Code example
 
+<img width="657" alt="image" src="https://user-images.githubusercontent.com/20667665/229871116-a9a0035b-8856-4db2-ac89-a6c3a5bbd6ca.png">
+
+<img width="762" alt="image" src="https://user-images.githubusercontent.com/20667665/229871220-b904e1ca-f0be-484f-afb0-539afc85c923.png">
+
+<img width="976" alt="image" src="https://user-images.githubusercontent.com/20667665/229871295-dcf046bd-b845-4962-93bb-af533fed269a.png">
+
+<img width="998" alt="image" src="https://user-images.githubusercontent.com/20667665/229871353-fefe09b6-731f-4e6a-a62e-0abe6aa7225a.png">
+
+<img width="894" alt="image" src="https://user-images.githubusercontent.com/20667665/229871429-80f9bc37-ce14-4a3a-a55c-20483129fe22.png">
+
+<img width="994" alt="image" src="https://user-images.githubusercontent.com/20667665/229871516-6ae31222-ca65-4c72-b2de-ae5938f96efb.png">
+
+<img width="994" alt="image" src="https://user-images.githubusercontent.com/20667665/229871615-4fb0d033-5773-4da8-bdb8-c025a09adbfb.png">
+
+<img width="989" alt="image" src="https://user-images.githubusercontent.com/20667665/229871706-b0272223-0134-46d1-a453-8e902ead9257.png">
+
+<img width="991" alt="image" src="https://user-images.githubusercontent.com/20667665/229871785-65ab57c4-e938-4f7b-a24c-3c9affec2a49.png">
 
 ## Hello World!
 
