@@ -71,7 +71,7 @@ nav:
     # - Recitation 6: recitations/reci6-.md
     # - Recitation 7: recitations/reci7-.md
     # - Recitation 8: recitations/reci8-.md
-    # - Recitation 9: recitations/reci9-.md
+    - Recitation 9: recitations/reci9-react-native.md
   - Dronuts: 
       - Overview: dronuts.md  
       - Design Assets: project/brand.md
