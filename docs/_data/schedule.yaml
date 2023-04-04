@@ -914,9 +914,10 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Work on Projects'
+    name: 'React Native'
     quiz: ''
-    slides: ''
+    slides: 'recitations/reci9-react-native'
+  '
 
 - date: Tue Mar 28
   homework:
