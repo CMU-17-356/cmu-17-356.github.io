@@ -1100,13 +1100,13 @@
 
 - date: Tue Apr 11
   homework:
-    deadline: 'Due Thurs Apr 27 @ 11:59pm'
+    deadline: 'Due Wed May 3 @ 11:59pm'
     link: ''
-    name: 'Team Sprint 2'
-    numDays: 12
+    name: 'Final Team Sprint'
+    numDays: 16
   lecture:
-    link: ''
-    name: 'Startup Economics: Pitch Perfect'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture20-Ethics-wide.pdf'
+    name: 'Ethical Software Development'
   reading:
     link: ''
     name: ''
@@ -1286,7 +1286,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Ethical Software Engineering'
+    name: 'Startup Economics: Pitch Perfect'
   reading:
     link: ''
     name: ''
@@ -1316,10 +1316,10 @@
 
 - date: Thu Apr 27
   homework:
-    deadline: 'Due at Final'
+    deadline: ''
     link: ''
-    name: 'Team Sprint Final'
-    numDays: 6
+    name: ''
+    numDays: 0 
   lecture:
     link: ''
     name: 'Ethical Companies and Course Recap'
