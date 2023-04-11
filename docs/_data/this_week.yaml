@@ -6,18 +6,23 @@ last_homework:
   numDays: 15
 
 lectures:
-- date: Tue Apr 04
-  link: 'https://bit.ly/ScalingAtStartups'
-  name: 'Guest Lecture: Sean Colombo, Duolingo'
-- date: Thu Apr 06
-  link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture18-StartupEconomics-Equity-wide.pdf'
-  name: 'Startup Economics: Equity'
+- date: Tue Apr 11
+  link: ''
+  name: 'Startup Economics: Pitch Perfect'
+- date: Thu Apr 13
+  link: ''
+  name: CMU Carnival [No Class]
 
-next_homework: null
+next_homework:
+  date: Tue Apr 11
+  deadline: Due Thurs Apr 27 @ 11:59pm
+  link: ''
+  name: Team Sprint 2
+  numDays: 12
 
 recitation:
-  date: Mon Apr 03
+  date: Mon Apr 17
   handout: ''
-  name: Work on Projects with TA Assistance
+  name: 'CMU Carnival [No Class]'
   quiz: ''
   slides: ''
