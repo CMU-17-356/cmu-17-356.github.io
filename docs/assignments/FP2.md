@@ -32,7 +32,7 @@ If your team has pivoted your project idea, you must reflect this on your projec
 
 ## Weekly Checkins
 
-You should continue to have weekly checkins with your TAs. During checkins (beginning this week), keep a running note (Google Doc) of the things that were discussed with the TAs as well as a very brief summary of what was done after that meeting to address the feedback you received. Please submit a copy (not a link) of these notes for this assignment's deliverable.
+You should continue to have weekly checkins with your TAs. During checkins (beginning this week), keep a running note (Google Doc) of the things that were discussed with the TAs as well as a very brief summary of what was done after that meeting to address the feedback you received. 
 
 
 ## Final Project Report
