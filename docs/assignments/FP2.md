@@ -98,7 +98,7 @@ Here's how it's going to play out.
     - For each team role that someone played on your team (e.g. frontend developer, backend developer, tester, project CEO, project manager, designer, etc.), do the following, one team role at a time. Note: your team probably had 5-10 team roles being played by its 4-5 team members.
         - **Analyze:** Fill out post it notes (as many as you want or have) silently with anything that went wrong with the actions of the people while playing that team role.
         - **Praise:** Fill out post-it notes silently with everything that the people playing that team role did right or did well.
-        - **Solve:** Cluster the post-it notes (complaints and praise) into topic categories. If you do this on a whiteboard wall, it'll be like affinity diagramming!
+        - **Solve:** Cluster the post-it notes (analyses and praise) into topic categories. If you do this on a whiteboard wall, it'll be like affinity diagramming!
     - For each topic cluster, brainstorm together potential solutions (don't go too deep, but don't rule anything out). Brainstorm means listen to one another's suggestions and write them down. Do *NOT* shoot any ideas down. Brainstorming is supportive, even if you are the subject of discussion.
     - Assign each team member to a set of topic clusters and brainstormed solutions. Each team member should now silently flesh out two unique composite ideas for each topic cluster out of the solutions you are reading. It's ok to be inspired to come up with more, but try not to exceed three.
 
@@ -133,7 +133,7 @@ Here's how it's going to play out.
 
 Individual post-mortem (50 points)
 
-- For each team role you discussed in your group reflection, pick your top two analyses and top two praises from the entire set of post its and write them down. Then, pick one brainstormed, worked-through solution that you believe will best address the complaints and preserve the praise. Explain how this solution will help you personally to ensure (or be assured) that your next team experience related to this team role (even if it's never going to be your team role) turns out better.
+- For each team role you discussed in your group reflection, pick your top two analyses and top two praises from the entire set of post its and write them down. Then, pick one brainstormed, worked-through solution that you believe will best address the analyses and preserve the praise. Explain how this solution will help you personally to ensure (or be assured) that your next team experience related to this team role (even if it's never going to be your team role) turns out better.
 - Make a list of the value words, one for each point of the 9-pointed spidergraph star.
     1. Next to each word, write down the person on your team who you personally believe epitomizes that value the most on your team (i.e., from their actions, behavior, and character alone would earn them the highest score) and the score (1-5) they would earn.
     1. Compute the average score your team received for that word and write it down.

@@ -6,12 +6,12 @@ last_homework:
   numDays: 16
 
 lectures:
-- date: Tue Apr 18
+- date: Tue Apr 25
+  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture23-StartupEconomics-PitchPerfect-wide.pdf
+  name: 'Startup Economics: Pitch Perfect'
+- date: Thu Apr 27
   link: ''
-  name: 'Guest Lecture: Brian Silverman, Playful Invention Company'
-- date: Thu Apr 20
-  link: ''
-  name: 'Guest Lecture: Mike Ressler, CTO Diamond Kinetics'
+  name: Ethical Companies and Course Recap
 
 next_homework: null
 
