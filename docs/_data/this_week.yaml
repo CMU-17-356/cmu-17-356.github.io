@@ -1,23 +1,23 @@
 last_homework:
-  date: Tue Apr 11
-  deadline: Due Wed May 3 @ 11:59pm
-  link: ''
-  name: Final Team Sprint
-  numDays: 16
+  date: ''
+  deadline: 'Thu Jan 18 @ 11:59pm'
+  link: 'https://forms.gle/6gCJekKbrhaq9gz67'
+  name: 'Teamwork Survey'
+  numDays: 2
 
 lectures:
-- date: Tue Apr 25
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture23-StartupEconomics-PitchPerfect-wide.pdf
-  name: 'Startup Economics: Pitch Perfect'
-- date: Thu Apr 27
-  link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture24-EthicalBusiness-Recap-wide.pdf
-  name: Ethical Companies and Course Recap
+- date: Tue Jan 16
+  link: ''
+  name: 'Intro, User Stories'
+- date: Thu Jan 18
+  link: ''
+  name: 'Process and Estimation'
 
 next_homework: null
 
 recitation:
-  date: Mon Apr 24
+  date: Fri Jan 19
   handout: ''
-  name: 'No Class'
+  name: 'User Stories'
   quiz: ''
   slides: ''
