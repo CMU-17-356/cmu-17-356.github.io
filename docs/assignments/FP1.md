@@ -7,7 +7,7 @@ title: FP1 Team Sprint 1
 
 
 <p style="text-align: center;">
-100 points<br/>  
+100 points<br/>
 
 Due on Gradescope Tuesday, April 11, 2023 11:59pm<br/>
 
@@ -22,16 +22,16 @@ Congratulations! Your project has found an investor who expects you to show them
 
 In this pre-project sprint, you should specify user stories that will be included in your MVP and a plan/timeline to achieve them. This plan should include how many sprints you plan to do, and what you plan to achieve during those sprints, and when they should take place. You must also decide upon your tech stack: front-end and backend frameworks, databases, CI, team communication tools, etc.
 
-You will also create a project home page that displays your project name, list of team members, project logo, pitch deck content (not just a pointer to your slides), and two-sentence elevator pitch for what it's all about. This page should be hosted in your GitHub wiki. 
+You will also create a project home page that displays your project name, list of team members, project logo, pitch deck content (not just a pointer to your slides), and two-sentence elevator pitch for what it's all about. This page should be hosted in your GitHub wiki.
 
-We continue to expect you to make proper use of your Kanban board, especially when assigning tasks to (all) team members. 
+We continue to expect you to make proper use of your Kanban board, especially when assigning tasks to (all) team members.
 
 ### Team Contracts
 
-When working with a team, it is important to discuss each team member’s background, and establish common expectations of the team. Miscommunication or the general lack of communication are often the most common causes of team conflict. 
+When working with a team, it is important to discuss each team member’s background, and establish common expectations of the team. Miscommunication or the general lack of communication are often the most common causes of team conflict.
 
 !!! note "Team Conflict Example"
-    A common conflict in working style is when there are team members who always want to get a headstart on their work, while there are team members who are fine with doing work a few days before the deadline. It causes panic in the former team members, while the latter team members feel frustrated as to why they are being rushed. 
+    A common conflict in working style is when there are team members who always want to get a headstart on their work, while there are team members who are fine with doing work a few days before the deadline. It causes panic in the former team members, while the latter team members feel frustrated as to why they are being rushed.
 
 You will create a teamwork contract with your teammates. It is a **1 - 2 page** document containing information that all teammates agree to follow. You should work on the contract **with all members present**. We recommend that you keep it to around 1 page. 2 pages is a **hard limit.**
 
@@ -41,7 +41,7 @@ You are free to include anything that your team deems necessary, but you should 
 
 1. **Expectations**<br/>
 How much time is each team member expected to be putting into working on projects? Punctuality? How would your team accommodate when unexpected commitments come up for a team member (e.g. interviews, sickness, competitions)?<br/><br/>
-Do accommodate for the fact that project load can get heavier towards the end of the semester.<br/><br/> 
+Do accommodate for the fact that project load can get heavier towards the end of the semester.<br/><br/>
 
 1. **Communication**<br/>
 What platform (s) will your team be using to communicate? What’s the expected time to get a response? <br/><br/>
@@ -59,22 +59,22 @@ From past courses, we noticed the natural emergence of a project manager in team
 What are the steps the team would take among its members to address teammates who are contributing too little? If all attempts to resolve the inequity are unsuccessful, when will the team bring this up to the instructors? What are the steps to bring up and discuss potential teamwork issues? <br/><br/>
 The first thing the staff will do is ask the team if they have followed the steps on their team contract.<br/>
 
-Feel free to seek the assistance of TAs and instructors in drafting this document. 
+Feel free to seek the assistance of TAs and instructors in drafting this document.
 
 !!! note
     We will ask you to reference, reflect upon, and refine this document throughout this project, and we will evaluate your team's process strategies and interactions through what you outline in this contract. Please ensure that everyone on your team thoroughly discusses each of the above sections and agree with the final decisions.
 
-Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Include this document as part of your submission below. 
+Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Include this document as part of your submission below.
 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
 
-## Team Deliverables 
+## Team Deliverables
 
 A project proposal document containing the following:
 
 1. A short intro/motivation for your startup and product (1-2 paragraphs)
-1. Project home page URL. 
+1. Project home page URL.
 1. Set of prioritized user stories that will be included in your MVP. (Recall HW2).
     - You should have a project backlog in some online tool that your team members can use to collaborate with; e.g., GitHub Projects, GitHub Issues, Trello, Zenhub, etc. Include a printout in PDF format of this backlog with your proposal.
 1. A list of user interfaces your product should contain, along with wireframes for each (Recall HW3).

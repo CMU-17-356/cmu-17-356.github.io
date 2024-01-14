@@ -8,7 +8,7 @@ class LineBreakDumper(yaml.SafeDumper):
 
         if len(self.indents) == 1:
             super().write_line_break()
-    
+
     def ignore_aliases(self, data):
         return True
 
@@ -22,7 +22,7 @@ next_homework = None
 recitation = None
 lectures = []
 
-if schedule: 
+if schedule:
     week_start_date = None
     for schedule_day in schedule:
         date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=now.year)
@@ -32,12 +32,12 @@ if schedule:
         elif week_start_date and date >= week_start_date + timedelta(weeks=1):
             # We left the current week
             break
-        
+
         if week_start_date:
             if schedule_day['homework']['name'] != '':
                 next_homework = schedule_day['homework']
                 next_homework['date'] = schedule_day['date']
-            
+
             if schedule_day['lecture']['name'] != '':
                 lectures.append(schedule_day['lecture'])
                 lectures[-1]['date'] = schedule_day['date']
@@ -61,5 +61,5 @@ output = {
     "lectures": lectures
 }
 
-with open(r'this_week.yaml', 'w') as file:    
+with open(r'this_week.yaml', 'w') as file:
     documents = yaml.dump(output, file, Dumper=LineBreakDumper, default_flow_style=False)

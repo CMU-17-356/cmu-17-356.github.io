@@ -8,34 +8,31 @@ hide:
 
 ### Lectures
 
-- Tues @ 9:30am - 11:00am (WEH 2302)
-- Thurs @ 9:30am - 1100am (WEH 2302)
+- Tues @ 9:30am - 10:50am (SH 238)
+- Thurs @ 9:30am - 10:50am (SH 238)
 
 ### Recitations
 
-- Section A: Fri @ 9:00am - 10:00am (WEH 4625)
-- Section B: Fri @ 11:00am - 12:00pm (WEH 5302)
-
-### Waitlist
-
-The waitlist is currently long. We are trying our best to add as many people as possible, but are dealing with limitations imposed by the university.
+- Section A: Fri @ 9:00am - 09:50am (PH A19)
+- Section B: Fri @ 11:00am - 11:50am (GHC 4301)
 
 ### Prerequisites
 
-15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely technical; the goal of the prerequisites is to ensure students should sufficient programming experience to succeed in the course.
+15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely
+technical; the goal of the prerequisites is to ensure students should sufficient
+programming experience to succeed in the course.
 
 ### Textbook/Readings
 
 The subject matter of this class is at the cutting edge of
-  engineering; as such, there do not exist (to our knowledge, at least) suitable
-  textbooks covering the material.   We will instead pull various readings
-  throughout the semester from online sources.
-
+engineering; as such, there do not exist (to our knowledge, at least) suitable
+textbooks covering the material.   We will instead pull various readings
+throughout the semester from online sources.
 
 ### Communication
 
-The course uses [Canvas](https://canvas.cmu.edu/courses/33305) for homework submission,
-grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-356-s23.slack.com). Slides, assignments, and schedule will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
+The course uses [Canvas](https://canvas.cmu.edu/courses/39473) for homework submission,
+grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-776-s24.slack.com/). Slides, assignments, and schedule will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
 
 Please use Slack for discussion and questions, including clarifying homework assignments.
 
@@ -52,7 +49,6 @@ address; if your message is held as a non-member posting to a members list,
 don’t worry: we respond to moderation requests very quickly.
 
 For sensitive matters, of course, feel free to contact us individually.
-
 
 ## Grading
 
@@ -75,7 +71,7 @@ will receive a single grade, for all individuals.  However, we reserve the right
 to institute peer grading in problematic situations, detailed in the  Team
   Policy.
 
-  Please fill out the [Teamwork Survey](https://forms.gle/wvgG17UsPPtUTY756)</a> so we can begin forming groups.
+Please fill out the [Teamwork Survey](https://forms.gle/6gCJekKbrhaq9gz67)</a> so we can begin forming groups.
 
 ### Late Work
 
@@ -95,7 +91,8 @@ students' learning as well.  Therefore, in general, we do not allow the use of
 devices during lecture. *However,*, if you genuinely use your laptop for
 class-related activities (note-taking, etc), tell us, and we will make an
 exception. However, we ask that if you do so, you are careful to keep your
-devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others. 
+devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition,
+you will be required to sit in the back row of the lecture to minimize the impact your screen has on others.
 
 Note that recitation activities will often involve devices, so please do bring your laptop!
 
@@ -108,10 +105,10 @@ key challenge in startup engineering is that there is never enough time to
 implement everything that you want to implement; it is therefore important that
 you practice time management, estimation, and task prioritization.  We would
 rather you make well-justified decisions to not do something than spend tens of
-hours on your homework. 
+hours on your homework.
 
 Note that most homework is done in groups, so please account for the overhead
-and decreased time flexibility that entails. 
+and decreased time flexibility that entails.
 
 Feel free to give the course staff feedback on how much time the course is
 taking for you.  This is especially relevant as we teach this course for the
@@ -124,7 +121,7 @@ effectively with less technical stakeholders are key learning goals of this
 course. Most homework assignments have a component that require discussing
 issues in written form or reflecting about experiences. The [Student Academic Success Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) offers one-on-one writing help for students, along
 with workshops. The instructors are also happy to provide additional guidance if
-requested. 
+requested.
 
 ### Academic Honesty and Collaboration
 
@@ -151,15 +148,14 @@ course, with two caveats:
 - You may not copy a solution for our homework assignments specifically from
 another student or group, even if, for some reason, that code is available
 openly on GitHub or elsewhere (see below on the importance of keeping your
-homework code). 
+homework code).
 - You must test all of your code, and those tests must pass.  That is, you must
 understand any code you adapt from the internet, and you must demonstrate that
-understanding using unit tests. 
+understanding using unit tests.
 
 
 Regarding solutions from other students in the course, we reuse the
-  [Collaboration
-  Policy from 15-214](https://www.cs.cmu.edu/~charlie/courses/15-214/2017-fall/syllabus.html), with minor modifications: 
+[Collaboration Policy from 15-214](https://www.cs.cmu.edu/~charlie/courses/15-214/2017-fall/syllabus.html), with minor modifications:
 
 "You may not copy any part of a solution to a problem that was written by
 another student, or was developed together with another student.  You may not
@@ -210,7 +206,6 @@ If you have any question about how this policy applies in a particular
 
 Note that the instructors respect honesty in these (and indeed most!)
   situations.
-
 
 ## A Note on Self-Care
 

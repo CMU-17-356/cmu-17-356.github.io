@@ -14,7 +14,7 @@ hide:
 
 {%- set this_week = extra.this_week -%}
 
-<div class="card"> 
+<div class="card">
     <div class="header">
         Lectures & Readings
     </div>
@@ -25,7 +25,7 @@ hide:
                     {{ lecture.name }}
                 </div>
                 <div class="lecture-date">
-                    <span class="material-symbols-outlined">calendar_month</span> 
+                    <span class="material-symbols-outlined">calendar_month</span>
                     {{ lecture.date }}
                 </div>
 
@@ -61,7 +61,7 @@ hide:
 
 </div>
 
-<div class="card"> 
+<div class="card">
     <div class="header">
         Recitation
     </div>
@@ -103,7 +103,7 @@ hide:
 
 </div>
 
-<div class="card"> 
+<div class="card">
     <div class="header">
         Current Assignment
     </div>
@@ -186,7 +186,7 @@ hide:
 
 ## Office Hours Calendar
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=WEEK&showNav=1&showDate=1&showPrint=1&showCalendars=0&title=CMU%2017-356%20Office%20Hours&src=Y19hYjcxZWI3YzcwNjYzMDU3NjI2OGFiNmE2OWVlOWYwZjIxNGZiYjU3ZTQ3ZGQxYzQ1MWQ5NjZkZTU4MmM1ZWQzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23EF6C00" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe id="class-calendar" src="https://calendar.google.com/calendar/embed?src=c_8e5567dba7647cbf30a8f0686b4ca4395ec192cd4c19e03b1b6326dcfc59aeb9%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 
@@ -314,11 +314,11 @@ Coming Soon!
 <div id="course-instructors">
 {%- set instructors = extra.staff | selectattr("role", "==", "Instructor") | list -%}
 {% for instructor in instructors %}
-<div class="staffer card"> 
+<div class="staffer card">
     <div class="container">
         <img class="staffer-image" src="/assets/images/{{instructor.photo}}" alt="">
         <div>
-            <h3 class="staffer-name"> 
+            <h3 class="staffer-name">
                 {{instructor.name}}
             </h3>
             <div class="staffer-links">
@@ -349,11 +349,11 @@ Coming Soon!
 
 {% for assistant in assistants %}
 
-<div class="staffer card"> 
+<div class="staffer card">
     <div class="container">
         <img class="staffer-image" src="/assets/images/{{assistant.photo}}" alt="">
         <div>
-            <h3 class="staffer-name"> 
+            <h3 class="staffer-name">
                 {{assistant.name}}
             </h3>
             <div class="staffer-links">

@@ -1,24 +1,29 @@
-- name: Andrew Begel
+- name: Fraser Brown
   role: Instructor
-  email: abegel@andrew.cmu.edu
-  website: https://andrewbegel.com
-  photo: abegel.png
+  email: fraserb@andrew.cmu.edu
+  website: https://mlfbrown.com/
+  photo: fraser-brown.png
 
-- name: Michael Hilton
+- name: Hyrum Wright
   role: Instructor
-  email: mhilton@cmu.edu
-  website: http://www.cs.cmu.edu/~mhilton/
-  photo: hilton.jpg
+  email: hyrum@hyrumwright.org
+  website: https://www.hyrumwright.org/
+  photo: hyrum.jpeg
 
-- name: Mehul Agarwal
+- name: Zeeshan Lakhani
   role: Teaching Assistant
-  email: mehula@andrew.cmu.edu
-  website: https://mehul.al
-  photo: mehula.jpg
+  email: zlakhani@cs.cmu.edu
+  website: https://zee.town/
+  photo: zeeshan.png
 
-- name: Rohit Nanjangud Shreenivas
+- name: Nicholas Wernink
   role: Teaching Assistant
-  email: rshreeni@andrew.cmu.edu
-  website: https://www.linkedin.com/in/rohit-n-shreenivas-026473122/
-  photo: rshreeni.png
+  email: ngw@andrew.cmu.edu
+  website:
+  photo: wernink.png
 
+- name: Alex Barrios
+  role: Teaching Assistant
+  email: ambarrio@andrew.cmu.edu
+  website: https://www.linkedin.com/in/alexmbarrios/
+  photo: barrios.png

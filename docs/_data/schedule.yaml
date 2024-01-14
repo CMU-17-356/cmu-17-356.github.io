@@ -1,4 +1,4 @@
-- date: Mon Jan 16
+- date: Mon Jan 15
   homework:
     deadline: ''
     link: ''
@@ -6,7 +6,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: MLK Jr Day [No Class]
+    name: 'MLK Jr Day [No Class]'
   reading:
     link: ''
     name: ''
@@ -14,29 +14,29 @@
     handout: ''
     name: 'User Stories'
     quiz: ''
-    slides: 'recitations/reci1-user-stories'
+    slides: ''
 
-- date: Tue Jan 17
+- date: Tue Jan 16
   homework:
-    deadline: 'Due Thurs Jan 19 @ 11:59pm'
-    link: 'https://forms.gle/7LEpE5RjrzohmotR9'
+    deadline: 'Due Thu Jan 18 @ 11:59pm'
+    link: 'https://forms.gle/6gCJekKbrhaq9gz67'
     name: 'Teamwork Survey'
     numDays: 2
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture1-Intro-wide.pdf'
-    name: 'Introduction and Guest Lecture by Pernille Bjørn'
+    link: ''
+    name: 'Intro, User Stories'
   reading:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/readings/2023/BjornBoulus-Rodje2018.pdf'
-    name: 'Guest Speaker''s Paper on Infrastructural Inaccessibility'
-    name2: 'Guest Speaker''s Talk Slides'
-    link2: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/CMUJan2023_Festem.pdf'
+    link: ''
+    name: ''
+    name2: ''
+    link2: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Wed Jan 18
+- date: Wed Jan 17
   homework:
     deadline: ''
     link: ''
@@ -54,15 +54,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Jan 19
+- date: Thu Jan 18
   homework:
-    deadline: 'Due Fri Jan 27 @ 11:59pm'
+    deadline: 'Due Thu Jan 23 @ 11:59pm'
     link: 'assignments/HW1'
     name: 'User Stories'
     numDays: 6
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture2-IntroToProcess-wide.pdf'
-    name: 'Process, Estimation, and User Stories'
+    link: ''
+    name: 'Process and Estimation'
   reading:
     link: ''
     name: ''
@@ -72,7 +72,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Jan 20
+- date: Fri Jan 19
   homework:
     deadline: ''
     link: ''
@@ -90,7 +90,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Jan 23
+- date: Mon Jan 22
   homework:
     deadline: ''
     link: ''
@@ -104,18 +104,18 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Node Development'
+    name: 'Node Development Basics'
     quiz: ''
-    slides: 'recitations/reci2-nodejs'
+    slides: ''
 
-- date: Tue Jan 24
+- date: Tue Jan 23
   homework:
-    deadline: 'Due Thurs Feb 2 @ 11:59pm'
+    deadline: 'Due Thu Feb 1 @ 11:59pm'
     link: 'assignments/HW2'
     name: 'Sprint 0'
-    numDays: 7
+    numDays: 8
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture3-QualityAssurance-wide.pdf'
+    link: ''
     name: 'Quality Assurance (CI, Tools, TDD)'
   reading:
     link: ''
@@ -126,7 +126,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Jan 25
+- date: Wed Jan 24
   homework:
     deadline: ''
     link: ''
@@ -144,15 +144,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Jan 26
+- date: Thu Jan 25
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture4-Process-Prior-Estim-Proto-wide.pdf'
-    name: 'Prioritization and Process'
+    link: ''
+    name: 'Architecture and Prototyping + priortization'
   reading:
     link: ''
     name: ''
@@ -162,61 +162,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Jan 27
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Mon Jan 30
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: 'React'
-    quiz: ''
-    slides: 'recitations/reci3-react'
-
-- date: Tue Jan 31
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture5-CodeReview-wide.pdf'
-    name: 'Code Review'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Wed Feb 01
+- date: Fri Jan 26
   homework:
     deadline: ''
     link: ''
@@ -234,25 +180,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Feb 02
-  homework:
-    deadline: 'Due Thurs Feb 16 @ 11:59pm'
-    link: 'assignments/HW3'
-    name: 'Sprint 1'
-    numDays: 10
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture6-Prototyping-wide.pdf'
-    name: 'Prototypes'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Fri Feb 03
+- date: Mon Jan 29
   homework:
     deadline: ''
     link: ''
@@ -266,11 +194,11 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'React / FE Framework(s)'
     quiz: ''
     slides: ''
 
-- date: Mon Feb 06
+- date: Tue Jan 30
   homework:
     deadline: ''
     link: ''
@@ -278,25 +206,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: 'Typescript'
-    quiz: ''
-    slides: 'recitations/reci4-typescript'
-
-- date: Tue Feb 07
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture7-MVP-Viability-wide.pdf'
-    name: 'Minimal Viable Product (MVP)'
+    name: 'Process and Code Review'
   reading:
     link: ''
     name: ''
@@ -306,7 +216,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Feb 08
+- date: Wed Jan 31
   homework:
     deadline: ''
     link: ''
@@ -324,15 +234,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Feb 09
+- date: Thu Feb 01
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture8-MVP-Viability_continued.pdf'
-    name: 'Minimal Viable Product (MVP) continued'
+    link: ''
+    name: 'High Level Design + intro to design exercise'
   reading:
     link: ''
     name: ''
@@ -342,61 +252,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Feb 10
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Mon Feb 13
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: 'React and the Outside World'
-    quiz: ''
-    slides: 'recitations/reci5-fullstack-mern-app'
-
-- date: Tue Feb 14
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture9-Feedback-wide.pdf'
-    name: 'Feedback'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Wed Feb 15
+- date: Fri Feb 02
   homework:
     deadline: ''
     link: ''
@@ -414,15 +270,159 @@
     quiz: ''
     slides: ''
 
-- date: Thu Feb 16
+- date: Mon Feb 05
   homework:
-    deadline: 'Due Tues Feb 28 @ 11:59pm'
-    link: 'assignments/HW4'
-    name: 'Sprint 2'
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'Testing and Git Flow'
+    quiz: ''
+    slides: ''
+
+- date: Tue Feb 06
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Testability'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Feb 07
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 08
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'MVP'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Feb 09
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Feb 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'Docker'
+    quiz: ''
+    slides: ''
+
+- date: Tue Feb 13
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'MVP Continued'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Feb 14
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 15
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
     numDays: 8
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture10-CloudServices-DevOps-wide.pdf'
-    name: 'Cloud Services and DevOps'
+    link: ''
+    name: 'Depoyment Challenges'
   reading:
     link: ''
     name: ''
@@ -432,7 +432,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Feb 17
+- date: Fri Feb 16
   homework:
     deadline: ''
     link: ''
@@ -450,7 +450,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Feb 20
+- date: Mon Feb 19
   homework:
     deadline: ''
     link: ''
@@ -468,15 +468,15 @@
     quiz: ''
     slides: 'sampleExams/midterm2022.pdf'
 
-- date: Tue Feb 21
+- date: Tue Feb 20
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture11-Testability-wide.pdf'
-    name: 'Testability'
+    link: ''
+    name: 'Devops'
   reading:
     link: ''
     name: ''
@@ -486,43 +486,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Feb 22
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Thu Feb 23
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture12-TestingAsSpecification-wide.pdf'
-    name: 'Testing as Specification'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Fri Feb 24
+- date: Wed Feb 21
   homework:
     deadline: ''
     link: ''
@@ -540,61 +504,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Feb 27
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: 'Creating Your Pitch Deck'
-    quiz: ''
-    slides: ''
-
-- date: Tue Feb 28
-  homework:
-    deadline: 'Due Tue Mar 21 @ 11:59pm'
-    link: 'assignments/HW5'
-    name: 'Sprint 3 (MVP)'
-    numDays: 15
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture13-IntroPresentations-wide.pdf'
-    name: 'Introduction to Pitch Presentations'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Wed Mar 01
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Thu Mar 02
+- date: Thu Feb 22
   homework:
     deadline: ''
     link: ''
@@ -612,7 +522,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 03
+- date: Fri Feb 23
   homework:
     deadline: ''
     link: ''
@@ -630,7 +540,97 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 06
+- date: Mon Feb 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'React and the Outside World'
+    quiz: ''
+    slides: ''
+
+- date: Tue Feb 27
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Feedback'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Feb 28
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Testability TBD'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Mar 01
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Mar 04
   homework:
     deadline: ''
     link: ''
@@ -648,7 +648,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Mar 07
+- date: Tue Mar 05
   homework:
     deadline: ''
     link: ''
@@ -666,7 +666,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Mar 08
+- date: Wed Mar 06
   homework:
     deadline: ''
     link: ''
@@ -684,7 +684,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Mar 09
+- date: Thu Mar 07
   homework:
     deadline: ''
     link: ''
@@ -702,7 +702,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 10
+- date: Fri Mar 08
   homework:
     deadline: ''
     link: ''
@@ -720,7 +720,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 13
+- date: Mon Mar 11
   homework:
     deadline: ''
     link: ''
@@ -738,7 +738,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Mar 14
+- date: Tue Mar 12
   homework:
     deadline: ''
     link: ''
@@ -746,7 +746,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pitch Deck Presentations 1'
+    name: 'Pitch Deck Project Presentations Pt. I'
   reading:
     link: ''
     name: ''
@@ -756,43 +756,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Mar 15
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Thu Mar 16
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: 'Pitch Deck Presentations 2'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Fri Mar 17
+- date: Wed Mar 13
   homework:
     deadline: ''
     link: ''
@@ -810,7 +774,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 20
+- date: Thu Mar 14
   homework:
     deadline: ''
     link: ''
@@ -818,35 +782,17 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Pitch Deck Project Presentations Pt. II'
   reading:
     link: ''
     name: ''
   recitation:
     handout: ''
-    name: 'How I Got a Job at a Startup'
-    quiz: ''
-    slides: ''
-
-- date: Tue Mar 21
-  homework:
-    deadline: 'Due Tue Apr 11 @ 11:59pm'
-    link: 'assignments/FP1'
-    name: 'Team Sprint 1'
-    numDays: 15
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture14-Pivoting-1-wide.pdf'
-    name: 'Pivoting 1'
-  reading:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/S23-Lecture14-Pitch-Results.pdf'
-    name: 'Pitch Vote Results'
-  recitation:
-    handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Wed Mar 22
+- date: Fri Mar 15
   homework:
     deadline: ''
     link: ''
@@ -864,15 +810,33 @@
     quiz: ''
     slides: ''
 
-- date: Thu Mar 23
+- date: Mon Mar 18
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture15-Pivoting-2-wide.pdf'
-    name: 'Pivoting 2'
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'Databases'
+    quiz: ''
+    slides: ''
+
+- date: Tue Mar 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Pivoting I'
   reading:
     link: ''
     name: ''
@@ -882,61 +846,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 24
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Mon Mar 27
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: 'React Native'
-    quiz: ''
-    slides: 'recitations/reci9-react-native'
-
-- date: Tue Mar 28
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture16-TechnicalDebt-wide.pdf'
-    name: 'Technical Debt'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Wed Mar 29
+- date: Wed Mar 20
   homework:
     deadline: ''
     link: ''
@@ -954,14 +864,104 @@
     quiz: ''
     slides: ''
 
-- date: Thu Mar 30
+- date: Thu Mar 21
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture17-Scaling-wide.pdf'
+    link: ''
+    name: 'Guest Lecture: Kelley Robinson'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Mar 22
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Mar 25
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'Open Recitation for Projects'
+    quiz: ''
+    slides: ''
+
+- date: Tue Mar 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Pivoting II'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Mar 27
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Mar 28
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
     name: 'Scaling'
   reading:
     link: ''
@@ -972,7 +972,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 31
+- date: Fri Mar 29
   homework:
     deadline: ''
     link: ''
@@ -990,7 +990,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 03
+- date: Mon Apr 01
   homework:
     deadline: ''
     link: ''
@@ -1004,19 +1004,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Work on Projects with TA Assistance'
+    name: 'Responsive Sites'
     quiz: ''
     slides: ''
 
-- date: Tue Apr 04
+- date: Tue Apr 02
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://bit.ly/ScalingAtStartups'
-    name: 'Guest Lecture: Sean Colombo, Duolingo'
+    link: ''
+    name: 'Technical Debt'
   reading:
     link: ''
     name: ''
@@ -1026,43 +1026,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 05
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Thu Apr 06
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture18-StartupEconomics-Equity-wide.pdf'
-    name: 'Startup Economics: Equity'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Fri Apr 07
+- date: Wed Apr 03
   homework:
     deadline: ''
     link: ''
@@ -1080,7 +1044,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 10
+- date: Thu Apr 04
   homework:
     deadline: ''
     link: ''
@@ -1088,25 +1052,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: 'CMU Carnival [No class]'
-    quiz: ''
-    slides: ''
-
-- date: Tue Apr 11
-  homework:
-    deadline: 'Due Wed May 3 @ 11:59pm'
-    link: ''
-    name: 'Final Team Sprint'
-    numDays: 16
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture20-Ethics-wide.pdf'
-    name: 'Ethical Software Development'
+    name: 'Guest Lecture: Sean Colombo'
   reading:
     link: ''
     name: ''
@@ -1116,7 +1062,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 12
+- date: Fri Apr 05
   homework:
     deadline: ''
     link: ''
@@ -1134,7 +1080,61 @@
     quiz: ''
     slides: ''
 
-- date: Thu Apr 13
+- date: Mon Apr 08
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'CMU Carnival [No Recitation]'
+    quiz: ''
+    slides: ''
+
+- date: Tue Apr 09
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Ethics'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Apr 10
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Apr 11
   homework:
     deadline: ''
     link: ''
@@ -1152,7 +1152,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Apr 14
+- date: Fri Apr 12
   homework:
     deadline: ''
     link: ''
@@ -1170,7 +1170,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 17
+- date: Mon Apr 15
   homework:
     deadline: ''
     link: ''
@@ -1184,11 +1184,11 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Work on Projects'
+    name: 'React Native (Mobile dev)'
     quiz: ''
     slides: ''
 
-- date: Tue Apr 18
+- date: Tue Apr 16
   homework:
     deadline: ''
     link: ''
@@ -1196,7 +1196,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture: Brian Silverman, Playful Invention Company'
+    name: 'Startup Economics I'
   reading:
     link: ''
     name: ''
@@ -1206,43 +1206,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 19
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Thu Apr 20
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: 'Guest Lecture: Mike Ressler, CTO Diamond Kinetics'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Fri Apr 21
+- date: Wed Apr 17
   homework:
     deadline: ''
     link: ''
@@ -1260,7 +1224,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 24
+- date: Thu Apr 18
   homework:
     deadline: ''
     link: ''
@@ -1268,25 +1232,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: 'No Class'
-    quiz: ''
-    slides: ''
-
-- date: Tue Apr 25
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture23-StartupEconomics-PitchPerfect-wide.pdf'
-    name: 'Startup Economics: Pitch Perfect'
+    name: 'Guest Lecture: Mike Ressler'
   reading:
     link: ''
     name: ''
@@ -1296,7 +1242,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 26
+- date: Fri Apr 19
   homework:
     deadline: ''
     link: ''
@@ -1314,15 +1260,33 @@
     quiz: ''
     slides: ''
 
-- date: Thu Apr 27
+- date: Mon Apr 22
   homework:
     deadline: ''
     link: ''
     name: ''
-    numDays: 0 
+    numDays: 0
   lecture:
-    link: https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2023/Lecture24-EthicalBusiness-Recap-wide.pdf
-    name: Ethical Companies and Course Recap
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'Open Recitation for Projects'
+    quiz: ''
+    slides: ''
+
+- date: Tue Apr 23
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Startup Economics II'
   reading:
     link: ''
     name: ''
@@ -1332,7 +1296,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Apr 28
+- date: Wed Apr 24
   homework:
     deadline: ''
     link: ''
@@ -1350,7 +1314,25 @@
     quiz: ''
     slides: ''
 
-- date: Mon May 01
+- date: Thu Apr 25
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Ethical companies & recap'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Apr 26
   homework:
     deadline: ''
     link: ''
@@ -1368,7 +1350,25 @@
     quiz: ''
     slides: ''
 
-- date: Tue May 02
+- date: Mon Apr 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'Finals Week'
+    quiz: ''
+    slides: ''
+
+- date: Tue Apr 30
   homework:
     deadline: ''
     link: ''
@@ -1386,7 +1386,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed May 03
+- date: Wed May 01
   homework:
     deadline: ''
     link: ''
@@ -1404,7 +1404,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu May 04
+- date: Thu May 02
   homework:
     deadline: ''
     link: ''
@@ -1412,7 +1412,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Final Presentations [Posner A35]'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1422,3 +1422,20 @@
     quiz: ''
     slides: ''
 
+- date: Fri May 03
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''

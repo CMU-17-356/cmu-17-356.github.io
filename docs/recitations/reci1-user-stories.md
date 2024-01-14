@@ -6,12 +6,12 @@ title: Recitation 1 - User Stories
 
 ## Overview
 This recitation will give you the opportunity to familiarize yourself with user stories and help you capture the end user perspective as you build projects.
- 
+
 ## Staff Overview
-- Mehul Agarwal & Rohit Nanjangud Shreenivas
-- Emails: mehula@andrew.cmu.edu & rshreeni@andrew.cmu.edu
-- Office Hours: TBD
- 
+- Nicholas Wernink & Alex Barrios
+- Emails: ngw@andrew.cmu.edu & ambarrio@andrew.cmu.edu
+- Office Hours: Wed 2:30 - 4pm (Nicholas), Thu 12pm - 1pm (Alex)
+
 ## What are User Stories
 The general criteria for a user story:
 - Capture a description of a software feature from an end-user perspective
@@ -52,13 +52,13 @@ Consider the following product by a relatively unknown startup: [maps.google.com
 - Form teams and create User Stories for a Google Maps alternative:
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/42957482/213644342-798c7c0b-85f6-4a97-bdb9-ccb7eee40170.png">
 
-For example, 
+For example,
 ---
 - As a ***delivery driver*** I would like to be able to have ***multiple destinations*** so that I can ***maximize tips by doing multiple deliveries as fast as possible***
 
 ## Food for Thought
 - What are the benefits of **INVEST**?
-- What are the issues with the **INVEST** approach? 
+- What are the issues with the **INVEST** approach?
 
 ## Let's try it out
 - Capture a description of a software feature from an end-user perspective
