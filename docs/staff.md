@@ -9,11 +9,11 @@ hide:
 <div id="course-instructors">
 {%- set instructors = extra.staff | selectattr("role", "==", "Instructor") | list -%}
 {% for instructor in instructors %}
-<div class="staffer card"> 
+<div class="staffer card">
     <div class="container">
         <img class="staffer-image" src="/assets/images/{{instructor.photo}}" alt="">
         <div>
-            <h3 class="staffer-name"> 
+            <h3 class="staffer-name">
                 {{instructor.name}}
             </h3>
             <div class="staffer-links">
@@ -44,11 +44,11 @@ hide:
 
 {% for assistant in assistants %}
 
-<div class="staffer card"> 
+<div class="staffer card">
     <div class="container">
         <img class="staffer-image" src="/assets/images/{{assistant.photo}}" alt="">
         <div>
-            <h3 class="staffer-name"> 
+            <h3 class="staffer-name">
                 {{assistant.name}}
             </h3>
             <div class="staffer-links">
