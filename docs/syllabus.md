@@ -19,8 +19,8 @@ hide:
 ### Prerequisites
 
 15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely
-technical; the goal of the prerequisites is to ensure students should sufficient
-programming experience to succeed in the course.
+technical; the goal of the prerequisites is to ensure students have
+sufficient programming experience to succeed in the course.
 
 ### Textbook/Readings
 
@@ -32,14 +32,15 @@ throughout the semester from online sources.
 ### Communication
 
 The course uses [Canvas](https://canvas.cmu.edu/courses/39473) for homework submission,
-grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-776-s24.slack.com/). Slides, assignments, and schedule will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
+grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-776-s24.slack.com/). Slides, assignments and the schedule
+will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
 
 Please use Slack for discussion and questions, including clarifying homework assignments.
 
 The instructors and TAs hold weekly office hours. If you cannot make it to office hours, contact us via email (using the course-wide email address,
 unless the issue is sensitive) and we will find an alternative time to meet.
 
-If you have a question or concern that is not suitable for Slack, contact the
+If you have a question or concern unsuitable for Slack, contact the
 instructors via: [startups-staff@lists.andrew.cmu.edu](mailto:startups-staff@lists.andrew.cmu.edu). Unless the subject matter
 is sensitive, all questions will be conveyed to all instructors before being
 answered, so there's no point in emailing just one of us.</p>
@@ -68,8 +69,8 @@ will be assigned by the instructors and stay together for multiple
 assignments. Most assignments have a component that is graded for the entire
 group and a component that is graded individually. By default, group assignments
 will receive a single grade, for all individuals.  However, we reserve the right
-to institute peer grading in problematic situations, detailed in the  Team
-  Policy.
+to institute peer grading in problematic situations, as detailed in the [Team
+Policy](/teamwork).
 
 Please fill out the [Teamwork Survey](https://forms.gle/6gCJekKbrhaq9gz67)</a> so we can begin forming groups.
 
@@ -86,15 +87,15 @@ communicate with your team about such issues.
 ### Devices in Lecture and Recitation
 
 Research shows that using devices
-on non-class related activities harms both the device user's learning, and other
+on non-class related activities harms both the device user's learning and other
 students' learning as well.  Therefore, in general, we do not allow the use of
-devices during lecture. *However,*, if you genuinely use your laptop for
+devices during lectures. *However,* if you genuinely use your laptop for
 class-related activities (note-taking, etc), tell us, and we will make an
 exception. However, we ask that if you do so, you are careful to keep your
 devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition,
 you will be required to sit in the back row of the lecture to minimize the impact your screen has on others.
 
-Note that recitation activities will often involve devices, so please do bring your laptop!
+Note that recitation activities will often involve devices, so please bring your laptop!
 
 ### Time Management
 
@@ -118,8 +119,9 @@ first time!
 
 Describing tradeoffs, justifying decisions, and communicating
 effectively with less technical stakeholders are key learning goals of this
-course. Most homework assignments have a component that require discussing
-issues in written form or reflecting about experiences. The [Student Academic Success Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) offers one-on-one writing help for students, along
+course. Most homework assignments have a component that requires discussing
+issues in written form or reflecting on experiences. The
+[Student Academic Success Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) offers one-on-one writing help for students, along
 with workshops. The instructors are also happy to provide additional guidance if
 requested.
 

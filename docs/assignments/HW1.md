@@ -14,7 +14,7 @@ This homework is to be done individually.<br/>
 
 ## Submission
 
-Submit [this assignment]() as a PDF file to Gradescope. If you prepare the response in some other software (like Word), please
+Submit [this assignment](https://www.gradescope.com/courses/704199/assignments/3931512) as a PDF file to Gradescope. If you prepare the response in some other software (like Word), please
 export as PDF before submitting. Include your name and Andrew ID at the top of the document.
 
 In this homework, you will familiarize yourself with the Dronuts project startup idea and then
@@ -47,7 +47,7 @@ teammates’, and select those to put into your backlog as part of your MVP.)
 
 ### Deliverables
 
-You will submit this assignment [via gradescope](), Homework 1.
+You will submit this assignment [via gradescope](https://www.gradescope.com/courses/704199/assignments/3931512), Homework 1.
 
 - 5-10 user stories describing the Dronuts idea. Write the user story using the "Card,
 Conversation, Confirmation" approach discussed in class and recitation (and described
@@ -58,8 +58,8 @@ Longer is not always better...
 - A ranking of those user stories from most to least important, and a one-sentence
 justification for
 
-1. the single most important user story and
-2. the single least important in your list.
+  1. the single most important user story and
+  2. the single least important in your list.
 
 ## Grading
 
