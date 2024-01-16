@@ -25,7 +25,7 @@ For example, for a job portal:
 ---
 <img width="645" alt="image" src="https://user-images.githubusercontent.com/42957482/213642310-5883fbbf-c3d6-40e7-94b9-1b825db13f4b.png">
 
-## Epics V/S User Stories
+## Epics Vs User Stories
 In tech, Epics are not as long as The Odyssey or Mahabharat, but their relative scale is similar
 
 For example,
@@ -52,7 +52,7 @@ Consider the following product by a relatively unknown startup: [maps.google.com
 - Form teams and create User Stories for a Google Maps alternative:
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/42957482/213644342-798c7c0b-85f6-4a97-bdb9-ccb7eee40170.png">
 
-For example,
+For example
 ---
 - As a ***delivery driver*** I would like to be able to have ***multiple destinations*** so that I can ***maximize tips by doing multiple deliveries as fast as possible***
 
@@ -70,5 +70,14 @@ For example,
 - **Conversation:** The communication between customer/product owner and developers
 - **Confirmation:** Acceptance criteria/test
 
-## Brass Tacks
+For example
+---
+**Card** - As a delivery driver I would like to be able to have multiple destinations so that I can maximize tips by doing multiple deliveries as fast as possible
+
+**Conversation** - There needs to be a button to be able to add a stop to my route. Also, when I complete one delivery, I need to be routed to the next destination
+
+**Confirmation** - There is a button that allows me to add multiple destinations to my trips when doing deliveries. Also, the delivery drivers have completed more deliveries due to being able to add more stops
+
+## Upcoming
 - **Homework 1** available on the course website now
+- Download Node.js before next recitation [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
