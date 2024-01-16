@@ -23,8 +23,8 @@
     name: 'Teamwork Survey'
     numDays: 2
   lecture:
-    link: ''
-    name: 'Intro, User Stories'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Startups-Lecture1.pdf'
+    name: 'Course intro and user stories'
   reading:
     link: ''
     name: ''
