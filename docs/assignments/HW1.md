@@ -7,7 +7,7 @@ title: HW1 User Stories
 <p style="text-align: center;">
 50 points<br/>
 
-Due on Gradescope Thursday, January 23, 2023 11:59pm<br/>
+Due on Gradescope Thursday, January 25, 2023 11:59pm<br/>
 
 This homework is to be done individually.<br/>
 </p>
