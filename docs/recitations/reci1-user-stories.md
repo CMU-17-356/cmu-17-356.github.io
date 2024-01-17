@@ -81,3 +81,4 @@ For example
 ## Upcoming
 - **Homework 1** available on the course website now
 - Download Node.js before next recitation [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+- Create a [GitHub](https://docs.github.com/en/get-started/quickstart/creating-an-account-on-github) account, if you haven't already.

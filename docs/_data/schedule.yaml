@@ -32,9 +32,9 @@
     link2: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'User Stories'
     quiz: ''
-    slides: ''
+    slides: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%231.pdf'
 
 - date: Wed Jan 17
   homework:
