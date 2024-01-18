@@ -61,8 +61,8 @@
     name: 'User Stories'
     numDays: 6
   lecture:
-    link: ''
-    name: 'Process and Estimation'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Process.pdf'
+    name: 'Process'
   reading:
     link: ''
     name: ''
