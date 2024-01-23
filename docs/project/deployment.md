@@ -1,11 +1,12 @@
 # Deployment
 
 Since we used Docker for containerization, it is very easy to
-deploy our application in a variety of different ways:
+deploy our application in a variety of different ways.
 
-### Docker Machine
-Docker Machine is a tool designed for automatically provisioning
-servers to run Docker images.  To set this up on Azure, follow the
-following instructions:
+## Render
 
-`https://docs.docker.com/machine/drivers/azure/`
+For this year, the instructors suggest using
+[Render](https://docs.render.com/free) for cloud deployment, which allows
+free deployment for small projects. You can see how to deploy Docker contains on
+Render [here](https://docs.render.com/docker).
+

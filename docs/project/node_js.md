@@ -24,6 +24,5 @@ with Node.  Here are some resources to help you become familiar with Node:
 To get started, follow the instructions on setting up your project repository
 provided in the [starter repository](https://github.com/CMU-17-356/dronut-starter/tree/master).
 
-
 !> We realize that this assignment introduces lots of new technologies at once.
 You should plan on **coming to office hours**, as the TAs will be glad to help!

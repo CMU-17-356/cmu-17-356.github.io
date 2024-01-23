@@ -38,7 +38,7 @@ Your task this week is to develop high-quality user stories for the Dronuts star
 next week’s assignment) select for the backlog of features to create for your MVP. This includes
 the following tasks:
 
-- Visit [Dronuts](/Dronuts) and familiarize yourself with the startup idea.
+- Visit [Dronuts](/dronuts) and familiarize yourself with the startup idea.
 - Distill the Dronuts startup idea into a set of key user stories for the initial product. This
 set should be concise, but it need not be perfectly minimal.
   - (As context, in the next homework you will combine these user stories with your
