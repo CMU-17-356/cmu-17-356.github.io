@@ -8,7 +8,7 @@ last_homework:
 lectures:
   - date: Tue Jan 23
     link: ""
-    name: "Quality Assurance (CI, Tools, TDD)"
+    name: "Process and Code Review"
   - date: Thu Jan 25
     link: ""
     name: "Architecture and Prototyping + priortization"

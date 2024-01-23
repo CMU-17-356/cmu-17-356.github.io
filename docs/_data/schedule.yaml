@@ -116,7 +116,7 @@
     numDays: 8
   lecture:
     link: ""
-    name: "Quality Assurance (CI, Tools, TDD)"
+    name: "Process and Code Review"
   reading:
     link: ""
     name: ""
@@ -206,7 +206,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Process and Code Review"
+    name: "Quality Assurance (CI, Tools, TDD)"
   reading:
     link: ""
     name: ""
