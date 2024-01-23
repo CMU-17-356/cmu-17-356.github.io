@@ -13,7 +13,12 @@ lectures:
     link: ""
     name: "Architecture and Prototyping + priortization"
 
-next_homework: null
+next_homework:
+  date: ""
+  deadline: "Thu Feb 1 @ 11:59pm"
+  link: "assignments/HW2"
+  name: "Sprint 0"
+  numDays: 6
 
 recitation:
   date: Fri Jan 26
