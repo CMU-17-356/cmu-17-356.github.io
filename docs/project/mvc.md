@@ -1,7 +1,7 @@
 # MVC
 
 ## Introduction
-MVC stands for Model, View, Controller- it is a pattern for
+MVC stands for Model, View, Controller. It is a pattern for
 developing software applications.  We will explain more about this
 in recitation, though there are an abundance of tutorials online.
 
@@ -23,3 +23,5 @@ encourage you to use one of the following:
 * <b>Vue.js</b> <br>
   Vue.js is another player on the block. It is easy to
   learn, but there is a realtively small user base.
+
+* <b>Svelte</b> <br>

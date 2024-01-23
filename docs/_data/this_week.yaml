@@ -1,23 +1,23 @@
 last_homework:
-  date: ''
-  deadline: 'Thu Jan 18 @ 11:59pm'
-  link: 'https://forms.gle/6gCJekKbrhaq9gz67'
-  name: 'Teamwork Survey'
-  numDays: 2
+  date: ""
+  deadline: "Thu Jan 25 @ 11:59pm"
+  link: "assignments/HW1"
+  name: "User Stories"
+  numDays: 6
 
 lectures:
-- date: Tue Jan 16
-  link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Startups-Lecture1.pdf'
-  name: 'Course intro and user stories'
-- date: Thu Jan 18
-  link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Process.pdf'
-  name: 'Process and estimation'
+  - date: Tue Jan 23
+    link: ""
+    name: "Quality Assurance (CI, Tools, TDD)"
+  - date: Thu Jan 25
+    link: ""
+    name: "Architecture and Prototyping + priortization"
 
 next_homework: null
 
 recitation:
-  date: Fri Jan 19
-  handout: ''
-  name: 'User Stories'
-  quiz: ''
-  slides: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%231.pdf'
+  date: Fri Jan 26
+  handout: ""
+  name: "Node Development Basics"
+  quiz: ""
+  slides: ""
