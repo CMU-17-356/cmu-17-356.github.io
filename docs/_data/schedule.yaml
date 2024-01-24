@@ -115,8 +115,8 @@
     name: "Sprint 0"
     numDays: 8
   lecture:
-    link: ""
-    name: "Process and Code Review"
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/CodeReview.pdf"
+    name: "Code Review"
   reading:
     link: ""
     name: ""
