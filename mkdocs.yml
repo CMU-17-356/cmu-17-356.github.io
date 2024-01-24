@@ -12,8 +12,8 @@ theme:
       primary: red
       accent: red
       toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
+        icon: material/brightness-7
+        name: Switch to dark mode
     - scheme: slate
       primary: red
       accent: red
@@ -58,13 +58,13 @@ nav:
   - Assignments: #assignments/index.md # Dummy home page; remove once we start adding assignments below
       - Homework 1: assignments/HW1.md
       - Homework 2: assignments/HW2.md
-      # - Homework 3: assignments/HW3.md
+      - Homework 3: assignments/HW3.md
       # - Homework 4: assignments/HW4.md
       # - Homework 5: assignments/HW5.md
       # - Final Project 1 Sprint 1: assignments/FP1.md
       # - Final Project 1 Sprint 2: assignments/FP2.md
   - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
-    - Recitation 1: recitations/reci1-user-stories.md
+      - Recitation 1: recitations/reci1-user-stories.md
     # - Recitation 2: recitations/reci2-nodejs.md
     # - Recitation 3: recitations/reci3-react.md
     # - Recitation 4: recitations/reci4-typescript.md
@@ -79,9 +79,7 @@ nav:
       - Node.JS: project/node_js.md
       - Credit API: project/credit_api.md
       - Drone API: project/drone_api.md
-      - MVC: project/mvc.md
+      - UI Development: project/ui.md
       - Docker: project/docker.md
       - Deployment: project/deployment.md
   - Team Projects: project/index.md
-
-

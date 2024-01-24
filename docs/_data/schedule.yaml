@@ -236,10 +236,10 @@
 
 - date: Thu Feb 01
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thu Feb 15 @ 11:59pm"
+    link: "assignments/HW3"
+    name: "Sprint 1"
+    numDays: 10
   lecture:
     link: ""
     name: "High Level Design + intro to design exercise"
