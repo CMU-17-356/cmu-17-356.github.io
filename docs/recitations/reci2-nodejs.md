@@ -8,9 +8,9 @@ title: Recitation 2 - Node.js
 This recitation aims to highlight the basics of Node.js by walking students through the implementation of a basic To-Do app.
 
 ## Staff Overview
-- Mehul Agarwal & Rohit Nanjangud Shreenivas
-- Emails: mehula@andrew.cmu.edu & rshreeni@andrew.cmu.edu
-- Office Hours: TBD
+- Nicholas Wernink & Alex Barrios
+- Emails: ngw@andrew.cmu.edu & ambarrio@andrew.cmu.edu
+- Office Hours: Wed 2:30 - 4pm (Nicholas), Thu 12pm - 1pm (Alex)
 
 ## Full-stack Development
 Different levels of the stack:
@@ -66,11 +66,17 @@ The largest ecosystem of open-source libraries in the world
 
 1. `mkdir` into your project folder (todo-app) and `cd` into it
 2. `npm init`
-3. `npm install express --save`
-4. `npm install body-parser --save`
-5. Write express code, as seen in the [reference](https://github.com/CMU-17-356/cmu-17-356.github.io/tree/main/resources/recitations/2021/Recitation%202/todo-app) solution
-6. `node index.js` (to start the server)
+3. `npm i --save-dev typescript @types/node @types/express npm i cors dotenv mongoose`
+4. Create tsconfig.json file
+5. Write code, as seen in either the [MongoDB](https://github.com/CMU-17-356/example-mongo-app) or [Postgres](https://github.com/CMU-17-356/example-postgres-app) reference solution
+6. `npm start` (to start the server)
 7. (optional) Play with the server, send it post requests
 
 
+## Steps for building off of references
+1. Clone either the [MongoDB](https://github.com/CMU-17-356/example-mongo-app) or [Postgres](https://github.com/CMU-17-356/example-postgres-app) reference solution
+2. cd into server directory with `cd server`
+3. Run `npm install` in command line
+4. Run `npm start` in command line
+5. (optional) Play with the server, send it post requests
 
