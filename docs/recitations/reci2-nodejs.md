@@ -80,3 +80,7 @@ The largest ecosystem of open-source libraries in the world
 4. Run `npm start` in command line
 5. (optional) Play with the server, send it post requests
 
+## Upcoming
+- Download Postman to test your server/API
+- **Homework 2** due Thursday
+- Meet with your group soon if you haven’t already!
