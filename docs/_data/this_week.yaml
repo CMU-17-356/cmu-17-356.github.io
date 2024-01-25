@@ -10,15 +10,15 @@ lectures:
     link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/CodeReview.pdf"
     name: "Code Review"
   - date: Thu Jan 25
-    link: ""
-    name: "Architecture and Prototyping + priortization"
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Process-and-prio.pdf"
+    name: "Prototyping and prioritization"
 
 next_homework:
   date: ""
   deadline: "Thu Feb 1 @ 11:59pm"
   link: "assignments/HW2"
   name: "Sprint 0"
-  numDays: 6
+  numDays: 8
 
 recitation:
   date: Fri Jan 26
