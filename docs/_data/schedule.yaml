@@ -14,7 +14,7 @@
     handout: ""
     name: "User Stories"
     quiz: ""
-    slides: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%231.pdf"
 
 - date: Tue Jan 16
   homework:
@@ -32,7 +32,7 @@
     link2: ""
   recitation:
     handout: ""
-    name: "User Stories"
+    name: ""
     quiz: ""
     slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%231.pdf"
 
@@ -104,9 +104,9 @@
     name: ""
   recitation:
     handout: ""
-    name: "Node Development Basics"
+    name: "Node.js | Full-stack Development"
     quiz: ""
-    slides: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%232.pptx.pdf"
 
 - date: Tue Jan 23
   homework:

@@ -9,7 +9,7 @@ This recitation aims to highlight the basics of Node.js by walking students thro
 
 ## Staff Overview
 - Nicholas Wernink & Alex Barrios
-- Emails: ngw@andrew.cmu.edu & ambarrio@andrew.cmu.edu
+- Emails: [ngw@andrew.cmu.edu](mailto:ngw@andrew.cmu.edu) & [ambarrio@andrew.cmu.edu](mailto:ambarrio@andrew.cmu.edu)
 - Office Hours: Wed 2:30 - 4pm (Nicholas), Thu 12pm - 1pm (Alex)
 
 ## Full-stack Development
