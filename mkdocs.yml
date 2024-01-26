@@ -65,7 +65,7 @@ nav:
       # - Final Project 1 Sprint 2: assignments/FP2.md
   - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1: recitations/reci1-user-stories.md
-    # - Recitation 2: recitations/reci2-nodejs.md
+      - Recitation 2: recitations/reci2-nodejs.md
     # - Recitation 3: recitations/reci3-react.md
     # - Recitation 4: recitations/reci4-typescript.md
     # - Recitation 5: recitations/reci5-fullstack-mern-app.md
