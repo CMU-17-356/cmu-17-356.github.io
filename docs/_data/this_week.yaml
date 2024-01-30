@@ -1,28 +1,28 @@
 last_homework:
   date: ""
-  deadline: "Thu Jan 25 @ 11:59pm"
-  link: "assignments/HW1"
-  name: "User Stories"
-  numDays: 6
-
-lectures:
-  - date: Tue Jan 23
-    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/CodeReview.pdf"
-    name: "Code Review"
-  - date: Thu Jan 25
-    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Process-and-prio.pdf"
-    name: "Prototyping and prioritization"
-
-next_homework:
-  date: ""
   deadline: "Thu Feb 1 @ 11:59pm"
   link: "assignments/HW2"
   name: "Sprint 0"
+  numDays: 6
+
+lectures:
+  - date: Tue Jan 30
+    link: ""
+    name: "Quality Assurance (CI, Tools, TDD)"
+  - date: Thu Feb 01
+    link: ""
+    name: "High Level Design + intro to design exercise"
+
+next_homework:
+  date: ""
+  deadline: "Thu Feb 15 @ 11:59pm"
+  link: "assignments/HW2"
+  name: "Sprint 1"
   numDays: 8
 
 recitation:
-  date: Fri Jan 26
+  date: Fri Feb 02
   handout: ""
-  name: "Node.js | Full-stack Development"
+  name: "React / FE Framework(s)"
   quiz: ""
-  slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%232.pptx.pdf"
+  slides: ""
