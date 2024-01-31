@@ -7,11 +7,11 @@ last_homework:
 
 lectures:
   - date: Tue Jan 30
-    link: ""
-    name: "Quality Assurance (CI, Tools, TDD)"
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Lecture05-Testability.pdf"
+    name: "Testing and Testability"
   - date: Thu Feb 01
     link: ""
-    name: "High Level Design + intro to design exercise"
+    name: "Quality Assurance (CI, Tools, TDD)"
 
 next_homework:
   date: ""

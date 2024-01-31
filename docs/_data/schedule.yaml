@@ -205,8 +205,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "Quality Assurance (CI, Tools, TDD)"
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Lecture05-Testability.pdf"
+    name: "Testing and Testability"
   reading:
     link: ""
     name: ""
@@ -242,7 +242,7 @@
     numDays: 10
   lecture:
     link: ""
-    name: "High Level Design + intro to design exercise"
+    name: "Quality Assurance (CI, Tools, TDD)"
   reading:
     link: ""
     name: ""
@@ -296,7 +296,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Testability"
+    name: "MVP:  High Level Design + intro to design exercise"
   reading:
     link: ""
     name: ""
@@ -332,7 +332,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "MVP"
+    name: "Microservices"
   reading:
     link: ""
     name: ""
@@ -476,7 +476,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Devops"
+    name: "MVP Feedback"
   reading:
     link: ""
     name: ""
@@ -566,7 +566,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Feedback"
+    name: "Pitching"
   reading:
     link: ""
     name: ""
@@ -602,7 +602,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Testability TBD"
+    name: "Devops"
   reading:
     link: ""
     name: ""
@@ -872,7 +872,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Guest Lecture: Kelley Robinson"
+    name: "Guest Lecture: Operations and other non-technical"
   reading:
     link: ""
     name: ""
@@ -962,7 +962,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Scaling"
+    name: "Technical Debt"
   reading:
     link: ""
     name: ""
@@ -1016,7 +1016,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Technical Debt"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1046,13 +1046,13 @@
 
 - date: Thu Apr 04
   homework:
-    deadline: ""
+    deadline: "Ethics"
     link: ""
     name: ""
     numDays: 0
   lecture:
     link: ""
-    name: "Guest Lecture: Sean Colombo"
+    name: "Ethics"
   reading:
     link: ""
     name: ""
@@ -1106,7 +1106,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Ethics"
+    name: "Guest Lecture: TBD"
   reading:
     link: ""
     name: ""
@@ -1232,7 +1232,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Guest Lecture: Mike Ressler"
+    name: "Guest Lecture: TBD"
   reading:
     link: ""
     name: ""
