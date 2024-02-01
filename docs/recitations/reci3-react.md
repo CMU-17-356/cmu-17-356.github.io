@@ -4,17 +4,17 @@ title: Recitation 3 - React
 
 # Recitation 3: React (Frontend)
 
-## Concept: Frontend
+## Staff Overview
+- Nicholas Wernink & Alex Barrios
+- Emails: [ngw@andrew.cmu.edu](mailto:ngw@andrew.cmu.edu) & [ambarrio@andrew.cmu.edu](mailto:ambarrio@andrew.cmu.edu)
+- Office Hours: Wed 2:30 - 4pm (Nicholas), Thu 12pm - 1pm (Alex)
 
+
+## Concept: Frontend
 - What the user sees + interacts with.
 - “Client-side code”
 - Probably know of HTML/CSS/JS. You can build vanilla frontends.
 - We will learn React (https://reactjs.org)
-
-## Staff Overview
-- Mehul Agarwal & Rohit Nanjangud Shreenivas
-- Emails: mehula@andrew.cmu.edu & rshreeni@andrew.cmu.edu
-- Office Hours: TBD
 
 ## Visual
 ![image](https://user-images.githubusercontent.com/42957482/216521060-d797b392-e24c-4cb7-b9a6-bd0bb6582e4c.jpeg)
@@ -22,9 +22,7 @@ title: Recitation 3 - React
 ## Interruption: Styling and CSS
 - We don’t have a dedicated recitation for styling, because there are so many many systems you can follow.
 - Google is your friend.
-- Course's personal pick: Flexbox
-https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
-https://www.youtube.com/watch?v=JJSoEo8JSnc
+
 
 ## Intro to ReactJS (or just React)
 - Created 2011 (by Facebook)
@@ -74,6 +72,16 @@ Popular ones:
 - Bootstrap
 - Ant Design (Ant Financial, Alibaba)
 - Evergreen
-- We’re gonna use Geist UI (more obscure, to get used to learning weird things)
+- We’re gonna use Tailwind CSS
 
-Link to prototype: https://github.com/CMU-17-356/cmu-17-356.github.io/tree/main/resources/recitations/2021/Recitation%203/todo-app-rec3/todo-app-frontend
+
+## React demo app
+- Clone either the [MongoDB](https://github.com/CMU-17-356/example-mongo-app) or [Postgres](https://github.com/CMU-17-356/example-postgres-app) reference solution
+- cd into server directory with `cd server`
+- Run `npm install` in command line
+- Run `npm start` in command line
+- cd into client directory with `cd client` from root directory
+- Run `npm install` in command line
+- Run `npm start` in command line
+
+
