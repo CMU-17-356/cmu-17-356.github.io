@@ -106,7 +106,7 @@
     handout: ""
     name: "Node.js | Full-stack Development"
     quiz: ""
-    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%232.pptx.pdf"
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%232.pdf"
 
 - date: Tue Jan 23
   homework:
@@ -196,7 +196,7 @@
     handout: ""
     name: "React / FE Framework(s)"
     quiz: ""
-    slides: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%233.pdf"
 
 - date: Tue Jan 30
   homework:
