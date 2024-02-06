@@ -239,7 +239,7 @@
     deadline: "Due Thu Feb 15 @ 11:59pm"
     link: "assignments/HW3"
     name: "Sprint 1"
-    numDays: 10
+    numDays: 11
   lecture:
     link: ""
     name: "Quality Assurance (CI, Tools, TDD)"
@@ -416,10 +416,10 @@
 
 - date: Thu Feb 15
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 8
+    deadline: "Due Thu Feb 29 @ 11:59pm"
+    link: "assignments/HW4"
+    name: "Sprint 2"
+    numDays: 11
   lecture:
     link: ""
     name: "Depoyment Challenges"

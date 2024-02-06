@@ -1,28 +1,28 @@
 last_homework:
   date: ""
-  deadline: "Thu Feb 1 @ 11:59pm"
-  link: "assignments/HW2"
-  name: "Sprint 0"
-  numDays: 6
+  deadline: "Thu Feb 15 @ 11:59pm"
+  link: "assignments/HW3"
+  name: "Sprint 1"
+  numDays: 11
 
 lectures:
-  - date: Tue Jan 30
-    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Lecture05-Testability.pdf"
-    name: "Testing and Testability"
-  - date: Thu Feb 01
+  - date: Tue Feb 06
     link: ""
-    name: "Quality Assurance (CI, Tools, TDD)"
+    name: "MVP:  High Level Design + intro to design exercise"
+  - date: Thu Feb 08
+    link: ""
+    name: "Microservices"
 
 next_homework:
   date: ""
-  deadline: "Thu Feb 15 @ 11:59pm"
-  link: "assignments/HW2"
-  name: "Sprint 1"
-  numDays: 8
+  deadline: "Thu Feb 29 @ 11:59pm"
+  link: "assignments/HW4"
+  name: "Sprint 2"
+  numDays: 11
 
 recitation:
-  date: Fri Feb 02
+  date: Fri Feb 09
   handout: ""
-  name: "React / FE Framework(s)"
+  name: "Testing and Git Flow"
   quiz: ""
   slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%233.pdf"
