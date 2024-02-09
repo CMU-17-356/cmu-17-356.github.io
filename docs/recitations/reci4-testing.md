@@ -1,5 +1,5 @@
 ---
-title: Recitation 4 - Typescript
+title: Recitation 4 - Testing + Git Flow
 ---
 
 # Recitation 4: Testing + Git Flow
@@ -18,6 +18,8 @@ title: Recitation 4 - Typescript
 - Push - Uploads local repository changes to a remote repository
 - Pull - Fetches changes from a remote repository and merges them into the local branch
 - Merge - Combines changes from different branches into the current branch
+
+![gitflow](https://github.com/CMU-17-356/cmu-17-356.github.io/assets/79665965/20a1ccbf-aab8-4775-bf6d-7d33801fc59e)
 
 
 # Testing
