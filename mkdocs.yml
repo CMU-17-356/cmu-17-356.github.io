@@ -67,7 +67,7 @@ nav:
       - Recitation 1: recitations/reci1-user-stories.md
       - Recitation 2: recitations/reci2-nodejs.md
       - Recitation 3: recitations/reci3-react.md
-    # - Recitation 4: recitations/reci4-typescript.md
+      - Recitation 4: recitations/reci4-testing.md
     # - Recitation 5: recitations/reci5-fullstack-mern-app.md
     # - Recitation 6: recitations/reci6-.md
     # - Recitation 7: recitations/reci7-.md
