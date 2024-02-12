@@ -6,12 +6,12 @@ last_homework:
   numDays: 11
 
 lectures:
-  - date: Tue Feb 06
+  - date: Tue Feb 13
     link: ""
-    name: "MVP:  High Level Design + intro to design exercise"
-  - date: Thu Feb 08
+    name: "MVP Continued"
+  - date: Thu Feb 15
     link: ""
-    name: "Microservices"
+    name: "Depoyment Challenges"
 
 next_homework:
   date: ""
@@ -21,8 +21,8 @@ next_homework:
   numDays: 11
 
 recitation:
-  date: Fri Feb 09
+  date: Fri Feb 16
   handout: ""
-  name: "Testing and Git Flow"
+  name: "Docker"
   quiz: ""
-  slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%234.pdf?download="
+  slides: ""
