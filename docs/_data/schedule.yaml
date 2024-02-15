@@ -374,9 +374,9 @@
     name: ""
   recitation:
     handout: ""
-    name: "Docker"
+    name: "Midterm Prep and Testing (Continued)"
     quiz: ""
-    slides: ""
+    slides: "sampleExams/midterm2022.pdf"
 
 - date: Tue Feb 13
   homework:
@@ -464,9 +464,9 @@
     name: ""
   recitation:
     handout: ""
-    name: "Midterm Prep"
+    name: "Docker"
     quiz: ""
-    slides: "sampleExams/midterm2022.pdf"
+    slides: ""
 
 - date: Tue Feb 20
   homework:
