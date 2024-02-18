@@ -6,12 +6,12 @@ last_homework:
   numDays: 11
 
 lectures:
-  - date: Tue Feb 13
+  - date: Tue Feb 20
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/MVP.pdf"
+    name: "MVP Feedback"
+  - date: Thu Feb 22
     link: ""
-    name: "MVP Continued"
-  - date: Thu Feb 15
-    link: ""
-    name: "Depoyment Challenges"
+    name: "Midterm"
 
 next_homework:
   date: ""
@@ -21,8 +21,8 @@ next_homework:
   numDays: 0
 
 recitation:
-  date: Fri Feb 16
+  date: Fri Feb 23
   handout: ""
-  name: "Midterm Prep and Testing (Continued)"
+  name: "Docker"
   quiz: ""
-  slides: "sampleExams/midterm2022.pdf"
+  slides: ""
