@@ -1,8 +1,8 @@
 last_homework:
   date: ""
-  deadline: "Thu Feb 15 @ 11:59pm"
-  link: "assignments/HW3"
-  name: "Sprint 1"
+  deadline: "Thu Feb 29 @ 11:59pm"
+  link: "assignments/HW4"
+  name: "Sprint 2"
   numDays: 11
 
 lectures:
@@ -15,10 +15,10 @@ lectures:
 
 next_homework:
   date: ""
-  deadline: "Thu Feb 29 @ 11:59pm"
-  link: "assignments/HW4"
-  name: "Sprint 2"
-  numDays: 11
+  deadline: ""
+  link: ""
+  name: ""
+  numDays: 0
 
 recitation:
   date: Fri Feb 16
