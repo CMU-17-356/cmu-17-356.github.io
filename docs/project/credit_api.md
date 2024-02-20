@@ -18,4 +18,8 @@ The API itself is accessible at [`https://credits-api.onrender.com/`](https://cr
 
 Here's a video walkthrough explaining the API:
 
+<video controls>
+  <source src="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/videos/2024/credit_api_walkthrough.mov" type="video/mp4">
+</video>
+
 The status of both the CommerceFriend and DroneTech API servers can be found on this [status page](https://z1nxzx66.status.cron-job.org/).
