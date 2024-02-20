@@ -16,4 +16,6 @@ The process of using CommerceFriend flows like this (for ease of administration,
 
 The API itself is accessible at [`https://credits-api.onrender.com/`](https://credits-api.onrender.com/).
 
+Here's a video walkthrough explaining the API:
+
 The status of both the CommerceFriend and DroneTech API servers can be found on this [status page](https://z1nxzx66.status.cron-job.org/).
