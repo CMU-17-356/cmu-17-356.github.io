@@ -40,4 +40,11 @@ include information about battery capacity, location, and delivery status.
 The DroneAPI is accessible at [https://drone-api-jgxf.onrender.com/](https://drone-api-jgxf.onrender.com/).
 The API explorer is accessible at [https://drone-api-jgxf.onrender.com/explorer/](https://drone-api-jgxf.onrender.com/explorer/).
 
+Here's a video walkthrough explaining the API:
+
+<video controls>
+  <source src="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/videos/2024/drone_api_walkthrough.mov" type="video/mp4">
+</video>
+
+
 The status of both the CommerceFriend and DroneTech API servers can be found on this [status page](https://z1nxzx66.status.cron-job.org/).
