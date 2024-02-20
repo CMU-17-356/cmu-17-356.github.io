@@ -35,11 +35,11 @@ complete a presentable, Minimal Viable Product (MVP) for the Dronut Application.
 Your team should spend the majority of this sprint finishing your MVP and
 deploying it on [Render](https://docs.render.com/).
 
-## Checkpoint Meetings (Feb 21 - Feb 22)
+## Checkpoint Meetings (Feb 26 - Feb 27)
 
-During the week of **Feb 19**, we require that every team visit Office
-Hours so the TAs can take a look at your team's work. This is to make sure that
-all teams make constant steady progress towards their MVP.
+During the week of **Feb 26**, we require that every team visit during these
+open hours so the TAs can take a look at your team's work. This is to make sure
+that all teams make constant steady progress towards their MVP.
 
 Sign up for your time slot on this [Google Sheet](https://docs.google.com/spreadsheets/d/1TjV-x8BfoNkzfEbpw2v21gYV7Noj5ei7RGlG9qJcfe0/edit?usp=sharing).
 
@@ -58,8 +58,9 @@ having members for each component of the project (i.e., frontend, backend)
 present will help you explain your work to the TAs and receive better feedback.
 
 The objective of these meetings is not to assess or determine grades, but rather
-to help students ship a great MVP on time. As such, please visit Office Hours as
-soon as possible to make sure your team is on track!
+to help students ship a great MVP on time. As such, please visit us during these
+sessions and/or Office Hours as soon as possible to make sure your team is on
+track!
 
 ## Demonstration of Individual Actions
 
