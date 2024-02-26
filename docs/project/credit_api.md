@@ -11,7 +11,7 @@ The process of using CommerceFriend flows like this (for ease of administration,
 
 1. Create a `company` for your app. This is essentially like your company's bank account. It s a `PUT` and can be overriden.
 2. When a user needs to pay for an order, your app should create a new transaction, listing the amount to be paid.
-3. You should then redirect the user to `https://credits-api.onrender.com/explorer/?transaction_id=<id>` where `<id>` is the transaction id.
+3. You should then redirect the user to `https://credits-api.onrender.com/?transaction_id=<id>` where `<id>` is the transaction id.
 4. The user will then be prompted to provide their credit card information, and the transaction will be updated based on the status of the payment.
 
 The API itself is accessible at [`https://credits-api.onrender.com/`](https://credits-api.onrender.com/).
