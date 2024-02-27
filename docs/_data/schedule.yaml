@@ -596,10 +596,10 @@
 
 - date: Thu Feb 29
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Wed March 20 @ 11:59pm"
+    link: "assignments/HW5"
+    name: "Sprint 3 (Final Dronuts Sprint)"
+    numDays: 15
   lecture:
     link: ""
     name: "Devops"
