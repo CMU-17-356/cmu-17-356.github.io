@@ -1,5 +1,5 @@
 ---
-title: Recitation 5: Docker + Kubernetes
+title: Recitation 5 - Docker + Kubernetes
 ---
 
 # Recitation 5: Docker + Kubernetes
@@ -14,6 +14,7 @@ title: Recitation 5: Docker + Kubernetes
 - Guest machine runs on a physical “host” machine
 - Multiple guests can run on the same host machine
 - Each guest has its own OS and functions independently
+
 
 ## Virtual Machines Pros and Cons
 Pros:
