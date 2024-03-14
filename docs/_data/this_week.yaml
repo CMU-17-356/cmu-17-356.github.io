@@ -6,12 +6,12 @@ last_homework:
   numDays: 15
 
 lectures:
-  - date: Tue Mar 05
+  - date: Tue Mar 12
     link: ""
-    name: "Pitching"
-  - date: Thu Mar 07
+    name: "Pitch Deck Project Presentations Pt. I"
+  - date: Thu Mar 14
     link: ""
-    name: "Devops"
+    name: "Pitch Deck Project Presentations Pt. II"
 
 next_homework:
   date: ""
@@ -21,8 +21,8 @@ next_homework:
   numDays: 15
 
 recitation:
-  date: Fri Feb 23
+  date: Fri Mar 15
   handout: ""
-  name: "Spring Break [No Class]"
+  name: "Databases and Storage"
   quiz: ""
-  slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%235.pdf?download="
+  slides: ""
