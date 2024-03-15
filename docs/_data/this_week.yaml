@@ -1,28 +1,28 @@
 last_homework:
   date: ""
-  deadline: "Thu Feb 29 @ 11:59pm"
-  link: "assignments/HW4"
-  name: "Sprint 2"
-  numDays: 11
-
-lectures:
-  - date: Tue Feb 27
-    link: ""
-    name: "Pitching"
-  - date: Thu Feb 29
-    link: ""
-    name: "Devops"
-
-next_homework:
-  date: ""
   deadline: "Wed March 20 @ 11:59pm"
   link: "assignments/HW5"
   name: "Sprint 3 (Final Dronuts Sprint)"
   numDays: 15
 
+lectures:
+  - date: Tue Mar 12
+    link: ""
+    name: "Pitch Deck Project Presentations Pt. I"
+  - date: Thu Mar 14
+    link: ""
+    name: "Pitch Deck Project Presentations Pt. II"
+
+next_homework:
+  date: ""
+  deadline: ""
+  link: ""
+  name: ""
+  numDays: 15
+
 recitation:
-  date: Fri Feb 23
+  date: Fri Mar 15
   handout: ""
-  name: "Docker and Kubernetes (K8s)"
+  name: "Databases and Storage"
   quiz: ""
-  slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%235.pdf?download="
+  slides: ""
