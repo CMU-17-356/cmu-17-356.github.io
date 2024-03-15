@@ -734,9 +734,9 @@
     name: ""
   recitation:
     handout: ""
-    name: "Databases"
+    name: "Databases and Storage"
     quiz: ""
-    slides: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/891182807502ea20424b750fda9afc265a5bd5d4/resources/recitations/2024/17356%20-%20Recitation%20%236.pdf?download="
 
 - date: Tue Mar 12
   homework:
