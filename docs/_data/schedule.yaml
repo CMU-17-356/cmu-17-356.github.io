@@ -1016,7 +1016,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Ethics"
   reading:
     link: ""
     name: ""
@@ -1046,13 +1046,13 @@
 
 - date: Thu Apr 04
   homework:
-    deadline: "Ethics"
+    deadline: ""
     link: ""
     name: ""
     numDays: 0
   lecture:
     link: ""
-    name: "Ethics"
+    name: "In-class Project Updates"
   reading:
     link: ""
     name: ""
