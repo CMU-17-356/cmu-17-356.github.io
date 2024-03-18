@@ -866,10 +866,10 @@
 
 - date: Thu Mar 21
   homework:
-    deadline: "Due Tues April 09 @ 11:59pm"
+    deadline: "Due Thu April 04 @ 11:59pm"
     link: "assignments/FP1"
     name: "Final Project: Team Sprint 1"
-    numDays: 14
+    numDays: 10
   lecture:
     link: ""
     name: "Pivoting II"

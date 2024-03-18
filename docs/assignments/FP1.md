@@ -9,7 +9,7 @@ title: FP Team Sprint 1
 <p style="text-align: center;">
 100 points<br/>
 
-Due on Gradescope Tuesday, April 09, 2023, 11:59pm<br/>
+Due on Gradescope Thursday, April 04, 2023, 11:59pm<br/>
 
 This final project homework is to be done and submitted as a team.<br/>
 </p>
