@@ -145,7 +145,8 @@ the teamwork contract in your team’s Slack channel.
 
 ## Team Deliverables
 
-A project proposal document containing the following:
+A project proposal document uploaded to [Gradescope](https://www.gradescope.com/courses/704199/assignments/4244012)
+containing the following:
 
 1. A short intro/motivation for your startup and product (1-2 paragraphs).
 2. A link to your project homepage/landing page. This static site should include:
