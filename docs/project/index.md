@@ -9,4 +9,4 @@ title: Class Projects
 3. Foodie Finder
 4. NutriPal
 5. Tempo
-6. Tzugi
+6. ReVolt Battery Marketplace
