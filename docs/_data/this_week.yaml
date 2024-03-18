@@ -3,26 +3,26 @@ last_homework:
   deadline: "Wed March 20 @ 11:59pm"
   link: "assignments/HW5"
   name: "Sprint 3 (Final Dronuts Sprint)"
-  numDays: 15
+  numDays: 14
 
 lectures:
-  - date: Tue Mar 12
+  - date: Tue Mar 19
     link: ""
-    name: "Pitch Deck Project Presentations Pt. I"
-  - date: Thu Mar 14
+    name: "Pivoting I"
+  - date: Thu Mar 21
     link: ""
-    name: "Pitch Deck Project Presentations Pt. II"
+    name: "Pivoting II"
 
 next_homework:
   date: ""
-  deadline: ""
-  link: ""
-  name: ""
+  deadline: "Tues April 09 @ 11:59pm"
+  link: "assignments/FP1"
+  name: "Final Project: Team Sprint 1"
   numDays: 15
 
 recitation:
-  date: Fri Mar 15
+  date: Fri Mar 22
   handout: ""
-  name: "Databases and Storage"
+  name: "Deployment Help and Strategies"
   quiz: ""
-  slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/891182807502ea20424b750fda9afc265a5bd5d4/resources/recitations/2024/17356%20-%20Recitation%20%236.pdf?download="
+  slides: ""

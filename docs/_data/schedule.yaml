@@ -824,7 +824,7 @@
     name: ""
   recitation:
     handout: ""
-    name: "Deployment Help"
+    name: "Deployment Help and Strategies"
     quiz: ""
     slides: ""
 
@@ -866,13 +866,13 @@
 
 - date: Thu Mar 21
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Tues April 09 @ 11:59pm"
+    link: "assignments/FP1"
+    name: "Final Project: Team Sprint 1"
+    numDays: 14
   lecture:
     link: ""
-    name: "Guest Lecture: Operations and other non-technical"
+    name: "Pivoting II"
   reading:
     link: ""
     name: ""
