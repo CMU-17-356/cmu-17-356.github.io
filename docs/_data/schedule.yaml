@@ -872,7 +872,7 @@
     numDays: 10
   lecture:
     link: ""
-    name: "Pivoting II"
+    name: "Ethics"
   reading:
     link: ""
     name: ""
@@ -962,7 +962,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Technical Debt"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1016,7 +1016,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Ethics"
+    name: "Guest Lecture"
   reading:
     link: ""
     name: ""
@@ -1052,7 +1052,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "In-class Project Updates"
+    name: "In-class Project Feedback"
   reading:
     link: ""
     name: ""
@@ -1106,7 +1106,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Guest Lecture: TBD"
+    name: "Guest Lecture: Mark LaRosa on VC and Sales"
   reading:
     link: ""
     name: ""
