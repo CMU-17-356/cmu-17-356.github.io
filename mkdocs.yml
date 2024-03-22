@@ -70,7 +70,7 @@ nav:
       - Recitation 4: recitations/reci4-testing.md
       - Recitation 5: recitations/reci5-docker-kubernetes.md
       - Recitation 6: recitations/reci6-databases-storage.md
-    # - Recitation 7: recitations/reci7-.md
+      - Recitation 7: recitations/reci7-mobile-react-native.md
     # - Recitation 8: recitations/reci8-.md
     # - Recitation 9: recitations/reci9-react-native.md
   - Dronuts:
