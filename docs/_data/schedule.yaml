@@ -914,7 +914,7 @@
     name: ""
   recitation:
     handout: ""
-    name: "Open Recitation for Projects"
+    name: "Responsive Sites"
     quiz: ""
     slides: ""
 
@@ -962,7 +962,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "TBD"
   reading:
     link: ""
     name: ""
@@ -1004,7 +1004,7 @@
     name: ""
   recitation:
     handout: ""
-    name: "Responsive Sites"
+    name: "Open Recitation for Projects"
     quiz: ""
     slides: ""
 

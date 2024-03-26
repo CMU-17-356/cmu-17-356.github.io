@@ -1,17 +1,17 @@
 last_homework:
   date: ""
-  deadline: "Wed March 20 @ 11:59pm"
-  link: "assignments/HW5"
-  name: "Sprint 3 (Final Dronuts Sprint)"
-  numDays: 14
+  deadline: ""
+  link: ""
+  name: ""
+  numDays: 0
 
 lectures:
-  - date: Tue Mar 19
+  - date: Tue Mar 26
     link: ""
-    name: "Pivoting I"
-  - date: Thu Mar 21
+    name: "Pivoting II"
+  - date: Thu Mar 28
     link: ""
-    name: "Ethics"
+    name: "TBD"
 
 next_homework:
   date: ""
@@ -21,8 +21,8 @@ next_homework:
   numDays: 10
 
 recitation:
-  date: Fri Mar 22
+  date: Fri Mar 29
   handout: ""
-  name: "Mobile + React Native"
+  name: "Responsive Sites"
   quiz: ""
   slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%237.pdf?download="
