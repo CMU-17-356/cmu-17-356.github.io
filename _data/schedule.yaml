@@ -1,0 +1,1441 @@
+- date: Mon Jan 15
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "MLK Jr Day [No Class]"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "User Stories"
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%231.pdf"
+
+- date: Tue Jan 16
+  homework:
+    deadline: "Due Thu Jan 18 @ 11:59pm"
+    link: "https://forms.gle/6gCJekKbrhaq9gz67"
+    name: "Teamwork Survey"
+    numDays: 2
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Startups-Lecture1.pdf"
+    name: "Course intro and user stories"
+  reading:
+    link: ""
+    name: ""
+    name2: ""
+    link2: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%231.pdf"
+
+- date: Wed Jan 17
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Jan 18
+  homework:
+    deadline: "Due Thu Jan 25 @ 11:59pm"
+    link: "assignments/HW1"
+    name: "User Stories"
+    numDays: 6
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Process.pdf"
+    name: "Process and estimation"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Jan 19
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout:
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Jan 22
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Node.js | Full-stack Development"
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%232.pdf"
+
+- date: Tue Jan 23
+  homework:
+    deadline: "Due Thu Feb 1 @ 11:59pm"
+    link: "assignments/HW2"
+    name: "Sprint 0"
+    numDays: 8
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/CodeReview.pdf"
+    name: "Code Review"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Jan 24
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Jan 25
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Process-and-prio.pdf"
+    name: "Prototyping and prioritization"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Jan 26
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Jan 29
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "React / FE Framework(s)"
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%233.pdf"
+
+- date: Tue Jan 30
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Lecture05-Testability.pdf"
+    name: "Testing and Testability"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Jan 31
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Feb 01
+  homework:
+    deadline: "Due Thu Feb 15 @ 11:59pm"
+    link: "assignments/HW3"
+    name: "Sprint 1"
+    numDays: 11
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/QualityAssurance.pdf"
+    name: "Quality Assurance (CI, Tools, TDD)"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Feb 02
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Feb 05
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Testing and Git Flow"
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%234.pdf"
+
+- date: Tue Feb 06
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/MVP.pdf"
+    name: "MVP:  High Level Design + intro to design exercise"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Feb 07
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Feb 08
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Microservices.pdf"
+    name: "Microservices"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Feb 09
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Feb 12
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Midterm Prep and Testing (Continued)"
+    quiz: ""
+    slides: "sampleExams/midterm2022.pdf"
+
+- date: Tue Feb 13
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/MVP.pdf19"
+    name: "MVP Continued"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Feb 14
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Feb 15
+  homework:
+    deadline: "Due Thu Feb 29 @ 11:59pm"
+    link: "assignments/HW4"
+    name: "Sprint 2"
+    numDays: 11
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/ThingsGoWrong.pdf"
+    name: "Deployment Challenges"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Feb 16
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Feb 19
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Frontend and Backend: Fetching Data"
+    quiz: ""
+    slides: ""
+
+- date: Tue Feb 20
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/MVP.pdf"
+    name: "MVP Feedback"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Feb 21
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Feb 22
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Midterm"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Feb 23
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Feb 26
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Docker and Kubernetes (K8s)"
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%235.pdf?download="
+
+- date: Tue Feb 27
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/slides/2024/Pitching.pdf"
+    name: "Pitching"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Feb 28
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Feb 29
+  homework:
+    deadline: "Due Wed March 20 @ 11:59pm"
+    link: "assignments/HW5"
+    name: "Sprint 3 (Final Dronuts Sprint)"
+    numDays: 15
+  lecture:
+    link: ""
+    name: "Devops"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Mar 01
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Mar 04
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Spring Break [No Class]"
+    quiz: ""
+    slides: ""
+
+- date: Tue Mar 05
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Spring Break [No Class]"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Mar 06
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Mar 07
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Spring Break [No Class]"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Mar 08
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Mar 11
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Databases and Storage"
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/891182807502ea20424b750fda9afc265a5bd5d4/resources/recitations/2024/17356%20-%20Recitation%20%236.pdf?download="
+
+- date: Tue Mar 12
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Pitch Deck Project Presentations Pt. I"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Mar 13
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Mar 14
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Pitch Deck Project Presentations Pt. II"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Mar 15
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Mar 18
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Mobile + React Native"
+    quiz: ""
+    slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%237.pdf?download="
+
+- date: Tue Mar 19
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Pivoting I"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Mar 20
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Mar 21
+  homework:
+    deadline: "Due Thu April 04 @ 11:59pm"
+    link: "assignments/FP1"
+    name: "Final Project: Team Sprint 1"
+    numDays: 10
+  lecture:
+    link: ""
+    name: "Ethics"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Mar 22
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Mar 25
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Responsive Sites"
+    quiz: ""
+    slides: ""
+
+- date: Tue Mar 26
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Pivoting II"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Mar 27
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Mar 28
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "TBD"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Mar 29
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Apr 01
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Open Recitation for Projects"
+    quiz: ""
+    slides: ""
+
+- date: Tue Apr 02
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Guest Lecture"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Apr 03
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Apr 04
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "In-class Project Feedback"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Apr 05
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Apr 08
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "CMU Carnival [No Recitation]"
+    quiz: ""
+    slides: ""
+
+- date: Tue Apr 09
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Guest Lecture: Mark LaRosa on VC and Sales"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Apr 10
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Apr 11
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "CMU Carnival [No Class]"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Apr 12
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Apr 15
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "React Native (Mobile dev)"
+    quiz: ""
+    slides: ""
+
+- date: Tue Apr 16
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Startup Economics I"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Apr 17
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Apr 18
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Guest Lecture: TBD"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Apr 19
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Apr 22
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Open Recitation for Projects"
+    quiz: ""
+    slides: ""
+
+- date: Tue Apr 23
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Startup Economics II"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Apr 24
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu Apr 25
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "Ethical companies & recap"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri Apr 26
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Apr 29
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: "Finals Week"
+    quiz: ""
+    slides: ""
+
+- date: Tue Apr 30
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed May 01
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu May 02
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Fri May 03
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
