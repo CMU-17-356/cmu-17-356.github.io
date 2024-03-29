@@ -9,6 +9,10 @@ title: Recitation 8 - Responsive Sites + Accessibility
 - Emails: [ngw@andrew.cmu.edu](mailto:ngw@andrew.cmu.edu) & [ambarrio@andrew.cmu.edu](mailto:ambarrio@andrew.cmu.edu)
 - Office Hours: Wed 2:30 - 4pm (Nicholas), Thu 12pm - 1pm (Alex)
 
+# What does it mean to be responsive?
+![Screenshot 2024-03-28 at 23 51 15](https://github.com/CMU-17-356/cmu-17-356.github.io/assets/79665965/cf4e73b7-0f3e-485d-956a-a8a06fb6d717)
+
+
 # Responsive Web Design
 - Responsive design is an approach to web design and development that aims to create websites and applications that provide an optimal viewing and interaction experience across a wide range of devices and screen sizes, like desktop computers, tablets, smartphones, etc.
 - Websites and applications can provide a consistent and user-friendly experience across various devices, which improves accessibility, usability, and engagement
