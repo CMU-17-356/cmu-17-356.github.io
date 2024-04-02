@@ -62,7 +62,8 @@ nav:
       - Homework 4: assignments/HW4.md
       - Homework 5: assignments/HW5.md
       - Final Project - Team Sprint 1: assignments/FP1.md
-      # - Final Project 1 Sprint 2: assignments/FP2.md
+      - Final Project - Team Sprint 2: assignments/FP2.md
+    # - Final Project 1 Sprint 3: assignments/FP3.md
   - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1: recitations/reci1-user-stories.md
       - Recitation 2: recitations/reci2-nodejs.md

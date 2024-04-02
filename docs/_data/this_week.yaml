@@ -1,28 +1,28 @@
 last_homework:
   date: ""
-  deadline: ""
-  link: ""
-  name: ""
-  numDays: 0
-
-lectures:
-  - date: Tue Mar 26
-    link: ""
-    name: "Pivoting II"
-  - date: Thu Mar 28
-    link: ""
-    name: "TBD"
-
-next_homework:
-  date: ""
   deadline: "Thur April 04 @ 11:59pm"
   link: "assignments/FP1"
   name: "Final Project: Team Sprint 1"
+  numDays: 11
+
+lectures:
+  - date: Tue Apr 02
+    link: ""
+    name: "Guest Lecture"
+  - date: Thu Apr 04
+    link: ""
+    name: "In-class Project Feedback"
+
+next_homework:
+  date: ""
+  deadline: "Thur April 18 @ 11:59pm"
+  link: "assignments/FP2"
+  name: "Final Project: Team Sprint 2"
   numDays: 10
 
 recitation:
   date: Fri Mar 29
   handout: ""
-  name: "Responsive Sites + Accessibility"
+  name: "Open Recitation for Projects"
   quiz: ""
-  slides: "https://github.com/CMU-17-356/cmu-17-356.github.io/raw/main/resources/recitations/2024/17356%20-%20Recitation%20%238.pdf?download="
+  slides: ""
