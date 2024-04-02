@@ -962,7 +962,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "TBD"
+    name: "Scaling the Business"
   reading:
     link: ""
     name: ""
@@ -1046,10 +1046,10 @@
 
 - date: Thu Apr 04
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Thur April 04 @ 11:59pm"
+    link: "assignments/FP1"
+    name: "Final Project: Team Sprint 1"
+    numDays: 11
   lecture:
     link: ""
     name: "In-class Project Feedback"
@@ -1196,7 +1196,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Startup Economics I"
+    name: "Guest Lecture: Seam Colomo, DuoLingo"
   reading:
     link: ""
     name: ""
@@ -1232,7 +1232,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Guest Lecture: TBD"
+    name: "Startup economics I"
   reading:
     link: ""
     name: ""
