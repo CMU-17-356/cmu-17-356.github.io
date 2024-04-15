@@ -1,28 +1,28 @@
 last_homework:
   date: ""
-  deadline: "Thur April 04 @ 11:59pm"
-  link: "assignments/FP1"
-  name: "Final Project: Team Sprint 1"
-  numDays: 11
-
-lectures:
-  - date: Tue Apr 02
-    link: ""
-    name: "Guest Lecture"
-  - date: Thu Apr 04
-    link: ""
-    name: "In-class Project Feedback"
-
-next_homework:
-  date: ""
   deadline: "Thur April 18 @ 11:59pm"
   link: "assignments/FP2"
   name: "Final Project: Team Sprint 2"
+  numDays: 11
+
+lectures:
+  - date: Tue Apr 16
+    link: ""
+    name: "Guest Lecture: Seam Colomo, DuoLingo"
+  - date: Thu Apr 18
+    link: ""
+    name: "Startup economics I"
+
+next_homework:
+  date: ""
+  deadline: ""
+  link: ""
+  name: ""
   numDays: 10
 
 recitation:
-  date: Fri Mar 29
+  date: Fri Apr 19
   handout: ""
-  name: "Open Recitation for Projects"
+  name: "TBD"
   quiz: ""
   slides: ""

@@ -7,7 +7,7 @@ title: FP Team Sprint 2
 <p style="text-align: center;">
 100 points<br/>
 
-Group assignment is due on Gradescope Wednesday, April 18, 2024 11:59pm<br/>
+Group assignment is due on Gradescope Thursday, April 18, 2024 11:59pm<br/>
 
 This homework is to be done and submitted as a team.<br/>
 

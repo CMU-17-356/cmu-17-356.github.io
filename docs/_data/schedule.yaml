@@ -1046,9 +1046,9 @@
 
 - date: Thu Apr 04
   homework:
-    deadline: "Thur April 04 @ 11:59pm"
-    link: "assignments/FP1"
-    name: "Final Project: Team Sprint 1"
+    deadline: "Thur April 18 @ 11:59pm"
+    link: "assignments/FP2"
+    name: "Final Project: Team Sprint 2"
     numDays: 11
   lecture:
     link: ""
@@ -1364,7 +1364,7 @@
     name: ""
   recitation:
     handout: ""
-    name: "Finals Week"
+    name: "Apr 30 - Final Presentations: 8:30 AM - 11:30 AM"
     quiz: ""
     slides: ""
 
@@ -1376,7 +1376,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Final Presentations: 8:30 AM - 11:30 AM"
   reading:
     link: ""
     name: ""
