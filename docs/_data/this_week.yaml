@@ -15,10 +15,10 @@ lectures:
 
 next_homework:
   date: ""
-  deadline: ""
-  link: ""
-  name: ""
-  numDays: 10
+  deadline: "Thur May 02 @ 11:59pm"
+  link: "assignments/FP3"
+  name: "Final Project: Final Team Sprint (3)"
+  numDays: 11
 
 recitation:
   date: Fri Apr 19
