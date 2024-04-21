@@ -1,0 +1,29 @@
+- name: Fraser Brown
+  role: Instructor
+  email: fraserb@andrew.cmu.edu
+  website: https://mlfbrown.com/
+  photo: fraser-brown.png
+
+- name: Hyrum Wright
+  role: Instructor
+  email: hyrum@hyrumwright.org
+  website: https://www.hyrumwright.org/
+  photo: hyrum.jpeg
+
+- name: Zeeshan Lakhani
+  role: Teaching Assistant
+  email: zlakhani@cs.cmu.edu
+  website: https://zee.town/
+  photo: zeeshan.png
+
+- name: Nicholas Wernink
+  role: Teaching Assistant
+  email: ngw@andrew.cmu.edu
+  website:
+  photo: wernink.png
+
+- name: Alex Barrios
+  role: Teaching Assistant
+  email: ambarrio@andrew.cmu.edu
+  website: https://www.linkedin.com/in/alexmbarrios/
+  photo: barrios.png
