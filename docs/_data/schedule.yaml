@@ -24,7 +24,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Course Introduction'
   reading:
     link: ''
     name: ''
@@ -60,7 +60,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Product Ideation and Discovery'
   reading:
     link: ''
     name: ''
@@ -114,7 +114,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Smokescreens and the Big Idea'
   reading:
     link: ''
     name: ''
@@ -150,7 +150,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Socializing your Smokescreen'
   reading:
     link: ''
     name: ''
@@ -204,7 +204,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Smokescreen Presentations'
   reading:
     link: ''
     name: ''
@@ -240,7 +240,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Team Forming and Norming'
   reading:
     link: ''
     name: ''
@@ -294,7 +294,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Coding as a Team Part 1'
   reading:
     link: ''
     name: ''
@@ -330,7 +330,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Coding as a Team Part 2'
   reading:
     link: ''
     name: ''
@@ -384,7 +384,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'CloudOps'
   reading:
     link: ''
     name: ''
@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Testing'
   reading:
     link: ''
     name: ''
@@ -474,7 +474,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Test Automation and CI/CD'
   reading:
     link: ''
     name: ''
@@ -510,7 +510,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Monitoring Services'
   reading:
     link: ''
     name: ''
@@ -564,7 +564,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Technical Debt'
   reading:
     link: ''
     name: ''
@@ -600,7 +600,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Security'
   reading:
     link: ''
     name: ''
@@ -654,7 +654,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Spring Break - NO CLASS'
   reading:
     link: ''
     name: ''
@@ -690,7 +690,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Spring Break - NO CLASS'
   reading:
     link: ''
     name: ''
@@ -744,7 +744,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Structure of a Startup'
   reading:
     link: ''
     name: ''
@@ -780,7 +780,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Team Roles'
   reading:
     link: ''
     name: ''
@@ -834,7 +834,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'C-Suite vs. Individual Contributors'
   reading:
     link: ''
     name: ''
@@ -870,7 +870,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Startup Funding'
   reading:
     link: ''
     name: ''
@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Joining a Startup'
   reading:
     link: ''
     name: ''
@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Pivoting'
   reading:
     link: ''
     name: ''
@@ -1014,7 +1014,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'AI Startups'
   reading:
     link: ''
     name: ''
@@ -1050,7 +1050,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Spring Carnival - NO CLASS'
   reading:
     link: ''
     name: ''
@@ -1104,7 +1104,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Guest Lecture'
   reading:
     link: ''
     name: ''
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Guest Lecture - Prof. Austin Henley'
   reading:
     link: ''
     name: ''
@@ -1194,7 +1194,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Mock Pitches - Demos'
   reading:
     link: ''
     name: ''
@@ -1230,7 +1230,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Ethics'
   reading:
     link: ''
     name: ''
@@ -1284,7 +1284,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'A/B Testing'
   reading:
     link: ''
     name: ''
@@ -1320,7 +1320,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Final Class - Summary'
   reading:
     link: ''
     name: ''
@@ -1446,7 +1446,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Likely Day for Final Presentations'
   reading:
     link: ''
     name: ''
@@ -1482,7 +1482,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Grades Due to CMU'
   reading:
     link: ''
     name: ''
