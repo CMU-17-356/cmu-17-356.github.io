@@ -36,17 +36,10 @@ This class will consist of:
   individuals with practical expertise.
 - **Recitation.** TAs will lead recitation, which consists of activities designed to help you apply your knowledge practically and prepare for the
   homework.
-- **Homework assignments.** For the first half of the course, you will practice
-  the skills we learn in class by working on in assigned teams on a made-up
-  startup, "Dronuts." Most of this work will be structured as a series of
-  agile-style sprints, to simulate as much as possible the real startup
-  experience.
-- **A project.** For the second half of the course, you will use your new skills
-  to design and implement an original startup idea.  Don’t worry if you don't
-  have one; we'll help you to develop a new idea, or connect founders who have
-  startup ideas to co-founders who are excited to help with them.
+  **A project.** During this course, you will develop an idea for a startup company from start to finish. You will work in teams to develop the startup's idea, understand its market, develop a prototype implementation, and learn to pitch the idea to recruit collaborators and raise funding. Most of this work will be structured as a series of Agile-style sprints, to simulate as much as possible the real startup experience.  
+- **Homework assignments.** For the first half of the course, you will practice cloud-oriented development skills that we learn in class. Many of these skills focus things you need to do while working as a team. 
 
-There will be one midterm exam.  There will be no final exam; instead, you will present your final project.
+There will be no exams. The final exam day will be used for final project presentations.
 
 
 
