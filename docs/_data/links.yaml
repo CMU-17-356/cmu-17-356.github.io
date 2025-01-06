@@ -1,19 +1,19 @@
 - name: Canvas
-  link: https://canvas.cmu.edu/courses/39473
+  link: https://canvas.cmu.edu/courses/45409
   icon: assets/images/logos/canvas.png
 
 - name: Slack
-  link: https://cmu-17-776-s24.slack.com/
+  link: https://cmu-17-356-s25.slack.com/
   icon: assets/images/logos/slack.png
 
 - name: Gradescope
-  link: https://www.gradescope.com/courses/704199
+  link: https://www.gradescope.com/courses/940139
   icon: assets/images/logos/gradescope.png
 
 - name: GitHub
   link: https://classroom.github.com/classrooms/34176362-17356-software-engineering-for-startups-spring2024
   icon: assets/images/logos/github-mark.png
 
-- name: Dronuts
-  link: dronuts
-  icon: assets/images/logos/drone.png
+#- name: Dronuts
+#  link: dronuts
+#  icon: assets/images/logos/drone.png

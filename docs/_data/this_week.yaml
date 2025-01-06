@@ -1,28 +1,7 @@
-last_homework:
-  date: ""
-  deadline: "Thur May 02 @ 11:59pm"
-  link: "assignments/FP3"
-  name: "Final Project: Final Team Sprint (3)"
-  numDays: 11
+last_homework: null
 
-lectures:
-  - date: Tue Apr 23
-    link: ""
-    name: "Startup Economics II"
-  - date: Thu Apr 25
-    link: ""
-    name: "Ethical companies & recap"
+lectures: []
 
-next_homework:
-  date: ""
-  deadline: ""
-  link: ""
-  name: ""
-  numDays: 0
+next_homework: null
 
-recitation:
-  date: Fri Apr 26
-  handout: ""
-  name: "Open Recitation for Projects"
-  quiz: ""
-  slides: ""
+recitation: null
