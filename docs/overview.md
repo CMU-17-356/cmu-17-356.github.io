@@ -36,8 +36,8 @@ This class will consist of:
   individuals with practical expertise.
 - **Recitation.** TAs will lead recitation, which consists of activities designed to help you apply your knowledge practically and prepare for the
   homework.
-  **A project.** During this course, you will develop an idea for a startup company from start to finish. You will work in teams to develop the startup's idea, understand its market, develop a prototype implementation, and learn to pitch the idea to recruit collaborators and raise funding. Most of this work will be structured as a series of Agile-style sprints, to simulate as much as possible the real startup experience.  
 - **Homework assignments.** For the first half of the course, you will practice cloud-oriented development skills that we learn in class. Many of these skills focus things you need to do while working as a team. 
+- **A project.** During this course, you will develop an idea for a startup company from start to finish. You will work in teams to develop the startup's idea, understand its market, develop a prototype implementation, and learn to pitch the idea to recruit collaborators and raise funding. Most of this work will be structured as a series of Agile-style sprints, to simulate as much as possible the real startup experience.  
 
 There will be no exams. The final exam day will be used for final project presentations.
 
