@@ -12,27 +12,29 @@ theme:
       primary: red
       accent: red
       toggle:
-        icon: material/brightness-7
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
       primary: red
       accent: red
       toggle:
-        icon: material/brightness-4
+        icon: material/toggle-switch
         name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - navigation.indexes
+    - announce.dismiss
 
 markdown_extensions:
   - attr_list
+  - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - md_in_html
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.tasklist:
       clickable_checkbox: true
@@ -41,6 +43,7 @@ markdown_extensions:
   - toc:
       title: On This Page
       toc_depth: 4
+      permalink: true
 
 extra_css:
   - stylesheets/custom.css
@@ -55,32 +58,32 @@ nav:
   - Syllabus: syllabus.md
   - Teamwork Practices: teamwork.md
   - Staff: staff.md
-  - Assignments: #assignments/index.md # Dummy home page; remove once we start adding assignments below
-      - Homework 1: assignments/HW1.md
-      - Homework 2: assignments/HW2.md
-      - Homework 3: assignments/HW3.md
-      - Homework 4: assignments/HW4.md
-      - Homework 5: assignments/HW5.md
-      - Final Project - Team Sprint 1: assignments/FP1.md
-      - Final Project - Team Sprint 2: assignments/FP2.md
-      - Final Project - Team Sprint 3: assignments/FP3.md
-  - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
-      - Recitation 1: recitations/reci1-user-stories.md
-      - Recitation 2: recitations/reci2-nodejs.md
-      - Recitation 3: recitations/reci3-react.md
-      - Recitation 4: recitations/reci4-testing.md
-      - Recitation 5: recitations/reci5-docker-kubernetes.md
-      - Recitation 6: recitations/reci6-databases-storage.md
-      - Recitation 7: recitations/reci7-mobile-react-native.md
-      - Recitation 8: recitations/reci8-responsive-sites.md
-    # - Recitation 9: recitations/reci9-react-native.md
-  - Dronuts:
-      - Overview: dronuts.md
-      - Design Assets: project/brand.md
-      - Node.JS: project/node_js.md
-      - Credit API: project/credit_api.md
-      - Drone API: project/drone_api.md
-      - UI Development: project/ui.md
-      - Docker: project/docker.md
-      - Deployment: project/deployment.md
-  - Team Projects: project/index.md
+  - Assignments: assignments/index.md # Dummy home page; remove once we start adding assignments below
+  #    - Homework 1: assignments/HW1.md
+  #    - Homework 2: assignments/HW2.md
+  #    - Homework 3: assignments/HW3.md
+  #    - Homework 4: assignments/HW4.md
+  #    - Homework 5: assignments/HW5.md
+  #    - Final Project - Team Sprint 1: assignments/FP1.md
+  #    - Final Project - Team Sprint 2: assignments/FP2.md
+  #    - Final Project - Team Sprint 3: assignments/FP3.md
+  - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
+  #    - Recitation 1: recitations/reci1-user-stories.md
+  #    - Recitation 2: recitations/reci2-nodejs.md
+  #    - Recitation 3: recitations/reci3-react.md
+  #    - Recitation 4: recitations/reci4-testing.md
+  #    - Recitation 5: recitations/reci5-docker-kubernetes.md
+  #    - Recitation 6: recitations/reci6-databases-storage.md
+  #    - Recitation 7: recitations/reci7-mobile-react-native.md
+  #    - Recitation 8: recitations/reci8-responsive-sites.md
+  #    - Recitation 9: recitations/reci9-react-native.md
+  #- Dronuts:
+  #    - Overview: dronuts.md
+  #    - Design Assets: project/brand.md
+  #    - Node.JS: project/node_js.md
+  #    - Credit API: project/credit_api.md
+  #    - Drone API: project/drone_api.md
+  #    - UI Development: project/ui.md
+  #    - Docker: project/docker.md
+  #    - Deployment: project/deployment.md
+  #- Team Projects: project/index.md

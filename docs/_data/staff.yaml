@@ -4,26 +4,17 @@
   website: https://mlfbrown.com/
   photo: fraser-brown.png
 
-- name: Hyrum Wright
+- name: Andrew Begel
   role: Instructor
-  email: hyrum@hyrumwright.org
-  website: https://www.hyrumwright.org/
-  photo: hyrum.jpeg
+  email: abegel@andrew.cmu.edu
+  website: https://andrewbegel.com/
+  photo: abegel.jpg
 
-- name: Zeeshan Lakhani
+- name: Aditya Shrivastava
   role: Teaching Assistant
-  email: zlakhani@cs.cmu.edu
-  website: https://zee.town/
-  photo: zeeshan.png
+  email: ashriva3@andrew.cmu.edu
 
-- name: Nicholas Wernink
+- name: Thrishik Senthilkumar
   role: Teaching Assistant
-  email: ngw@andrew.cmu.edu
-  website:
-  photo: wernink.png
+  email: thrishis@andrew.cmu.edu
 
-- name: Alex Barrios
-  role: Teaching Assistant
-  email: ambarrio@andrew.cmu.edu
-  website: https://www.linkedin.com/in/alexmbarrios/
-  photo: barrios.png
