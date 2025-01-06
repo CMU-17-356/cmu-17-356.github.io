@@ -8,18 +8,18 @@ hide:
 
 ### Lectures
 
-- Tues @ 9:30am - 10:50am (SH 238)
-- Thurs @ 9:30am - 10:50am (SH 238)
+- Tues @ 12:30pm - 1:50pm (GHC 4307)
+- Thurs @ 12:30pm - 1:50pm (GHC 4307)
 
 ### Recitations
 
-- Section A: Fri @ 9:00am - 09:50am (PH A19)
-- Section B: Fri @ 11:00am - 11:50am (GHC 4301)
+- Section A: Fri @ 9:00am - 09:50am (PH A18B)
+- Section B: Fri @ 11:00am - 11:50am (WEH 5415)
 
 ### Prerequisites
 
 15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely
-technical; the goal of the prerequisites is to ensure students have
+team-based technical work; the goal of the prerequisites is to ensure students have
 sufficient programming experience to succeed in the course.
 
 ### Textbook/Readings
@@ -31,8 +31,8 @@ throughout the semester from online sources.
 
 ### Communication
 
-The course uses [Canvas](https://canvas.cmu.edu/courses/39473) for homework submission,
-grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-776-s24.slack.com/). Slides, assignments and the schedule
+The course uses [Canvas](https://canvas.cmu.edu/courses/45409) for homework submission,
+grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-356-s25.slack.com/). Slides, assignments and the schedule
 will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
 
 Please use Slack for discussion and questions, including clarifying homework assignments.
@@ -53,8 +53,8 @@ For sensitive matters, of course, feel free to contact us individually.
 
 ## Grading
 
-Evaluation will be based on the following approximate distribution: 50%
-assignments, 20% midterm, 20% final project, 10% participation.
+Evaluation will be based on the following approximate distribution: 55%
+assignments, 35% final project, 10% participation.
 
 *Note:* Attendance is required for guest lectures. Absences during guest
 lectures (without previously arranged accommodations) will result in a deduction in your overall course grade for participation.
@@ -72,7 +72,7 @@ will receive a single grade, for all individuals.  However, we reserve the right
 to institute peer grading in problematic situations, as detailed in the [Team
 Policy](/teamwork).
 
-Please fill out the [Teamwork Survey](https://forms.gle/6gCJekKbrhaq9gz67)</a> so we can begin forming groups.
+Please fill out the [Teamwork Survey](https://forms.gle/XNpUYWvuSyyc2L7u9)</a> so we can begin forming groups.
 
 ### Late Work
 
