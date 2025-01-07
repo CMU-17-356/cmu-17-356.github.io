@@ -12,16 +12,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'User Discovery'
     quiz: ''
     slides: ''
 
 - date: Tue Jan 14
   homework:
-    deadline: ''
+    deadline: 'January 21, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'HW0: Skills Survey, HW1: User Discovery'
+    numDays: 5
   lecture:
     link: ''
     name: 'Course Introduction'
@@ -102,16 +102,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Smokescreen Creation'
     quiz: ''
     slides: ''
 
 - date: Tue Jan 21
   homework:
-    deadline: ''
+    deadline: 'January 28, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'HW2: Smokescreen Creation'
+    numDays: 5
   lecture:
     link: ''
     name: 'Smokescreens and the Big Idea'
@@ -192,16 +192,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Node Web Apps'
     quiz: ''
     slides: ''
 
 - date: Tue Jan 28
   homework:
-    deadline: ''
+    deadline: 'February 4, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P0: Team Contracts'
+    numDays: 5
   lecture:
     link: ''
     name: 'Smokescreen Presentations'
@@ -282,16 +282,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'GitHub'
     quiz: ''
     slides: ''
 
 - date: Tue Feb 04
   homework:
-    deadline: ''
+    deadline: 'February 11, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'HW3: Working with GitHub'
+    numDays: 5
   lecture:
     link: ''
     name: 'Coding as a Team Part 1'
@@ -324,10 +324,10 @@
 
 - date: Thu Feb 06
   homework:
-    deadline: ''
+    deadline: 'February 27, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P1: Project Specification'
+    numDays: 15
   lecture:
     link: ''
     name: 'Coding as a Team Part 2'
@@ -372,16 +372,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'App Deployment'
     quiz: ''
     slides: ''
 
 - date: Tue Feb 11
   homework:
-    deadline: ''
+    deadline: 'February 18, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'HW4: DevOps'
+    numDays: 5
   lecture:
     link: ''
     name: 'CloudOps'
@@ -462,16 +462,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Unit testing'
     quiz: ''
     slides: ''
 
 - date: Tue Feb 18
   homework:
-    deadline: ''
+    deadline: 'February 25, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'HW5: Testing'
+    numDays: 5
   lecture:
     link: ''
     name: 'Test Automation and CI/CD'
@@ -552,16 +552,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Milestone 1 presentations'
     quiz: ''
     slides: ''
 
 - date: Tue Feb 25
   homework:
-    deadline: ''
+    deadline: 'March 20, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P2: Project Milestone 1'
+    numDays: 17
   lecture:
     link: ''
     name: 'Technical Debt'
@@ -822,7 +822,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Milestone 2 Presentations'
     quiz: ''
     slides: ''
 
@@ -864,10 +864,10 @@
 
 - date: Thu Mar 20
   homework:
-    deadline: ''
+    deadline: 'April 8, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P3: Project Milestone 2'
+    numDays: 13
   lecture:
     link: ''
     name: 'Startup Funding'
@@ -1002,7 +1002,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Milestone 3 Presentations'
     quiz: ''
     slides: ''
 
@@ -1098,10 +1098,10 @@
 
 - date: Tue Apr 08
   homework:
-    deadline: ''
+    deadline: 'April 24, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P4: Project Milestone 3'
+    numDays: 12
   lecture:
     link: ''
     name: 'Guest Lecture'
@@ -1224,10 +1224,10 @@
 
 - date: Thu Apr 17
   homework:
-    deadline: ''
+    deadline: 'May 5, 2025'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P5: Final Product Pitches'
+    numDays: 12
   lecture:
     link: ''
     name: 'Ethics'
@@ -1272,7 +1272,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Milestone 4 Presentations'
     quiz: ''
     slides: ''
 
