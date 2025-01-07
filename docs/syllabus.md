@@ -24,10 +24,8 @@ sufficient programming experience to succeed in the course.
 
 ### Textbook/Readings
 
-The subject matter of this class is at the cutting edge of
-engineering; as such, there do not exist (to our knowledge, at least) suitable
-textbooks covering the material.   We will instead pull various readings
-throughout the semester from online sources.
+We will be reading The Lean Startup, The Mom Test,
+and a selection of online sources. 
 
 ### Communication
 
@@ -76,8 +74,8 @@ Please fill out the [Teamwork Survey](https://forms.gle/XNpUYWvuSyyc2L7u9)</a> s
 
 ### Late Work
 
-Late work will receive feedback but no credit. Due to the course's
-heavy reliance on teamwork, there are no late days. We make exceptions in
+The first late assignment will incur a 10% penalty per
+day, and the second will receive no credit. We make exceptions in
 extraordinary circumstances, typically involving either a family or medical
 emergency (ideally, your academic advisor or the Dean of Student Affairs should
 request such exceptions on your behalf). We can make accommodations for travel
@@ -90,12 +88,13 @@ Research shows that using devices
 on non-class related activities harms both the device user's learning and other
 students' learning as well.  Therefore, in general, we do not allow the use of
 devices during lectures. *However,* if you genuinely use your laptop for
-class-related activities (note-taking, etc), tell us, and we will make an
-exception. However, we ask that if you do so, you are careful to keep your
-devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition,
-you will be required to sit in the back row of the lecture to minimize the impact your screen has on others.
+class-related activities (note-taking, etc), tell us, and we will consider
+an exception.
+You will be required to sit in the back row of the lecture to minimize the impact
+your screen has on others.
 
-Note that recitation activities will often involve devices, so please bring your laptop!
+Both recitation and lecture activities may involve devices, though, so please
+bring your laptop to both!
 
 ### Time Management
 
@@ -211,10 +210,7 @@ Note that the instructors respect honesty in these (and indeed most!)
 
 ## A Note on Self-Care
 
-Please take care of yourself. Do your best to maintain a healthy lifestyle this
-semester by eating well, exercising, avoiding drugs and alcohol, getting enough
-sleep and taking some time to relax. This will help you achieve your goals and
-cope with stress. All of us benefit from support during times of struggle. You
+All of us benefit from support during times of struggle. You
 are not alone. Besides the instructors, who are here to help you succeed, there
 are many helpful resources available on campus and an important part of the
 college experience is learning how to ask for help. Asking for support sooner
