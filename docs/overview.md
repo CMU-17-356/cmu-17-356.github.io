@@ -25,7 +25,8 @@ experienced, practicing startup engineers.
 
 ## Course Overview
 
-In this course, we will teach you the engineering skills necessary to succeed in the highly-uncertain environment associated with a technology startup.  Our focus in this class is technical; that is, we will not be spending very much time on the business side of the startup equation (though given how much business drives engineering goals, of course we will not completely ignore it!). If you are instead interested in the entrepreneurship side of the equation, we encourage you to consider 15-390, Entrepreneurship for Computer Scientists.
+In this course, we will teach you the engineering skills necessary to succeed in the highly-uncertain environment associated with a technology startup.  Our focus in this class is mostly technical, but we will cover some parts of the business side of the startup equation. If you're
+*most* interested in entrepreneurship, we encourage you to consider 15-390, Entrepreneurship for Computer Scientists.
 
 This class will consist of:
 
