@@ -8,13 +8,13 @@ hide:
 
 ### Lectures
 
-- Tues @ 12:30pm - 1:50pm (GHC 4307)
-- Thurs @ 12:30pm - 1:50pm (GHC 4307)
+- Tues @ 12:30pm - 1:50pm (MM 103)
+- Thurs @ 12:30pm - 1:50pm (MM 103)
 
 ### Recitations
 
-- Section A: Fri @ 9:00am - 09:50am (PH A18B)
-- Section B: Fri @ 11:00am - 11:50am (WEH 5415)
+- Section A (Jacqueline Tsai): Fri @ 9:00am - 09:50am (PH A18B)
+- Section B (Aditya Shrivastava): Fri @ 11:00am - 11:50am (WEH 5415)
 
 ### Prerequisites
 
