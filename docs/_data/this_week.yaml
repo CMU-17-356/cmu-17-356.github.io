@@ -1,7 +1,23 @@
-last_homework: null
+last_homework:
+  date: ""
+	deadline: "ASAP"
+	link: "https://forms.gle/3Jpm9SLZQxRpeccc8"
+	name: "HW 0: Skills Survey"
+	numDays: 1
 
-lectures: []
+lectures:
+  -date: Tue Jan 14
+	 link: ""
+	 name: "Introduction and Discovery"
+	- date: Thurs Jan 16
+	  link: ""
+		name: "Discovery"
 
-next_homework: null
+next_homework:
+  date: ""
+	deadline: "Mon Jan 20, 11:59pm"
+	link: "assignments/HW1"
+	name: "HW 1: User Discovery"
+	numDays: 5
 
 recitation: null
