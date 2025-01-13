@@ -98,7 +98,8 @@ hide:
     </div>
     <div class="content">
         <p>Professor office hours held at their offices. See <a href="#class-calendar">class calendar</a> below for exact times!</p>
-        <p>TA office hours held on Zoom.</p>
+        <p>Jacqueline's office hours will be held Tuesdays 4-5pm.</p>
+        <p>Aditya's office hours will be held Wednesdays 4-5pm.</p>
     </div>
 
 </div>
