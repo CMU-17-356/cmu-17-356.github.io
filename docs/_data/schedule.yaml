@@ -18,16 +18,16 @@
 
 - date: Tue Jan 14
   homework:
-    deadline: 'January 21, 2025'
-    link: ''
-    name: 'HW0: Skills Survey, HW1: User Discovery'
+    deadline: 'January 20, 2025, 11:59pm'
+    link: 'assignments/HW1'
+    name: 'HW1: User Discovery'
     numDays: 5
   lecture:
     link: ''
     name: 'Course Introduction'
   reading:
     link: ''
-    name: ''
+    name: 'The Mom Test (chapters 1, 2, 3, 6)'
   recitation:
     handout: ''
     name: ''
