@@ -25,10 +25,7 @@ The Mom Test by Rob Fitzpatrick.
 ### Learning Goals
 
 Assignment objectives:
-- Think through the kind of product you’d like to build. Your ideas are non-binding
-(and, moreover, you probably shouldn’t get too attached to them)!
-You’ll have several opportunities to pivot based on discovery or user feedback,
-and to collaborate with your classmates to refine your ideas.
+- Think through the kind of product you’d like to build. Your ideas are non-binding (and, moreover, you probably shouldn’t get too attached to them)! You’ll have several opportunities to pivot based on discovery or user feedback, and to collaborate with your classmates to refine your ideas.
 - Practice formulating unbiased discovery questions that yield useful data (as opposed to false positives).
 - Practice talking to real people about their pain points.
 
