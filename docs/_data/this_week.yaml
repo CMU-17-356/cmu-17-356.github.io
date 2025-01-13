@@ -5,13 +5,24 @@ last_homework:
   name: "HW 0: Skills Survey"
   numDays: 1
 
-lectures: []
-
+lectures:
+  - date: Tue Jan 14
+    link: ""
+    name: "Course Introduction"
+  - date: Thu Jan 16
+    link: ""
+    name: "Product Ideation and Discovery"
+  
 next_homework:
   date: ""
   deadline: "Mon Jan 20 @ 11:59pm"
   link: "assignments/HW1"
-  name: "HW 1: User Discovery"
+  name: "HW 1: Discovery"
   numDays: 5
 
-recitation: null
+recitation:
+  date: Fri Jan 17
+  handout: ""
+  name: "Discovery"
+  quiz: ""
+  slides: ""
