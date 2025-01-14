@@ -33,7 +33,7 @@ The course uses [Canvas](https://canvas.cmu.edu/courses/45409) for homework subm
 grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-356-s25.slack.com/). Slides, assignments and the schedule
 will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
 
-Please use Slack for discussion and questions, including clarifying homework assignments.
+Please use Slack for discussion and questions, including clarifying homework assignments. If you need to write to Prof. Begel and/or Prof. Brown about the class, you must include both faculty members on the message, otherwise we will reject your message and ask you to resend to both of us. We prefer you write us on Slack instead of email.
 
 The instructors and TAs hold weekly office hours. If you cannot make it to office hours, contact us via email (using the course-wide email address,
 unless the issue is sensitive) and we will find an alternative time to meet.
@@ -85,7 +85,7 @@ communicate with your team about such issues.
 ### Devices in Lecture and Recitation
 
 Research shows that using devices
-on non-class related activities harms both the device user's learning and other
+for non-class related activities harms both the device user's learning and other
 students' learning as well.  Therefore, in general, we do not allow the use of
 devices during lectures. *However,* if you genuinely use your laptop for
 class-related activities (note-taking, etc), tell us, and we will consider
