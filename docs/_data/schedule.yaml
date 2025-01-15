@@ -23,7 +23,7 @@
     name: 'HW1: User Discovery'
     numDays: 5
   lecture:
-    link: ''
+    link: 'assets/pdfs/Lecture1.pdf'
     name: 'Course Introduction'
   reading:
     link: 'https://www.momtestbook.com'
