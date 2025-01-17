@@ -59,7 +59,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/Lecture2.pdf'
     name: 'Product Ideation and Discovery'
   reading:
     link: ''
