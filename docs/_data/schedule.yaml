@@ -23,7 +23,7 @@
     name: 'HW1: User Discovery'
     numDays: 5
   lecture:
-    link: 'assets/pdfs/Lecture1.pdf'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture1.pdf'
     name: 'Course Introduction'
   reading:
     link: 'https://www.momtestbook.com'
@@ -59,7 +59,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/Lecture2.pdf'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture2.pdf'
     name: 'Product Ideation and Discovery'
   reading:
     link: ''
