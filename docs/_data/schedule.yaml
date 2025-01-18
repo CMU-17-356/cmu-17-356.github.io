@@ -1,6 +1,6 @@
 - date: Mon Jan 13
   homework:
-    deadline: "Tues Jan 14 @ 11:59pm"
+    deadline: "January 21, 2025, 11:59pm"
     link: "https://forms.gle/3Jpm9SLZQxRpeccc8"
     name: "HW 0: Skills Survey"
     numDays: 6
@@ -18,7 +18,7 @@
 
 - date: Tue Jan 14
   homework:
-    deadline: 'January 20, 2025, 11:59pm'
+    deadline: 'January 21, 2025, 11:59pm'
     link: 'assignments/HW1'
     name: 'HW1: User Discovery'
     numDays: 5
@@ -102,7 +102,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Smokescreen Creation'
+    name: 'Sketch Out Your Product Idea'
     quiz: ''
     slides: ''
 
@@ -110,11 +110,11 @@
   homework:
     deadline: 'January 28, 2025'
     link: ''
-    name: 'HW2: Smokescreen Creation'
+    name: 'HW2: MVP Creation'
     numDays: 5
   lecture:
     link: ''
-    name: 'Smokescreens and the Big Idea'
+    name: 'Minimal Viable Product (MVP)'
   reading:
     link: ''
     name: ''
@@ -150,7 +150,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Socializing your Smokescreen'
+    name: 'Socializing your MVP'
   reading:
     link: ''
     name: ''
