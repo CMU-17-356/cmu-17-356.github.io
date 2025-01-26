@@ -58,9 +58,9 @@ nav:
   - Syllabus: syllabus.md
   - Teamwork Practices: teamwork.md
   - Staff: staff.md
-  - Assignments: assignments/index.md # Dummy home page; remove once we start adding assignments below
-  #    - Homework 1: assignments/HW1.md
-  #    - Homework 2: assignments/HW2.md
+  - Assignments: # assignments/index.md # Dummy home page; remove once we start adding assignments below
+      - Homework 1: assignments/HW1.md
+      - Homework 2: assignments/hw2.pdf
   #    - Homework 3: assignments/HW3.md
   #    - Homework 4: assignments/HW4.md
   #    - Homework 5: assignments/HW5.md
@@ -86,4 +86,5 @@ nav:
   #    - UI Development: project/ui.md
   #    - Docker: project/docker.md
   #    - Deployment: project/deployment.md
-  #- Team Projects: project/index.md
+  - Project: 
+      - Project 0 Team Contract: project/team-contract.md
