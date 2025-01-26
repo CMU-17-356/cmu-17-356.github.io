@@ -1,28 +1,28 @@
 last_homework:
   date: ""
-  deadline: "Tues Jan 14 @ 11:59pm"
-  link: "https://forms.gle/3Jpm9SLZQxRpeccc8"
-  name: "HW 0: Skills Survey"
+  deadline: "Tues Jan 28 @ 11:59pm"
+  link: ""
+  name: "HW 2: MVP Creation"
   numDays: 1
 
 lectures:
-  - date: Tue Jan 14
+  - date: Tue Jan 28
     link: ""
-    name: "Course Introduction"
-  - date: Thu Jan 16
+    name: "MVP Presentations"
+  - date: Thu Jan 30
     link: ""
-    name: "Product Ideation and Discovery"
+    name: "Team Forming and Norming"
   
 next_homework:
   date: ""
-  deadline: "Mon Jan 20 @ 11:59pm"
-  link: "assignments/HW1"
-  name: "HW 1: Discovery"
+  deadline: "Tue Feb 4 @ 11:59pm"
+  link: ""
+  name: "P0: Team Contracts"
   numDays: 5
 
 recitation:
-  date: Fri Jan 17
+  date: Fri Jan 31
   handout: ""
-  name: "Discovery"
+  name: "Node.js Apps"
   quiz: ""
   slides: ""
