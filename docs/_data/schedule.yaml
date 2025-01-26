@@ -101,8 +101,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: 'Sketch Out Your Product Idea'
+    handout: 'recitations/reci2-viability-analysis'
+    name: 'Viability Analysis'
     quiz: ''
     slides: ''
 
