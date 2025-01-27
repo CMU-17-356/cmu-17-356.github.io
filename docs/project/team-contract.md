@@ -97,7 +97,7 @@ the teamwork contract in your team’s Slack channel.
 
 This is a **group assignment** with one (1) deliverable. 
 
-1. **Teamwork Contract** - 100 points - due Friday, January 31, 11:59pm.
+1. **Teamwork Contract** - 100 points - due Tuesday, Feb 4, 11:59pm.
 
 To receive full credit for the teamwork contract, we expect:
 
