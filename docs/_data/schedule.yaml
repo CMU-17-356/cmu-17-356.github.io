@@ -11,7 +11,7 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'recitations/reci1-user-discovery'
     name: 'User Discovery'
     quiz: ''
     slides: ''
