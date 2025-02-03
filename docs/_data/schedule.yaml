@@ -191,7 +191,7 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'recitations/reci3-nodejs'
     name: 'Node Web Apps'
     quiz: ''
     slides: ''
