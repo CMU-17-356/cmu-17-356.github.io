@@ -372,7 +372,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'App Deployment'
+    name: 'Unit testing'
     quiz: ''
     slides: ''
 
@@ -380,11 +380,11 @@
   homework:
     deadline: 'February 18, 2025'
     link: ''
-    name: 'HW4: DevOps'
+    name: 'HW4: Testing'
     numDays: 5
   lecture:
     link: ''
-    name: 'CloudOps'
+    name: 'Testing'
   reading:
     link: ''
     name: ''
@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Testing'
+    name: 'Test Automation and CI/CD'
   reading:
     link: ''
     name: ''
@@ -462,7 +462,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Unit testing'
+    name: 'App Deployment'
     quiz: ''
     slides: ''
 
@@ -470,11 +470,11 @@
   homework:
     deadline: 'February 25, 2025'
     link: ''
-    name: 'HW5: Testing'
+    name: 'HW5: DevOps'
     numDays: 5
   lecture:
     link: ''
-    name: 'Test Automation and CI/CD'
+    name: 'CloudOps'
   reading:
     link: ''
     name: ''
