@@ -63,7 +63,7 @@ parso==0.8.4
 pathspec==0.12.1
 pexpect==4.9.0
 pickleshare==0.7.5
-pipreqs==0.5.0
+pipreqs==0.4.13
 platformdirs==4.2.2
 prompt_toolkit==3.0.47
 Protego==0.3.1
