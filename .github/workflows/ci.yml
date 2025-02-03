@@ -17,6 +17,7 @@ jobs:
         with:
             key: ${{ github.ref }}
             path: .cache
+      - run: sudo apt-get update && sudo apt-get install -y libxml2-dev libxslt-dev python-dev
       - run: pip install mkdocs-material
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
