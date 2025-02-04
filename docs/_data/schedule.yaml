@@ -290,7 +290,7 @@
   homework:
     deadline: 'February 11, 2025'
     link: 'assignments/hw3-25'
-    name: 'HW3: Working with GitHub'
+    name: 'HW3: GitHub Basics'
     numDays: 5
   lecture:
     link: ''
