@@ -325,7 +325,7 @@
 - date: Thu Feb 06
   homework:
     deadline: 'February 27, 2025'
-    link: ''
+    link: 'project/p1'
     name: 'P1: Project Specification'
     numDays: 15
   lecture:
