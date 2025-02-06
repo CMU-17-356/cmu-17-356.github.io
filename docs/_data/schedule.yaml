@@ -293,7 +293,7 @@
     name: 'HW3: GitHub Basics'
     numDays: 5
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture7.pdf'
     name: 'Coding as a Team Part 1'
   reading:
     link: ''
