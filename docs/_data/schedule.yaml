@@ -329,7 +329,7 @@
     name: 'P1: Project Specification'
     numDays: 15
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture8.pdf'
     name: 'Coding as a Team Part 2'
   reading:
     link: ''
