@@ -383,8 +383,8 @@
     name: 'HW4: Testing'
     numDays: 5
   lecture:
-    link: ''
-    name: 'Testing'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture9.pdf'
+    name: 'Code Review'
   reading:
     link: ''
     name: ''
@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Test Automation and CI/CD'
+    name: 'Testing'
   reading:
     link: ''
     name: ''
