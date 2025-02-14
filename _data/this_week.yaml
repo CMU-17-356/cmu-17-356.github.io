@@ -1,0 +1,28 @@
+last_homework:
+  date: ""
+  deadline: "Tues Feb 11 @ 11:59pm"
+  link: ""
+  name: "HW3: Working with Github"
+  numDays: 1
+
+lectures:
+  - date: Tue Feb 11
+    link: ""
+    name: "Testing"
+  - date: Thu Feb 13
+    link: ""
+    name: "Test Automation and CI/CD"
+  
+next_homework:
+  date: ""
+  deadline: "Tue Feb 18 @ 11:59pm"
+  link: ""
+  name: "HW4: Testing"
+  numDays: 5
+
+recitation:
+  date: Fri Feb 14
+  handout: ""
+  name: "Unit Testing"
+  quiz: ""
+  slides: ""
