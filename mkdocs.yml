@@ -61,9 +61,8 @@ nav:
   - Assignments: # assignments/index.md # Dummy home page; remove once we start adding assignments below
       - Homework 1: assignments/HW1.md
       - Homework 2: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assignments/hw2.pdf'
-
-  #    - Homework 3: assignments/HW3.md
-  #    - Homework 4: assignments/HW4.md
+      - Homework 3: assignments/hw3-25.md
+      - Homework 4: assignments/hw4-25.md
   #    - Homework 5: assignments/HW5.md
   #    - Final Project - Team Sprint 1: assignments/FP1.md
   #    - Final Project - Team Sprint 2: assignments/FP2.md
@@ -89,3 +88,4 @@ nav:
   #    - Deployment: project/deployment.md
   - Project: 
       - Project 0 Team Contract: project/team-contract.md
+      - Project 1 Product Specification: project/p1.md

@@ -289,11 +289,11 @@
 - date: Tue Feb 04
   homework:
     deadline: 'February 11, 2025'
-    link: ''
-    name: 'HW3: Working with GitHub'
+    link: 'assignments/hw3-25'
+    name: 'HW3: GitHub Basics'
     numDays: 5
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture7.pdf'
     name: 'Coding as a Team Part 1'
   reading:
     link: ''
@@ -325,11 +325,11 @@
 - date: Thu Feb 06
   homework:
     deadline: 'February 27, 2025'
-    link: ''
+    link: 'project/p1'
     name: 'P1: Project Specification'
     numDays: 15
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture8.pdf'
     name: 'Coding as a Team Part 2'
   reading:
     link: ''
@@ -371,7 +371,7 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'recitations/reci5-testing'
     name: 'Unit testing'
     quiz: ''
     slides: ''
@@ -379,12 +379,12 @@
 - date: Tue Feb 11
   homework:
     deadline: 'February 18, 2025'
-    link: ''
+    link: 'assignments/hw4-25'
     name: 'HW4: Testing'
     numDays: 5
   lecture:
-    link: ''
-    name: 'Testing'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture9.pdf'
+    name: 'Code Review'
   reading:
     link: ''
     name: ''
@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Test Automation and CI/CD'
+    name: 'Testing'
   reading:
     link: ''
     name: ''
