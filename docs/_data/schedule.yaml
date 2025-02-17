@@ -281,7 +281,7 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'recitations/reci4-github'
     name: 'GitHub'
     quiz: ''
     slides: ''
