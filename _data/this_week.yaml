@@ -1,0 +1,28 @@
+last_homework:
+  date: ""
+  deadline: "Tues Feb 18 @ 11:59pm"
+  link: ""
+  name: "HW4: Testing"
+  numDays: 1
+
+lectures:
+  - date: Tue Feb 18
+    link: ""
+    name: "Cloud Ops"
+  - date: Thu Feb 20
+    link: ""
+    name: "Monitoring"
+  
+next_homework:
+  date: ""
+  deadline: "Tue Feb 25 @ 11:59pm"
+  link: ""
+  name: "HW5: Devops and Documentation"
+  numDays: 5
+
+recitation:
+  date: Fri Feb 21
+  handout: ""
+  name: "App Deployment"
+  quiz: ""
+  slides: ""
