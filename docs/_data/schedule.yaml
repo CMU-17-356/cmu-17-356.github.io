@@ -469,7 +469,7 @@
 - date: Tue Feb 18
   homework:
     deadline: 'February 25, 2025'
-    link: ''
+    link: 'assignments/hw5-25'
     name: 'HW5: DevOps'
     numDays: 5
   lecture:
