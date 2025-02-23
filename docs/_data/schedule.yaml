@@ -419,7 +419,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture10.pdf'
     name: 'Testing'
   reading:
     link: ''
@@ -473,7 +473,7 @@
     name: 'HW5: DevOps'
     numDays: 5
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture11.pdf'
     name: 'CloudOps'
   reading:
     link: ''
