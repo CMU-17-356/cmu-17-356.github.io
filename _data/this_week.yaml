@@ -1,0 +1,28 @@
+last_homework:
+  date: ""
+  deadline: "Tues Feb 25 @ 11:59pm"
+  link: ""
+  name: "HW5: Devops and Documentation"
+  numDays: 1
+
+lectures:
+  - date: Tue Feb 25
+    link: ""
+    name: "Technical Debt"
+  - date: Thu Feb 27
+    link: ""
+    name: "Security"
+  
+next_homework:
+  date: ""
+  deadline: "Thu March 20 @ 11:59pm"
+  link: ""
+  name: "P2: Project Milestone 1"
+  numDays: 21
+
+recitation:
+  date: Fri Feb 28
+  handout: ""
+  name: "P0 Presentations"
+  quiz: ""
+  slides: ""
