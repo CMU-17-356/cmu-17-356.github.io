@@ -834,7 +834,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'C-Suite vs. Individual Contributors'
+    name: 'Pitching'
   reading:
     link: ''
     name: ''
@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Joining a Startup'
+    name: 'Pivoting'
   reading:
     link: ''
     name: ''
@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pivoting'
+    name: 'Joining a Startup'
   reading:
     link: ''
     name: ''
