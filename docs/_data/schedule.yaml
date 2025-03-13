@@ -558,10 +558,10 @@
 
 - date: Tue Feb 25
   homework:
-    deadline: 'March 20, 2025'
+    deadline: 'March 25, 2025'
     link: 'project/p2'
     name: 'P2: Project Milestone 1'
-    numDays: 17
+    numDays: 15
   lecture:
     link: ''
     name: 'Technical Debt'
