@@ -1104,7 +1104,7 @@
     numDays: 12
   lecture:
     link: ''
-    name: 'Guest Lecture'
+    name: 'Guest Lecture - Matt Welsh (Head of AI Systems at Palantir)'
   reading:
     link: ''
     name: ''
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture - Prof. Austin Henley'
+    name: 'Guest Lecture - Prof. Austin Henley (formerly CTO of BYBE, Inc.)'
   reading:
     link: ''
     name: ''
