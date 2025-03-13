@@ -1,28 +1,28 @@
 last_homework:
   date: ""
-  deadline: "Tues Feb 25 @ 11:59pm"
+  deadline: "Tues March 25 @ 11:59pm"
   link: ""
-  name: "HW5: Devops and Documentation"
-  numDays: 1
+  name: "P2: Project Milestone 1"
+  numDays: 10
 
 lectures:
-  - date: Tue Feb 25
+  - date: Tue March 11
     link: ""
-    name: "Technical Debt"
-  - date: Thu Feb 27
+    name: "Structure of a Startup"
+  - date: Thu March 13
     link: ""
-    name: "Security"
+    name: "Team Roles"
   
 next_homework:
   date: ""
-  deadline: "Thu March 20 @ 11:59pm"
-  link: "project/p2"
-  name: "P2: Project Milestone 1"
-  numDays: 21
+  deadline: "Tues April 8 @ 11:59pm"
+  link: ""
+  name: "P3: Project Milestone 2"
+  numDays: 10
 
 recitation:
-  date: Fri Feb 28
+  date: Fri March 14
   handout: ""
-  name: "P1 Presentations"
+  name: ""
   quiz: ""
   slides: ""
