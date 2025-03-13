@@ -732,7 +732,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Team Work Session'
     quiz: ''
     slides: ''
 
@@ -822,7 +822,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Milestone 1 Presentations'
+    name: 'Team Work Session'
     quiz: ''
     slides: ''
 
@@ -912,7 +912,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Milestone 1 Presentations'
     quiz: ''
     slides: ''
 
