@@ -865,12 +865,12 @@
 - date: Thu Mar 20
   homework:
     deadline: 'April 8, 2025'
-    link: ''
+    link: 'project/p3'
     name: 'P3: Project Milestone 2'
     numDays: 13
   lecture:
     link: ''
-    name: 'Guest Lecture: Startup Funding'
+    name: 'Guest Lecture: Startup Funding. CMU Prof. Riad Wahby (Co-Founder and CEO: Cubist)'
   reading:
     link: ''
     name: ''
@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pivoting'
+    name: 'Joining a Startup'
   reading:
     link: ''
     name: ''
@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Joining a Startup'
+    name: 'Pivoting'
   reading:
     link: ''
     name: ''
