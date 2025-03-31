@@ -959,7 +959,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture20.pdf'
     name: 'Pivoting'
   reading:
     link: ''
@@ -1099,7 +1099,7 @@
 - date: Tue Apr 08
   homework:
     deadline: 'April 24, 2025'
-    link: ''
+    link: 'project/p4'
     name: 'P4: Project Milestone 3'
     numDays: 12
   lecture:
@@ -1446,7 +1446,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Likely Day for Final Presentations'
+    name: 'Final Presentations - You Must Attend in Person'
   reading:
     link: ''
     name: ''
