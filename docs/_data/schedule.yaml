@@ -1013,7 +1013,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture21.pdf'
     name: 'AI Startups'
   reading:
     link: ''
@@ -1194,7 +1194,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Mock Pitches - Demos'
+    name: 'Ethics'
   reading:
     link: ''
     name: ''
@@ -1226,11 +1226,11 @@
   homework:
     deadline: 'May 5, 2025'
     link: ''
-    name: 'P5: Final Product Pitches'
+    name: 'P5: Final Product Report and Presentation'
     numDays: 12
   lecture:
     link: ''
-    name: 'Ethics'
+    name: 'Pivot Challenge'
   reading:
     link: ''
     name: ''
@@ -1284,7 +1284,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'A/B Testing'
+    name: 'In Class Bug Bash'
   reading:
     link: ''
     name: ''
