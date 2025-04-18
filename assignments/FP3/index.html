@@ -1,0 +1,1243 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>FP Team Sprint 3 - CMU 17-356: Software Engineering for Startups</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#final-project-final-team-sprint-3" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-header__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-356: Software Engineering for Startups
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              FP Team Sprint 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../teamwork/" class="md-tabs__link">
+        
+  
+    
+  
+  Teamwork Practices
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../staff/" class="md-tabs__link">
+        
+  
+    
+  
+  Staff
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../HW1/" class="md-tabs__link">
+          
+  
+    
+  
+  Assignments
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../recitations/reci2-viability-analysis/" class="md-tabs__link">
+          
+  
+    
+  
+  Recitations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../project/team-contract/" class="md-tabs__link">
+          
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-nav__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    CMU 17-356: Software Engineering for Startups
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Syllabus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teamwork/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teamwork Practices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../staff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Staff
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HW1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assignments/hw2.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw3-25/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw4-25/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw5-25/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Recitations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Recitations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci2-viability-analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recitation 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/team-contract/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 0 Team Contract
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 1 Product Specification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 2 Implementation Sprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 3 Implementation Sprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 4 Implementation Sprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 5 Final Presentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-project-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Project Report
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-project-presentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Project Presentation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mvprubric" class="md-nav__link">
+    <span class="md-ellipsis">
+      MVP/Rubric
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-post-mortem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Post-Mortem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Team Post-Mortem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#post-mortem-logistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Mortem Logistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agenda
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Deliverables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#individual-deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual Deliverables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bonus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bonus
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="final-project-final-team-sprint-3">Final Project: Final Team Sprint (3)<a class="headerlink" href="#final-project-final-team-sprint-3" title="Permanent link">&para;</a></h1>
+<p style="text-align: center;">
+300 points<br/>
+
+Group assignment is due on Gradescope Thursday, May 2, 2023 11:59pm<br/>
+Individual assignment is due on Gradescope Thursday, May 2, 2023 11:59pm<br/>
+
+<br/>
+
+The largest portion of this final project is to be done and submitted as a team.<br/>
+The final reflection writeup will be submitted individually.
+</p>
+
+<h2 id="learning-goals">Learning Goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h2>
+<p>After over a month of relentless effort, it's time to impress your investors. You'll unveil an end-to-end MVP that captures your vision and gets them excited about what's to come.</p>
+<h2 id="final-project-report">Final Project Report<a class="headerlink" href="#final-project-report" title="Permanent link">&para;</a></h2>
+<p>Although your investors are not interested in the technical details of your work, they respect its importance. Therefore they have hired a technical team to assess the quality of your work and process. Submit a report which includes all important decisions you have made and explain why you have selected one option over another. The assessment team will make judgments based on this report and the content of your team's codebase and Kanban board.</p>
+<p>Your report should highlight the work you did that we will see during the demo. This could include, but is not limited to:</p>
+<ul>
+<li>Why are these features the minimum viable product for this idea?</li>
+<li>What did you choose to use this technology stack?</li>
+<li>What was your integration testing plan (link an example of an end-to-end test)?</li>
+<li>What changed from your original plan?</li>
+<li>What are your predicted performance bottlenecks?</li>
+<li>What are 2 potential pivot ideas?</li>
+<li>What metrics are you collecting and monitoring?</li>
+<li>What is your strategy for quality assurance/testing?</li>
+<li>How did your team self-organize? What roles did everyone play?</li>
+<li>What would be your next 3 features you would implement given more time?</li>
+<li>How would test viability for your MVP concept?</li>
+</ul>
+<p><strong>Note: We expect that each of these questions can be answered in one paragraph or less.</strong></p>
+<h2 id="final-project-presentation">Final Project Presentation<a class="headerlink" href="#final-project-presentation" title="Permanent link">&para;</a></h2>
+<p>In this presentation, you will show your investors (the class!) a walkthrough of your end-to-end MVP. You do not need to include details related to the backend. Your investors are mostly interested in seeing the progress and functionality of your product. Your presentation should be <strong>10-15 minutes</strong> and <strong>include a demo</strong>. You may use slides but are not required to. <strong>All team members must participate with each speaking for at least 2 minutes of time</strong>.</p>
+<p>The following presentation elements are required (but may be combined as appropriate):</p>
+<ul>
+<li>Introduce your team name, team members, each person's assigned role, and the roles they actually ended up playing in the project.</li>
+<li>Introduce the main concept of your MVP.</li>
+<li>A walkthrough of your MVP, organized by user stories, not by features.</li>
+<li>A demo of your MVP, with everything connected.</li>
+<li>Describe any external feedback (from outside your team) that you received on your MVP.</li>
+<li>Point out the coolest part of your MVP.</li>
+<li>Point out the part of the MVP of which you are most proud.</li>
+<li>Explain the most important lesson you learned.</li>
+</ul>
+<p><strong>Note: All presentations will occur during our final exam slot, Tuesday, April 30, 8:30am-11:30am.</strong></p>
+<h2 id="mvprubric">MVP/Rubric<a class="headerlink" href="#mvprubric" title="Permanent link">&para;</a></h2>
+<p>Each of your projects is different, so we would like for <strong><em>you</em></strong> to develop a rubric describing how your project should be graded. This rubric should cover each feature of the project/MVP you are delivering; we will grade your presentation and report separately. Your rubric should total 80 points and should describe how those points should be allocated across the various features of your MVP. A good rubric describes what you have to do to earn full credit, as well as what you would do to earn partial credit. <em>Note</em>: We reserve the right to modify the rubric for the final evaluation, however our goal is to be able to use these rubrics to grade each project in a way that is fair and transparent.</p>
+<h2 id="team-post-mortem">Team Post-Mortem<a class="headerlink" href="#team-post-mortem" title="Permanent link">&para;</a></h2>
+<p>The post-mortem is the place where you can talk as a team about how your software development process worked out during the release cycle. In this class, the post-mortem starts with a team meeting and ends with an individual writeup (for every individual on the team) of the things that went right, the things that went wrong, the things that must be changed for next time, and the lessons you learned from the experience.</p>
+<p>Here's how it's going to play out.</p>
+<h3 id="post-mortem-logistics">Post-Mortem Logistics<a class="headerlink" href="#post-mortem-logistics" title="Permanent link">&para;</a></h3>
+<ul>
+<li>You will schedule a meeting for all of your team's members sometime <strong>between Tuesday April 30th, 11:30am and Thursday, May 2, 11:59pm</strong>. It has be after your team is done with your project and presentation so you can reflect on everything you have been through together this semester.</li>
+<li>The meeting will be between 1-2 hours long. No more. No less. People have trouble taking criticism after 2 hours. They'll leave. Less than 1 hour won't cover everything you should be talking about.</li>
+<li>Individually, before you come to the meeting, think of 3-5 of your top issues (positive and negative) that you want to discuss at the meeting.</li>
+<li>One of you should bring a pad of post-it notes, one pad for every team member. Also, bring a large sheet of paper (8.5x11" will be too small). Be sure everyone has a pen. Don't allow the use of any computers or smartphones during the meeting.</li>
+<li>Choose one person, not the team's CEO, to be the post-mortem facilitator. Usually it's best to pick someone who you feel has been a good listener throughout the project and that everyone (still) respects and likes.</li>
+</ul>
+<h3 id="agenda">Agenda<a class="headerlink" href="#agenda" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Group Reflection</p>
+<ul>
+<li>For each team role that someone played on your team (e.g. frontend developer, backend developer, tester, project CEO, project manager, designer, etc.), do the following, one team role at a time. <em>Note</em>: your team probably had 5-10 team roles being played by its 4-5 team members.<ul>
+<li><strong>Analyze:</strong> Fill out post it notes (as many as you want or have) silently with anything that went wrong with the actions of the people while playing that team role.</li>
+<li><strong>Praise:</strong> Fill out post-it notes silently with everything that the people playing that team role did right or did well.</li>
+<li><strong>Solve:</strong> Cluster the post-it notes (analyses and praise) into topic categories. If you do this on a whiteboard wall, it'll be like affinity diagramming!</li>
+</ul>
+</li>
+<li>For each topic cluster, brainstorm together potential solutions (don't go too deep, but don't rule anything out). Brainstorm means listen to one another's suggestions and write them down. Do <em>NOT</em> shoot any ideas down. Brainstorming is supportive, even if you are the subject of discussion.</li>
+<li>Assign each team member to a set of topic clusters and brainstormed solutions. Each team member should now silently flesh out two unique composite ideas for each topic cluster out of the solutions you are reading. It's ok to be inspired to come up with more, but try not to exceed three.</li>
+</ul>
+</li>
+<li>
+<p>Spidergraph</p>
+<ul>
+<li>On a large sheet of paper, draw a <a href="https://think.design/services/data-visualization-data-design/spider-graph/">spidergraph</a>. Basically, it's a 9-pointed star made of 9 lines that meet in the middle. At the end of each point of the star, write the following concepts (definitions in the links come from a class previously taught by Andrew Begel at the University of Washington):<ol>
+<li><a href="https://andrewbegel.com/info461/activities/self-regulation.html">Self-regulating</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/open-minded.html">Open minded</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/complexity.html">Facile with complexity</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/tradeoffs.html">Tradeoff-aware</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/honest.html">Honest</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/resourceful.html">Resourceful</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/adaptive.html">Adaptive</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/vulnerable.html">Vulnerable</a></li>
+<li><a href="https://andrewbegel.com/info461/activities/vulnerable.html">Persistent</a></li>
+</ol>
+</li>
+<li>Pick one concept to begin. Leave the paper in the middle of the group, and pass the pen to a random person. Ask that person to individually (without discussion) rate the team on the concept from 1 to 5 at the end of one of the axes of the star. Draw a small circle on the line where closest to the center is 1 and 5 is at the endpoint of the axis.</li>
+<li>Pass the pen to the next person, and ask them to individually rate the team on the same concept. Repeat until each person has rated the team on that single concept.</li>
+<li>Discuss the rankings that everyone gave for that concept. Do you all agree? What does it mean? Is there a spread of values? In response to any differences, or particular values, come up with a list of things that your team could to do improve your ratings for that concept. Write down that list.</li>
+<li>Once you've finished discussing that word, pick another one, and repeat the process. Once you've finished all 9 points of the star, take a picture of the spidergraph for posterity, and you're done.</li>
+</ul>
+</li>
+<li>Share Out<ul>
+<li>Now, take everything you've written down for the team post-mortem (e.g., post it notes, brainstorming, and fleshed out solutions) and the Spidergraph (don't forget the picture of the Spidergraph) and email it to everyone on the team, so that they can refer to it for their individual post-mortem deliverable. <em>Note</em>: there is no graded deliverable for the team post-mortem.</li>
+</ul>
+</li>
+</ol>
+<h2 id="team-deliverables">Team Deliverables<a class="headerlink" href="#team-deliverables" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Final Project Presentation (85 points)</strong></li>
+<li><strong>Final Project Peport (85 pts)</strong></li>
+<li><strong>MVP/Rubric (80 pts)</strong></li>
+</ul>
+<p>Present your final project on April 30, between 8:30am-11:30am. <strong>We expect everyone to be there!</strong></p>
+<p><strong>Submit your <em>Final Project Report</em> and <em>MVP/Rubric</em> on <a href="https://www.gradescope.com/courses/704199/assignments/4367426">Gradescope</a></strong>.</p>
+<h2 id="individual-deliverables">Individual Deliverables<a class="headerlink" href="#individual-deliverables" title="Permanent link">&para;</a></h2>
+<p><strong>Individual Post-Mortem (40 points)</strong></p>
+<ul>
+<li>For each team role you discussed in your group reflection, pick your top two analyses and top two praises from the entire set of post its and write them down. Then, pick one brainstormed, worked-through solution that you believe will best address the analyses and preserve the praise. Explain how this solution will help you personally to ensure (or be assured) that your next team experience related to this team role (even if it's never going to be your team role) turns out better.</li>
+<li>Make a list of the value words, one for each point of the 9-pointed spidergraph star.<ol>
+<li>Next to each word, write down the person on your team who you personally believe epitomizes that value the most on your team (i.e., from their actions, behavior, and character alone would earn them the highest score) and the score (1-5) they would earn.</li>
+<li>Compute the average score your team received for that word and write it down.</li>
+<li>Write down what you believe your own score was at the beginning of the semester, before you worked with your team.</li>
+<li>Write down what you believe your own score is now, at post-mortem time.</li>
+<li>If your score improved, tell a story of one experience during this class that helped you become better at that teamwork skill, or helped you realize you were already better at that teamwork skill (the word at the end of that point on the star). The experience does not need to have been related to your class project.</li>
+<li>Repeat this process for the remaining eight words on the spidergraph star.</li>
+</ol>
+</li>
+<li>Finally, you will vote for your team <em>Most Valuable Person</em>.<ul>
+<li>Write down the full name of person on your team who you believe epitomizes the highest scores on the particular points of the spidergraph that you personally feel were most important to your team's success, morale, friendship, and who always made you feel like you were an important, integral part of the team.</li>
+</ul>
+</li>
+<li>What value did you gain from the team contract that you created in the previous assignment?<ul>
+<li>Did any situation occur in which your team found the answer in the processes defined by the team contract? Describe what happened.</li>
+<li>Were there any situations that could have benefitted from a more complete team contract? Describe them.</li>
+<li>Was the team contract ever detrimental to the effective functioning of your team?</li>
+<li>Did you ever have to update the contract during the course of the final project?</li>
+</ul>
+</li>
+<li>What are your main takeaways from this class?</li>
+<li>What should we keep next time we offer this class? What should we do differently?</li>
+</ul>
+<p><strong>Individual Contributions (10 points)</strong></p>
+<p>All team members should be making pull requests (PRs) when adding/pushing new
+code. As you progress toward your MVP, <strong>every individual team member</strong> should
+have a</p>
+<ul>
+<li><strong>At least 1 PR merged with at least one +1 from a reviewer</strong>.</li>
+<li><strong>At least 1 constructive comment on other team member’s PR</strong>.</li>
+</ul>
+<p>We will visit your GitHub repo to check that these have occurred with timestamps <strong>before the assignment deadline of May 2nd and after the last deadline of April 18th</strong>. If GitHub fails to show any evidence of your work, you will lose points from the individual portion of your grade.</p>
+<p><strong>Submit your <em>Individual Post-Mortem</em> and links to your <em>1 PR</em> / <em>1 Comment</em> on <a href="https://www.gradescope.com/courses/704199/assignments/4368478">Gradescope</a></strong>.</p>
+<h2 id="bonus">Bonus<a class="headerlink" href="#bonus" title="Permanent link">&para;</a></h2>
+<p>Any team which fully completes its user stories on time will receive a 10% bonus for the final project portion of this class.</p>
+<ul>
+<li>8 percentage points will be divided evenly among the team members (e.g. if there are 4 people on the team, each person gets 2 percentage points. If the team has 5 people, each person gets 1.8 percentage points.)</li>
+<li>The team’s most valuable person (MVP) will receive 2 percentage points.</li>
+<li>Your team may choose at most one person to be MVP. If no one is chosen, your team will forfeit those 2 percentage points.</li>
+</ul>
+<p>To help with the computation, note that the final project is worth 500 points (FP1 was 100 points, FP2 was 100 points, and this assignment is 300 points). The total 10% bonus is therefore worth 50 points. The team's most valuable person receives 10 points. The remaining 40 points will be distributed evenly among all team members (even the team's most valuable person).</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
