@@ -1229,7 +1229,7 @@
     name: 'P5: Final Product Report and Presentation'
     numDays: 12
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture23.pdf'
     name: 'Pivot Challenge'
   reading:
     link: ''
