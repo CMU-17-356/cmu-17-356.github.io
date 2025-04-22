@@ -1283,7 +1283,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture24.pdf'
     name: 'In Class Bug Bash'
   reading:
     link: ''
