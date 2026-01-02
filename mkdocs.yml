@@ -58,17 +58,17 @@ nav:
   - Syllabus: syllabus.md
   - Teamwork Practices: teamwork.md
   - Staff: staff.md
-  - Assignments: # assignments/index.md # Dummy home page; remove once we start adding assignments below
-      - Homework 1: assignments/HW1.md
-      - Homework 2: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assignments/hw2.pdf'
-      - Homework 3: assignments/hw3-25.md
-      - Homework 4: assignments/hw4-25.md
-      - Homework 5: assignments/hw5-25.md
+  - Assignments: assignments/index.md # Dummy home page; remove once we start adding assignments below
+  #    - Homework 1: assignments/HW1.md
+  #    - Homework 2: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assignments/hw2.pdf'
+  #    - Homework 3: assignments/hw3-25.md
+  #    - Homework 4: assignments/hw4-25.md
+  #    - Homework 5: assignments/hw5-25.md
   #    - Final Project - Team Sprint 1: assignments/FP1.md
   #    - Final Project - Team Sprint 2: assignments/FP2.md
   #    - Final Project - Team Sprint 3: assignments/FP3.md
-  - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
-      - Recitation 2: recitations/reci2-viability-analysis.md
+  - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
+  #    - Recitation 2: recitations/reci2-viability-analysis.md
   #    - Recitation 2: recitations/reci2-nodejs.md
   #    - Recitation 3: recitations/reci3-react.md
   #    - Recitation 4: recitations/reci4-testing.md
@@ -86,10 +86,10 @@ nav:
   #    - UI Development: project/ui.md
   #    - Docker: project/docker.md
   #    - Deployment: project/deployment.md
-  - Project: 
-      - Project 0 Team Contract: project/team-contract.md
-      - Project 1 Product Specification: project/p1.md
-      - Project 2 Implementation Sprint: project/p2.md
-      - Project 3 Implementation Sprint: project/p3.md
-      - Project 4 Implementation Sprint: project/p4.md
-      - Project 5 Final Presentation: project/p5.md
+  - Project: project/index.md # Dummy home page; remove once we start adding project docs below
+  #    - Project 0 Team Contract: project/team-contract.md
+  #    - Project 1 Product Specification: project/p1.md
+  #    - Project 2 Implementation Sprint: project/p2.md
+  #    - Project 3 Implementation Sprint: project/p3.md
+  #    - Project 4 Implementation Sprint: project/p4.md
+  #    - Project 5 Final Presentation: project/p5.md
