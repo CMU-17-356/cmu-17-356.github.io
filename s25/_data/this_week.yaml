@@ -1,0 +1,28 @@
+last_homework:
+  date: ""
+  deadline: "Tues March 25 @ 11:59pm"
+  link: ""
+  name: "P2: Project Milestone 1"
+  numDays: 10
+
+lectures:
+  - date: Tue March 11
+    link: ""
+    name: "Structure of a Startup"
+  - date: Thu March 13
+    link: ""
+    name: "Team Roles"
+  
+next_homework:
+  date: ""
+  deadline: "Tues April 8 @ 11:59pm"
+  link: ""
+  name: "P3: Project Milestone 2"
+  numDays: 10
+
+recitation:
+  date: Fri March 14
+  handout: ""
+  name: "Team Work Session"
+  quiz: ""
+  slides: ""

@@ -1,0 +1,20 @@
+- name: Fraser Brown
+  role: Instructor
+  email: fraserb@andrew.cmu.edu
+  website: https://mlfbrown.com/
+  photo: fraser-brown.png
+
+- name: Andrew Begel
+  role: Instructor
+  email: abegel@andrew.cmu.edu
+  website: https://andrewbegel.com/
+  photo: abegel.jpg
+
+- name: Aditya Shrivastava
+  role: Teaching Assistant
+  email: ashriva3@andrew.cmu.edu
+
+- name: Jacqueline Tsai
+  role: Teaching Assistant
+  email: yunhsuat@andrew.cmu.edu
+
