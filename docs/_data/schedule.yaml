@@ -1,40 +1,22 @@
-- date: Mon Jan 13
+- date: Tue Jan 13
   homework:
-    deadline: "January 21, 2025, 11:59pm"
-    link: "https://forms.gle/3Jpm9SLZQxRpeccc8"
-    name: "HW 0: Skills Survey"
-    numDays: 6
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
   reading:
     link: ''
     name: ''
-  recitation:
-    handout: 'recitations/reci1-user-discovery'
-    name: 'User Discovery'
-    quiz: ''
-    slides: ''
-
-- date: Tue Jan 14
-  homework:
-    deadline: 'January 21, 2025, 11:59pm'
-    link: 'assignments/HW1'
-    name: 'HW1: User Discovery'
-    numDays: 5
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture1.pdf'
-    name: 'Course Introduction'
-  reading:
-    link: 'https://www.momtestbook.com'
-    name: 'The Mom Test (chapters 1, 2, 3, 6)'
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Wed Jan 15
+- date: Wed Jan 14
   homework:
     deadline: ''
     link: ''
@@ -52,15 +34,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Jan 16
+- date: Thu Jan 15
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture2.pdf'
-    name: 'Product Ideation and Discovery'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -70,7 +52,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Jan 17
+- date: Fri Jan 16
   homework:
     deadline: ''
     link: ''
@@ -88,33 +70,15 @@
     quiz: ''
     slides: ''
 
-- date: Mon Jan 20
+- date: Mon Jan 19
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
-  reading:
     link: ''
     name: ''
-  recitation:
-    handout: 'recitations/reci2-viability-analysis'
-    name: 'Viability Analysis'
-    quiz: ''
-    slides: ''
-
-- date: Tue Jan 21
-  homework:
-    deadline: 'January 28, 2025'
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assignments/hw2.pdf'
-    name: 'HW2: MVP Creation'
-    numDays: 5
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture3.pdf'
-    name: 'Minimal Viable Product (MVP)'
   reading:
     link: ''
     name: ''
@@ -124,7 +88,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Jan 22
+- date: Tue Jan 20
   homework:
     deadline: ''
     link: ''
@@ -142,15 +106,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Jan 23
+- date: Wed Jan 21
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture4.pdf'
-    name: 'Evaluating Viability'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -160,7 +124,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Jan 24
+- date: Thu Jan 22
   homework:
     deadline: ''
     link: ''
@@ -178,7 +142,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Jan 27
+- date: Fri Jan 23
   homework:
     deadline: ''
     link: ''
@@ -191,20 +155,20 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci3-nodejs'
-    name: 'Node Web Apps'
+    handout: ''
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Jan 28
+- date: Mon Jan 26
   homework:
-    deadline: 'February 4, 2025'
-    link: 'project/team-contract'
-    name: 'P0: Team Contracts'
-    numDays: 5
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
-    name: 'MVP Presentations'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -214,7 +178,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Jan 29
+- date: Tue Jan 27
   homework:
     deadline: ''
     link: ''
@@ -232,7 +196,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Jan 30
+- date: Wed Jan 28
   homework:
     deadline: ''
     link: ''
@@ -240,7 +204,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Team Forming and Norming'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -250,7 +214,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Jan 31
+- date: Thu Jan 29
   homework:
     deadline: ''
     link: ''
@@ -268,33 +232,15 @@
     quiz: ''
     slides: ''
 
-- date: Mon Feb 03
+- date: Fri Jan 30
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
-  reading:
     link: ''
     name: ''
-  recitation:
-    handout: 'recitations/reci4-github'
-    name: 'GitHub'
-    quiz: ''
-    slides: ''
-
-- date: Tue Feb 04
-  homework:
-    deadline: 'February 11, 2025'
-    link: 'assignments/hw3-25'
-    name: 'HW3: GitHub Basics'
-    numDays: 5
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture7.pdf'
-    name: 'Coding as a Team Part 1'
   reading:
     link: ''
     name: ''
@@ -304,7 +250,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Feb 05
+- date: Mon Feb 02
   homework:
     deadline: ''
     link: ''
@@ -322,15 +268,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Feb 06
+- date: Tue Feb 03
   homework:
-    deadline: 'February 27, 2025'
-    link: 'project/p1'
-    name: 'P1: Project Specification'
-    numDays: 15
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture8.pdf'
-    name: 'Coding as a Team Part 2'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -340,7 +286,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Feb 07
+- date: Wed Feb 04
   homework:
     deadline: ''
     link: ''
@@ -358,33 +304,15 @@
     quiz: ''
     slides: ''
 
-- date: Mon Feb 10
+- date: Thu Feb 05
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
-  reading:
     link: ''
     name: ''
-  recitation:
-    handout: 'recitations/reci5-testing'
-    name: 'Unit testing'
-    quiz: ''
-    slides: ''
-
-- date: Tue Feb 11
-  homework:
-    deadline: 'February 18, 2025'
-    link: 'assignments/hw4-25'
-    name: 'HW4: Testing'
-    numDays: 5
-  lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture9.pdf'
-    name: 'Code Review'
   reading:
     link: ''
     name: ''
@@ -394,7 +322,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Feb 12
+- date: Fri Feb 06
   homework:
     deadline: ''
     link: ''
@@ -412,15 +340,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Feb 13
+- date: Mon Feb 09
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture10.pdf'
-    name: 'Testing'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -430,7 +358,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Feb 14
+- date: Tue Feb 10
   homework:
     deadline: ''
     link: ''
@@ -448,7 +376,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Feb 17
+- date: Wed Feb 11
   homework:
     deadline: ''
     link: ''
@@ -462,19 +390,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'App Deployment'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Feb 18
+- date: Thu Feb 12
   homework:
-    deadline: 'February 25, 2025'
-    link: 'assignments/hw5-25'
-    name: 'HW5: DevOps'
-    numDays: 5
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture11.pdf'
-    name: 'CloudOps'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -484,7 +412,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Feb 19
+- date: Fri Feb 13
   homework:
     deadline: ''
     link: ''
@@ -502,15 +430,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Feb 20
+- date: Mon Feb 16
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture12.pdf'
-    name: 'Monitoring Services'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -520,7 +448,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Feb 21
+- date: Tue Feb 17
   homework:
     deadline: ''
     link: ''
@@ -538,7 +466,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Feb 24
+- date: Wed Feb 18
   homework:
     deadline: ''
     link: ''
@@ -552,19 +480,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'P1 Presentations'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Feb 25
+- date: Thu Feb 19
   homework:
-    deadline: 'March 25, 2025'
-    link: 'project/p2'
-    name: 'P2: Project Milestone 1'
-    numDays: 15
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
-    name: 'Technical Debt'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -574,7 +502,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Feb 26
+- date: Fri Feb 20
   homework:
     deadline: ''
     link: ''
@@ -592,15 +520,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Feb 27
+- date: Mon Feb 23
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture14.pdf'
-    name: 'Security'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -610,7 +538,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Feb 28
+- date: Tue Feb 24
   homework:
     deadline: ''
     link: ''
@@ -628,7 +556,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 03
+- date: Wed Feb 25
   homework:
     deadline: ''
     link: ''
@@ -646,7 +574,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Mar 04
+- date: Thu Feb 26
   homework:
     deadline: ''
     link: ''
@@ -654,7 +582,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Spring Break - NO CLASS'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -664,7 +592,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Mar 05
+- date: Fri Feb 27
   homework:
     deadline: ''
     link: ''
@@ -682,7 +610,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Mar 06
+- date: Mon Mar 02
   homework:
     deadline: ''
     link: ''
@@ -690,7 +618,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Spring Break - NO CLASS'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -700,7 +628,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 07
+- date: Tue Mar 03
   homework:
     deadline: ''
     link: ''
@@ -718,7 +646,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 10
+- date: Wed Mar 04
   homework:
     deadline: ''
     link: ''
@@ -732,19 +660,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Team Work Session'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Mar 11
+- date: Thu Mar 05
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture15.pdf'
-    name: 'Structure of a Startup'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -754,7 +682,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Mar 12
+- date: Fri Mar 06
   homework:
     deadline: ''
     link: ''
@@ -772,15 +700,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Mar 13
+- date: Mon Mar 09
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture16.pdf'
-    name: 'Team Roles'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -790,7 +718,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 14
+- date: Tue Mar 10
   homework:
     deadline: ''
     link: ''
@@ -808,7 +736,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 17
+- date: Wed Mar 11
   homework:
     deadline: ''
     link: ''
@@ -822,11 +750,11 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Team Work Session'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Mar 18
+- date: Thu Mar 12
   homework:
     deadline: ''
     link: ''
@@ -834,7 +762,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pitching'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -844,7 +772,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Mar 19
+- date: Fri Mar 13
   homework:
     deadline: ''
     link: ''
@@ -862,15 +790,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Mar 20
+- date: Mon Mar 16
   homework:
-    deadline: 'April 8, 2025'
-    link: 'project/p3'
-    name: 'P3: Project Milestone 2'
-    numDays: 13
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture: Startup Funding. CMU Prof. Riad Wahby (Co-Founder and CEO: Cubist)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -880,7 +808,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 21
+- date: Tue Mar 17
   homework:
     deadline: ''
     link: ''
@@ -898,7 +826,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 24
+- date: Wed Mar 18
   homework:
     deadline: ''
     link: ''
@@ -912,19 +840,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Milestone 1 Presentations'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Mar 25
+- date: Thu Mar 19
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture19.pdf'
-    name: 'Joining a Startup'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -934,7 +862,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Mar 26
+- date: Fri Mar 20
   homework:
     deadline: ''
     link: ''
@@ -952,15 +880,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Mar 27
+- date: Mon Mar 23
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture20.pdf'
-    name: 'Pivoting'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -970,7 +898,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Mar 28
+- date: Tue Mar 24
   homework:
     deadline: ''
     link: ''
@@ -988,7 +916,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Mar 31
+- date: Wed Mar 25
   homework:
     deadline: ''
     link: ''
@@ -1002,19 +930,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Team Work Session'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Apr 01
+- date: Thu Mar 26
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture21.pdf'
-    name: 'AI Startups'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1024,7 +952,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 02
+- date: Fri Mar 27
   homework:
     deadline: ''
     link: ''
@@ -1042,7 +970,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Apr 03
+- date: Mon Mar 30
   homework:
     deadline: ''
     link: ''
@@ -1050,7 +978,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Spring Carnival - NO CLASS'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1060,7 +988,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Apr 04
+- date: Tue Mar 31
   homework:
     deadline: ''
     link: ''
@@ -1078,7 +1006,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 07
+- date: Wed Apr 01
   homework:
     deadline: ''
     link: ''
@@ -1092,19 +1020,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Milestone 2 Presentations'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Apr 08
+- date: Thu Apr 02
   homework:
-    deadline: 'April 24, 2025'
-    link: 'project/p4'
-    name: 'P4: Project Milestone 3'
-    numDays: 12
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture - Matt Welsh (Head of AI Systems at Palantir)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1114,7 +1042,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 09
+- date: Fri Apr 03
   homework:
     deadline: ''
     link: ''
@@ -1132,7 +1060,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Apr 10
+- date: Mon Apr 06
   homework:
     deadline: ''
     link: ''
@@ -1140,7 +1068,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture - Prof. Austin Henley (formerly CTO of BYBE, Inc.)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1150,7 +1078,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Apr 11
+- date: Tue Apr 07
   homework:
     deadline: ''
     link: ''
@@ -1168,7 +1096,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 14
+- date: Wed Apr 08
   homework:
     deadline: ''
     link: ''
@@ -1186,15 +1114,15 @@
     quiz: ''
     slides: ''
 
-- date: Tue Apr 15
+- date: Thu Apr 09
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture22.pdf'
-    name: 'Ethics'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1204,7 +1132,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 16
+- date: Fri Apr 10
   homework:
     deadline: ''
     link: ''
@@ -1222,15 +1150,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Apr 17
+- date: Mon Apr 13
   homework:
-    deadline: 'May 5, 2025'
-    link: 'project/p5'
-    name: 'P5: Final Product Report and Presentation'
-    numDays: 12
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture23.pdf'
-    name: 'Pivot Challenge'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1240,7 +1168,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Apr 18
+- date: Tue Apr 14
   homework:
     deadline: ''
     link: ''
@@ -1258,7 +1186,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 21
+- date: Wed Apr 15
   homework:
     deadline: ''
     link: ''
@@ -1272,19 +1200,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Milestone 3 Presentations'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Apr 22
+- date: Thu Apr 16
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture24.pdf'
-    name: 'In Class Bug Bash'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1294,7 +1222,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 23
+- date: Fri Apr 17
   homework:
     deadline: ''
     link: ''
@@ -1312,15 +1240,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Apr 24
+- date: Mon Apr 20
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture25.pdf'
-    name: 'Final Class - Summary'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1330,7 +1258,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Apr 25
+- date: Tue Apr 21
   homework:
     deadline: ''
     link: ''
@@ -1348,7 +1276,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Apr 28
+- date: Wed Apr 22
   homework:
     deadline: ''
     link: ''
@@ -1366,7 +1294,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Apr 29
+- date: Thu Apr 23
   homework:
     deadline: ''
     link: ''
@@ -1384,7 +1312,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Apr 30
+- date: Fri Apr 24
   homework:
     deadline: ''
     link: ''
@@ -1402,7 +1330,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu May 01
+- date: Mon Apr 27
   homework:
     deadline: ''
     link: ''
@@ -1420,7 +1348,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri May 02
+- date: Tue Apr 28
   homework:
     deadline: ''
     link: ''
@@ -1438,7 +1366,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon May 05
+- date: Wed Apr 29
   homework:
     deadline: ''
     link: ''
@@ -1446,7 +1374,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Final Presentations - You Must Attend in Person'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1456,7 +1384,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue May 06
+- date: Thu Apr 30
   homework:
     deadline: ''
     link: ''
@@ -1474,7 +1402,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed May 07
+- date: Fri May 01
   homework:
     deadline: ''
     link: ''
@@ -1482,7 +1410,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Grades Due to CMU'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1492,7 +1420,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu May 08
+- date: Mon May 04
   homework:
     deadline: ''
     link: ''

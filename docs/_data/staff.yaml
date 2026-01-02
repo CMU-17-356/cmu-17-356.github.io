@@ -1,8 +1,8 @@
-- name: Fraser Brown
+- name: Austin Henley
   role: Instructor
-  email: fraserb@andrew.cmu.edu
-  website: https://mlfbrown.com/
-  photo: fraser-brown.png
+  email: azhenley@andrew.cmu.edu
+  website: https://austinhenley.com/
+  photo: azhenley.jpg
 
 - name: Andrew Begel
   role: Instructor
@@ -10,11 +10,11 @@
   website: https://andrewbegel.com/
   photo: abegel.jpg
 
-- name: Aditya Shrivastava
+- name: Eryn Ma
   role: Teaching Assistant
-  email: ashriva3@andrew.cmu.edu
+  email: erynm@andrew.cmu.edu
 
-- name: Jacqueline Tsai
+- name: Sai Ravi Teja Gangavarapu
   role: Teaching Assistant
-  email: yunhsuat@andrew.cmu.edu
+  email: sairavig@andrew.cmu.edu
 
