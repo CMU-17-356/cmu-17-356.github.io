@@ -1,0 +1,1761 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../hw3-25/">
+      
+      
+        <link rel="next" href="../hw5-25/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Homework 4 - CMU 17-356: Software Engineering for Startups</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#homework-4-software-testing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-header__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-356: Software Engineering for Startups
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Homework 4
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../teamwork/" class="md-tabs__link">
+        
+  
+    
+  
+  Teamwork Practices
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../staff/" class="md-tabs__link">
+        
+  
+    
+  
+  Staff
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../HW1/" class="md-tabs__link">
+          
+  
+    
+  
+  Assignments
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../recitations/reci2-viability-analysis/" class="md-tabs__link">
+          
+  
+    
+  
+  Recitations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../project/team-contract/" class="md-tabs__link">
+          
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-nav__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    CMU 17-356: Software Engineering for Startups
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Syllabus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teamwork/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teamwork Practices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../staff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Staff
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HW1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assignments/hw2.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw3-25/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Homework 4
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Homework 4
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit testing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-configure-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Configure Jest
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Configure Jest">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-run-our-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Run our test cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Run our test cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-write-your-first-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Write your first test cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Write your first test cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-write-a-test-case-for-the-front-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Write a test case for the front end
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Write a test case for the front end">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-write-more-test-cases-for-the-front-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Write more test cases for the front end
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Write more test cases for the front end">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-test-your-new-calculator-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Test your new calculator functionality
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Test your new calculator functionality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-check-in-your-test-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Check in your test code.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Check in your test code.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-review-at-least-two-prs" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Review at least two PRs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Review at least two PRs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-merge-your-reviewed-pr" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Merge your reviewed PR
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Merge your reviewed PR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-create-a-continuous-integration-pipeline-to-run-your-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Create a continuous integration pipeline to run your test cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Create a continuous integration pipeline to run your test cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw5-25/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homework 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Recitations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Recitations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci2-viability-analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recitation 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/team-contract/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 0 Team Contract
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 1 Product Specification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 2 Implementation Sprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 3 Implementation Sprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 4 Implementation Sprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 5 Final Presentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit testing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-configure-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Configure Jest
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Configure Jest">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-run-our-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Run our test cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Run our test cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-write-your-first-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Write your first test cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Write your first test cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-write-a-test-case-for-the-front-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Write a test case for the front end
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Write a test case for the front end">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-write-more-test-cases-for-the-front-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Write more test cases for the front end
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Write more test cases for the front end">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-test-your-new-calculator-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Test your new calculator functionality
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Test your new calculator functionality">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-check-in-your-test-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Check in your test code.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Check in your test code.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-review-at-least-two-prs" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Review at least two PRs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Review at least two PRs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-merge-your-reviewed-pr" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Merge your reviewed PR
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Merge your reviewed PR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-create-a-continuous-integration-pipeline-to-run-your-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Create a continuous integration pipeline to run your test cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Create a continuous integration pipeline to run your test cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn in instructions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="homework-4-software-testing">Homework 4: Software Testing<a class="headerlink" href="#homework-4-software-testing" title="Permanent link">&para;</a></h1>
+<h2 id="learning-goals">Learning goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Get comfortable with unit testing frameworks</li>
+<li>Learn how to create continuous integration workflows</li>
+<li>Create test infrastructure and code for the calculator project</li>
+</ul>
+<h2 id="project-context">Project context<a class="headerlink" href="#project-context" title="Permanent link">&para;</a></h2>
+<p>You and your team have access to a basic calculator app through GitHub Classroom. Last week, you learned how to set up the repository and merge in some pull requests (PRs). This week, you will learn to write test cases and create a continuous integration (CI) pipeline. <strong>You should apply the development processes you learn here to your prototype product.</strong></p>
+<h2 id="assignment-instructions">Assignment instructions<a class="headerlink" href="#assignment-instructions" title="Permanent link">&para;</a></h2>
+<p>In this assignment, you'll go to your local development environment for the calculator app, install the testing framework, create some test cases, run them, and then set up a CI workflow to run these every time new code is checked into your repository. </p>
+<h2 id="unit-testing">Unit testing<a class="headerlink" href="#unit-testing" title="Permanent link">&para;</a></h2>
+<p>Unit testing is the lowest level manner of testing your software. In unit testing, we write test cases to exercise every individual function in our software. Each unit test exercises just one program path in (usually) just one function. It takes a lot of unit tests to cover all the code paths and ensure that your functions work as intended. </p>
+<p>We can use a unit testing framework to make it easier to run these test cases and automatically tally the results. </p>
+<h3 id="1-configure-jest">1. Configure Jest<a class="headerlink" href="#1-configure-jest" title="Permanent link">&para;</a></h3>
+<p>We will be using the <a href="https://jestjs.io">Jest</a> unit testing framework for Javascript applications running in Node.js and in the browser. </p>
+<p>Follow <a href="https://jestjs.io/docs/getting-started">these instructions</a> to install the Jest framework in your calculator front end and backend applications. We have already created a test directory in calculator-backend to store your new test cases. The tests in the frontend code are in the src/ subdirectory of calculator-frontend. </p>
+<p>Let's fix one configuration error in the calculator code; this is necessary because of a bug in Jest/Axios interactions. </p>
+<p>Edit calculator-frontend/package.json. Change the line starting with "test" inside of the "scripts" object to read:</p>
+<div class="highlight"><pre><span></span><code>&quot;test&quot;: &quot;react-scripts test --transformIgnorePatterns &#39;node_modules/(?!(axios)/)&#39; --detectOpenHandles&quot;,
+</code></pre></div>
+<h4 id="turn-in-instructions">Turn in instructions<a class="headerlink" href="#turn-in-instructions" title="Permanent link">&para;</a></h4>
+<p><strong>There is no deliverable for this step.</strong></p>
+<h3 id="2-run-our-test-cases">2. Run our test cases<a class="headerlink" href="#2-run-our-test-cases" title="Permanent link">&para;</a></h3>
+<p>Jest runs all files whose names end in .test.js. 
+In calculator-backend/tests, there's a file called calculate.test.js. The code currently in there tests the calculate function by evaluating 2+3 and making sure the function returns 5. </p>
+<p>Run the test by executing:</p>
+<div class="highlight"><pre><span></span><code>cd calculator-backend
+npm test
+</code></pre></div>
+<p>It should execute the test and show that it passed. </p>
+<h4 id="turn-in-instructions_1">Turn in instructions<a class="headerlink" href="#turn-in-instructions_1" title="Permanent link">&para;</a></h4>
+<p><strong>There is no deliverable for this step.</strong></p>
+<h3 id="3-write-your-first-test-cases">3. Write your first test cases<a class="headerlink" href="#3-write-your-first-test-cases" title="Permanent link">&para;</a></h3>
+<p>Let's add some test cases to calculator-backend.</p>
+<ol>
+<li>Add test cases for the '-', '*', and '/' operators that look like the test case for '+'. </li>
+<li>For division, test what happens if someone tries to divide by 0.</li>
+<li>Run these test cases by running 'npm test'. Do the test cases pass? </li>
+</ol>
+<h4 id="turn-in-instructions_2">Turn in instructions<a class="headerlink" href="#turn-in-instructions_2" title="Permanent link">&para;</a></h4>
+<p>Take a screenshot that shows your new test cases passing and put this in the PDF you turn in.</p>
+<h3 id="3-write-a-test-case-for-the-front-end">3. Write a test case for the front end<a class="headerlink" href="#3-write-a-test-case-for-the-front-end" title="Permanent link">&para;</a></h3>
+<p>You'll need to install more npm modules to test the front end.</p>
+<p>Execute these three commands:</p>
+<div class="highlight"><pre><span></span><code>npm install @testing-library/react
+npm install @testing-library/jest-dom
+</code></pre></div>
+<p>There's already an App.test.js in the src/ directory. It has the test code for App.js. </p>
+<p>Let's run that using <code>npm test</code>. </p>
+<p>This looks like a bad test. If you open up App.test.js it creates the Calculator app React element and then looks for a box on the screen labeled 'learn react'. </p>
+<p>That's not right! Our calculator is called 'Calculator App'. Change the test case to look for the text 'Calculator App' instead of 'learn react'. That's better! Be sure to update the test text 'renders calculator app react element' so the person running the test cases knows what the test does.</p>
+<p>If something went wrong in the test code, you can fix it, save the file, and 'npm test' will reexecute all the test cases without having to start it over again.</p>
+<h4 id="turn-in-instructions_3">Turn in instructions<a class="headerlink" href="#turn-in-instructions_3" title="Permanent link">&para;</a></h4>
+<p>Take a screenshot that shows your modified test case passing and put this in the PDF you turn in.</p>
+<h3 id="4-write-more-test-cases-for-the-front-end">4. Write more test cases for the front end<a class="headerlink" href="#4-write-more-test-cases-for-the-front-end" title="Permanent link">&para;</a></h3>
+<p>We want to test the calculator display to see if pressing the number buttons properly shows the numbers. </p>
+<p>First, we need to add an HTML attribute to the appropriate div so we can refer to it in our test cases. </p>
+<p>In Calculator.js, add the attribute 'data-testid="total"' to the div with the className 'expression'. It should look like this:</p>
+<div class="highlight"><pre><span></span><code>&lt;div className=&quot;expression&quot; data-testid =&quot;total&quot;&gt;{expression || &quot;0&quot;}&lt;/div&gt;
+</code></pre></div>
+<p>Second, in the calculator-frontend/src directory, add a new file called Calculate.tests.js. Put this code in your file:</p>
+<div class="highlight"><pre><span></span><code>import { render, fireEvent, screen } from &#39;@testing-library/react&#39;
+import &#39;@testing-library/jest-dom&#39;
+import Calculator from &#39;./Calculator&#39;
+
+it(&#39;Appends the number when pressed&#39;, async () =&gt; {
+   render(&lt;Calculator/&gt;);
+
+   // press a 1 on the calculator
+   var button1 = screen.getByText(&#39;1&#39;)
+   fireEvent.click(button1)
+   await button1
+
+   // get the expression DOM node and check that it is 1
+   const element = screen.getByTestId(&#39;total&#39;)
+   expect(element).toHaveTextContent(&#39;1&#39;);
+
+   // press a 2 on the calculator
+   var button2 = screen.getByText(&#39;2&#39;)
+   fireEvent.click(button2)
+   await button2
+
+   // get the expression DOM node and check that it is 12
+   expect(element).toHaveTextContent(&#39;12&#39;);
+});
+</code></pre></div>
+<p>It checks that if you press a '1', you see a 1 in the top of the calculator. If you then press a '2', you should see a 12 at the top of the calculator.</p>
+<p>Does it work? </p>
+<p>Let's add some test cases to calculator-frontend.</p>
+<ol>
+<li>Add a test case for the 'C' button. It should clear the calculator display back to 0. </li>
+<li>Add a test case for the '=' button. It should read the expression in the display, calculate the right answer, and check that the backend returned that answer to be displayed. </li>
+<li>Run these test cases by running 'npm test'. Do the test cases pass? </li>
+</ol>
+<h4 id="turn-in-instructions_4">Turn in instructions<a class="headerlink" href="#turn-in-instructions_4" title="Permanent link">&para;</a></h4>
+<p>Take a screenshot that shows your new test cases passing and put this in the PDF you turn in.</p>
+<h3 id="5-test-your-new-calculator-functionality">5. Test your new calculator functionality<a class="headerlink" href="#5-test-your-new-calculator-functionality" title="Permanent link">&para;</a></h3>
+<p>Each team member should choose a feature added to the calculator in HW3 that they <em>did not write.</em> Coordinate with your teammates to
+ensure that no two members test the same feature.</p>
+<ol>
+<li>Create up to 5 new test cases for the selected feature. Some will be testable with just 1, but others may require more tests to cover all of the possible functionality.</li>
+</ol>
+<h4 id="turn-in-instructions_5">Turn in instructions<a class="headerlink" href="#turn-in-instructions_5" title="Permanent link">&para;</a></h4>
+<p>Take a screenshot that shows your new test cases passing and put this in your PDF.</p>
+<h3 id="6-check-in-your-test-code">6. Check in your test code.<a class="headerlink" href="#6-check-in-your-test-code" title="Permanent link">&para;</a></h3>
+<p>Create a PR to commit your test code to the team's repository. Use your PR message to clearly describe the tests you've written.</p>
+<h4 id="turn-in-instructions_6">Turn in instructions<a class="headerlink" href="#turn-in-instructions_6" title="Permanent link">&para;</a></h4>
+<p>Please provide us a link to your PR.</p>
+<h3 id="7-review-at-least-two-prs">7. Review at least two PRs<a class="headerlink" href="#7-review-at-least-two-prs" title="Permanent link">&para;</a></h3>
+<p>Following the best practices we discussed in class, leave two reviews on your teammates' PRs. If there issues, continue to discuss in the comments until you're satisfied with the changes and able to approve the pull requests.</p>
+<h4 id="turn-in-instructions_7">Turn in instructions<a class="headerlink" href="#turn-in-instructions_7" title="Permanent link">&para;</a></h4>
+<p>Please provide two or more links to your reviews. </p>
+<h3 id="10-merge-your-reviewed-pr">10. Merge your reviewed PR<a class="headerlink" href="#10-merge-your-reviewed-pr" title="Permanent link">&para;</a></h3>
+<p>Finally, once your PR has been approved, <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request">merge it</a>.</p>
+<h4 id="turn-in-instructions_8">Turn in instructions<a class="headerlink" href="#turn-in-instructions_8" title="Permanent link">&para;</a></h4>
+<p>Please provide a link to your merged commit. </p>
+<h3 id="8-create-a-continuous-integration-pipeline-to-run-your-test-cases">8. Create a continuous integration pipeline to run your test cases<a class="headerlink" href="#8-create-a-continuous-integration-pipeline-to-run-your-test-cases" title="Permanent link">&para;</a></h3>
+<p><em>This is a group exercise. Only one person should PR the workflow file, and others should review.</em></p>
+<p>To ensure the quality of our codebase, we want to make sure that your code passes all its test cases after every checkin. If the tests fail, we should reject the checkin.</p>
+<p>To setup our CI workflow, first, create a workflows subdirectory in .github. Then create a new file called ci.yml in workflows/.</p>
+<p>Open ci.yml in a text editor, paste in the following code snippet, and commit this to your repository. Use hygienic code practices and commit to a branch first, then issue a pull request, do a code review, and merge it into main.</p>
+<div class="highlight"><pre><span></span><code>name: ci
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  jest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Frontend Tests
+        working-directory: ./calculator-frontend
+        run: |
+          npm install
+          npm test
+      - name: Run Backend Tests
+        working-directory: ./calculator-backend
+        run: |
+          npm install
+          npm test
+</code></pre></div>
+<p>Once this is installed, every time we push to main or do a pull request to main, this will execute the frontend and backend test code. We have Require status checks to pass before merging turned on in our repository settings. If any tests fail, the push or pull request will fail as well. </p>
+<p>You can find out what happened in the tests by clicking on the Actions tab at the top of your GitHub repository page and choose the 'ci' workflow. If the tests worked, you'll see all green dots. If it's running right now, the dot will be yellow and show a spinning circle. If there was a failure, the dot will be red. Click on a dot to see a terminal window that shows the commands as they executed as well as their results. </p>
+<h4 id="turn-in-instructions_9">Turn in instructions<a class="headerlink" href="#turn-in-instructions_9" title="Permanent link">&para;</a></h4>
+<p>Turn in the URL to your workflow run of ci.yml that resulted in a successful test case run. If you had to run the ci workflow several times before it passed, turn in the URL of the latest workflow run that succeeded. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
