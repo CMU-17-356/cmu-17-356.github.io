@@ -32,7 +32,7 @@ This class will consist of:
 
 - **Lectures.** Lectures will cover technical content, and be delivered by the
   professors or other instructors.
-- **Guest lectures and panels.** We will hear from from practicing software
+- **Guest lectures.** We will hear from from practicing software
   engineers, technical and non-technical startup cofounders, and other
   individuals with practical expertise.
 - **Recitation.** TAs will lead recitation, which consists of activities designed to help you apply your knowledge practically and prepare for the
@@ -41,6 +41,9 @@ This class will consist of:
 - **A project.** During this course, you will develop an idea for a startup company from start to finish. You will work in teams to develop the startup's idea, understand its market, develop a prototype implementation, and learn to pitch the idea to recruit collaborators and raise funding. Most of this work will be structured as a series of Agile-style sprints, to simulate as much as possible the real startup experience.  
 
 There will be no exams. The final exam day will be used for final project presentations.
+
+!!! Note "Travel"
+    Do not plan any travel at the end of Spring 2026 semester until you find out when the final will be. You must attend the final presentation to receive credit for this class.
 
 
 

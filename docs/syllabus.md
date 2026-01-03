@@ -13,8 +13,8 @@ hide:
 
 ### Recitations
 
-- Section A (Jacqueline Tsai): Fri @ 9:00am - 09:50am (PH A18B)
-- Section B (Aditya Shrivastava): Fri @ 11:00am - 11:50am (WEH 5415)
+- Section A (TBD): Fri @ 9:00am - 09:50am (BH A36)
+- Section B (TBD): Fri @ 11:00am - 11:50am (WEH 4623)
 
 ### Prerequisites
 
@@ -24,30 +24,24 @@ sufficient programming experience to succeed in the course.
 
 ### Textbook/Readings
 
-We will be reading The Lean Startup, The Mom Test,
-and a selection of online sources. 
+We will be reading The Lean Startup, The Mom Test, and a selection of online sources. 
 
 ### Communication
 
-The course uses [Canvas](https://canvas.cmu.edu/courses/45409) for homework submission,
-grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-356-s25.slack.com/). Slides, assignments and the schedule
+The course uses [Canvas](https://canvas.cmu.edu/courses/51669) for homework submission,
+grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-356s26.slack.com/). Slides, assignments and the schedule
 will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
 
-Please use Slack for discussion and questions, including clarifying homework assignments. If you need to write to Prof. Begel and/or Prof. Brown about the class, you must include both faculty members on the message, otherwise we will reject your message and ask you to resend to both of us. We prefer you write us on Slack instead of email.
+Please use Slack for discussion and questions, including clarifying homework assignments. If you need to write to Prof. Begel and/or Prof. Henley about the class, you must include both faculty members on the message, otherwise we will reject your message and ask you to resend to both of us. We prefer you write us on Slack instead of email.
 
 The instructors and TAs hold weekly office hours. If you cannot make it to office hours, contact us via email (using the course-wide email address,
 unless the issue is sensitive) and we will find an alternative time to meet.
 
-If you have a question or concern unsuitable for Slack, contact the
-instructors via: [startups-staff@lists.andrew.cmu.edu](mailto:startups-staff@lists.andrew.cmu.edu). Unless the subject matter
-is sensitive, all questions will be conveyed to all instructors before being
-answered, so there's no point in emailing just one of us.</p>
+If you have a question or concern unsuitable for Slack, contact *both*
+instructors via email. Emails sent to just one instructor will be rejected 
+without reading.</p>
 
-Note that the list should be set to accept messages from any CMU email
-address; if your message is held as a non-member posting to a members list,
-don’t worry: we respond to moderation requests very quickly.
-
-For sensitive matters, of course, feel free to contact us individually.
+For sensitive matters, feel free to contact us individually.
 
 ## Grading
 

@@ -97,9 +97,9 @@ hide:
         Office Hours
     </div>
     <div class="content">
-        <p>Professor office hours held at their offices. See <a href="#class-calendar">class calendar</a> below for exact times!</p>
-        <p>Jacqueline's office hours will be held Tuesdays 4-5pm.</p>
-        <p>Aditya's office hours will be held Wednesdays 4-5pm.</p>
+        <p>Professor office hours held at their offices and on Zoom. See <a href="#class-calendar">class calendar</a> below and Slack announcements for exact times and locations!</p>
+        <!--<p>Jacqueline's office hours will be held Tuesdays 4-5pm.</p>-->
+        <!--<p>Aditya's office hours will be held Wednesdays 4-5pm.</p>-->
     </div>
 
 </div>
@@ -187,7 +187,7 @@ hide:
 
 ## Office Hours Calendar
 
-<iframe id="class-calendar" src="https://calendar.google.com/calendar/embed?src=c_e75573df3ad09754cec5f0ec2d863205df66e9cf305d8e1cfd38ed626110f722%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe id="class-calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=Y19hMWRkZGQ2ZjFlODhhYzExMmU0MjVmNjYxZTNhMDJlYTAwZjFjMjIxMWQwMjA2NGYxOTFhMmQ3MjE3NTY5M2E5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23ef6c00" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 
