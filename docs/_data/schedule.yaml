@@ -5,7 +5,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture1.pdf'
     name: 'Introduction'
   reading:
     link: ''
