@@ -42,7 +42,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Product Ideation and Discovery - LLM Personas'
+    name: 'Product Ideation and Discovery'
   reading:
     link: ''
     name: ''
@@ -186,7 +186,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pitch Ideas #1 -20 students, 3 min a pitch'
+    name: 'Pitch Ideas #1'
   reading:
     link: ''
     name: ''
@@ -222,7 +222,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pitch Ideas #2 - 20 students, 3 min a pitch'
+    name: 'Pitch Ideas #2'
   reading:
     link: ''
     name: ''
@@ -312,7 +312,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'User Story - Break down a product idea into parts, how to evaluate a good plan, distinguish between machine verifiable and human opinion'
+    name: 'User Stories'
   reading:
     link: ''
     name: ''
@@ -492,7 +492,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Doc Generation from LLM for Code Review - machine-verifiable checklist and human-evaluation of reasonable solution'
+    name: 'Doc Generation from LLM for Code Review'
   reading:
     link: ''
     name: ''
@@ -582,7 +582,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Vibe Test (localhost)'
+    name: 'Vibe Test'
   reading:
     link: ''
     name: ''
