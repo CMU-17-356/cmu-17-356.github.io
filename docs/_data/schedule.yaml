@@ -6,7 +6,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Introduction'
   reading:
     link: ''
     name: ''
@@ -42,7 +42,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Product Ideation and Discovery - LLM Personas'
   reading:
     link: ''
     name: ''
@@ -96,7 +96,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Smokescreens and the Big Idea of your Startup'
   reading:
     link: ''
     name: ''
@@ -132,7 +132,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Vibe Coded MVP Demo'
   reading:
     link: ''
     name: ''
@@ -186,7 +186,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Pitch Ideas #1 -20 students, 3 min a pitch'
   reading:
     link: ''
     name: ''
@@ -222,7 +222,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Pitch Ideas #2 - 20 students, 3 min a pitch'
   reading:
     link: ''
     name: ''
@@ -276,7 +276,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Vibe Engineering Intro - Best Practices'
   reading:
     link: ''
     name: ''
@@ -312,7 +312,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'User Story - Break down a product idea into parts, how to evaluate a good plan, distinguish between machine verifiable and human opinion'
   reading:
     link: ''
     name: ''
@@ -366,7 +366,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Web Apps Introduction'
   reading:
     link: ''
     name: ''
@@ -402,7 +402,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'SE Process - Team Roles'
   reading:
     link: ''
     name: ''
@@ -456,7 +456,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'GitHub Tutorial'
   reading:
     link: ''
     name: ''
@@ -492,7 +492,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Doc Generation from LLM for Code Review - machine-verifiable checklist and human-evaluation of reasonable solution'
   reading:
     link: ''
     name: ''
@@ -546,7 +546,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Midterm'
   reading:
     link: ''
     name: ''
@@ -582,7 +582,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Vibe Test (localhost)'
   reading:
     link: ''
     name: ''
@@ -636,7 +636,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   reading:
     link: ''
     name: ''
@@ -672,7 +672,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   reading:
     link: ''
     name: ''
@@ -726,7 +726,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -762,7 +762,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Databases'
   reading:
     link: ''
     name: ''
@@ -816,7 +816,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Authentication & Security'
   reading:
     link: ''
     name: ''
@@ -852,7 +852,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment - Frontend'
   reading:
     link: ''
     name: ''
@@ -906,7 +906,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment - Backend & CD'
   reading:
     link: ''
     name: ''
@@ -942,7 +942,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Startup Structure'
   reading:
     link: ''
     name: ''
@@ -996,7 +996,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Funding & Economics'
   reading:
     link: ''
     name: ''
@@ -1032,7 +1032,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Pitching & Communication'
   reading:
     link: ''
     name: ''
@@ -1086,7 +1086,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Joining a Startup'
   reading:
     link: ''
     name: ''
@@ -1122,7 +1122,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS Spring Carnival'
   reading:
     link: ''
     name: ''
@@ -1176,7 +1176,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Pivot Product'
   reading:
     link: ''
     name: ''
@@ -1212,7 +1212,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Close the Deal (Sales)'
   reading:
     link: ''
     name: ''
@@ -1266,7 +1266,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Class Bug Bash'
   reading:
     link: ''
     name: ''
@@ -1302,7 +1302,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Conclusion'
   reading:
     link: ''
     name: ''
@@ -1410,7 +1410,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Final Product Pitches'
   reading:
     link: ''
     name: ''
