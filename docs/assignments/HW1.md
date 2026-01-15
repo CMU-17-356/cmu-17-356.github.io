@@ -6,18 +6,18 @@ title: HW1 User Discovery, Product Ideation, and Pitch
 
 This homework is worth 150 points.
 
-It is divided into two parts: HW1a (50 points), HW1b (50 points), and HW1c (50 points) each due on different days.
+It is divided into three parts: HW1a (50 points), HW1b (50 points), and HW1c (50 points) each due on different days.
 
 This homework is to be done individually.
 
 
 ## HW1a: User Discovery
 
-HW1a is due on Gradescope Monday, January 22, 2026 11:00am.
+HW1a is due on Gradescope Thursday, January 22, 2026 11:00am.
 
 ### Submission
 
-Submit [HW1a](https://www.gradescope.com/courses/940139/assignments/5581432/) as a PDF file to Gradescope.
+Submit [HW1a](https://www.gradescope.com/courses/1208559/assignments/7471453) as a PDF file to Gradescope.
 
 If you prepare the response in some other software (like Tex), please
 export as PDF before submitting. Include your name and Andrew ID at the top of the document.
@@ -97,7 +97,7 @@ HW1b is due on Gradescope Monday, January 26, 2026 11:59pm.
 
 ### Submission
 
-Submit [HW1b](https://www.gradescope.com/courses/940139/assignments/5581432/) as a PDF file to Gradescope.
+Submit [HW1b](https://www.gradescope.com/courses/1208559/assignments/7471476) as a PDF file to Gradescope.
 
 If you prepare the response in some other software (like Tex), please
 export as PDF before submitting. Include your name and Andrew ID at the top of the document.
@@ -162,15 +162,15 @@ HW1c is due on Gradescope Monday, January 26, 2026 11:59pm.
 
 ### Submission
 
-Submit [HW1c](https://www.gradescope.com/courses/940139/assignments/5581432/) as a PDF file to Gradescope.
+Submit [HW1c](https://www.gradescope.com/courses/1208559/assignments/7471478) as a PDF file to Gradescope.
 
-Create the submission by saving your Google Slides presentation as a PDF. 
+Create the submission by saving your Google Slides presentation to PDF. 
 
 #### Slide Presentation (25 points)
 
 Create a presentation to pitch your idea to students in the class. Your goal is to recruit your classmates to join your startup team with you as its CEO.
 
-Requirements:
+**Requirements:**
 
 1. Your presentation should be 3 minutes long.
 2. Your presentation must be four (4) slides long.
@@ -197,4 +197,11 @@ You will make your presentation to the class on Tuesday January 27, 2026 or Thur
 
 By watching these presentations, you will learn about the ideas your classmates have about how to make Pittsburgh a better place. What ideas intrigue you most? Are any similar to your own? Is there any idea you want to work on more than the one you pitched? 
 
-In recitation on Friday, January 30 
+#### Team Formation (0 points)
+
+In recitation on Friday, January 30, you will form 4-6 person teams based on your interests in your classmate's startup ideas and the answers you gave in your teamwork skills survey. The TAs will facilitate this process. You will work in these teams for the rest of the semester. 
+
+Your team need not commit to *any* of the ideas that were presented by students in the team, however, don't sell yourself short. At least one of you had a good enough startup idea to attract the others to the team. In the next few weeks, your team will work through the same user discovery and product ideation process to develop your team's plan for the startup you will build together.
+
+!!! note 
+    You may only form teams with students in same recitation section as you.
