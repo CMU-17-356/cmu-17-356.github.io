@@ -45,12 +45,16 @@ For sensitive matters, feel free to contact us individually.
 
 ## Grading
 
-Evaluation will be based on the following approximate distribution: 55%
-assignments, 35% final project, 10% participation.
+Evaluation will be based on the following approximate distribution: 
 
-*Note:* Attendance is required for guest lectures. Absences during guest
-lectures (without previously arranged accommodations) will result in a deduction in your overall course grade for participation.
-
+- Individual homework assignments (40%)
+- Team project assignments (30%)
+- Midterm exam (15%)
+- Class participation (15%)
+  - Main class attendance (5%)
+    - 2 free absences for any reason
+    - If these are used up, please DM us on Slack
+  - Recitation lab attendance (10%)
 
 ## Course Policies
 
