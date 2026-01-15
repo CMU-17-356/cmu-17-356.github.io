@@ -41,7 +41,7 @@
     name: 'HW0: Teamwork Survey'
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture2.pdf'
     name: 'Product Ideation and Discovery'
   reading:
     link: ''
