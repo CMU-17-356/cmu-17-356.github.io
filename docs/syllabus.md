@@ -80,19 +80,6 @@ request such exceptions on your behalf). We can make accommodations for travel
 (e.g., for interviews) so long as you request it *in advance*.  Always
 communicate with your team about such issues.
 
-### Devices in Lecture and Recitation
-
-Research shows that using devices
-for non-class related activities harms both the device user's learning and other
-students' learning as well.  Therefore, in general, we do not allow the use of
-devices during lectures. *However,* if you genuinely use your laptop for
-class-related activities (note-taking, etc), tell us, and we will consider
-an exception.
-You will be required to sit in the back row of the lecture to minimize the impact
-your screen has on others.
-
-Both recitation and lecture activities may involve devices, though, so please
-bring your laptop to both!
 
 ### Time Management
 
