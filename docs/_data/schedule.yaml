@@ -36,9 +36,9 @@
 
 - date: Thu Jan 15
   homework:
-    deadline: ''
+    deadline: 'Jan 16'
     link: ''
-    name: ''
+    name: 'HW0'
     numDays: 0
   lecture:
     link: ''
@@ -48,7 +48,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW1a'
     quiz: ''
     slides: ''
 
@@ -126,9 +126,9 @@
 
 - date: Thu Jan 22
   homework:
-    deadline: ''
+    deadline: 'Jan 22 before class'
     link: ''
-    name: ''
+    name: 'HW1a'
     numDays: 0
   lecture:
     link: ''
@@ -138,7 +138,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW1b'
     quiz: ''
     slides: ''
 
@@ -180,9 +180,9 @@
 
 - date: Tue Jan 27
   homework:
-    deadline: ''
+    deadline: 'Jan 26 11:59pm'
     link: ''
-    name: ''
+    name: 'HW1b'
     numDays: 0
   lecture:
     link: ''
@@ -228,7 +228,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Form teams'
     quiz: ''
     slides: ''
 
@@ -272,7 +272,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'P0'
     numDays: 0
   lecture:
     link: ''
@@ -318,7 +318,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW2'
     quiz: ''
     slides: ''
 
@@ -398,7 +398,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'HW2'
     numDays: 0
   lecture:
     link: ''
@@ -408,7 +408,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW3'
     quiz: ''
     slides: ''
 
@@ -488,7 +488,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'HW3, P1'
     numDays: 0
   lecture:
     link: ''
@@ -498,7 +498,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW4'
     quiz: ''
     slides: ''
 
@@ -578,7 +578,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'HW4, P2'
     numDays: 0
   lecture:
     link: ''
@@ -588,7 +588,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No recitation'
     quiz: ''
     slides: ''
 
@@ -768,7 +768,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW5'
     quiz: ''
     slides: ''
 
@@ -812,7 +812,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'HW5'
     numDays: 0
   lecture:
     link: ''
@@ -822,7 +822,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Project Checkin Week'
     quiz: ''
     slides: ''
 
@@ -858,7 +858,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW6, P3'
     quiz: ''
     slides: ''
 
@@ -902,7 +902,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'HW6'
     numDays: 0
   lecture:
     link: ''
@@ -948,7 +948,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW7'
     quiz: ''
     slides: ''
 
@@ -992,7 +992,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'HW7'
     numDays: 0
   lecture:
     link: ''
@@ -1038,7 +1038,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Project Checkins'
     quiz: ''
     slides: ''
 
@@ -1118,7 +1118,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'P4'
     numDays: 0
   lecture:
     link: ''
@@ -1128,7 +1128,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No recitation'
     quiz: ''
     slides: ''
 
@@ -1206,9 +1206,9 @@
 
 - date: Thu Apr 16
   homework:
-    deadline: ''
+    deadline: 'Start of class'
     link: ''
-    name: ''
+    name: 'P5'
     numDays: 0
   lecture:
     link: ''
@@ -1218,7 +1218,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Bug bash'
     quiz: ''
     slides: ''
 
@@ -1406,7 +1406,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'P6'
     numDays: 0
   lecture:
     link: ''
