@@ -36,7 +36,7 @@
 
 - date: Thu Jan 15
   homework:
-    deadline: 'Jan 16'
+    deadline: ''
     link: ''
     name: 'HW0'
     numDays: 0
@@ -126,7 +126,7 @@
 
 - date: Thu Jan 22
   homework:
-    deadline: 'Jan 22 before class'
+    deadline: ''
     link: ''
     name: 'HW1a'
     numDays: 0
@@ -180,7 +180,7 @@
 
 - date: Tue Jan 27
   homework:
-    deadline: 'Jan 26 11:59pm'
+    deadline: ''
     link: ''
     name: 'HW1b'
     numDays: 0
@@ -1206,7 +1206,7 @@
 
 - date: Thu Apr 16
   homework:
-    deadline: 'Start of class'
+    deadline: ''
     link: ''
     name: 'P5'
     numDays: 0
