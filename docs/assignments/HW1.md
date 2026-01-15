@@ -175,21 +175,21 @@ Create a presentation to pitch your idea to students in the class. Your goal is 
 1. Your presentation should be 3 minutes long.
 2. Your presentation must be four (4) slides long.
 3. Slide 1 must include the following elements:
-   1. Your name.
-   2. Your picture (headshot with no body)
-   3. The name of your startup.
-   4. The vision of your startup expressed in a single sentence.
-   5. The Pittsburgh community for whom you are building this product.
+    1. Your name.
+    2. Your picture (headshot with no body)
+    3. The name of your startup.
+    4. The vision of your startup expressed in a single sentence.
+    5. The Pittsburgh community for whom you are building this product.
 4. Slide 2 must include the following elements:
-   7. The name of your product.
-   8. What will your product do?
-   9. What differentiates your product from the rest?
-   10. Offer at least one direct quote from your user discovery interviews that indicates people want this product.
+    7. The name of your product.
+    8. What will your product do?
+    9. What differentiates your product from the rest?
+    10. Offer at least one direct quote from your user discovery interviews that indicates people want this product.
 5. Slide 3 must include the following elements:
-   1. List the technical skills needed by your team to do it.
-   1. Explain why you believe a team can build this product in a 10-week time frame. 
+    1. List the technical skills needed by your team to do it.
+    2. Explain why you believe a team can build this product in a 10-week time frame. 
 6. Slide 4 must include the following element:
-   1. Offer your most realistic estimate of how much money you could make from this product in the first five (5) years of sales and how your company would make this money.
+    1. Offer your most realistic estimate of how much money you could make from this product in the first five (5) years of sales and how your company would make this money.
 
 #### Presentation (25 points)
 
