@@ -80,7 +80,11 @@ hide:
 
 
             {% if schedule_day.homework.name != "" %}
+                {% if schedule_day.homework.numDays > 1 %}
                 <td rowspan="{{schedule_day.homework.numDays}}"><span class="schedule-homework">
+                {% else %}
+                <td><span class="schedule-homework">
+                {% endif %}
                     <b>{{schedule_day.homework.name}}</b>
                     <br/>
                     {{schedule_day.homework.deadline}}
@@ -92,7 +96,11 @@ hide:
                     </a>
                     {% endif %}
                 </span></td>
-                {% set ns.homework_days_left = schedule_day.homework.numDays - 1 %}
+                {% if schedule_day.homework.numDays > 0 %}
+                    {% set ns.homework_days_left = schedule_day.homework.numDays - 1 %}
+                {% else %}
+                    {% set ns.homework_days_left = 0 %}
+                {% endif %}
             {% else %}
                 {% if ns.homework_days_left > 0 %}
                     {% set ns.homework_days_left = ns.homework_days_left - 1 %}
