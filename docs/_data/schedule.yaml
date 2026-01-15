@@ -48,7 +48,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW1a'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -66,7 +66,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW1a'
     quiz: ''
     slides: ''
 
@@ -138,7 +138,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW1b'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -156,7 +156,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW1b'
     quiz: ''
     slides: ''
 
@@ -228,7 +228,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Form teams'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -246,7 +246,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Form teams'
     quiz: ''
     slides: ''
 
@@ -318,7 +318,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW2'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -336,7 +336,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW2'
     quiz: ''
     slides: ''
 
@@ -408,7 +408,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW3'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -426,7 +426,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW3'
     quiz: ''
     slides: ''
 
@@ -498,7 +498,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW4'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -516,7 +516,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW4'
     quiz: ''
     slides: ''
 
@@ -588,7 +588,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'No recitation'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -606,7 +606,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No recitation'
     quiz: ''
     slides: ''
 
@@ -696,7 +696,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No recitation'
     quiz: ''
     slides: ''
 
@@ -768,7 +768,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW5'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -786,7 +786,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW5'
     quiz: ''
     slides: ''
 
@@ -822,7 +822,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Project Checkin Week'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -858,7 +858,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW6, P3'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -876,7 +876,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW6, Project Checkins'
     quiz: ''
     slides: ''
 
@@ -902,7 +902,7 @@
   homework:
     deadline: ''
     link: ''
-    name: 'HW6'
+    name: 'HW6, P3'
     numDays: 0
   lecture:
     link: ''
@@ -966,7 +966,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW7'
     quiz: ''
     slides: ''
 
@@ -1038,7 +1038,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Project Checkins'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1056,7 +1056,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Project Checkins'
     quiz: ''
     slides: ''
 
@@ -1082,7 +1082,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'P4'
     numDays: 0
   lecture:
     link: ''
@@ -1118,7 +1118,7 @@
   homework:
     deadline: ''
     link: ''
-    name: 'P4'
+    name: ''
     numDays: 0
   lecture:
     link: ''
@@ -1128,7 +1128,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'No recitation'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1146,7 +1146,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No recitation'
     quiz: ''
     slides: ''
 
@@ -1208,7 +1208,7 @@
   homework:
     deadline: ''
     link: ''
-    name: 'P5'
+    name: ''
     numDays: 0
   lecture:
     link: ''
@@ -1262,7 +1262,7 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
+    name: 'P5'
     numDays: 0
   lecture:
     link: ''
