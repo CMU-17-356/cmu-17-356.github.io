@@ -37,8 +37,8 @@
 - date: Thu Jan 15
   homework:
     deadline: ''
-    link: ''
-    name: 'HW0'
+    link: 'https://bit.ly/cmu-17-356-teamwork-survey'
+    name: 'HW0: Teamwork Survey'
     numDays: 0
   lecture:
     link: ''
@@ -127,8 +127,8 @@
 - date: Thu Jan 22
   homework:
     deadline: ''
-    link: ''
-    name: 'HW1a'
+    link: 'assignments/HW1'
+    name: 'HW1a: User Discovery'
     numDays: 0
   lecture:
     link: ''
@@ -156,7 +156,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW1b'
+    name: 'HW1b: Product Ideation'
     quiz: ''
     slides: ''
 
@@ -181,8 +181,8 @@
 - date: Tue Jan 27
   homework:
     deadline: ''
-    link: ''
-    name: 'HW1b'
+    link: 'assignments/HW1'
+    name: 'HW1b: Product Ideation, HW1c: Product Pitch'
     numDays: 0
   lecture:
     link: ''
