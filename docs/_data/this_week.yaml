@@ -1,28 +1,28 @@
 last_homework:
-  date: ""
-  deadline: "Tues March 25 @ 11:59pm"
-  link: ""
-  name: "P2: Project Milestone 1"
-  numDays: 10
+  date: Thu Jan 15
+  deadline: ''
+  link: https://bit.ly/cmu-17-356-teamwork-survey
+  name: 'HW0: Teamwork Survey'
+  numDays: 0
 
 lectures:
-  - date: Tue March 11
-    link: ""
-    name: "Structure of a Startup"
-  - date: Thu March 13
-    link: ""
-    name: "Team Roles"
-  
+- date: Thu Jan 22
+  link: ''
+  name: Vibe Coded MVP Demo
+- date: Tue Jan 27
+  link: ''
+  name: 'Pitch Ideas #1'
+
 next_homework:
-  date: ""
-  deadline: "Tues April 8 @ 11:59pm"
-  link: ""
-  name: "P3: Project Milestone 2"
-  numDays: 10
+  date: Tue Jan 27
+  deadline: ''
+  link: assignments/HW1
+  name: 'HW1b: Product Ideation, HW1c: Product Pitch'
+  numDays: 0
 
 recitation:
-  date: Fri March 14
-  handout: ""
-  name: "Team Work Session"
-  quiz: ""
-  slides: ""
+  date: Fri Jan 23
+  handout: ''
+  name: 'HW1b: Product Ideation'
+  quiz: ''
+  slides: ''
