@@ -1,17 +1,17 @@
 last_homework:
-  date: Thu Jan 15
+  date: Thu Jan 22
   deadline: ''
-  link: https://bit.ly/cmu-17-356-teamwork-survey
-  name: 'HW0: Teamwork Survey'
+  link: assignments/HW1
+  name: 'HW1a: User Discovery'
   numDays: 0
 
 lectures:
-- date: Thu Jan 22
-  link: ''
-  name: Vibe Coded MVP Demo
 - date: Tue Jan 27
   link: ''
   name: 'Pitch Ideas #1'
+- date: Thu Jan 29
+  link: ''
+  name: 'Pitch Ideas #2'
 
 next_homework:
   date: Tue Jan 27
