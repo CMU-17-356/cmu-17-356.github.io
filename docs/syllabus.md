@@ -13,8 +13,8 @@ hide:
 
 ### Recitations
 
-- Section A (TBD): Fri @ 9:00am - 09:50am (BH A36)
-- Section B (TBD): Fri @ 11:00am - 11:50am (WEH 4623)
+- Section A (Eryn Ma): Fri @ 9:00am - 09:50am (BH A36)
+- Section B (Sai Ravi Teja Gangavarapu): Fri @ 11:00am - 11:50am (WEH 4623)
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ Evaluation will be based on the following approximate distribution:
 
 ### Teamwork
 
-Teamwork is an essential part of this course. Teams of 3-5 students
+Teamwork is an essential part of this course. Teams of 4-6 students
 will be assigned by the instructors and stay together for multiple
 assignments. Most assignments have a component that is graded for the entire
 group and a component that is graded individually. By default, group assignments
@@ -72,21 +72,13 @@ Please fill out the [Teamwork Survey](https://forms.gle/XNpUYWvuSyyc2L7u9)</a> s
 
 ### Late Work
 
-The first late assignment will incur a 10% penalty per
-day, and the second will receive no credit. We make exceptions in
-extraordinary circumstances, typically involving either a family or medical
-emergency (ideally, your academic advisor or the Dean of Student Affairs should
-request such exceptions on your behalf). We can make accommodations for travel
-(e.g., for interviews) so long as you request it *in advance*.  Always
-communicate with your team about such issues.
+Late assignments will incur a 10% penalty for on the first day overdue, 20% on the second day, 50% on the third day, and no credit beyond that. We make exceptions in extraordinary circumstances, typically involving either a family or medical emergency (ideally, your academic advisor or the Dean of Student Affairs should request such exceptions on your behalf). We can make accommodations for travel (e.g., for interviews) so long as you request it *in advance*.  Always communicate with your team about such issues.
 
 
 ### Time Management
 
 This is a 12-unit course.  It is our intention to manage it so
-that you spend close to 12 hours a week on the course, on average. In general, 4
-hours/week will be spent in class and recitation, and 8 hours on assignments. A
-key challenge in startup engineering is that there is never enough time to
+that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and recitation, and 8 hours on assignments. A key challenge in startup engineering is that there is never enough time to
 implement everything that you want to implement; it is therefore important that
 you practice time management, estimation, and task prioritization.  We would
 rather you make well-justified decisions to not do something than spend tens of
