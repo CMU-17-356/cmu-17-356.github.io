@@ -1,9 +1,3 @@
----
-title: Syllabus
-hide:
-    - navigation
----
-
 ## Logistics and Communication
 
 ### Lectures
