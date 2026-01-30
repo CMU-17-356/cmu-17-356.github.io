@@ -1,7 +1,7 @@
 ---
 title: Syllabus
 hide:
-    - navigation
+    - navigation
 ---
 
 ## Logistics and Communication
@@ -13,12 +13,12 @@ hide:
 
 ### Recitations
 
-- Section A (TBD): Fri @ 9:00am - 09:50am (BH A36)
-- Section B (TBD): Fri @ 11:00am - 11:50am (WEH 4623)
+- Section A (Eryn Ma): Fri @ 9:00am - 09:50am (BH A36)
+- Section B (Sai Ravi Teja Gangavarapu): Fri @ 11:00am - 11:50am (WEH 4623)
 
 ### Prerequisites
 
-15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely
+15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely
 team-based technical work; the goal of the prerequisites is to ensure students have
 sufficient programming experience to succeed in the course.
 
@@ -30,7 +30,7 @@ We will be reading The Lean Startup, The Mom Test, and a selection of online sou
 
 The course uses [Canvas](https://canvas.cmu.edu/courses/51669) for homework submission,
 grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-356s26.slack.com/). Slides, assignments and the schedule
-will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
+will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
 
 Please use Slack for discussion and questions, including clarifying homework assignments. If you need to write to Prof. Begel and/or Prof. Henley about the class, you must include both faculty members on the message, otherwise we will reject your message and ask you to resend to both of us. We prefer you write us on Slack instead of email.
 
@@ -51,20 +51,20 @@ Evaluation will be based on the following approximate distribution:
 - Team project assignments (30%)
 - Midterm exam (15%)
 - Class participation (15%)
-  - Main class attendance (5%)
-    - 2 free absences for any reason
-    - If these are used up, please DM us on Slack
-  - Recitation lab attendance (10%)
+  - Main class attendance (5%)
+    - 2 free absences for any reason
+    - If these are used up, please DM us on Slack
+  - Recitation lab attendance (10%)
 
 ## Course Policies
 
 ### Teamwork
 
-Teamwork is an essential part of this course. Teams of 3-5 students
+Teamwork is an essential part of this course. Teams of 4-6 students
 will be assigned by the instructors and stay together for multiple
 assignments. Most assignments have a component that is graded for the entire
 group and a component that is graded individually. By default, group assignments
-will receive a single grade, for all individuals.  However, we reserve the right
+will receive a single grade, for all individuals.  However, we reserve the right
 to institute peer grading in problematic situations, as detailed in the [Team
 Policy](/teamwork).
 
@@ -72,23 +72,15 @@ Please fill out the [Teamwork Survey](https://forms.gle/XNpUYWvuSyyc2L7u9)</a> s
 
 ### Late Work
 
-The first late assignment will incur a 10% penalty per
-day, and the second will receive no credit. We make exceptions in
-extraordinary circumstances, typically involving either a family or medical
-emergency (ideally, your academic advisor or the Dean of Student Affairs should
-request such exceptions on your behalf). We can make accommodations for travel
-(e.g., for interviews) so long as you request it *in advance*.  Always
-communicate with your team about such issues.
+Late assignments will incur a 10% penalty for on the first day overdue, 20% on the second day, 50% on the third day, and no credit beyond that. We make exceptions in extraordinary circumstances, typically involving either a family or medical emergency (ideally, your academic advisor or the Dean of Student Affairs should request such exceptions on your behalf). We can make accommodations for travel (e.g., for interviews) so long as you request it *in advance*.  Always communicate with your team about such issues.
 
 
 ### Time Management
 
-This is a 12-unit course.  It is our intention to manage it so
-that you spend close to 12 hours a week on the course, on average. In general, 4
-hours/week will be spent in class and recitation, and 8 hours on assignments. A
-key challenge in startup engineering is that there is never enough time to
+This is a 12-unit course.  It is our intention to manage it so
+that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and recitation, and 8 hours on assignments. A key challenge in startup engineering is that there is never enough time to
 implement everything that you want to implement; it is therefore important that
-you practice time management, estimation, and task prioritization.  We would
+you practice time management, estimation, and task prioritization.  We would
 rather you make well-justified decisions to not do something than spend tens of
 hours on your homework.
 
@@ -96,7 +88,7 @@ Note that most homework is done in groups, so please account for the overhead
 and decreased time flexibility that entails.
 
 Feel free to give the course staff feedback on how much time the course is
-taking for you.  This is especially relevant as we teach this course for the
+taking for you.  This is especially relevant as we teach this course for the
 first time!
 
 ### Writing
@@ -128,14 +120,14 @@ expect you to complete individual components independently of your groupmates.
 
 Regarding the internet, StackOverflow, and similar sources: In real-world
 development, engineers often adapt code from Q&A sites, open source
-repositories, or similar sources to new ends.  This is acceptable in this
+repositories, or similar sources to new ends.  This is acceptable in this
 course, with two caveats:
 
 - You may not copy a solution for our homework assignments specifically from
 another student or group, even if, for some reason, that code is available
 openly on GitHub or elsewhere (see below on the importance of keeping your
 homework code).
-- You must test all of your code, and those tests must pass.  That is, you must
+- You must test all of your code, and those tests must pass.  That is, you must
 understand any code you adapt from the internet, and you must demonstrate that
 understanding using unit tests.
 
@@ -144,54 +136,54 @@ Regarding solutions from other students in the course, we reuse the
 [Collaboration Policy from 15-214](https://www.cs.cmu.edu/~charlie/courses/15-214/2017-fall/syllabus.html), with minor modifications:
 
 "You may not copy any part of a solution to a problem that was written by
-another student, or was developed together with another student.  You may not
+another student, or was developed together with another student.  You may not
 look at another student's solution, even if you have completed your own, nor may
 you knowingly give your solution to another student or leave your solution where
-another student can see it.  Here are some examples of behavior that are
+another student can see it.  Here are some examples of behavior that are
 inappropriate:
 
 - Copying or retyping, or referring to, files or parts of files (such as
-  source code, written text, or unit tests) from another person (whether in
-  final or draft form, regardless of the permissions set on the associated
-  files) while producing your own. This is true even if your version includes
-  minor modifications such as style or variable name changes or minor logic
-  modifications.
+  source code, written text, or unit tests) from another person (whether in
+  final or draft form, regardless of the permissions set on the associated
+  files) while producing your own. This is true even if your version includes
+  minor modifications such as style or variable name changes or minor logic
+  modifications.
 - Getting help that you do not fully understand, and from someone whom you do
-  not acknowledge on your solution.</li>
+  not acknowledge on your solution.</li>
 - Writing, using, or submitting a program that attempts to alter or erase
-  grading information or otherwise compromise security of course resources
+  grading information or otherwise compromise security of course resources
 - Lying to course staff.
 - Giving copies of work to others, or allowing someone else to copy or refer
-  to your code or written assignment to produce their own, either in draft or
-  final form. This includes making your work publicly available in a way that
-  other students (current or future) can access your solutions, even if others'
-  access is accidental or incidental to your goals. Beware the privacy settings
-  on your open source accounts!
+  to your code or written assignment to produce their own, either in draft or
+  final form. This includes making your work publicly available in a way that
+  other students (current or future) can access your solutions, even if others'
+  access is accidental or incidental to your goals. Beware the privacy settings
+  on your open source accounts!
 - Coaching others step-by-step without them understanding your help.
 
 If any of your work contains any statement that was not written by you, you
-  must put it in quotes and cite the source. If you are paraphrasing an idea you
-  read elsewhere, you must acknowledge the source. Using existing material
-  without proper citation is plagiarism, a form of cheating. If there is any
-  question about whether the material is permitted, you must get permission in
-  advance. We will be using automated systems to detect software plagiarism.
+  must put it in quotes and cite the source. If you are paraphrasing an idea you
+  read elsewhere, you must acknowledge the source. Using existing material
+  without proper citation is plagiarism, a form of cheating. If there is any
+  question about whether the material is permitted, you must get permission in
+  advance. We will be using automated systems to detect software plagiarism.
 
 It is not considered cheating to clarify vague points in the assignments,
-  lectures, lecture notes; to give help or receive help in using the computer
-  systems, compilers, debuggers, profilers, or other facilities; or to discuss
-  ideas at a high level, without referring to or producing code.
+  lectures, lecture notes; to give help or receive help in using the computer
+  systems, compilers, debuggers, profilers, or other facilities; or to discuss
+  ideas at a high level, without referring to or producing code.
 
 Any violation of this policy is cheating. The minimum penalty for cheating
-  (including plagiarism) will be a zero grade for the whole assignment. Cheating
-  incidents will also be reported through University channels, with possible
-  additional disciplinary action (see the above-linked University Policy on
-  Academic Integrity).
+  (including plagiarism) will be a zero grade for the whole assignment. Cheating
+  incidents will also be reported through University channels, with possible
+  additional disciplinary action (see the above-linked University Policy on
+  Academic Integrity).
 
 If you have any question about how this policy applies in a particular
-  situation, ask the instructors or TAs for clarification."
+  situation, ask the instructors or TAs for clarification."
 
 Note that the instructors respect honesty in these (and indeed most!)
-  situations.
+  situations.
 
 ## A Note on Self-Care
 
@@ -203,10 +195,9 @@ rather than later is often helpful.
 
 
 If you or anyone you know experiences any academic stress, difficult life
-  events, or feelings like anxiety or depression, we strongly encourage you to
-  seek support. Counseling and Psychological Services (CaPS) is here to help:
-  call 412-268-2922 and [visit their website](https://www.cmu.edu/counseling/). Consider
-  reaching out to a friend, faculty or
-  family member you trust for help getting connected to the support that can
-  help.
-
+  events, or feelings like anxiety or depression, we strongly encourage you to
+  seek support. Counseling and Psychological Services (CaPS) is here to help:
+  call 412-268-2922 and [visit their website](https://www.cmu.edu/counseling/). Consider
+  reaching out to a friend, faculty or
+  family member you trust for help getting connected to the support that can
+  help.

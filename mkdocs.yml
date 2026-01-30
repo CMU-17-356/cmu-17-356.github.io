@@ -86,8 +86,8 @@ nav:
   #    - UI Development: project/ui.md
   #    - Docker: project/docker.md
   #    - Deployment: project/deployment.md
-  - Project: project/index.md # Dummy home page; remove once we start adding project docs below
-  #    - Project 0 Team Contract: project/team-contract.md
+  - Project: # project/index.md # Dummy home page; remove once we start adding project docs below
+       - Project 0 Team Contract: project/p0.md
   #    - Project 1 Product Specification: project/p1.md
   #    - Project 2 Implementation Sprint: project/p2.md
   #    - Project 3 Implementation Sprint: project/p3.md
