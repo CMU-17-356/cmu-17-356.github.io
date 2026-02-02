@@ -37,5 +37,6 @@ You will create user stories that correspond to the primary use cases of a web-b
   2. Evaluate the user stories according to the [INVEST](https://xp123.com/invest-in-good-stories-and-smart-tasks/) framework we learned in class. You may use an LLM to help you with this analysis.
     - At least one of these user stories should be dependent on another.
     - Throw out 3 user stories that you feel aren't necessary for a 4-function calculator MVP. 
-  3. Prioritize the remaining 3 user stories into a list. Why did you pick this order?  
+  3. Prioritize the remaining 3 user stories into a list. Why did you pick this order? 
+  4. If you consulted an LLM for any part of this assignment, you must turn in the LLM chat logs. Hint: ChatGPT chat logs can be referenced by a simple URL. 
 
