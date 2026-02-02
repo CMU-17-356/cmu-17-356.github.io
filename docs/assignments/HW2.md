@@ -19,9 +19,9 @@ This homework is to be done individually.
 
 ## Learning Goals
 
-- Learn how to get an LLM to create sound user stories that accurately reflect your planning goals
+- Learn how to get an LLM to create sound user stories that accurately reflect your planning goals.
 - Identify key user stories that will constitute a Minimum Viable Product (MVP).
-- Justify which features to include based on priority, and time available
+- Justify which features to include based on priority, and time available.
 
 ## 1. User Stories
 
