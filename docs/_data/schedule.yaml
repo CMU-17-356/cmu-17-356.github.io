@@ -397,7 +397,7 @@
 - date: Thu Feb 12
   homework:
     deadline: ''
-    link: ''
+    link: 'assignments/HW2'
     name: 'HW2'
     numDays: 0
   lecture:
@@ -487,7 +487,7 @@
 - date: Thu Feb 19
   homework:
     deadline: ''
-    link: ''
+    link: 'project/p1'
     name: 'HW3, P1'
     numDays: 0
   lecture:

@@ -60,9 +60,10 @@ assignments. Most assignments have a component that is graded for the entire
 group and a component that is graded individually. By default, group assignments
 will receive a single grade, for all individuals.  However, we reserve the right
 to institute peer grading in problematic situations, as detailed in the [Team
-Policy](/teamwork).
+Policy](teamwork.md).
 
-Please fill out the [Teamwork Survey](https://forms.gle/XNpUYWvuSyyc2L7u9)</a> so we can begin forming groups.
+Please fill out the [Teamwork Survey](https://docs.google.com/forms/d/e/1FAIpQLSeNEAyuZmfHYksg8Hw_m_BnBJKq60hwQdfOicUE92jfTQ1i0A/viewform?usp=sharing&ouid=109865303876172948131)</a> 
+so we can begin forming groups.
 
 ### Late Work
 

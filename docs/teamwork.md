@@ -17,7 +17,7 @@ Working effectively in a group is a critical skill in modern software
 We encourage the following practices to ensure successful group work:
 
 - Agree on a protocol for meeting and communication.  Some, but not all, of
-  these decisions will be technical (Slack? Trello?) that arise naturally over
+  these decisions will be technical (e.g., should we use Slack or Trello?) that arise naturally over
   startup development.
 - In the startup context, engineers must be flexible and capable of filling
   many technical roles.  In an educational context, however, group work is most
