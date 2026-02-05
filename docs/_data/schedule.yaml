@@ -185,8 +185,8 @@
     name: 'HW1b: Product Ideation, HW1c: Product Pitch'
     numDays: 0
   lecture:
-    link: ''
-    name: 'Pitch Ideas #1'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture5.pdf'
+    name: 'Pitch Presentations #1'
   reading:
     link: ''
     name: ''
@@ -222,7 +222,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Pitch Ideas #2'
+    name: 'Pitch Presentations #2'
   reading:
     link: ''
     name: ''
@@ -275,7 +275,7 @@
     name: 'P0'
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture7.pdf'
     name: 'Vibe Engineering Intro - Best Practices'
   reading:
     link: ''
@@ -311,7 +311,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture8.pdf'
     name: 'User Stories'
   reading:
     link: ''
