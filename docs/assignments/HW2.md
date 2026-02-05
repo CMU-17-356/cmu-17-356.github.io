@@ -28,8 +28,8 @@ This homework is to be done individually.
 You will create user stories that correspond to the primary use cases of a web-based 4-function calculator. You may use an LLM to write the user stories for you.
 
   1. Create 6 user stories for a web-based 4-function calculator. Make sure it uses the proper template:
-    - As a <user\>, I want <action\> so that <benefit\>. 
-    - Add an explanation of what each user story is really about.
+    - As a <user\>, I want <action\> so that <benefit\>. Then add your acceptance criteria to the end.
+    - Add a one paragraph explanation of why each user story is important to the overall user experience of the application.
     - For each user story, identify ambiguous behaviors that must be resolved and describe how to handle them. For example, what should happen if the user hits the + button twice in a row? What if the user hits the * button twice in a row?
     - Estimate each user story's size as a t-shirt (Small, Medium, Large, Xtra-Large). 
       Be sure to consider not just how long the user story will take to implement, but also how long it will take
