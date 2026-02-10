@@ -1,3 +1,21 @@
+- date: Mon Jan 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+    
 - date: Tue Jan 13
   homework:
     deadline: ''
