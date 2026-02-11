@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'SE Process - Team Roles'
+    name: 'Agile Methods + Documenting for Transparency'
   reading:
     link: ''
     name: ''
@@ -474,7 +474,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'GitHub Tutorial'
+    name: 'Vibe Testing + Vibe Code Reviews'
   reading:
     link: ''
     name: ''
@@ -510,7 +510,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Doc Generation from LLM for Code Review'
+    name: 'Securing your Web Application (Databases, Authentication, and Security)'
   reading:
     link: ''
     name: ''
@@ -600,7 +600,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Vibe Test'
+    name: 'Continuous Integration + Deployment'
   reading:
     link: ''
     name: ''
@@ -744,7 +744,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'TBD'
+    name: 'Guest Lecture: Garett Nell (Founder, Resilient Networks)'
   reading:
     link: ''
     name: ''
@@ -780,7 +780,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Databases'
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -834,7 +834,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Authentication & Security'
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -870,7 +870,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Deployment - Frontend'
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Deployment - Backend & CD'
+    name: 'TBD'
   reading:
     link: ''
     name: ''
