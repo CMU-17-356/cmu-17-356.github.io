@@ -383,8 +383,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Web Apps Introduction'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture9.pdf'
+    name: 'Web Apps Part 1'
   reading:
     link: ''
     name: ''
@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Agile Methods + Documenting for Transparency'
+    name: 'Web Apps Part 2'
   reading:
     link: ''
     name: ''
@@ -474,7 +474,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Vibe Testing + Vibe Code Reviews'
+    name: 'Agile Methods + Documenting for Transparency'
   reading:
     link: ''
     name: ''
@@ -510,7 +510,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Securing your Web Application (Databases, Authentication, and Security)'
+    name: 'Vibe Testing + Vibe Code Reviews'
   reading:
     link: ''
     name: ''
@@ -600,7 +600,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Continuous Integration + Deployment'
+    name: 'Securing your Web Application (Databases, Authentication, and Security)'
   reading:
     link: ''
     name: ''
@@ -780,7 +780,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'TBD'
+    name: 'Continuous Integration + Deployment'
   reading:
     link: ''
     name: ''
