@@ -1,0 +1,1222 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Project 2: Implementation Milestone 1 - CMU 17-356: Software Engineering for Startups</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-2-implementation-milestone-1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-header__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-356: Software Engineering for Startups
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 2: Implementation Milestone 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../teamwork/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Teamwork Practices
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../staff/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Staff
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assignments/HW1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Assignments
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../recitations/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Recitations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../p0/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-nav__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CMU 17-356: Software Engineering for Startups
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teamwork/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teamwork Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../staff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Staff
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assignments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 0 Team Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 1 Product Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Goals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project Context
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-repository-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Repository setup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Repository setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Turn in instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-deployment-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Deployment overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Deployment overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Turn in instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-sprint-1-two-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Sprint 1 (two weeks)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Sprint 1 (two weeks)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Turn in instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-user-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. User feedback
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. User feedback">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-in-instructions_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Turn in instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-viability-analysis-are-there-reasons-not-to-build-it-can-you-build-it-20-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Viability analysis: are there reasons not to build it? Can you build it? (20 points)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Viability analysis: are there reasons not to build it? Can you build it? (20 points)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#8a-legal-risk-turn-in-instructions-1-paragraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8a. Legal risk turn in instructions (1+ paragraph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8b-regulatory-risk-turn-in-instructions-1-paragraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8b. Regulatory risk turn in instructions (1+ paragraph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8c-competitor-risk-turn-in-instructions-3-paragraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8c. Competitor risk turn in instructions (3+ paragraph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8d-technical-risk-turn-in-instructions-3-paragraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8d. Technical risk turn in instructions (3+ paragraph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8e-this-is-a-semester-long-course-risk-turn-in-instructions-1-paragraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8e. This-is-a-semester-long-course risk turn in instructions (1+ paragraph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="project-2-implementation-milestone-1">Project 2: Implementation Milestone 1<a class="headerlink" href="#project-2-implementation-milestone-1" title="Permanent link">&para;</a></h1>
+<h2 id="learning-goals">Learning Goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Practice and refine your Agile engineering approach</li>
+<li>Use what you've learned in the homeworks to build and plan to deploy an app</li>
+<li>Get feedback from users on an MVP</li>
+</ul>
+<h2 id="project-context">Project Context<a class="headerlink" href="#project-context" title="Permanent link">&para;</a></h2>
+<p>You and your team will be spending the rest of the semester building
+a product prototype for your startup. This is the first technical
+towards your whole product MVP; at the end of this assignment, you
+will produce a minimal product that users can interact with.</p>
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<h3 id="1-repository-setup">1. Repository setup<a class="headerlink" href="#1-repository-setup" title="Permanent link">&para;</a></h3>
+<p>Over the course of the past homeworks, you've learned about automating
+your development setup: branch protection, CI, formatters, linters,
+PR templates, conventional commits, and more. It's time to create
+the development setup that works best for your specific project!
+At <em>bare minimum</em>, this setup should include:</p>
+<ul>
+<li>The requirement to review PRs before merging to main</li>
+<li>CI testing of some kind</li>
+<li>High level code review guidelines</li>
+<li>A lower-level code review checklist </li>
+</ul>
+<p>We expect to see something beyond the bare minimum. </p>
+<h4 id="turn-in-instructions">Turn in instructions<a class="headerlink" href="#turn-in-instructions" title="Permanent link">&para;</a></h4>
+<p>Please turn in:</p>
+<ul>
+<li>A link to your repository (after inviting the instructors to
+collaborate as admins).</li>
+<li>A bulleted list of all the rules, actions, workflows, and checklists
+you've set up, with a link to your repo and a justification for each
+one.</li>
+</ul>
+<h3 id="2-deployment-overview">2. Deployment overview<a class="headerlink" href="#2-deployment-overview" title="Permanent link">&para;</a></h3>
+<p>To actually ship your app, you'll need to deploy it somewhere.
+<em>You do not need to deploy the whole thing right away</em>, though you
+can choose to do so if you'd like. At minimum, for this step
+we need a detailed description of your deployment approach.</p>
+<p>You have access to an AWS account (the account from HW5) and
+AWS credits if you choose to use them. </p>
+<h4 id="turn-in-instructions_1">Turn in instructions<a class="headerlink" href="#turn-in-instructions_1" title="Permanent link">&para;</a></h4>
+<p>Please turn in a deployment plan for your application similar in
+detail to HW5. It should outline each step of your proposed
+deployment pipeline, and each step should link to the relevant
+documentation.</p>
+<h3 id="3-sprint-1-two-weeks">3. Sprint 1 (two weeks)<a class="headerlink" href="#3-sprint-1-two-weeks" title="Permanent link">&para;</a></h3>
+<p>In P1, you planned your first two sprints. Now it's time to implement! You will:</p>
+<ul>
+<li>Take into account any feedback on your Sprint 1 and Sprint 2 plans from P1 and
+adjust as necessary.</li>
+<li>Hold a sprint planning meeting: assign user stories to members of your
+group and give those tasks deadlines.</li>
+<li>Organize a periodic standup. This should be <em>very fast</em> and can be
+remote if you prefer. You may want to run this every day or just a few days a week.
+We strongly recommend you have at least two standup meetings per week. One of them can be at your recitation section on Fridays.</li>
+<li>Implement PRs for each feature or bug ticket and review and merge those PRs.</li>
+<li>Record a video demo of the user stories you implemented (this can be done by anyone on your team).</li>
+<li>Hold a sprint retrospective.</li>
+</ul>
+<h4 id="turn-in-instructions_2">Turn in instructions<a class="headerlink" href="#turn-in-instructions_2" title="Permanent link">&para;</a></h4>
+<p>You will turn in:</p>
+<ul>
+<li>A link to your GitHub project tracker, which should clearly show
+tickets, who they are assigned to, and when the corresponding PRs
+were merged.</li>
+<li>A writeup of your sprint retrospective. What worked well
+this sprint? What will you change for next sprint?</li>
+<li>A description of how to how to use your app and try out the
+user stories you've implemented; for example, you might describe
+how to build a website locally and then how to interact with
+that website to test out the user stories you have implemented. <em>The instructors
+will follow these instructions when grading your demo, so make sure they work.</em> </li>
+<li>A URL to the video demos of your user stories; please upload the demos to YouTube and keep them private.</li>
+</ul>
+<h3 id="5-user-feedback">5. User feedback<a class="headerlink" href="#5-user-feedback" title="Permanent link">&para;</a></h3>
+<p>You must pilot test the portion of your app that you have built with one other person in the class who is not on your team. You should document the pilot test through recordings, transcripts, and analysis of how it went and lessons learned. You must document changes to any user stories that were inspired by the results of the pilot.</p>
+<h4 id="turn-in-instructions_3">Turn in instructions<a class="headerlink" href="#turn-in-instructions_3" title="Permanent link">&para;</a></h4>
+<p>Turn in the transcripts and analysis of the pilot test. Do not turn in the raw recordings. Those are for your team to review in case someone was not available to be at the pilot test.</p>
+<h3 id="8-viability-analysis-are-there-reasons-not-to-build-it-can-you-build-it-20-points">8. Viability analysis: are there reasons not to build it? Can you build it? (20 points)<a class="headerlink" href="#8-viability-analysis-are-there-reasons-not-to-build-it-can-you-build-it-20-points" title="Permanent link">&para;</a></h3>
+<p>Answering these questions will help you avoid attempting the impossible; please upload your answers for each.</p>
+<h4 id="8a-legal-risk-turn-in-instructions-1-paragraph">8a. Legal risk turn in instructions (1+ paragraph)<a class="headerlink" href="#8a-legal-risk-turn-in-instructions-1-paragraph" title="Permanent link">&para;</a></h4>
+<p>Are there any legal risks associated with your product? For example, could it condone or support illegal acts? Describe any potential legal risks you could foresee. <em>This will require online research.</em></p>
+<h4 id="8b-regulatory-risk-turn-in-instructions-1-paragraph">8b. Regulatory risk turn in instructions (1+ paragraph)<a class="headerlink" href="#8b-regulatory-risk-turn-in-instructions-1-paragraph" title="Permanent link">&para;</a></h4>
+<p>Are there any regulatory risks associated with your product? For example, some medical or health products may require approval from the FDA or other government agency. This adds time and a potential to fail to obtain regulatory clearance. Describe any potential regulatory risks you could foresee. <em>This will require online research.</em></p>
+<h4 id="8c-competitor-risk-turn-in-instructions-3-paragraph">8c. Competitor risk turn in instructions (3+ paragraph)<a class="headerlink" href="#8c-competitor-risk-turn-in-instructions-3-paragraph" title="Permanent link">&para;</a></h4>
+<p>Describe your product's competitive landscape, including its three closest competitors. What do these products do? How is your product different?</p>
+<h4 id="8d-technical-risk-turn-in-instructions-3-paragraph">8d. Technical risk turn in instructions (3+ paragraph)<a class="headerlink" href="#8d-technical-risk-turn-in-instructions-3-paragraph" title="Permanent link">&para;</a></h4>
+<p><strong>Describe, in a relatively fine-grained level of technical detail, what you are planning to build.</strong></p>
+<p>What tools/frameworks/libraries are you planning to use for:</p>
+<ul>
+<li>The frontend</li>
+<li>The infrastructure</li>
+<li>The database</li>
+<li>Other technical core features. For example, if your product uses computer vision, what library are you planning to use?</li>
+</ul>
+<p><strong>Explain why your team has the background to build these features</strong>. </p>
+<p>For example, if you're building devtools for ML data processing, please outline your experience with ML and data processing. </p>
+<h4 id="8e-this-is-a-semester-long-course-risk-turn-in-instructions-1-paragraph">8e. This-is-a-semester-long-course risk turn in instructions (1+ paragraph)<a class="headerlink" href="#8e-this-is-a-semester-long-course-risk-turn-in-instructions-1-paragraph" title="Permanent link">&para;</a></h4>
+<p><strong>Please justify why it is possible to build a prototype product over the course of this semester-long class.</strong> </p>
+<p>As one anti-example, fabricating new chips for ML workloads is certainly an exciting thing to do, but it's also something you can't do over the next couple months. Avoid such endeavors.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
