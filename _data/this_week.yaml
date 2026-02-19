@@ -1,0 +1,28 @@
+last_homework:
+  date: Tue Jan 27
+  deadline: ''
+  link: assignments/HW1
+  name: 'HW1b: Product Ideation, HW1c: Product Pitch'
+  numDays: 0
+
+lectures:
+- date: Tue Feb 03
+  link: ''
+  name: Vibe Engineering Intro - Best Practices
+- date: Thu Feb 05
+  link: ''
+  name: User Stories
+
+next_homework:
+  date: Tue Feb 03
+  deadline: ''
+  link: ''
+  name: P0
+  numDays: 0
+
+recitation:
+  date: Fri Jan 30
+  handout: ''
+  name: Form teams
+  quiz: ''
+  slides: ''

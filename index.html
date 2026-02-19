@@ -1,0 +1,4082 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="overview/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>CMU 17-356: Software Engineering for Startups - CMU 17-356: Software Engineering for Startups</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/custom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#17-356-software-engineering-for-startups" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="CMU 17-356: Software Engineering for Startups" class="md-header__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-356: Software Engineering for Startups
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CMU 17-356: Software Engineering for Startups
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="teamwork/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Teamwork Practices
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="staff/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Staff
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="assignments/HW1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Assignments
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="recitations/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Recitations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="project/p0/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="CMU 17-356: Software Engineering for Startups" class="md-nav__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CMU 17-356: Software Engineering for Startups
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        This Week
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#office-hours-calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Office Hours Calendar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weekly-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weekly Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Staff
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Staff">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instructors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teaching-assistants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Teaching Assistants
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="teamwork/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teamwork Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="staff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Staff
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assignments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="assignments/HW1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="assignments/HW2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="project/p0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 0 Team Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="project/p1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 1 Product Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        This Week
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#office-hours-calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Office Hours Calendar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weekly-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weekly Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Staff
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Staff">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instructors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teaching-assistants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Teaching Assistants
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<p><img src="assets/images/logos/logo.png" width="80%" alt="Wordart logo for 17-356/17-766 saying Ship It, Ship It Good"></p>
+<h1 id="17-356-software-engineering-for-startups">17-356 Software Engineering for Startups<a class="headerlink" href="#17-356-software-engineering-for-startups" title="Permanent link">&para;</a></h1>
+<h2 id="this-week">This Week<a class="headerlink" href="#this-week" title="Permanent link">&para;</a></h2>
+<div id="this-week"><div class="card">
+    <div class="header">
+        Lectures & Readings
+    </div>
+    <div class="content">
+
+
+                <div class="lecture-name">
+                    Vibe Engineering Intro - Best Practices
+                </div>
+                <div class="lecture-date">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    Tue Feb 03
+                </div>
+
+
+
+
+
+                <hr/>
+
+
+                <div class="lecture-name">
+                    User Stories
+                </div>
+                <div class="lecture-date">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    Thu Feb 05
+                </div>
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+<div class="card">
+    <div class="header">
+        Recitation
+    </div>
+    <div class="content">
+
+            <div class="recitation-name">
+                Form teams
+            </div>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="header">
+        Office Hours
+    </div>
+    <div class="content">
+        <p>Professor office hours held at their offices and on Zoom. See <a href="#class-calendar">class calendar</a> below and Slack announcements for exact times and locations!</p>
+        <!--<p>Jacqueline's office hours will be held Tuesdays 4-5pm.</p>-->
+        <!--<p>Aditya's office hours will be held Wednesdays 4-5pm.</p>-->
+    </div>
+
+</div>
+
+<div class="card">
+    <div class="header">
+        Current Assignment
+    </div>
+    <div class="content">
+
+            <div class="homework-name">
+                HW1b: Product Ideation, HW1c: Product Pitch
+            </div>
+
+
+
+
+            <a class="label label-red" href="assignments/HW1">
+                <span class="material-symbols-outlined">description</span>Handout
+            </a>
+
+
+    </div>
+
+    <div class="header">
+        Upcoming Assignments
+    </div>
+    <div class="content">
+
+            <div class="homework-name">
+                P0
+            </div>
+
+            <div class="homework-date">
+                <span class="material-symbols-outlined">calendar_month</span>
+                Released Tue Feb 03
+            </div>
+
+
+
+
+
+    </div>
+
+</div>
+
+</div>
+
+<h2 id="important-links">Important Links<a class="headerlink" href="#important-links" title="Permanent link">&para;</a></h2>
+<div id="important-links">
+<a class="card" href="https://canvas.cmu.edu/courses/51669" target="_blank">
+<div class="content">
+<img class="icon" src="assets/images/logos/canvas.png" alt="Canvas icon">
+</div>
+<div class="name">
+Canvas
+</div>
+</a>
+
+<a class="card" href="https://cmu-17-356s26.slack.com/" target="_blank">
+<div class="content">
+<img class="icon" src="assets/images/logos/slack.png" alt="Slack icon">
+</div>
+<div class="name">
+Slack
+</div>
+</a>
+
+<a class="card" href="https://www.gradescope.com/courses/1208559" target="_blank">
+<div class="content">
+<img class="icon" src="assets/images/logos/gradescope.png" alt="Gradescope icon">
+</div>
+<div class="name">
+Gradescope
+</div>
+</a>
+
+<a class="card" href="https://classroom.github.com/classrooms/34176362-17356-software-engineering-for-startups-spring2024" target="_blank">
+<div class="content">
+<img class="icon" src="assets/images/logos/github-mark.png" alt="GitHub icon">
+</div>
+<div class="name">
+GitHub
+</div>
+</a>
+
+
+</div>
+
+<h2 id="office-hours-calendar">Office Hours Calendar<a class="headerlink" href="#office-hours-calendar" title="Permanent link">&para;</a></h2>
+<iframe id="class-calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=Y19hMWRkZGQ2ZjFlODhhYzExMmU0MjVmNjYxZTNhMDJlYTAwZjFjMjIxMWQwMjA2NGYxOTFhMmQ3MjE3NTY5M2E5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23ef6c00" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+<h2 id="weekly-schedule">Weekly Schedule<a class="headerlink" href="#weekly-schedule" title="Permanent link">&para;</a></h2>
+<div id="schedule">
+<!-- Loading in schedule from schedule.yaml -->
+<table>
+    <thead>
+        <th><b>Date</b></th>
+        <th><b>Lecture</b></th>
+        <th><b>Reading</b></th>
+        <th><b>Recitation</b></th>
+        <th><b>Homework Deadline</b></th>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><span class="schedule-day">Mon Jan 12</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Jan 13</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture1.pdf" target="_blank">
+                            Introduction
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Jan 14</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Jan 15</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture2.pdf" target="_blank">
+                            Product Ideation and Discovery
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+                    <a class="label label-blue" href="" target="_blank">
+                        Mom Test Chapters 1-3, 6
+                    </a>
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW0: Teamwork Survey</b>
+                    <br/>
+
+                    <br/>
+
+
+                    <a class="label label-red" href="https://bit.ly/cmu-17-356-teamwork-survey">
+                        <span class="material-symbols-outlined">description</span>Instructions
+                    </a>
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Jan 16</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW1a</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Jan 19</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Jan 20</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture3.pdf" target="_blank">
+                            Proving Viability and the Minimal Viable Product
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+                    <a class="label label-blue" href="" target="_blank">
+                        Lean Startup: Chapters 1-4, 6
+                    </a>
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Jan 21</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Jan 22</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture4.pdf" target="_blank">
+                            Vibe Coding your MVP
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW1a: User Discovery</b>
+                    <br/>
+
+                    <br/>
+
+
+                    <a class="label label-red" href="assignments/HW1">
+                        <span class="material-symbols-outlined">description</span>Instructions
+                    </a>
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Jan 23</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW1b: Product Ideation</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Jan 26</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Jan 27</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture5.pdf" target="_blank">
+                            Pitch Presentations #1
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW1b: Product Ideation, HW1c: Product Pitch</b>
+                    <br/>
+
+                    <br/>
+
+
+                    <a class="label label-red" href="assignments/HW1">
+                        <span class="material-symbols-outlined">description</span>Instructions
+                    </a>
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Jan 28</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Jan 29</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Pitch Presentations #2</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Jan 30</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Form teams</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 02</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 03</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture7.pdf" target="_blank">
+                            Vibe Engineering Intro - Best Practices
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>P0</b>
+                    <br/>
+
+                    <br/>
+
+
+                    <a class="label label-red" href="project/p0">
+                        <span class="material-symbols-outlined">description</span>Instructions
+                    </a>
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 04</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 05</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture8.pdf" target="_blank">
+                            User Stories
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 06</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW2</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 09</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 10</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture9.pdf" target="_blank">
+                            Web Apps Part 1
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 11</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 12</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture10.pdf" target="_blank">
+                            Web Apps Part 2
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW2</b>
+                    <br/>
+
+                    <br/>
+
+
+                    <a class="label label-red" href="assignments/HW2">
+                        <span class="material-symbols-outlined">description</span>Instructions
+                    </a>
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 13</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW3</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 16</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 17</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture11.pdf" target="_blank">
+                            Learning from Startups
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 18</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 19</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <a class="label label-gold" href="https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture12.pdf" target="_blank">
+                            Agile Methods + Feedback Loops
+                        </a>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW3, P1</b>
+                    <br/>
+
+                    <br/>
+
+
+                    <a class="label label-red" href="project/p1">
+                        <span class="material-symbols-outlined">description</span>Instructions
+                    </a>
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 20</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW4</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 23</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 24</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Midterm</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 25</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 26</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Securing your Web Application (Databases, Authentication, and Security)</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW4, P2</b>
+                    <br/>
+
+                    <br/>
+
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 27</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>No Recitation</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 02</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 03</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>NO CLASS</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 04</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 05</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>NO CLASS</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 06</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>No Recitation</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 09</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 10</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Guest Lecture: Garett Nell (Founder, Resilient Networks)</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 11</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 12</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Continuous Integration + Deployment</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 13</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW5</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 16</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 17</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>TBD</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW5</b>
+                    <br/>
+
+                    <br/>
+
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 18</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 19</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>TBD</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 20</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW6, Project Checkins</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 23</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 24</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>TBD</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW6, P3</b>
+                    <br/>
+
+                    <br/>
+
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 25</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 26</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Startup Structure</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 27</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>HW7</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 30</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 31</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Funding &amp; Economics</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>HW7</b>
+                    <br/>
+
+                    <br/>
+
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 01</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 02</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Pitching &amp; Communication</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 03</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Project Checkins</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 06</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 07</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Joining a Startup</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>P4</b>
+                    <br/>
+
+                    <br/>
+
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 08</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 09</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>NO CLASS Spring Carnival</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 10</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>No Recitation</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 13</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 14</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Pivot Product</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 15</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 16</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Close the Deal (Sales)</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 17</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Bug Bash</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 20</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 21</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Class Bug Bash</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>P5</b>
+                    <br/>
+
+                    <br/>
+
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 22</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 23</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Conclusion</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 24</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 27</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 28</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 29</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 30</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri May 01</span></td>
+
+            <td><span class="schedule-lecture">
+
+
+                        <b>Final Product Pitches</b>
+
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                <td><span class="schedule-homework">
+
+                    <b>P6</b>
+                    <br/>
+
+                    <br/>
+
+
+                </span></td>
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon May 04</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+
+
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+    </tbody>
+
+</table>
+</div>
+<h2 id="staff">Staff<a class="headerlink" href="#staff" title="Permanent link">&para;</a></h2>
+<h3 id="instructors">Instructors<a class="headerlink" href="#instructors" title="Permanent link">&para;</a></h3>
+<div id="course-instructors">
+<div class="staffer card">
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/azhenley.jpg" alt="">
+        <div>
+            <h3 class="staffer-name">
+                Austin Henley
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:azhenley@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+                <a href="https://austinhenley.com/" target="_blank"><span class="material-symbols-outlined">
+                    public
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="staffer card">
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/abegel.jpg" alt="">
+        <div>
+            <h3 class="staffer-name">
+                Andrew Begel
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:abegel@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+                <a href="https://andrewbegel.com/" target="_blank"><span class="material-symbols-outlined">
+                    public
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<h3 id="teaching-assistants">Teaching Assistants<a class="headerlink" href="#teaching-assistants" title="Permanent link">&para;</a></h3>
+<div id="course-assistants">
+
+
+
+<div class="staffer card">
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/eryn-ma.jpg" alt="">
+        <div>
+            <h3 class="staffer-name">
+                Eryn Ma
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:erynm@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card">
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/ravi-gangavarapu.jpg" alt="">
+        <div>
+            <h3 class="staffer-name">
+                Sai Ravi Teja Gangavarapu
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:sairavig@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

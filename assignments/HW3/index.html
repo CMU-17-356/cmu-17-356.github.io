@@ -1,0 +1,1360 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>HW3 Sprint 1 - CMU 17-356: Software Engineering for Startups</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#homework-3-sprint-1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-header__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-356: Software Engineering for Startups
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              HW3 Sprint 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../teamwork/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Teamwork Practices
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../staff/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Staff
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../HW1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Assignments
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../recitations/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Recitations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../project/p0/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-nav__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CMU 17-356: Software Engineering for Startups
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teamwork/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teamwork Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../staff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Staff
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assignments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HW1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HW2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 0 Team Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/p1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 1 Product Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Goals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#homework-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Homework Tasks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Homework Tasks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#designing-your-data-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Designing your Data Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Choice
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Database Choice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sequelize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sequelize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mongoose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mongoose
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paper-prototype" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paper Prototype
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontend-prototype" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend Prototype
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Frontend Prototype">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-of-typescript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use of Typescript
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#releasing-your-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Releasing your work
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Criteria
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="homework-3-sprint-1">Homework 3: Sprint 1<a class="headerlink" href="#homework-3-sprint-1" title="Permanent link">&para;</a></h1>
+<p style="text-align: center;">
+100 points<br/>
+
+Due on Gradescope Thursday, February 15, 2023 11:59pm<br/>
+
+This homework is to be done and submitted as a team.<br/>
+</p>
+
+<h2 id="learning-goals">Learning Goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Develop data models for representing data and relationships.</li>
+<li>Use an iterative design process to develop rapid user interface prototypes.</li>
+</ul>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="http://faculty.washington.edu/ajko/books/design-methods/">Design Methods E-Book</a></li>
+<li><a href="https://www.coursera.org/articles/nosql-vs-sql">SQL vs. NoSQL: The Differences Explained + When to Use Each</a></li>
+</ul>
+<h2 id="homework-tasks">Homework Tasks<a class="headerlink" href="#homework-tasks" title="Permanent link">&para;</a></h2>
+<p>In this homework, you will work to conduct your first sprint with your team
+towards your MVP. The core goal in this assignment is to prototype the core
+elements of your product. Your task is to prepare a number of different forms of
+prototypes.</p>
+<p>Please continue to use your current Dronuts repository that you generated as
+part of <a href="https://cmu-17-356.github.io/assignments/HW2/">Sprint 0</a>.</p>
+<h3 id="designing-your-data-model">Designing your Data Model<a class="headerlink" href="#designing-your-data-model" title="Permanent link">&para;</a></h3>
+<p>An Object Data Model is a way of specifying the format of data your
+application will interact with. There are <a href="https://www.lucidchart.com/pages/database-diagram/database-models">many different ways</a>
+of developing such a model; ranging from building object-oriented class structures to
+to generating database schemas (like in SQL), or even as a formal UML diagram.
+Creating a a data model is crucial any time different components of an
+application are to interact. Examples include a database and server-side
+application or an <a href="https://www.codecademy.com/article/mvc">MVC</a> (Model, View, Controller)
+frontend and a server-side application.</p>
+<p>In this assignment, you will focus on defining a data model, represented in code
+with either an Object Document Mapper, ODM (for document-oriented NoSQL databases
+like <a href="https://www.mongodb.com/">MongoDB</a>), or an Object Relational Mapper, ORM
+(for SQL databases like <a href="https://www.postgresql.org/">PostgresSQL</a>).
+In pure Javascript, objects can be represented in a format called
+<a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-json">JSON</a>.</p>
+<p>For instance, a <code>User</code> might be represented as follows:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">   </span><span class="nt">&quot;username&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ricksanchez&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;password&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;735ed12abec12bdcb42b&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;full_name&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Rick Sanchez&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;followers&quot;</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;msmith&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;bperson&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;kmichael&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;mpbh&quot;</span>
+<span class="w">   </span><span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>While this is a good example of a user, it is not entirely explanatory of the
+datatypes and relationships expressed in the data. Likewise, we might write out
+a document that looks something like this to help guide development:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">   </span><span class="s2">&quot;username&quot;</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span><span class="w">    </span><span class="c1">// UNIQUE, URL-SAFE</span>
+<span class="w">   </span><span class="s2">&quot;password&quot;</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span><span class="w">    </span><span class="c1">// Salted, Hashed Password.</span>
+<span class="w">   </span><span class="s2">&quot;full_name&quot;</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">   </span><span class="s2">&quot;twitter_id&quot;</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="o">?</span><span class="nb">String</span><span class="p">,</span><span class="w"> </span><span class="c1">// Optional, hence the question mark</span>
+<span class="w">   </span><span class="s2">&quot;followers&quot;</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="nb">String</span><span class="p">]</span><span class="w">  </span><span class="c1">// Reference to other USER objects</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Much like developing in an object-oriented fashion within a single language,
+developing an object data model like this allows team members to coordinate
+development even across multiple projects (say, frontend and backend).  As such,
+your team should:</p>
+<ul>
+<li>As a group, decide on a list of relevant objects (Drones, Users, etc).</li>
+<li>For each of these objects, create an example object (like the first <code>User</code>
+  example above). Note that you may need to have multiple example objects if an
+  object can be in more than one state.</li>
+<li>For each of these objects, create a generalized, corresponding
+  data mapping (as shown above), mapping object fields to types, while
+  acknowleding if fields are optional, nullable, required, etc.
+  Comment as necessary to explain these constraints to us.</li>
+<li>Put all of the above examples and objects into your repository
+  <a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">Wiki</a>.</li>
+</ul>
+<h3 id="database-choice">Database Choice<a class="headerlink" href="#database-choice" title="Permanent link">&para;</a></h3>
+<p>Express.JS does not expose built-in functionality for defining data models.
+<strong>First, you'll need to choose a database</strong>. We recommend using either
+<a href="https://www.mongodb.com/">MongoDB</a> as a document-oriented database or
+<a href="https://www.postgresql.org/">PostgresSQL</a> as a relational one.</p>
+<p>Then, <strong>you'll need to use a corresponding library</strong> for mapping
+your Object Data Model to/from a relational database or a document-oriented one.
+We recommend either <a href="https://mongoosejs.com/">Mongoose</a> (for MongoDB) or
+<a href="https://sequelize.org/">Sequelize</a> (for PostgresSQL).</p>
+<h4 id="sequelize">Sequelize<a class="headerlink" href="#sequelize" title="Permanent link">&para;</a></h4>
+<p>If you go this route, you will install <a href="https://sequelize.org">Sequelize</a>,
+a package for validating models and generating SQL queries for the PostgresSQL
+database (or any SQL variant).</p>
+<ul>
+<li><a href="https://sequelize.org/docs/v6/getting-started/">Install the Sequelize package dependency</a> via npm/yarn.</li>
+<li>Define models, with datatypes, for all of the objects in your Object Data Model.
+  Follow <a href="https://blog.logrocket.com/node-js-orms-why-shouldnt-use/">this guide</a>.</li>
+<li>Write some simple unit tests for your model validation.
+  Follow <a href="https://itnext.io/unit-testing-sequelize-models-made-easy-108f079f1e38">this guide</a>.</li>
+<li><em>Note</em>: Follow along with <a href="https://sequelize.org/docs/v6/other-topics/typescript/">this tutorial</a>
+  on setting up Sequelize to work with Typescript.</li>
+</ul>
+<h4 id="mongoose">Mongoose<a class="headerlink" href="#mongoose" title="Permanent link">&para;</a></h4>
+<p>If you go this route, you will install <a href="https://mongoosejs.com">Mongoose.js</a>,
+a package for validating JSON objects for the MongoDB database:</p>
+<ul>
+<li><a href="https://mongoosejs.com/docs/">Install the Mongoose package dependency</a> via npm/yarn.</li>
+<li>Create schema objects for all of the objects in your Object Data Model.
+  Follow <a href="http://mongoosejs.com/docs/guide.html#definition">this guide</a>.</li>
+<li>Write some simple unit tests for your schema validation.
+  Follow <a href="https://mongoosejs.com/docs/jest.html">this guide</a>.</li>
+</ul>
+<h3 id="validation">Validation<a class="headerlink" href="#validation" title="Permanent link">&para;</a></h3>
+<p>In an ideal world, all actors (developers on your project, users of your API,
+etc.) would respect your data model. However, this isn’t always going to be the
+case; developers can make mistakes, API users can mis-use your API, and hackers
+can attempt to abuse your object model for nefarious purposes.</p>
+<p>To combat this, your application should programmatically validate objects,
+as defined by your data model. The way your team should implement this depends
+on your choice of database (MongDB vs PostgresSQL) and corresponding library:
+<a href="https://mongoosejs.com/docs/validation.html">Mongoose</a> (for MongoDB) or
+<a href="https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/">Sequelize</a>
+(for PostgresSQL).</p>
+<p>For example, in Sequelize, a <code>User</code> model with constraints may be defined like this:</p>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Sequelize</span><span class="p">,</span><span class="w"> </span><span class="nx">Op</span><span class="p">,</span><span class="w"> </span><span class="nx">Model</span><span class="p">,</span><span class="w"> </span><span class="nx">DataTypes</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;sequelize&quot;</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">sequelize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Sequelize</span><span class="p">(</span><span class="s1">&#39;postgres://user:pass@example.com:5432/dbname&#39;</span><span class="p">)</span>
+
+<span class="kd">const</span><span class="w"> </span><span class="nx">User</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">sequelize</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">username</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="nx">DataTypes</span><span class="p">.</span><span class="nx">TEXT</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">allowNull</span><span class="o">:</span><span class="w"> </span><span class="kt">false</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">unique</span><span class="o">:</span><span class="w"> </span><span class="kt">true</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">password</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="nx">DataTypes</span><span class="p">.</span><span class="nx">STRING</span><span class="p">(</span><span class="mf">64</span><span class="p">),</span>
+<span class="w">    </span><span class="nx">validate</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">is</span><span class="o">:</span><span class="w"> </span><span class="sr">/^[0-9a-f]{64}$/i</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">});</span>
+
+<span class="p">(</span><span class="k">async</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">await</span><span class="w"> </span><span class="nx">sequelize</span><span class="p">.</span><span class="nx">sync</span><span class="p">({</span><span class="w"> </span><span class="nx">force</span><span class="o">:</span><span class="w"> </span><span class="kt">true</span><span class="w"> </span><span class="p">});</span>
+<span class="w">  </span><span class="c1">// Code here</span>
+<span class="p">})();</span>
+</code></pre></div>
+<p>where validations are automatically run on create, update and save. You can also
+call a <code>validate()</code> method to manually validate an instance.</p>
+<p>In Mongoose, upon defining your Schema object, you may get validation errors on
+save or by calling <code>validateSync</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">schema</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Schema</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">username</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">required</span><span class="o">:</span><span class="w"> </span><span class="kt">true</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="nx">phone</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">validate</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">validator</span><span class="o">:</span><span class="w"> </span><span class="kt">function</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="sr">/\d{3}-\d{3}-\d{4}/</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">v</span><span class="p">);</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nx">message</span><span class="o">:</span><span class="w"> </span><span class="kt">props</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="sb">`</span><span class="si">${</span><span class="nx">props</span><span class="p">.</span><span class="nx">value</span><span class="si">}</span><span class="sb"> is not a valid phone number!`</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nx">required</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;User phone number required&#39;</span><span class="p">]</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">});</span>
+
+<span class="kd">const</span><span class="w"> </span><span class="nx">User</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">db</span><span class="p">.</span><span class="nx">model</span><span class="p">(</span><span class="s1">&#39;user&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">schema</span><span class="p">);</span>
+<span class="nx">user</span><span class="p">.</span><span class="nx">phone</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;201-555-0123&#39;</span><span class="p">;</span>
+
+<span class="c1">// This person has no username :(</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">User</span><span class="p">();</span>
+
+<span class="kd">let</span><span class="w"> </span><span class="nx">error</span><span class="p">;</span>
+<span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">await</span><span class="w"> </span><span class="nx">user</span><span class="p">.</span><span class="nx">save</span><span class="p">();</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="nx">err</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">error</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">err</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">assert</span><span class="p">.</span><span class="nx">equal</span><span class="p">(</span><span class="nx">error</span><span class="p">.</span><span class="nx">errors</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">].</span><span class="nx">message</span><span class="p">,</span>
+<span class="w">  </span><span class="s1">&#39;Path `username` is required.&#39;</span><span class="p">);</span>
+
+<span class="nx">error</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">user</span><span class="p">.</span><span class="nx">validateSync</span><span class="p">();</span>
+<span class="nx">assert</span><span class="p">.</span><span class="nx">equal</span><span class="p">(</span><span class="nx">error</span><span class="p">.</span><span class="nx">errors</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">].</span><span class="nx">message</span><span class="p">,</span>
+<span class="w">  </span><span class="s1">&#39;Path `name` is required.&#39;</span><span class="p">);</span>
+</code></pre></div>
+<h3 id="paper-prototype">Paper Prototype<a class="headerlink" href="#paper-prototype" title="Permanent link">&para;</a></h3>
+<p>To help you synthesize all your team’s ideas into a single design, you will
+start by developing a series of paper prototypes. <strong>Each individual team member is
+responsible for generating a total of 6 different paper prototype sketches</strong>. <strong>Each
+person should create 3 sketches of the UI for the customer page, and 3 sketches
+of the UI for the employees</strong>. The UIs do not need to be “good”, but they should
+be all different from each other. After generating these sketches individually,
+your team should meet to synthesize your design into a single design that
+incorporates the best of all the designs.</p>
+<p>To turn these in, each team member should scan or take a picture of their
+sketches, and then upload them to your GitHub Wiki. Your team should turn in a
+link to the Wiki page where your pictures live.</p>
+<h3 id="frontend-prototype">Frontend Prototype<a class="headerlink" href="#frontend-prototype" title="Permanent link">&para;</a></h3>
+<p>As a startup with limited funding, your company should be focused on building a
+presentable prototype as quickly as possible. However, as you don’t want to do a
+lot of work from the ground up, you've decided to develop your prototype
+using a frontend user-interface "framework", a library which makes it very easy
+to create dynamic client-side applications. To keep things simple, we recommend
+that groups use <a href="https://react.dev/">React</a> to build your frontend applications.
+If your team has another choice <a href="https://cmu-17-356.github.io/project/ui/">you are all more comfortable
+with</a> (e.g. Vue, Angular, or Svelte),
+<strong>please let the TAs know ahead of time</strong>. We'll be focusing
+on React in recitations however.</p>
+<p>Your team can familiarize themselves with React using the following resources:</p>
+<ul>
+<li><a href="https://reactjs.org/tutorial/tutorial.html">Intro to React Tutorial</a></li>
+<li><a href="https://www.w3schools.com/REACT/default.asp">React Tutorial</a></li>
+<li><a href="https://reactnative.dev/docs/intro-react">React Fundamentals</a></li>
+</ul>
+<p>Using a frotend framework like React (which is <em>MV*'ish</em>, but not explicitly
+MVC), your team should develop a prototype:</p>
+<ul>
+<li>
+<p>Develop a <strong>view-only</strong> prototype for the 1-3 largest user stories in your
+  project. What you do not accomplish in this sprint, you will need to accomplish
+  later, so budget your time appropriately.  This should be a prototype, so
+  while it should demonstrate how a user will interact with the system, it does
+  not need to be "pixel perfect." Because it is view only, you should be able to
+  navigate across pages, but you do not need to implement any part of the backend
+  (data processing, validation, generation) at this point.</p>
+</li>
+<li>
+<p>Your team will be deploying your application hosted on the cloud. Again,
+  we recommend <a href="https://docs.render.com/">Render</a> for deployment. Please ensure
+  that your submission deploys correctly upon submission of your assignment.</p>
+</li>
+</ul>
+<h4 id="use-of-typescript">Use of Typescript<a class="headerlink" href="#use-of-typescript" title="Permanent link">&para;</a></h4>
+<p>In this class, we <strong>highly</strong> recommend the use of Typescript instead of
+Javascript for your Dronuts prototype. Typescript is a much stricter language
+that enforces types within your Javascript code. For this assignment, your
+frontend prototype and backend <strong>should</strong> be implemented using Typescript. You
+will be introduced to this in recitation, but here is a
+<a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html">tutorial</a>
+that discusses Typescript further.</p>
+<p>We expect your team to set up CI for your web apps. We recommend the use of
+<a href="https://docs.github.com/en/actions">Github Actions</a> as your CI service, however,
+other options such as Circle CI are acceptable. Here are some links to get you
+started:</p>
+<ul>
+<li><a href="https://docs.github.com/en/actions/using-workflows/using-starter-workflows">Using Starter Workflows</a></li>
+<li><a href="https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/">How to build a CI/CD pipeline with GitHub Actions in four simple steps</a></li>
+<li><a href="https://medium.com/@michaelekpang/creating-a-ci-cd-pipeline-using-github-actions-b65bb248edfe">Creating a CI/CD pipeline using Github Actions</a></li>
+</ul>
+<h3 id="releasing-your-work">Releasing your work<a class="headerlink" href="#releasing-your-work" title="Permanent link">&para;</a></h3>
+<p>Just before turning in your assignment, one person on your team should create a
+<a href="https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository">GitHub Release</a>.</p>
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<p>The deliverables for this assignment include:</p>
+<ol>
+<li>Providing a link to your team's Object Data Model, which should be documented
+   in the group's repository Wiki.</li>
+<li>Submitting a link to the paper prototype section of your team's repository.
+   Each team member must upload their paper prototypes to this section. Although
+   the prototypes can be on different pages, ensure all of them are accessible
+   from a single, unified page for easy navigation.</li>
+<li>In your Wiki, add an entry explaining why the group chose MongoDB (NoSQL) or
+   PostgresSQL (SQL) as your database of choice.</li>
+<li>Sharing a link to the GitHub webpage where your team's
+   deliverables are released (one per team). This release should contain:<ul>
+<li><strong>Your team's Data Model implemented</strong> with either an Object Document Mapper
+  or a Relational Mapper in Express.js. Utilize Mongoose or Sequelize libraries
+  for this purpose, and do some initial model validation testing. Ensure
+  this code is committed to your team's repository and merged into a <code>main</code>
+  branch. <em>Note</em>: all work should be PR'ed first!</li>
+<li><strong>A Typescript-based frontend prototype</strong> developed in React (or a
+  framework of your choosing), committed to your team's repository.
+  <em>Note</em>: Once again, if you choose a different frontend framework, please
+  discuss this with the TAs first!</li>
+</ul>
+</li>
+<li>All links should be submitted as a single document via
+   <a href="https://www.gradescope.com/courses/704199/assignments/3994136">gradescope</a>
+   (one per team).</li>
+</ol>
+<h2 id="additional-criteria">Additional Criteria<a class="headerlink" href="#additional-criteria" title="Permanent link">&para;</a></h2>
+<p>We will be strictly enforcing and grading your team’s process; i.e., we want to
+see all PRs, close issues, and issues tied to cards on your team's Github
+Project board with individuals assigned to each. Failure to adhere to these
+practices will result in point deductions.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
