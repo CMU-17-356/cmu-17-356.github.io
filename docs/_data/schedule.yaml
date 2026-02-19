@@ -473,8 +473,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Agile Methods + Documenting for Transparency'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture11.pdf'
+    name: 'Learning from Startups'
   reading:
     link: ''
     name: ''
@@ -509,8 +509,8 @@
     name: 'HW3, P1'
     numDays: 0
   lecture:
-    link: ''
-    name: 'Vibe Testing + Vibe Code Reviews'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture12.pdf'
+    name: 'Agile Methods + Documenting for Transparency'
   reading:
     link: ''
     name: ''
