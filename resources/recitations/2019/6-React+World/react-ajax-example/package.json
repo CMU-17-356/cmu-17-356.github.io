@@ -6,7 +6,7 @@
     "react-scripts": "2.1.5"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^1.13.5",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
