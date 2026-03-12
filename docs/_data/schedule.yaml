@@ -596,7 +596,7 @@
   homework:
     deadline: ''
     link: ''
-    name: 'HW4, P2'
+    name: 'HW4'
     numDays: 0
   lecture:
     link: ''
@@ -775,8 +775,8 @@
 - date: Thu Mar 12
   homework:
     deadline: ''
-    link: ''
-    name: ''
+    link: 'project/p2'
+    name: 'Sprint 1'
     numDays: 0
   lecture:
     link: ''
