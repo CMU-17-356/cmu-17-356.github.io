@@ -12,7 +12,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW1a'
     quiz: ''
     slides: ''
     
@@ -84,7 +84,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW1a'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -102,7 +102,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW1b'
     quiz: ''
     slides: ''
 
@@ -174,7 +174,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW1b: Product Ideation'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -192,7 +192,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Form teams'
     quiz: ''
     slides: ''
 
@@ -264,7 +264,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Form teams'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -282,7 +282,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'HW2'
     quiz: ''
     slides: ''
 
@@ -354,7 +354,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW2'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -444,7 +444,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW3'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -506,7 +506,7 @@
   homework:
     deadline: ''
     link: 'project/p1'
-    name: 'HW3, P1'
+    name: 'P1'
     numDays: 0
   lecture:
     link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture12.pdf'
@@ -534,7 +534,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW4'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -552,7 +552,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No Recitation'
     quiz: ''
     slides: ''
 
@@ -596,7 +596,7 @@
   homework:
     deadline: ''
     link: ''
-    name: 'HW4'
+    name: ''
     numDays: 0
   lecture:
     link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture13.pdf'
@@ -624,7 +624,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'No Recitation'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -642,7 +642,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No Recitation'
     quiz: ''
     slides: ''
 
@@ -714,7 +714,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'No Recitation'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -777,7 +777,7 @@
     deadline: ''
     link: 'project/p2'
     name: 'P2 Sprint 1'
-    numDays: 0
+    numDays: 10
   lecture:
     link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture14.pdf'
     name: 'Testing'
@@ -804,7 +804,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW5'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -822,7 +822,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'User Story Acceptance Testing'
     quiz: ''
     slides: ''
 
@@ -830,11 +830,11 @@
   homework:
     deadline: ''
     link: ''
-    name: 'HW5'
+    name: ''
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture'
+    name: 'Guest Lecture: Taniya Mishra (Founder and CEO of SureStart)'
   reading:
     link: ''
     name: ''
@@ -869,9 +869,9 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture15.pdf'
-    name: 'Continuous Integration + Deployment'
-  reading:
+    link: 
+    name: 'Code Review'
+  reading: 
     link: ''
     name: ''
   recitation:
@@ -894,7 +894,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW6, Project Checkins'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -912,7 +912,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Project Checkins'
     quiz: ''
     slides: ''
 
@@ -920,11 +920,11 @@
   homework:
     deadline: ''
     link: ''
-    name: 'HW6, P3'
+    name: ''
     numDays: 0
   lecture:
     link: ''
-    name: 'TBD'
+    name: 'Continuous Integration + Deployment'
   reading:
     link: ''
     name: ''
@@ -956,8 +956,8 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P3 Sprint 2'
+    numDays: 9
   lecture:
     link: ''
     name: 'Startup Structure'
@@ -984,7 +984,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'HW7'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1002,7 +1002,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'TBD'
     quiz: ''
     slides: ''
 
@@ -1010,7 +1010,7 @@
   homework:
     deadline: ''
     link: ''
-    name: 'HW7'
+    name: ''
     numDays: 0
   lecture:
     link: ''
@@ -1074,7 +1074,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Project Checkins'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1092,7 +1092,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No Recitation'
     quiz: ''
     slides: ''
 
@@ -1100,7 +1100,7 @@
   homework:
     deadline: ''
     link: ''
-    name: 'P4'
+    name: ''
     numDays: 0
   lecture:
     link: ''
@@ -1118,8 +1118,8 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P4 Sprint 3'
+    numDays: 9
   lecture:
     link: ''
     name: ''
@@ -1164,7 +1164,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'No Recitation'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1182,7 +1182,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Bug Bash'
     quiz: ''
     slides: ''
 
@@ -1254,7 +1254,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Bug Bash'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1272,7 +1272,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Project Checkins'
     quiz: ''
     slides: ''
 
@@ -1280,8 +1280,8 @@
   homework:
     deadline: ''
     link: ''
-    name: 'P5'
-    numDays: 0
+    name: 'P5: Final Report + Presentation + Retrospective'
+    numDays: 9
   lecture:
     link: ''
     name: 'Class Bug Bash'
@@ -1424,11 +1424,11 @@
   homework:
     deadline: ''
     link: ''
-    name: 'P6'
+    name: ''
     numDays: 0
   lecture:
     link: ''
-    name: 'Final Product Pitches'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1446,7 +1446,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'FINAL: Project Presentation 5:30pm-8:30pm'
   reading:
     link: ''
     name: ''
