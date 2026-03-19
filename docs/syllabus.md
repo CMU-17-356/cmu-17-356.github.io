@@ -45,10 +45,10 @@ Evaluation will be based on the following approximate distribution:
 - Team project assignments (30%)
 - Midterm exam (15%)
 - Class participation (15%)
-  - Main class attendance (5%)
-    - 2 free absences for any reason
-    - If these are used up, please DM us on Slack
-  - Recitation lab attendance (10%)
+    - Main class attendance (5%)
+        - 2 free absences for any reason
+        - If these are used up, please DM us on Slack
+    - Recitation lab attendance (10%)
 
 ## Course Policies
 
