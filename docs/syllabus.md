@@ -50,6 +50,8 @@ Evaluation will be based on the following approximate distribution:
         - If these are used up, please DM us on Slack
     - Recitation lab attendance (10%)
 
+After an assignment is graded, the grades are released to you and accessible on Canvas and Gradescope. For the next week, you may submit a regrade request if you feel that your assignment was incorrectly graded. This is not a mechanism for forgetting to do some part of the assignment and submitting corrected information after the submission deadline. Beyond one week, there is no longer any mechanism to request a regrade or correction to the grading of an assignment.
+
 ## Course Policies
 
 ### Teamwork
