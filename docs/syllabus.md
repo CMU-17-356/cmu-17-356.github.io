@@ -46,11 +46,13 @@ Evaluation will be based on the following approximate distribution:
 - Midterm exam (15%)
 - Class participation (15%)
     - Main class attendance (5%)
-        - 2 free absences for any reason
-        - If these are used up, please DM us on Slack
     - Recitation lab attendance (10%)
+    - 2 free absences for any reason
 
 After an assignment is graded, the grades are released to you and accessible on Canvas and Gradescope. For the next week, you may submit a regrade request if you feel that your assignment was incorrectly graded. This is not a mechanism for forgetting to do some part of the assignment and submitting corrected information after the submission deadline. Beyond one week, there is no longer any mechanism to request a regrade or correction to the grading of an assignment.
+
+Class participation points are measured by meaningful participation in lecture and recitation activities. Pointwise, you may miss 2 classes for any reason (illness, interview, travel, etc) and not be penalized. Once you go over 2 missed classes, further absences will count against your participation points. Absences related to an official CMU activity (e.g. a CMU sports team that needs to travel) will not impact your participation points if you tell us in advance of class. Absences caused by an emergency (like a car accident) will never impact your participation points. Please let us and your academic advisors know if you are ok.
+
 
 ## Course Policies
 
