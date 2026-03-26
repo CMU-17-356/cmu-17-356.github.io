@@ -1,28 +1,23 @@
 last_homework:
-  date: Tue Jan 27
+  date: Thu Mar 26
   deadline: ''
-  link: assignments/HW1
-  name: 'HW1b: Product Ideation, HW1c: Product Pitch'
-  numDays: 0
+  link: project/p3
+  name: P3 Sprint 2
+  numDays: 9
 
 lectures:
-- date: Tue Feb 03
+- date: Tue Mar 31
   link: ''
-  name: Vibe Engineering Intro - Best Practices
-- date: Thu Feb 05
+  name: Funding & Economics
+- date: Thu Apr 02
   link: ''
-  name: User Stories
+  name: Pitching & Communication
 
-next_homework:
-  date: Tue Feb 03
-  deadline: ''
-  link: ''
-  name: P0
-  numDays: 0
+next_homework: null
 
 recitation:
-  date: Fri Jan 30
+  date: Mon Mar 30
   handout: ''
-  name: Form teams
+  name: TBD
   quiz: ''
   slides: ''
