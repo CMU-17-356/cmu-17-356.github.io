@@ -959,8 +959,8 @@
     name: 'P3 Sprint 2'
     numDays: 9
   lecture:
-    link: ''
-    name: 'Startup Structure'
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture17.pdf'
+    name: 'Startups as a Business'
   reading:
     link: ''
     name: ''
