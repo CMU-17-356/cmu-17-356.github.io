@@ -6,12 +6,12 @@ last_homework:
   numDays: 9
 
 lectures:
-- date: Tue Mar 31
-  link: ''
-  name: Joining a Startup
 - date: Thu Apr 02
   link: ''
   name: Agentic AI Workflows
+- date: Tue Apr 07
+  link: ''
+  name: 'Guest Lecture: Prof. Fraser Brown and Dr. Riad Wahby - Pitching to Investors'
 
 next_homework: null
 
