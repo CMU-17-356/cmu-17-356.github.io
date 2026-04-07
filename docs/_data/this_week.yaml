@@ -6,12 +6,12 @@ last_homework:
   numDays: 9
 
 lectures:
-- date: Tue Apr 07
-  link: ''
-  name: 'Guest Lecture: Prof. Fraser Brown and Dr. Riad Wahby - Pitching to Investors'
 - date: Thu Apr 09
   link: ''
   name: NO CLASS Spring Carnival
+- date: Tue Apr 14
+  link: ''
+  name: 'Product Pitch Activity: Investors and Customers'
 
 next_homework:
   date: Wed Apr 08
