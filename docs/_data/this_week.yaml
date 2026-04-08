@@ -1,8 +1,8 @@
 last_homework:
-  date: Thu Mar 26
+  date: Wed Apr 08
   deadline: ''
-  link: project/p3
-  name: P3 Sprint 2
+  link: project/p4
+  name: P4 Sprint 3
   numDays: 9
 
 lectures:
@@ -13,12 +13,7 @@ lectures:
   link: ''
   name: 'Product Pitch Activity: Investors and Customers'
 
-next_homework:
-  date: Wed Apr 08
-  deadline: ''
-  link: ''
-  name: P4 Sprint 3
-  numDays: 9
+next_homework: null
 
 recitation:
   date: Mon Apr 13
