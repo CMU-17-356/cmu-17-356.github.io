@@ -6,12 +6,12 @@ last_homework:
   numDays: 9
 
 lectures:
-- date: Thu Apr 09
-  link: ''
-  name: NO CLASS Spring Carnival
 - date: Tue Apr 14
   link: ''
   name: 'Product Pitch Activity: Investors and Customers'
+- date: Thu Apr 16
+  link: ''
+  name: Pivoting
 
 next_homework: null
 
