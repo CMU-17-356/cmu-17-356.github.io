@@ -1182,7 +1182,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Bug Bash'
+    name: 'Project Checkins'
     quiz: ''
     slides: ''
 
@@ -1229,7 +1229,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture21.pdf''
+    link: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assets/pdfs/Lecture21.pdf'
     name: 'Pivoting'
   reading:
     link: ''
@@ -1272,7 +1272,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Project Checkins'
+    name: 'NO RECITATION'
     quiz: ''
     slides: ''
 
