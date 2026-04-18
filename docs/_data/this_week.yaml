@@ -6,18 +6,23 @@ last_homework:
   numDays: 9
 
 lectures:
-- date: Tue Apr 14
+- date: Tue Apr 21
   link: ''
-  name: 'Product Pitch Activity: Investors and Customers'
-- date: Thu Apr 16
+  name: Class Bug Bash
+- date: Thu Apr 23
   link: ''
-  name: Pivoting
+  name: Conclusion
 
-next_homework: null
+next_homework:
+  date: Tue Apr 21
+  deadline: ''
+  link: ''
+  name: 'P5: Final Report + Presentation + Retrospective'
+  numDays: 9
 
 recitation:
   date: Mon Apr 20
   handout: ''
-  name: Project Checkins
+  name: NO RECITATION
   quiz: ''
   slides: ''
