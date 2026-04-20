@@ -1279,8 +1279,8 @@
 - date: Tue Apr 21
   homework:
     deadline: ''
-    link: ''
-    name: 'P5: Final Report + Presentation + Retrospective'
+    link: 'project/p5'
+    name: 'P5: Final'
     numDays: 9
   lecture:
     link: ''
