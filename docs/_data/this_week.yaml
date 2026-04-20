@@ -20,9 +20,4 @@ next_homework:
   name: 'P5: Final Report + Presentation + Retrospective'
   numDays: 9
 
-recitation:
-  date: Mon Apr 20
-  handout: ''
-  name: NO RECITATION
-  quiz: ''
-  slides: ''
+recitation: null
