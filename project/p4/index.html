@@ -1,0 +1,1460 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../p3/">
+      
+      
+        <link rel="next" href="../p5/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Project 4 Sprint 3 - CMU 17-356: Software Engineering for Startups</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-4-sprint-3" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-header__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-356: Software Engineering for Startups
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 4 Sprint 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../teamwork/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Teamwork Practices
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../staff/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Staff
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assignments/HW1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Assignments
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../recitations/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Recitations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../p0/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-356: Software Engineering for Startups" class="md-nav__button md-logo" aria-label="CMU 17-356: Software Engineering for Startups" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CMU 17-356: Software Engineering for Startups
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teamwork/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teamwork Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../staff/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Staff
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assignments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assignments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homework 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 0 Team Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 1 Product Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 2 Sprint 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 3 Sprint 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 4 Sprint 3
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 4 Sprint 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Submission
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Goals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-project-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Project Context
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-three-new-user-stories-100-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Three new user stories (100 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-automated-code-generation-for-each-story-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Automated code generation for each story (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-automated-testing-in-ci-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Automated testing in CI (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-automated-code-review-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Automated code review (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-automated-development-specifications-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Automated development specifications (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-automation-architecture-summary-required-in-the-pdf-100-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Automation architecture summary (required in the PDF) (100 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-landing-page-for-product-web-site-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Landing page for product web site (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-working-prototype-100-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Working Prototype (100 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 5 Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Submission
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Goals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-project-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Project Context
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-three-new-user-stories-100-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Three new user stories (100 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-automated-code-generation-for-each-story-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Automated code generation for each story (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-automated-testing-in-ci-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Automated testing in CI (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-automated-code-review-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Automated code review (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-automated-development-specifications-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Automated development specifications (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-automation-architecture-summary-required-in-the-pdf-100-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Automation architecture summary (required in the PDF) (100 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-landing-page-for-product-web-site-200-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Landing page for product web site (200 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-working-prototype-100-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Working Prototype (100 points)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="project-4-sprint-3">Project 4: Sprint 3<a class="headerlink" href="#project-4-sprint-3" title="Permanent link">&para;</a></h1>
+<p>This project assignment is worth 1300 points.</p>
+<p>This homework is to be done as a team.</p>
+<p>P4 is due on Gradescope, Monday April 20, 2026 11:59pm.</p>
+<h3 id="submission">Submission<a class="headerlink" href="#submission" title="Permanent link">&para;</a></h3>
+<p>Submit <a href="https://www.gradescope.com/courses/1208559/assignments/7960563">P4</a> as a PDF file to Gradescope.</p>
+<p>If you prepare the response in some other software (like Tex), please
+export as PDF before submitting. Include your name and Andrew ID at the top of the document.</p>
+<h3 id="learning-goals">Learning Goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use Large Language Models (LLMs) as part of an <strong>automated</strong> workflow -- not only to chat, but to drive repeatable steps in your engineering process.</li>
+<li>Integrate automation with <strong>GitHub Actions</strong> (and related CI patterns) so that generation, verification, or review runs in a controlled, inspectable way.</li>
+<li>Apply <strong>coding agents</strong> (for example, Claude agents or similar) where they help, and document what you chose and why.</li>
+<li>Deliver <strong>three new user stories</strong> end-to-end: implementation, automated testing in CI, and automated code review assistance. Keep humans in the loop for judgment, security, and merge decisions.</li>
+</ul>
+<h3 id="1-project-context">1. Project Context<a class="headerlink" href="#1-project-context" title="Permanent link">&para;</a></h3>
+<p>In <a href="p2">P2</a>, you used LLMs to produce user stories, UI, and code. In <a href="p3">P3</a>, you focused on <strong>verifying</strong> that work with human-readable specs and machine-run tests. In this sprint, the emphasis shifts: <strong>how much of that loop can you automate responsibly</strong> using LLMs?</p>
+<p>You will add <strong>three new user stories</strong> to your product (stories that were not already implemented and merged before this assignment). For each story, you will use LLMs to help with:</p>
+<ol>
+<li><strong>Code generation</strong> — producing or refactoring the implementation toward the story.</li>
+<li><strong>Testing</strong> — producing tests that run in your test framework.</li>
+<li><strong>Code review</strong> — an LLM-assisted review step that runs as part of your process (for example on pull requests).</li>
+</ol>
+<h3 id="2-three-new-user-stories-100-points">2. Three new user stories (100 points)<a class="headerlink" href="#2-three-new-user-stories-100-points" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Write <strong>three new user stories</strong> for your startup application. Each must follow the same expectations as in <a href="p2">P2</a>: proper template (“As a \&lt;user&gt; I want \&lt;action&gt; so that \&lt;benefit&gt;”) and machine and human acceptance criteria.</li>
+<li>Each story should be <strong>small enough</strong> to design, implement, test, and verify in roughly two weeks or less; split or merge if needed.</li>
+<li>Create <strong>GitHub Issues</strong> for all three. Turn in the Issue URL for each story.</li>
+<li>Briefly justify in your PDF why these three stories are the right next increment for your product after P3.</li>
+</ol>
+<p>If you used an LLM for any part of this section, attach a chat log or a shareable URL to the chat, accessible to all 17-356 instructors.</p>
+<h3 id="3-automated-code-generation-for-each-story-200-points">3. Automated code generation for each story (200 points)<a class="headerlink" href="#3-automated-code-generation-for-each-story-200-points" title="Permanent link">&para;</a></h3>
+<p>For <strong>each</strong> of the three user stories, use an LLM as part of a <strong>repeatable</strong> workflow to help generate or complete the implementation (frontend and/or backend as appropriate). Your submission must make clear:</p>
+<ol>
+<li><strong>What was automated and how you did it</strong> — for example: agent instructions, Action steps, scripts, or a documented sequence that you run the same way for each story, not only one-off messages. </li>
+<li><strong>What humans were responsible for</strong> — merges, security-sensitive configuration, product decisions, and fixes when the model was wrong.</li>
+<li><strong>Evidence</strong> — branch and PR history showing the work for each story; each story should land via a <strong>pull request</strong> merged to <code>main</code> (or your team’s equivalent), following your team’s process from <a href="p2">P2</a> (code review before merge; Kanban updated).</li>
+</ol>
+<p>Turn in:</p>
+<ul>
+<li>A URL to the <strong>merged PR</strong> for each of the three user stories, labeled with which story it implements.</li>
+<li>In the PDF, a short note for each of the three user stories, explaining what you asked the automation to do, what worked, what failed, and how you corrected course. </li>
+</ul>
+<p>Attach chat logs or shareable URLs accessible to all instructors.</p>
+<h3 id="4-automated-testing-in-ci-200-points">4. Automated testing in CI (200 points)<a class="headerlink" href="#4-automated-testing-in-ci-200-points" title="Permanent link">&para;</a></h3>
+<p>For <strong>each</strong> of the three user stories, use an LLM to help author <strong>machine-executable</strong> tests that exercise the behavior of that story. Requirements:</p>
+<ol>
+<li>Use a real <strong>testing framework</strong> (e.g., Jest). You may not substitute "the LLM ran it once" for automated tests.</li>
+<li>Tests must run in <strong>GitHub Actions</strong> (or another CI system your repo uses, with equivalent visibility) on relevant events, for example <code>pull_request</code> or <code>push</code> to your integration branch. Document which workflow file(s) run the tests.</li>
+<li>The LLM may write the tests.</li>
+<li>The LLM must also follow good GitHub hygiene. As a reminder, it must<ol>
+<li>Create a GitHub Issue work item to track the creation, development, and checkin of the tests and connect this issue to the GitHub Issue for the user story being tested.</li>
+<li>Create a new branch for working on the tests</li>
+<li>Connect its commit of the test code to the GitHub Issue</li>
+<li>Having the tests code reviewed prior to submitting a PR</li>
+<li>Have that PR reviewed</li>
+<li>Accept the PR to merge the test code into the main branch of your repository. </li>
+</ol>
+</li>
+</ol>
+<p>In your PDF, for each story:</p>
+<ul>
+<li>Describe which tests correspond to that story and what they assert.</li>
+<li>Paste or link to a <strong>successful CI run</strong> that executed those tests (for example a link to the Actions run summary).</li>
+</ul>
+<p>Turn in a URL to a <strong>PR</strong> (can be the same as implementation or a dedicated test PR) that added or updated the tests for each story, or clearly identify the commits in a merged PR.</p>
+<p>Attach LLM chat logs or shareable URLs accessible to all instructors.</p>
+<h3 id="5-automated-code-review-200-points">5. Automated code review (200 points)<a class="headerlink" href="#5-automated-code-review-200-points" title="Permanent link">&para;</a></h3>
+<p>For <strong>each</strong> of the three user stories, put in place an <strong>LLM-assisted code review</strong> that runs as part of your development workflow, not only a human typing questions into a chat window, but automation you can point to. Examples (you are not limited to these):</p>
+<ul>
+<li>A <strong>Claude agent</strong> (or similar agent) that comments on pull requests or summarizes diff risk.</li>
+<li>A <strong>GitHub Action</strong> that invokes an LLM with a structured review prompt and posts results on the PR.</li>
+<li>A <strong>required</strong> or <strong>documented</strong> step in your PR template that runs a scripted review before human approval.</li>
+</ul>
+<p>Requirements:</p>
+<ol>
+<li><strong>Repeatability</strong> — another teammate (or the staff) should be able to see <em>how</em> review was triggered and <em>where</em> output appears (PR comment, check run, artifact, etc.).</li>
+<li><strong>Human judgment</strong> — your team still <strong>approves</strong> merges; describe how you used LLM output versus human review.</li>
+<li><strong>Per story</strong> — show that the automated review was applied to the PR(s) for that story (link to the PR with visible bot/agent output or workflow logs).</li>
+</ol>
+<p>Turn in:</p>
+<ul>
+<li>For each story, a URL to the <strong>pull request</strong> where the review feedback is visible, plus one paragraph on what you changed (if anything) after seeing the automated feedback.</li>
+</ul>
+<p>Attach chat logs or shareable URLs accessible to all instructors.</p>
+<h3 id="6-automated-development-specifications-200-points">6. Automated development specifications (200 points)<a class="headerlink" href="#6-automated-development-specifications-200-points" title="Permanent link">&para;</a></h3>
+<p>For <strong>each</strong> of the three user stories, put in place an <strong>LLM-assisted code documentation process</strong> that runs as part of your development workflow, not only a human typing questions into a chat window, but automation you can point to. </p>
+<p>Whenever a PR connected to a feature that implements a user story is approved, your automation should ask an LLM to generate/update a development specification (as specified in <a href="p2">P2</a>) and check it into your repository (of course, following proper GitHub hygiene). </p>
+<p>Turn in: </p>
+<ul>
+<li>The prompts used to generate a new development specification. Make use of the prompts you developed in <a href="p2">P2</a>. </li>
+<li>The prompts used to <em>update an existing development specification</em> after the user story or the code that implements it has been updated.  </li>
+<li>For each story, provide<ul>
+<li>A URL to the approved <strong>pull request</strong> that contains the commit(s) and review of the development specification to the repository.</li>
+<li>A URL to the GitHub Issue that was created to track the creation of the development specification (it should be linked from the commit(s)). </li>
+</ul>
+</li>
+</ul>
+<p>Attach chat logs or shareable URLs accessible to all instructors.</p>
+<h3 id="7-automation-architecture-summary-required-in-the-pdf-100-points">7. Automation architecture summary (required in the PDF) (100 points)<a class="headerlink" href="#7-automation-architecture-summary-required-in-the-pdf-100-points" title="Permanent link">&para;</a></h3>
+<p>Include a section that covers:</p>
+<ol>
+<li>A diagram or bullet-level pipeline: what triggers what (for example: open PR -&gt; Action runs tests -&gt; Action or agent posts review then human approves).</li>
+<li>Setup instructions covering how a developer can setup your workflows and automations if they are new to the project.</li>
+</ol>
+<h3 id="8-landing-page-for-product-web-site-200-points">8. Landing page for product web site (200 points)<a class="headerlink" href="#8-landing-page-for-product-web-site-200-points" title="Permanent link">&para;</a></h3>
+<p>On Friday, April 3, you were asked to develop a landing page web site for your startup's product. In this sprint, you will complete the content and publish it online. </p>
+<p>Requirements: </p>
+<ol>
+<li>The content presented on the web site must be complete. <ol>
+<li>No dead links</li>
+<li>No pointers to web pages that you did not and do not plan to implement. </li>
+<li>All graphic placeholders are filled in with final pictures.</li>
+<li>All videos (including screen recorded demos) are narrated and visibly captioned. Screen recoordings should magnify font sizes to be fully legible.</li>
+</ol>
+</li>
+<li>There must be at least 2 distinct calls to action.<ol>
+<li>One call to action must provide a way to download the app, register an account, and/or log into the product (if it's a web site). This link/download must actually work. Yes, you need to have shipped a working prototype by the time this Sprint is over.</li>
+</ol>
+</li>
+<li>The web site must have at least 5 informational sections. </li>
+<li>The web site must have an About the Team section with photos, team roles, and bios for everyone. This section has to impress investors as well as customers.</li>
+<li>Reminder: Your app is targeted at the Pittsburgh community. Please include references to that on the web site to show Pittsburgh that they hold a special place in your team's heart.</li>
+</ol>
+<p>Turn in: </p>
+<ul>
+<li>A URL to your publicly accessible web site. <ul>
+<li>Note, if your startup needs remain in stealth mode, put a password on the site and give access to the instructors. </li>
+</ul>
+</li>
+<li>A URL to the GitHub repository that contains the source for your web site.</li>
+</ul>
+<h3 id="9-working-prototype-100-points">9. Working Prototype (100 points)<a class="headerlink" href="#9-working-prototype-100-points" title="Permanent link">&para;</a></h3>
+<p>On Monday, April 20, when this Sprint is over, you must have a working prototype that everyone in the class can use (on their own computers, web browsers, tablets, and/or phones). Your app must be deployed live and running from the time you turn in this assignment until the end of finals, Tuesday, May 5, 11:59pm. </p>
+<p>On Tuesday, April 21, we will hold an in-class Bug Bash. Everyone in the class will try out your startup's app by testing out your app's user stories. To successfully allow newcomers to try out your user stories, your app must either 1) support live, automated account creation or 2) have prebuilt accounts (at least 30 accounts) with pre-canned content. If your user story requires uploading tons of content before it is human-testable, create a prebuilt account with all the content required, and direct your users to test just that user story with the prebuilt account.</p>
+<p>If your classmates find any bugs, they will file them immediately in your team's GitHub Issues page. Your team must address (fix or close) all filed bugs by the day of the final presentation, May 4, 2026. </p>
+<p>Turn in:</p>
+<ul>
+<li>A URL to use your app. This can be a download URL for a desktop app, a URL to a web application, a URL to an app in some app store, etc.</li>
+<li>Any pre-built account information required to evaluate the app. Do not submit the account name/pw information in your assignment. Instead, post account information in your team's private Slack channel and the instructors will use/distribute it securely to the class as needed.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
