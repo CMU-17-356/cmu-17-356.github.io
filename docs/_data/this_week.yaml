@@ -5,10 +5,7 @@ last_homework:
   name: 'P5: Final'
   numDays: 9
 
-lectures:
-- date: Thu Apr 23
-  link: ''
-  name: Conclusion
+lectures: []
 
 next_homework: null
 
