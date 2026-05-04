@@ -72,7 +72,7 @@ pyasn1_modules==0.4.2
 pybtex==0.25.1
 pycparser==2.23
 PyDispatcher==2.0.7
-Pygments==2.19.2
+Pygments==2.20.0
 pymdown-extensions==10.20
 pyOpenSSL==25.3.0
 pyparsing==3.3.1
