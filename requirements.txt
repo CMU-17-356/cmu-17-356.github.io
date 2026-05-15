@@ -84,7 +84,7 @@ pyzmq==27.1.0
 queuelib==1.8.0
 referencing==0.37.0
 regex==2025.11.3
-requests==2.32.5
+requests==2.33.0
 requests-file==3.0.1
 rpds-py==0.30.0
 Scrapy==2.13.4
