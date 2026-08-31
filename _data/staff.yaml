@@ -1,0 +1,22 @@
+- name: Austin Henley
+  role: Instructor
+  email: azhenley@andrew.cmu.edu
+  website: https://austinhenley.com/
+  photo: azhenley.jpg
+
+- name: Andrew Begel
+  role: Instructor
+  email: abegel@andrew.cmu.edu
+  website: https://andrewbegel.com/
+  photo: abegel.jpg
+
+- name: Eryn Ma
+  role: Teaching Assistant
+  email: erynm@andrew.cmu.edu
+  photo: eryn-ma.jpg
+
+- name: Sai Ravi Teja Gangavarapu
+  role: Teaching Assistant
+  email: sairavig@andrew.cmu.edu
+  photo: ravi-gangavarapu.jpg
+
